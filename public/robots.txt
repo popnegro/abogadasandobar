@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://abogadasandobar.vercel.app/sitemap.xml
