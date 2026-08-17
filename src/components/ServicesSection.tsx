@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { ArrowRight, X } from 'lucide-react';
 import { ActiveTab, ServiceItem } from '../types';
 import { SERVICES, ASSETS } from '../data/lawyerData';
-import { Breadcrumb } from './Breadcrumb';
 import { PageHero } from './PageHero';
 import { getServiceIcon } from '../utils/iconUtils';
 
