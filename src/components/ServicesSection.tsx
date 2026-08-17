@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import { ShieldAlert, Scale, FileCheck, Briefcase, Lock, AlertCircle, ArrowRight, Building2, Search, X } from 'lucide-react';
+import { ArrowRight, X } from 'lucide-react';
 import { ActiveTab, ServiceItem } from '../types';
-import { SERVICES } from '../data/lawyerData';
+import { SERVICES, ASSETS } from '../data/lawyerData';
 import { Breadcrumb } from './Breadcrumb';
 import { PageHero } from './PageHero';
-import { ASSETS } from '../data/lawyerData';
+import { getServiceIcon } from '../utils/iconUtils';
 
 interface ServicesSectionProps {
   setActiveTab?: (tab: ActiveTab) => void;
@@ -22,38 +22,40 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({ setActiveTab =
     }
   }, [selectedService]);
 
-  const getServiceIcon = (iconName: string) => {
-    switch (iconName) {
-      case 'ShieldAlert': return <ShieldAlert className="w-6 h-6" />;
-      case 'Scale': return <Scale className="w-6 h-6" />;
-      case 'FileCheck': return <FileCheck className="w-6 h-6" />;
-      case 'Briefcase': return <Briefcase className="w-6 h-6" />;
-      case 'Lock': return <Lock className="w-6 h-6" />;
-      case 'AlertCircle': return <AlertCircle className="w-6 h-6" />;
-      case 'Search': return <Search className="w-6 h-6" />;
-      case 'Building2': return <Building2 className="w-6 h-6" />;
-      default: return <Scale className="w-6 h-6" />;
-    }
-  };
-
   return (
     <div id="services-section" className="w-full">
-      <PageHero 
-        title="Especialización Jurídica Integral" 
-        subtitle="Intervención jurídica rigurosa en todas las fases del proceso penal y consultoría de cumplimiento corporativo para prevenir contingencias de alto impacto." 
-        eyebrow="Soluciones Legales & Especialización" 
-        breadcrumbLabel="Servicios" 
-        backgroundImage={ASSETS.library} 
-        setActiveTab={setActiveTab} 
+      <PageHero
+        title="Especialización Jurídica Integral"
+        subtitle="Intervención jurídica rigurosa en todas las fases del proceso penal y consultoría de cumplimiento corporativo para prevenir contingencias de alto impacto."
+        eyebrow="Soluciones Legales & Especialización"
+        breadcrumbLabel="Servicios"
+        backgroundImage={ASSETS.library}
+        setActiveTab={setActiveTab}
       />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-24 space-y-16 lg:space-y-24">
         <div className="border-t border-[#302D28]/20">
           {SERVICES.map((service, index) => (
-            <div key={service.id} role="button" tabIndex={0} aria-haspopup="dialog" aria-label={`Ver detalle de ${service.title}`} className="group flex flex-col md:flex-row md:items-center justify-between py-8 md:py-12 border-b border-[#302D28]/20 hover:bg-[#F4EFE8] transition-colors cursor-pointer px-4 -mx-4 focus-visible:ring-2 focus-visible:ring-[#7F203D] focus-visible:ring-offset-2" onClick={() => setSelectedService(service)} onKeyDown={(event) => { if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); setSelectedService(service); } }}>
-              <div className="flex items-start gap-6 md:gap-12 md:w-3/4"><span className="font-serif text-lg text-[#7F203D] font-medium shrink-0 pt-1" aria-hidden="true">{String(index + 1).padStart(2, '0')}</span><div className="space-y-2 md:space-y-4"><h2 className="font-serif text-2xl md:text-4xl text-[#302D28] font-bold group-hover:text-[#7F203D] transition-colors">{service.title}</h2><p className="text-base md:text-lg text-[#302D28]/70 font-light leading-relaxed max-w-2xl">{service.shortDesc}</p></div></div>
+            <button
+              key={service.id}
+              type="button"
+              aria-haspopup="dialog"
+              aria-label={`Ver detalle de ${service.title}`}
+              className="w-full group flex flex-col md:flex-row md:items-center justify-between py-8 md:py-12 border-b border-[#302D28]/20 hover:bg-[#F4EFE8] transition-colors cursor-pointer px-4 -mx-4 focus-visible:ring-2 focus-visible:ring-[#7F203D] focus-visible:ring-offset-2 text-left"
+              onClick={() => setSelectedService(service)}
+            >
+              <div className="flex items-start gap-6 md:gap-12 md:w-3/4">
+                <span className="font-serif text-lg text-[#7F203D] font-medium shrink-0 pt-1" aria-hidden="true">{String(index + 1).padStart(2, '0')}</span>
+                <div className="flex items-start gap-4">
+                  <span className="hidden sm:flex w-10 h-10 shrink-0 items-center justify-center bg-[#7F203D]/10 text-[#7F203D]">{getServiceIcon(service.iconName, 'w-5 h-5')}</span>
+                  <div className="space-y-2 md:space-y-4">
+                    <h2 className="font-serif text-2xl md:text-4xl text-[#302D28] font-bold group-hover:text-[#7F203D] transition-colors">{service.title}</h2>
+                    <p className="text-base md:text-lg text-[#302D28]/70 font-light leading-relaxed max-w-2xl">{service.shortDesc}</p>
+                  </div>
+                </div>
+              </div>
               <div className="hidden md:flex items-center justify-end md:w-1/4" aria-hidden="true"><span className="flex items-center gap-2 text-xs uppercase tracking-widest font-semibold text-[#302D28]/60 group-hover:text-[#7F203D] transition-colors"><span>Ver detalle</span><ArrowRight className="w-4 h-4" /></span></div>
-            </div>
+            </button>
           ))}
         </div>
       </div>
