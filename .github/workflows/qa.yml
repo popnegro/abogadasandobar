@@ -5,6 +5,7 @@ on:
     branches:
       - main
       - 'qa/**'
+      - 'fix/**'
       - feat/04-production-conversion
   pull_request:
     branches: [main]
