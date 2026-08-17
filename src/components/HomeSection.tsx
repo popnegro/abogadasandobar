@@ -1,7 +1,8 @@
 import React from 'react';
-import { Scale, FileCheck, ArrowRight, Lock, ShieldAlert, Briefcase, AlertCircle, Search, Building2 } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 import { ActiveTab } from '../types';
 import { ASSETS, SERVICES } from '../data/lawyerData';
+import { getServiceIcon } from '../utils/iconUtils';
 
 interface HomeSectionProps {
   setActiveTab: (tab: ActiveTab) => void;
@@ -9,20 +10,6 @@ interface HomeSectionProps {
 }
 
 export const HomeSection: React.FC<HomeSectionProps> = ({ setActiveTab, onRequestConsultation }) => {
-  const getServiceIcon = (iconName: string) => {
-    switch (iconName) {
-      case 'ShieldAlert': return <ShieldAlert className="w-5 h-5 text-[#7F203D]" />;
-      case 'Scale': return <Scale className="w-5 h-5 text-[#7F203D]" />;
-      case 'FileCheck': return <FileCheck className="w-5 h-5 text-[#7F203D]" />;
-      case 'Briefcase': return <Briefcase className="w-5 h-5 text-[#7F203D]" />;
-      case 'Lock': return <Lock className="w-5 h-5 text-[#7F203D]" />;
-      case 'AlertCircle': return <AlertCircle className="w-5 h-5 text-[#7F203D]" />;
-      case 'Search': return <Search className="w-5 h-5 text-[#7F203D]" />;
-      case 'Building2': return <Building2 className="w-5 h-5 text-[#7F203D]" />;
-      default: return <Scale className="w-5 h-5 text-[#7F203D]" />;
-    }
-  };
-
   const handleNavigateToServices = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
     setActiveTab('servicios');
@@ -43,11 +30,11 @@ export const HomeSection: React.FC<HomeSectionProps> = ({ setActiveTab, onReques
               </div>
             </div>
             <div className="lg:col-span-4 w-full max-w-md mx-auto lg:mx-0 lg:ml-auto">
-              <div className="bg-white/5 backdrop-blur-md border border-white/10 p-6 sm:p-8  animate-in fade-in duration-700 space-y-6">
+              <div className="bg-white/5 backdrop-blur-md border border-white/10 p-6 sm:p-8 animate-in fade-in duration-700 space-y-6">
                 <h2 className="font-serif text-xl sm:text-2xl font-bold text-white">¿Necesita asistencia jurídica?</h2>
                 <div className="space-y-3">
-                  <button type="button" onClick={onRequestConsultation} className="w-full px-8 py-4 bg-[#7F203D] text-white font-bold text-xs uppercase tracking-widest  hover:bg-[#691931] transition-colors flex items-center justify-center gap-2 cursor-pointer shadow-md focus-visible:ring-2 focus-visible:ring-[#7F203D] focus-visible:ring-offset-2"><span>Solicitar consulta</span><ArrowRight className="w-4 h-4" aria-hidden="true" /></button>
-                  <button type="button" onClick={() => setActiveTab('contacto')} className="w-full py-3 bg-transparent border border-white/30 text-white font-bold text-xs uppercase tracking-widest  hover:bg-white/10 transition-colors flex items-center justify-center gap-2 cursor-pointer focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2"><span>Ver canales de contacto</span></button>
+                  <button type="button" onClick={onRequestConsultation} className="w-full px-8 py-4 bg-[#7F203D] text-white font-bold text-xs uppercase tracking-widest hover:bg-[#691931] transition-colors flex items-center justify-center gap-2 cursor-pointer shadow-md focus-visible:ring-2 focus-visible:ring-[#7F203D] focus-visible:ring-offset-2"><span>Solicitar consulta</span><ArrowRight className="w-4 h-4" aria-hidden="true" /></button>
+                  <button type="button" onClick={() => setActiveTab('contacto')} className="w-full py-3 bg-transparent border border-white/30 text-white font-bold text-xs uppercase tracking-widest hover:bg-white/10 transition-colors flex items-center justify-center gap-2 cursor-pointer focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2"><span>Ver canales de contacto</span></button>
                 </div>
               </div>
             </div>
@@ -63,8 +50,8 @@ export const HomeSection: React.FC<HomeSectionProps> = ({ setActiveTab, onReques
           <div className="relative">
             <div id="home-services-carousel" className="flex sm:grid sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 overflow-x-auto sm:overflow-x-visible snap-x snap-mandatory sm:snap-none pb-4 sm:pb-0 -mx-4 px-4 sm:mx-0 sm:px-0 no-scrollbar" aria-label="Carrusel de servicios">
               {SERVICES.slice(0, 8).map((service, index) => (
-                <button type="button" key={service.id} id={`home-service-card-${service.id}`} onClick={handleNavigateToServices} className="w-[82vw] sm:w-auto shrink-0 sm:shrink snap-center sm:snap-align-none bg-[#FFF8F2] border border-[#DDD2C5] p-6 sm:p-7 flex flex-col justify-between text-left hover:border-[#7F203D] hover:shadow-md transition-all duration-300 group cursor-pointer  space-y-6 focus-visible:ring-2 focus-visible:ring-[#7F203D] focus-visible:ring-offset-2">
-                  <span className="block w-full"><span className="flex items-center justify-between"><span className="font-serif text-sm font-bold text-[#7F203D]/60 group-hover:text-[#7F203D] transition-colors">{String(index + 1).padStart(2, '0')}</span><span className="w-10 h-10  bg-[#7F203D]/10 flex items-center justify-center text-[#7F203D] group-hover:bg-[#7F203D] group-hover:text-white transition-colors duration-300">{getServiceIcon(service.iconName)}</span></span><span className="block mt-4 font-serif text-lg sm:text-xl font-bold text-[#302D28] group-hover:text-[#7F203D] transition-colors leading-snug">{service.title}</span><span className="block mt-4 text-xs sm:text-sm text-[#302D28]/70 font-light leading-relaxed line-clamp-3">{service.shortDesc}</span></span>
+                <button type="button" key={service.id} id={`home-service-card-${service.id}`} onClick={handleNavigateToServices} className="w-[82vw] sm:w-auto shrink-0 sm:shrink snap-center sm:snap-align-none bg-[#FFF8F2] border border-[#DDD2C5] p-6 sm:p-7 flex flex-col justify-between text-left hover:border-[#7F203D] hover:shadow-md transition-all duration-300 group cursor-pointer space-y-6 focus-visible:ring-2 focus-visible:ring-[#7F203D] focus-visible:ring-offset-2">
+                  <span className="block w-full"><span className="flex items-center justify-between"><span className="font-serif text-sm font-bold text-[#7F203D]/60 group-hover:text-[#7F203D] transition-colors">{String(index + 1).padStart(2, '0')}</span><span className="w-10 h-10 bg-[#7F203D]/10 flex items-center justify-center text-[#7F203D] group-hover:bg-[#7F203D] group-hover:text-white transition-colors duration-300">{getServiceIcon(service.iconName, 'w-5 h-5 text-[#7F203D]')}</span></span><span className="block mt-4 font-serif text-lg sm:text-xl font-bold text-[#302D28] group-hover:text-[#7F203D] transition-colors leading-snug">{service.title}</span><span className="block mt-4 text-xs sm:text-sm text-[#302D28]/70 font-light leading-relaxed line-clamp-3">{service.shortDesc}</span></span>
                   <span className="pt-4 border-t border-[#302D28]/10 flex items-center justify-between text-xs font-semibold text-[#7F203D]"><span className="uppercase tracking-wider">Ver áreas de práctica</span><ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" aria-hidden="true" /></span>
                 </button>
               ))}
