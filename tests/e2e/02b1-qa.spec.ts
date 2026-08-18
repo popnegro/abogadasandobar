@@ -10,7 +10,7 @@ test.describe('FASE 04 — Unified conversion flow', () => {
   test('Desktop: Home, Hero and primary CTA render', async ({ page }) => {
     await expect(page.locator('#main-navbar')).toBeVisible();
     await expect(page.locator('#hero-banner')).toBeVisible();
-    await expect(page.getByRole('heading', { name: /Defensa Penal Estratégica/i }).first()).toBeVisible();
+    await expect(page.getByRole('heading', { name: /Defensa Penal y Asesoría Corporativa en Mendoza/i }).first()).toBeVisible();
     await expect(page.getByRole('button', { name: /Solicitar consulta/i }).first()).toBeVisible();
   });
 
@@ -28,7 +28,7 @@ test.describe('FASE 04 — Unified conversion flow', () => {
 
   test('Contact form exposes consultation mode and validation', async ({ page }) => {
     await page.getByRole('button', { name: /Solicitar consulta/i }).first().click();
-    await page.getByRole('button', { name: /Solicitar consulta/i }).last().click();
+    await page.locator('form button[type="submit"]').click();
     await expect(page.getByText(/Por favor ingrese su nombre completo/i)).toBeVisible();
     await expect(page.getByRole('button', { name: /Videollamada/i })).toHaveAttribute('aria-pressed', 'false');
     await page.getByRole('button', { name: /Videollamada/i }).click();
@@ -42,9 +42,12 @@ test.describe('FASE 04 — Unified conversion flow', () => {
     } else {
       await page.locator('#nav-link-servicios').click();
     }
-    const firstService = page.locator('[role="button"][aria-label^="Conocer alcance"]').first();
+
+    await expect(page.locator('#services-section')).toBeVisible();
+    const firstService = page.locator('#services-section button[aria-haspopup="dialog"]').first();
+    await expect(firstService).toBeVisible();
     await firstService.click();
-    await page.getByRole('button', { name: /Solicitar Consulta sobre esta Área/i }).click();
+    await page.getByRole('button', { name: /Solicitar consulta sobre esta área/i }).click();
     await expect(page.locator('#contact-section')).toBeVisible();
     await expect(page.locator('input[name="practiceArea"]')).toHaveValue(/.+/);
   });

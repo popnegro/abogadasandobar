@@ -7,8 +7,6 @@ export const ASSETS = {
   heroOffice: '/assets/images/hero/hero-office.webp',
   // Portrait Emilia Sandobar
   portrait: '/assets/images/portraits/emilia-sandobar.webp',
-  // Circular / Close portrait
-  portraitCircle: '/assets/images/portraits/emilia-sandobar-circle.webp',
   // Desk and legal documents
   deskDocs: '/assets/images/legal/desk-docs.webp',
   // Academic / Library atmosphere

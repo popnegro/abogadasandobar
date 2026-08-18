@@ -31,9 +31,7 @@ export const AboutSection: React.FC<AboutSectionProps> = ({
           />
 
           <div className="space-y-4 max-w-3xl pt-2">
-            <span className="text-[10px] sm:text-xs font-bold uppercase tracking-widest text-white/80 block">
-              Trayectoria & Respaldo Letrado
-            </span>
+            
             <h1 className="font-serif text-3xl sm:text-4xl lg:text-6xl font-bold text-white tracking-tight leading-[1.15]">
               La estrategia procesal no se improvisa, se diseña
             </h1>
@@ -60,10 +58,10 @@ export const AboutSection: React.FC<AboutSectionProps> = ({
             </div>
             
             <div className="lg:col-span-6 lg:col-start-7 space-y-8">
-              <p className="text-lg sm:text-xl text-[#302D28]/80 font-light leading-relaxed max-w-prose">
+              <p className="text-lg sm:text-xl text-[#302D28]/80 font-light leading-relaxed max-w-prose lg:max-w-none">
                 El rigor técnico y la lealtad procesal son la única garantía real de una defensa inquebrantable. Entendemos que cada situación jurídica compromete el prestigio, el patrimonio y, en ocasiones, la libertad de nuestros clientes.
               </p>
-              <p className="text-base sm:text-lg text-[#302D28]/80 font-light leading-relaxed">
+              <p className="text-base sm:text-lg text-[#302D28]/80 font-light leading-relaxed max-w-prose lg:max-w-none">
                 Su ejercicio profesional se distingue por el análisis pericial minucioso de la prueba, la anticipación estratégica ante la acusación pública y privada, y un trato directo, honesto y transparente en situaciones de máxima exigencia.
               </p>
               
@@ -72,7 +70,7 @@ export const AboutSection: React.FC<AboutSectionProps> = ({
                   onClick={onOpenConsultationModal}
                   className="group flex items-center gap-3 text-xs sm:text-sm font-bold uppercase tracking-widest text-[#7F203D] hover:text-[#691931] transition-colors cursor-pointer"
                 >
-                  <span>Solicitar entrevista confidencial</span>
+                  <span>Solicitar consulta</span>
                   <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                 </button>
               </div>

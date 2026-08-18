@@ -99,7 +99,7 @@ export const FAQSection: React.FC<FAQSectionProps> = ({
                     id={`faq-answer-${faq.id}`}
                     role="region"
                     aria-labelledby={`faq-btn-${faq.id}`}
-                    className="pl-12 sm:pl-16 md:pl-20 pb-8 md:pb-10 pr-6 sm:pr-16 md:pr-24 text-base sm:text-lg text-[#302D28]/80 leading-relaxed font-light"
+                    className="pl-12 sm:pl-16 md:pl-20 pb-8 md:pb-10 pr-6 sm:pr-16 md:pr-24 text-base sm:text-lg text-[#302D28]/80 leading-loose font-light"
                   >
                     <p>{faq.answer}</p>
                   </div>
@@ -125,7 +125,7 @@ export const FAQSection: React.FC<FAQSectionProps> = ({
             onClick={onOpenConsultationModal}
             className="group flex items-center gap-3 text-xs sm:text-sm font-bold uppercase tracking-widest text-[#7F203D] hover:text-[#691931] transition-colors shrink-0 cursor-pointer focus-visible:ring-2 focus-visible:ring-[#7F203D] focus-visible:ring-offset-2"
           >
-            <span>Realizar Consulta Personalizada</span>
+            <span>Solicitar consulta</span>
             <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
           </button>
         </div>

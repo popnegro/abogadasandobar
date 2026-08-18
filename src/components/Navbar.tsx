@@ -39,7 +39,7 @@ export const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab, onReque
             <div className="w-10 h-10 sm:w-11 sm:h-11 flex items-center justify-center  overflow-hidden bg-transparent"><img src={ASSETS.logoMonogram} alt="ES Logo" className="w-full h-full object-contain" /></div>
             <div className="flex flex-col">
               <span className={`font-serif font-semibold text-lg sm:text-xl tracking-tight transition-colors ${isScrolled ? 'text-[#302D28] group-hover:text-[#7F203D]' : 'text-white'}`}>Emilia Sandobar</span>
-              <span className={`text-[10px] sm:text-xs tracking-wider font-sans uppercase font-medium ${isScrolled ? 'text-[#302D28]/70' : 'text-white/80'}`}>Despacho Penal & Corporativo</span>
+              <span className={`text-[11px] sm:text-xs tracking-wider font-sans uppercase font-medium ${isScrolled ? 'text-[#302D28]/80' : 'text-white/80'}`}>Despacho Penal & Corporativo</span>
             </div>
           </button>
 
@@ -57,7 +57,7 @@ export const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab, onReque
 
           <div className="hidden md:flex items-center">
             <button id="cta-consultation-btn" onClick={onRequestConsultation} className={`flex items-center gap-2 px-5 py-2.5 text-sm font-medium  transition-all focus:outline-none focus-visible:ring-2 focus-visible:ring-[#7F203D] focus-visible:ring-offset-2 ${isScrolled ? 'bg-[#7F203D] hover:bg-[#691931] text-white shadow-sm' : 'bg-white hover:bg-[#F4EFE8] text-[#302D28]'}`}>
-              <span className="uppercase tracking-wide text-xs font-bold">Solicitar Consulta</span>
+              <span className="uppercase tracking-wide text-xs font-bold">Solicitar consulta</span>
             </button>
           </div>
 
@@ -84,7 +84,7 @@ export const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab, onReque
           <div className="pt-4 border-t border-[#DDD2C5]/60">
             <button id="mobile-cta-consult-btn" onClick={() => { setMobileMenuOpen(false); onRequestConsultation(); }} className="w-full py-4 bg-[#7F203D] text-white uppercase tracking-wider font-bold text-xs  shadow-sm flex items-center justify-center gap-2 focus-visible:ring-2 focus-visible:ring-[#7F203D] focus-visible:ring-offset-2">
               <Shield className="w-4 h-4" />
-              <span>Solicitar Consulta</span>
+              <span>Solicitar consulta</span>
             </button>
           </div>
         </div>
