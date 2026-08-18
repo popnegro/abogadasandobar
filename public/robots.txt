@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://abogadasandobar.vercel.app/sitemap.xml
+Sitemap: https://abogadasandobar.com.ar/sitemap.xml
