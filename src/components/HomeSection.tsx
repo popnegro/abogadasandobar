@@ -21,7 +21,7 @@ export const HomeSection: React.FC<HomeSectionProps> = ({ setActiveTab, onReques
         <div className="absolute inset-0 bg-cover bg-center transition-transform duration-1000 scale-100" style={{ backgroundImage: `url(${ASSETS.heroOffice})` }} />
         <div className="absolute inset-0 bg-gradient-to-br from-[#181614]/95 via-[#231F1C]/90 to-[#2A2522]/70" aria-hidden="true" />
         <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col justify-center">
-          <div className="mb-8 lg:mb-12 w-max"><span className="text-xs sm:text-sm font-bold tracking-widest uppercase text-white/75">Abogada Emilia Sandobar - Mendoza</span></div>
+          <div className="mb-8 lg:mb-12 w-max"><span className="text-xs sm:text-sm font-bold tracking-widest uppercase text-white/75">Abogada Emilia Sandobar</span></div>
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
             <div className="lg:col-span-8 space-y-6 lg:space-y-8">
               <div className="animate-in fade-in slide-in-from-bottom-4 duration-700">

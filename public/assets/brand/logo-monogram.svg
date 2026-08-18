@@ -1,6 +1,48 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
-  <title id="title">Emilia Sandobar</title>
-  <desc id="desc">Monograma ES</desc>
-  <rect x="4" y="4" width="120" height="120" rx="18" fill="none" stroke="#7F203D" stroke-width="4"/>
-  <text x="64" y="78" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="48" font-weight="700" fill="#7F203D">ES</text>
-</svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 128 128"
+   role="img"
+   aria-labelledby="title desc"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="logo-monogram.svg"
+   xml:space="preserve"
+   inkscape:version="1.3.2 (1:1.3.2+202311252150+091e20ef0f)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+     id="defs1" /><sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.4882813"
+     inkscape:cx="116.91339"
+     inkscape:cy="116.91339"
+     inkscape:window-width="1920"
+     inkscape:window-height="957"
+     inkscape:window-x="0"
+     inkscape:window-y="30"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" /><title
+     id="title">Emilia Sandobar</title><desc
+     id="desc">Monograma ES</desc><g
+     id="g3495"
+     transform="matrix(0.47531275,0,0,0.47531275,-681.77598,-102.65109)"><path
+       id="path883"
+       d="m 227.1572,429.8159 h 177.2319 v -12.0813 l -159.4216,0.336 V 341.225 h 21.284 c 4.3803,-5.4383 10.8226,-9.5496 18.6797,-12.7508 h -57.774 z"
+       style="fill:#7a223f icc-color(sRGB-IEC61966-2, 0.1, 0.47839355, 0.13328552, 0.24708557);fill-opacity:1;fill-rule:evenodd;stroke:#7a223f icc-color(sRGB-IEC61966-2, 0.1, 0.47839355, 0.13328552, 0.24708557);stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:22.9256;stroke-dasharray:none;stroke-opacity:1"
+       transform="matrix(1.3333333,0,0,-1.3333333,1142.5197,793.7008)" /><path
+       id="path884"
+       d="m 227.0633,236.2215 h 0.0939 v -1.4065 h 95.246 c 82.7796,2.5163 115.5311,54.053 69.0171,104.8354 -8.4583,-0.2756 -20.764,-0.874 -19.2625,-1.281 13.8563,-3.7613 67.0691,-84.7364 -46.9933,-91.2663 l -80.8093,0.1109 v 48.4325 h -17.2919 z"
+       style="fill:#7a223f icc-color(sRGB-IEC61966-2, 0.1, 0.47839355, 0.13328552, 0.24708557);fill-opacity:1;fill-rule:evenodd;stroke:#7a223f icc-color(sRGB-IEC61966-2, 0.1, 0.47839355, 0.13328552, 0.24708557);stroke-width:0.5669;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:22.9256;stroke-dasharray:none;stroke-opacity:1"
+       transform="matrix(1.3333333,0,0,-1.3333333,1142.5197,793.7008)" /><path
+       id="path885"
+       d="m 303.6535,363.8134 c -8.0178,4.8722 -10.7172,11.0166 -10.7172,16.7885 0,12.2891 12.0257,21.7851 29.6963,21.7851 14.9709,0 28.2234,-6.7031 28.5094,-19.1477 h 2.3729 l -0.5318,22.8404 c -11.0319,1.544 -20.5342,1.9588 -31.0867,1.8936 -27.7327,-0.1713 -42.7036,-15.8273 -42.7036,-31.095 0,-6.7028 2.9446,-16.5719 14.3983,-23.4297 l 44.2984,-26.409 c 38.8437,-23.1574 20.8202,-61.9146 -25.0736,-61.9146 -42.4585,0 -54.5459,27.9116 -27.5496,54.6307 l -2.2082,1.3036 c -33.6235,-27.2778 -20.0634,-63.085 34.0115,-63.085 59.8014,0 81.2259,49.3894 32.1094,78.6852 z"
+       style="fill:#7a223f icc-color(sRGB-IEC61966-2, 0.1, 0.47839355, 0.13328552, 0.24708557);fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="matrix(1.3333333,0,0,-1.3333333,1142.5197,793.7008)" /></g></svg>
