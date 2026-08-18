@@ -42,9 +42,12 @@ test.describe('FASE 04 — Unified conversion flow', () => {
     } else {
       await page.locator('#nav-link-servicios').click();
     }
-    const firstService = page.locator('[role="button"][aria-label^="Ver detalle de"]').first();
+
+    await expect(page.locator('#services-section')).toBeVisible();
+    const firstService = page.locator('#services-section button[aria-haspopup="dialog"]').first();
+    await expect(firstService).toBeVisible();
     await firstService.click();
-    await page.getByRole('button', { name: /Solicitar Consulta sobre esta Área/i }).click();
+    await page.getByRole('button', { name: /Solicitar consulta sobre esta área/i }).click();
     await expect(page.locator('#contact-section')).toBeVisible();
     await expect(page.locator('input[name="practiceArea"]')).toHaveValue(/.+/);
   });
