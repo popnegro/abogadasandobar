@@ -21,6 +21,18 @@ export const PageHero: React.FC<PageHeroProps> = ({
   titleAccent,
   cta,
 }) => {
+  const derivedAccentMatch = titleAccent
+    ? null
+    : title.match(/^(.*?)(?:\s+&\s+|\s+y\s+)([^&]+)$/i);
+
+  const baseTitle = titleAccent
+    ? title
+    : derivedAccentMatch?.[1]?.trim() || title;
+
+  const accent = titleAccent
+    ? titleAccent
+    : derivedAccentMatch?.[2]?.trim();
+
   return (
     <section
       aria-labelledby="page-hero-title"
@@ -51,10 +63,8 @@ export const PageHero: React.FC<PageHeroProps> = ({
             id="page-hero-title"
             className="font-serif text-4xl font-bold leading-[1.05] tracking-tight text-white sm:text-5xl lg:text-6xl"
           >
-            {title}
-            {titleAccent && (
-              <span className="block text-[#D9A9B8]">{titleAccent}</span>
-            )}
+            {baseTitle}
+            {accent && <span className="block text-[#D9A9B8]">{accent}</span>}
           </h1>
 
           <p className="max-w-3xl text-base font-light leading-relaxed text-white/85 sm:text-lg lg:text-xl">
