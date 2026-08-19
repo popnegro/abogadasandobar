@@ -28,6 +28,7 @@ export default function App() {
   };
 
   const scrollToTop = () => window.scrollTo({ top: 0, behavior: 'smooth' });
+  const whatsappNumber = LAWYER_INFO.urgencyPhone.replace(/\D/g, '');
 
   return (
     <div className="min-h-screen flex flex-col bg-[#FFF8F2] text-[#302D28] font-sans selection:bg-[#7F203D] selection:text-white">
@@ -43,6 +44,19 @@ export default function App() {
 
       <div className="fixed bottom-6 right-6 z-40 flex flex-col items-end gap-3">
         {showScrollTop && <button id="scroll-to-top-btn" onClick={scrollToTop} className="w-11 h-11 rounded-full bg-[#FFF8F2] border border-[#DDD2C5] text-[#302D28] shadow-md flex items-center justify-center hover:bg-[#F4EFE8] transition-all focus-visible:ring-2 focus-visible:ring-[#7F203D] focus-visible:ring-offset-2" aria-label="Volver arriba"><ArrowUp className="w-5 h-5 text-[#7F203D]" /></button>}
+
+        <a
+          id="floating-whatsapp"
+          href={`https://wa.me/${whatsappNumber}`}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="w-12 h-12 sm:w-14 sm:h-14 rounded-full bg-[#25D366] text-white shadow-lg flex items-center justify-center transition-transform hover:scale-105 focus-visible:ring-2 focus-visible:ring-[#25D366] focus-visible:ring-offset-2"
+          aria-label="Contactar por WhatsApp"
+          title="Contactar por WhatsApp"
+        >
+          <img src="/assets/icons/whatsapp.svg" alt="" className="w-6 h-6 sm:w-7 sm:h-7" aria-hidden="true" />
+        </a>
+
         <a id="floating-urgency-phone" href={`tel:${LAWYER_INFO.urgencyPhone.replace(/\s+/g, '')}`} className="flex items-center gap-2 px-4 py-3 bg-[#7F203D] hover:bg-[#691931] text-white text-xs font-semibold rounded-full shadow-lg transition-transform hover:scale-105 focus-visible:ring-2 focus-visible:ring-[#7F203D] focus-visible:ring-offset-2" title="Guardia Penal 24 Horas">
           <Phone className="w-4 h-4 animate-pulse" /><span className="hidden sm:inline">Urgencias Penales 24h:</span><span>{LAWYER_INFO.urgencyPhone}</span>
         </a>
