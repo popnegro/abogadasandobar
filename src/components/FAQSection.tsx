@@ -32,7 +32,7 @@ export const FAQSection: React.FC<FAQSectionProps> = ({
         title="Claridad, Honorarios &"
         titleAccent="Certeza"
         subtitle="Respuestas directas y transparentes sobre el marco de actuación, previsión de honorarios, guardia procesal 24 horas y confidencialidad letrada."
-        backgroundImage={ASSETS.deskDocs}
+        backgroundImage={ASSETS.heroFaq}
         breadcrumbLabel="Preguntas Frecuentes"
         setActiveTab={setActiveTab}
       />
