@@ -15,8 +15,15 @@ interface PageHeroProps {
 export const PageHero: React.FC<PageHeroProps> = ({ title, subtitle, eyebrow, backgroundImage, breadcrumbLabel, setActiveTab, cta }) => {
   return (
     <section className="relative min-h-[60vh] lg:min-h-[70vh] w-full flex flex-col justify-center pt-32 pb-20 overflow-hidden">
-      <div className="absolute inset-0 bg-cover bg-center transition-transform duration-1000 scale-100" style={{ backgroundImage: `url(${backgroundImage})` }} />
-      <div className="absolute inset-0 bg-gradient-to-br from-[#181614]/95 via-[#231F1C]/90 to-[#2A2522]/80" aria-hidden="true" />
+      <div
+        className="absolute inset-0 bg-cover bg-center transition-transform duration-1000 scale-100"
+        style={{ backgroundImage: `url(${backgroundImage})` }}
+        aria-hidden="true"
+      />
+      <div
+        className="absolute inset-0 bg-gradient-to-br from-[#181614]/80 via-[#231F1C]/70 to-[#2A2522]/60"
+        aria-hidden="true"
+      />
       <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col justify-center h-full">
         <div className="mb-8">
           <Breadcrumb items={[{ label: breadcrumbLabel, active: true }]} onNavigate={setActiveTab} variant="primary" />
