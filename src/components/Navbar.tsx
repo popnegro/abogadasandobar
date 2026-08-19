@@ -32,10 +32,7 @@ export const Navbar: React.FC<NavbarProps> = ({
     };
   }, []);
 
-  const navItems: Array<{
-    id: ActiveTab;
-    label: string;
-  }> = [
+  const navItems: Array<{ id: ActiveTab; label: string }> = [
     { id: 'home', label: 'Inicio' },
     { id: 'servicios', label: 'Servicios' },
     { id: 'experiencia', label: 'Experiencia' },
@@ -49,28 +46,22 @@ export const Navbar: React.FC<NavbarProps> = ({
 
     if (tab === 'metodo') {
       window.setTimeout(() => {
-        document.getElementById('services-introduction')?.scrollIntoView({
-          behavior: 'smooth',
-          block: 'start',
-        });
+        const target = document.getElementById('services-introduction');
+        if (target) {
+          window.history.replaceState(null, '', '/servicios-abogacia-mendoza#nuestro-proceso');
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
       }, 50);
       return;
     }
 
-    window.scrollTo({
-      top: 0,
-      behavior: 'smooth',
-    });
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   const handleLogoClick = () => {
     setMobileMenuOpen(false);
     setActiveTab('home');
-
-    window.scrollTo({
-      top: 0,
-      behavior: 'smooth',
-    });
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   const handleConsultationClick = () => {
@@ -131,15 +122,9 @@ export const Navbar: React.FC<NavbarProps> = ({
           <nav aria-label="Navegación principal" className="hidden items-center gap-8 lg:flex">
             {navItems.map((item) => {
               const isActive = activeTab === item.id || (item.id === 'metodo' && activeTab === 'servicios');
-
               const textColor = headerIsLight
-                ? isActive
-                  ? 'text-[#7F203D]'
-                  : 'text-[#302D28]/70 hover:text-[#7F203D]'
-                : isActive
-                  ? 'text-white'
-                  : 'text-white/70 hover:text-white';
-
+                ? isActive ? 'text-[#7F203D]' : 'text-[#302D28]/70 hover:text-[#7F203D]'
+                : isActive ? 'text-white' : 'text-white/70 hover:text-white';
               const indicatorColor = headerIsLight ? 'bg-[#7F203D]' : 'bg-white';
 
               return (
@@ -157,23 +142,13 @@ export const Navbar: React.FC<NavbarProps> = ({
                     'focus-visible:ring-2',
                     'focus-visible:ring-[#7F203D]',
                     'focus-visible:ring-offset-2',
-                    headerIsLight
-                      ? 'focus-visible:ring-offset-[#FFF8F2]'
-                      : 'focus-visible:ring-offset-[#181614]',
+                    headerIsLight ? 'focus-visible:ring-offset-[#FFF8F2]' : 'focus-visible:ring-offset-[#181614]',
                     textColor,
                     isActive ? 'font-semibold' : 'font-medium',
                   ].join(' ')}
                 >
                   {item.label}
-                  {isActive && (
-                    <span
-                      className={[
-                        'absolute -bottom-1 left-0 right-0 h-0.5',
-                        indicatorColor,
-                      ].join(' ')}
-                      aria-hidden="true"
-                    />
-                  )}
+                  {isActive && <span className={['absolute -bottom-1 left-0 right-0 h-0.5', indicatorColor].join(' ')} aria-hidden="true" />}
                 </button>
               );
             })}
@@ -228,14 +203,10 @@ export const Navbar: React.FC<NavbarProps> = ({
         </div>
 
         {mobileMenuOpen && (
-          <div
-            id="mobile-nav-drawer"
-            className="absolute inset-x-0 top-full border-b border-[#DDD2C5] bg-[#FFF8F2] px-4 pb-6 pt-4 shadow-xl lg:hidden"
-          >
+          <div id="mobile-nav-drawer" className="absolute inset-x-0 top-full border-b border-[#DDD2C5] bg-[#FFF8F2] px-4 pb-6 pt-4 shadow-xl lg:hidden">
             <nav aria-label="Navegación móvil" className="flex flex-col space-y-1">
               {navItems.map((item) => {
                 const isActive = activeTab === item.id || (item.id === 'metodo' && activeTab === 'servicios');
-
                 return (
                   <button
                     key={item.id}
@@ -247,14 +218,8 @@ export const Navbar: React.FC<NavbarProps> = ({
                       'w-full cursor-pointer px-4 py-3.5',
                       'text-left text-sm tracking-wide',
                       'transition-colors',
-                      'focus:outline-none',
-                      'focus-visible:ring-2',
-                      'focus-visible:ring-[#7F203D]',
-                      'focus-visible:ring-offset-2',
-                      'focus-visible:ring-offset-[#FFF8F2]',
-                      isActive
-                        ? 'bg-[#7F203D]/5 font-bold text-[#7F203D]'
-                        : 'font-medium text-[#302D28] hover:bg-[#F4EFE8]',
+                      'focus:outline-none focus-visible:ring-2 focus-visible:ring-[#7F203D] focus-visible:ring-offset-2 focus-visible:ring-offset-[#FFF8F2]',
+                      isActive ? 'bg-[#7F203D]/5 font-bold text-[#7F203D]' : 'font-medium text-[#302D28] hover:bg-[#F4EFE8]',
                     ].join(' ')}
                   >
                     {item.label}
