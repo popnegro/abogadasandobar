@@ -16,13 +16,14 @@ export const TAB_TO_PATH: Record<ActiveTab, string> = {
   home: '/',
   servicios: '/servicios-abogacia-mendoza',
   experiencia: '/experiencia',
-  metodo: '/servicios-abogacia-mendoza#services-introduction',
+  metodo: '/servicios-abogacia-mendoza#nuestro-proceso',
   faq: '/preguntas-frecuentes',
   contacto: '/contacto',
 };
 
 export const PATH_TO_TAB: Record<string, ActiveTab> = {
   '/': 'home',
+  '/inicio': 'home',
   '/servicios-abogacia-mendoza': 'servicios',
   '/experiencia': 'experiencia',
   '/preguntas-frecuentes': 'faq',
