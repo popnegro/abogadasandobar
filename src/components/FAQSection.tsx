@@ -1,10 +1,8 @@
 import React, { useState, useMemo } from 'react';
 import { ChevronDown, ArrowRight } from 'lucide-react';
 import { ActiveTab } from '../types';
-import { FAQS } from '../data/lawyerData';
-import { Breadcrumb } from './Breadcrumb';
+import { FAQS, ASSETS } from '../data/lawyerData';
 import { PageHero } from './PageHero';
-import { ASSETS } from '../data/lawyerData';
 
 interface FAQSectionProps {
   setActiveTab?: (tab: ActiveTab) => void;
@@ -17,9 +15,7 @@ export const FAQSection: React.FC<FAQSectionProps> = ({
 }) => {
   const [openIds, setOpenIds] = useState<string[]>(['faq-honorarios']);
 
-  const filteredFaqs = useMemo(() => {
-    return FAQS;
-  }, []);
+  const filteredFaqs = useMemo(() => FAQS, []);
 
   const toggleFAQ = (id: string) => {
     if (openIds.includes(id)) {
@@ -31,36 +27,16 @@ export const FAQSection: React.FC<FAQSectionProps> = ({
 
   return (
     <div id="faq-section" className="w-full">
-      
-      {/* INTERIOR HERO WITH PRIMARY BACKGROUND */}
-      <section 
-        id="faq-interior-hero"
-        className="w-full bg-[#7F203D] text-white pt-28 sm:pt-32 lg:pt-36 pb-14 sm:pb-16 lg:pb-20 px-4 sm:px-6 lg:px-8 border-b border-white/10"
-      >
-        <div className="max-w-7xl mx-auto space-y-6">
-          <Breadcrumb 
-            items={[{ label: 'Preguntas Frecuentes', active: true }]} 
-            onNavigate={setActiveTab}
-            variant="primary"
-          />
-
-          <div className="space-y-4 max-w-3xl pt-2">
-            <span className="text-[10px] sm:text-xs font-bold uppercase tracking-widest text-white/80 block">
-              Resolución de Dudas & Transparencia
-            </span>
-            <h1 className="font-serif text-3xl sm:text-4xl lg:text-6xl font-bold text-white tracking-tight leading-[1.15]">
-              Claridad, Honorarios & Certeza
-            </h1>
-            <p className="text-base sm:text-lg lg:text-xl text-white/85 font-light max-w-3xl leading-relaxed">
-              Respuestas directas y transparentes sobre el marco de actuación, previsión de honorarios, guardia procesal 24 horas y confidencialidad letrada.
-            </p>
-          </div>
-        </div>
-      </section>
+      <PageHero
+        title="Claridad, Honorarios & Certeza"
+        subtitle="Respuestas directas y transparentes sobre el marco de actuación, previsión de honorarios, guardia procesal 24 horas y confidencialidad letrada."
+        eyebrow="Resolución de Dudas & Transparencia"
+        breadcrumbLabel="Preguntas Frecuentes"
+        backgroundImage={ASSETS.library}
+        setActiveTab={setActiveTab}
+      />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-24 space-y-16 lg:space-y-24">
-        
-        {/* FAQ ACCORDION LIST */}
         <div className="border-t border-[#302D28]/20">
           {filteredFaqs.map((faq, index) => {
             const isOpen = openIds.includes(faq.id);
@@ -85,11 +61,7 @@ export const FAQSection: React.FC<FAQSectionProps> = ({
                       {faq.question}
                     </span>
                   </div>
-                  <div
-                    className={`flex items-center justify-center shrink-0 text-[#302D28] transition-transform duration-300 pt-1 ${
-                      isOpen ? 'rotate-180 text-[#7F203D]' : ''
-                    }`}
-                  >
+                  <div className={`flex items-center justify-center shrink-0 text-[#302D28] transition-transform duration-300 pt-1 ${isOpen ? 'rotate-180 text-[#7F203D]' : ''}`}>
                     <ChevronDown className="w-5 h-5 sm:w-6 sm:h-6" />
                   </div>
                 </button>
@@ -109,7 +81,6 @@ export const FAQSection: React.FC<FAQSectionProps> = ({
           })}
         </div>
 
-        {/* STILL HAVE QUESTIONS CARD */}
         <div className="pt-8 border-t border-[#302D28]/10 flex flex-col sm:flex-row items-baseline justify-between gap-6">
           <div className="space-y-2">
             <h3 className="font-serif text-2xl sm:text-3xl font-bold text-[#302D28]">
@@ -129,7 +100,6 @@ export const FAQSection: React.FC<FAQSectionProps> = ({
             <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
           </button>
         </div>
-
       </div>
     </div>
   );
