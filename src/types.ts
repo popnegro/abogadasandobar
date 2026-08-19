@@ -2,7 +2,6 @@ export type ActiveTab =
   | 'home'
   | 'servicios'
   | 'experiencia'
-  | 'metodo'
   | 'faq'
   | 'contacto';
 
@@ -16,7 +15,6 @@ export const TAB_TO_PATH: Record<ActiveTab, string> = {
   home: '/',
   servicios: '/servicios-abogacia-mendoza',
   experiencia: '/experiencia',
-  metodo: '/nuestro-metodo',
   faq: '/preguntas-frecuentes',
   contacto: '/contacto',
 };
@@ -25,7 +23,6 @@ export const PATH_TO_TAB: Record<string, ActiveTab> = {
   '/': 'home',
   '/servicios-abogacia-mendoza': 'servicios',
   '/experiencia': 'experiencia',
-  '/nuestro-metodo': 'metodo',
   '/preguntas-frecuentes': 'faq',
   '/contacto': 'contacto',
 };
