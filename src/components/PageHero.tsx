@@ -45,7 +45,7 @@ export const PageHero: React.FC<PageHeroProps> = ({
       />
 
       <div
-        className="absolute inset-0 bg-gradient-to-br from-[#181614]/95 via-[#231F1C]/90 to-[#2A2522]/75"
+        className="absolute inset-0 bg-gradient-to-br from-[#181614]/80 via-[#231F1C]/70 to-[#2A2522]/60"
         aria-hidden="true"
       />
 
