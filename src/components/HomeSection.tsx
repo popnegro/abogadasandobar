@@ -80,7 +80,7 @@ export const HomeSection: React.FC<HomeSectionProps> = ({
                 </h1>
 
                 <h2 className="mb-6 max-w-4xl font-serif text-4xl font-bold leading-[1.05] tracking-tight text-white sm:text-5xl lg:text-6xl">
-                  Defensa Penal y Asesoría Corporativa
+                  Defensa Penal y Asesoría Jurídica
                   <span className="block text-[#D9A9B8]">en Mendoza</span>
                 </h2>
 
