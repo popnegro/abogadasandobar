@@ -71,6 +71,9 @@ export const ContactSection: React.FC<ContactSectionProps> = ({
   const [isUrgent, setIsUrgent] =
     useState(false);
 
+  const [showAdvancedDetails, setShowAdvancedDetails] =
+    useState(false);
+
   /*
    * ============================================================
    * SYNC INITIAL PRACTICE AREA
@@ -108,6 +111,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({
 
     setErrors({});
     setSubmitError(null);
+    setShowAdvancedDetails(false);
   };
 
   /*
@@ -363,6 +367,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({
     setConsultationMode('telefonica');
     setErrors({});
     setIsUrgent(false);
+    setShowAdvancedDetails(false);
   };
 
   /*
@@ -507,17 +512,14 @@ export const ContactSection: React.FC<ContactSectionProps> = ({
                           ? 'Particular'
                           : 'Empresa y Directivos'}
                       </span>
-
-                      <span className="mt-1 block text-[10px] font-light text-[#302D28]/60 sm:text-xs">
-                        {type ===
-                        'particular'
-                          ? 'Defensa Penal & Asistencia Directa'
-                          : 'Empresas, Directivos & Compliance'}
-                      </span>
                     </button>
                   );
                 })}
               </div>
+
+              <p className="ds-section-lead mb-8 max-w-3xl">
+                Si se trata de una urgencia penal, complete primero lo esencial. Si su consulta es corporativa, puede dejar la modalidad y el nivel de urgencia para el bloque opcional de detalles.
+              </p>
 
               <div id="contact-form-content">
 
@@ -713,7 +715,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({
                               ? 'border-red-500'
                               : 'border-[#302D28]/25'
                           }`}
-                          placeholder="+54 9 261 512-3456"
+                          placeholder="+54 9 2613 46-4483"
                         />
 
                         {errors.phone && (
@@ -800,70 +802,6 @@ export const ContactSection: React.FC<ContactSectionProps> = ({
                     </div>
 
                     {/* ============================================
-                        CONSULTATION MODE
-                    ============================================= */}
-
-                    <fieldset className="space-y-3">
-                      <legend
-                        className={
-                          labelClasses
-                        }
-                      >
-                        Modalidad de consulta
-                      </legend>
-
-                      <div className="grid grid-cols-1 gap-2 sm:grid-cols-3">
-                        {(
-                          [
-                            [
-                              'presencial',
-                              'Presencial',
-                            ],
-                            [
-                              'videollamada',
-                              'Videollamada',
-                            ],
-                            [
-                              'telefonica',
-                              'Telefónica',
-                            ],
-                          ] as const
-                        ).map(
-                          ([
-                            value,
-                            label,
-                          ]) => {
-                            const isActive =
-                              consultationMode ===
-                              value;
-
-                            return (
-                              <button
-                                key={value}
-                                type="button"
-                                aria-pressed={
-                                  isActive
-                                }
-                                onClick={() =>
-                                  setConsultationMode(
-                                    value,
-                                  )
-                                }
-                                className={`cursor-pointer border px-3 py-3 text-xs font-bold uppercase tracking-wider transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#7F203D] focus-visible:ring-offset-2 ${
-                                  isActive
-                                    ? 'border-[#7F203D] bg-[#7F203D]/10 text-[#7F203D]'
-                                    : 'border-[#302D28]/20 text-[#302D28]/70 hover:border-[#7F203D]/50'
-                                }`}
-                              >
-                                {label}
-                              </button>
-                            );
-                          },
-                        )}
-                      </div>
-                    </fieldset>
-
-                    {/* ============================================
                         MESSAGE
                     ============================================= */}
 
@@ -930,39 +868,105 @@ export const ContactSection: React.FC<ContactSectionProps> = ({
                       )}
                     </div>
 
-                    {/* ============================================
-                        URGENT ASSISTANCE
-                    ============================================= */}
+                    <details
+                      open={showAdvancedDetails}
+                      onToggle={(event) =>
+                        setShowAdvancedDetails((event.currentTarget as HTMLDetailsElement).open)
+                      }
+                      className="rounded-md border border-[#DDD2C5] bg-[#FFF8F2] px-5 py-4"
+                    >
+                      <summary className="cursor-pointer list-none text-xs font-bold uppercase tracking-widest text-[#7F203D] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#7F203D] focus-visible:ring-offset-2">
+                        Agregar modalidad y urgencia
+                      </summary>
 
-                    {clientType ===
-                      'particular' && (
-                      <div className="flex items-center gap-3.5 pt-2">
-                        <input
-                          id="urgent-checkbox"
-                          name="urgent"
-                          type="checkbox"
-                          checked={
-                            isUrgent
-                          }
-                          onChange={(event) =>
-                            setIsUrgent(
-                              event.target
-                                .checked,
-                            )
-                          }
-                          className="h-5 w-5 cursor-pointer rounded border-gray-300 text-[#7F203D] focus-visible:ring-2 focus-visible:ring-[#7F203D] focus-visible:ring-offset-2"
-                        />
+                      <div className="mt-5 space-y-6">
+                        <fieldset className="space-y-3">
+                          <legend className={labelClasses}>
+                            Modalidad de consulta
+                          </legend>
 
-                        <label
-                          htmlFor="urgent-checkbox"
-                          className="cursor-pointer select-none text-sm font-light text-[#302D28]/80"
-                        >
-                          Necesito asistencia penal urgente
-                          (citación judicial inminente o
-                          detención)
-                        </label>
+                          <div className="grid grid-cols-1 gap-2 sm:grid-cols-3">
+                            {(
+                              [
+                                [
+                                  'presencial',
+                                  'Presencial',
+                                ],
+                                [
+                                  'videollamada',
+                                  'Videollamada',
+                                ],
+                                [
+                                  'telefonica',
+                                  'Telefónica',
+                                ],
+                              ] as const
+                            ).map(
+                              ([
+                                value,
+                                label,
+                              ]) => {
+                                const isActive =
+                                  consultationMode ===
+                                  value;
+
+                                return (
+                                  <button
+                                    key={value}
+                                    type="button"
+                                    aria-pressed={
+                                      isActive
+                                    }
+                                    onClick={() =>
+                                      setConsultationMode(
+                                        value,
+                                      )
+                                    }
+                                    className={`cursor-pointer border px-3 py-3 text-xs font-bold uppercase tracking-wider transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#7F203D] focus-visible:ring-offset-2 ${
+                                      isActive
+                                        ? 'border-[#7F203D] bg-[#7F203D]/10 text-[#7F203D]'
+                                        : 'border-[#302D28]/20 text-[#302D28]/70 hover:border-[#7F203D]/50'
+                                    }`}
+                                  >
+                                    {label}
+                                  </button>
+                                );
+                              },
+                            )}
+                          </div>
+                        </fieldset>
+
+                        {clientType ===
+                          'particular' && (
+                          <div className="flex items-center gap-3.5">
+                            <input
+                              id="urgent-checkbox"
+                              name="urgent"
+                              type="checkbox"
+                              checked={
+                                isUrgent
+                              }
+                              onChange={(event) =>
+                                setIsUrgent(
+                                  event.target
+                                    .checked,
+                                )
+                              }
+                              className="h-5 w-5 cursor-pointer rounded border-gray-300 text-[#7F203D] focus-visible:ring-2 focus-visible:ring-[#7F203D] focus-visible:ring-offset-2"
+                            />
+
+                            <label
+                              htmlFor="urgent-checkbox"
+                              className="cursor-pointer select-none text-sm font-light text-[#302D28]/80"
+                            >
+                              Necesito asistencia penal urgente
+                              (citación judicial inminente o
+                              detención)
+                            </label>
+                          </div>
+                        )}
                       </div>
-                    )}
+                    </details>
                   </div>
 
                   {/* ================================================
@@ -988,7 +992,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({
                       disabled={
                         isSubmitting
                       }
-                      className="inline-flex w-full cursor-pointer items-center justify-center gap-4 bg-[#302D28] px-8 py-3.5 text-xs font-bold uppercase tracking-widest text-white transition-all hover:bg-[#181614] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#302D28] focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-70 sm:w-auto"
+                      className="ds-btn-primary w-full bg-[#302D28] px-8 py-3.5 hover:bg-[#181614] focus-visible:ring-[#302D28] focus-visible:ring-offset-[#FFF8F2] disabled:cursor-not-allowed disabled:opacity-70 sm:w-auto"
                     >
                       {isSubmitting ? (
                         <>

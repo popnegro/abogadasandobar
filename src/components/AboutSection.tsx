@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { useLocation } from 'react-router-dom';
 import { ArrowRight } from 'lucide-react';
 
@@ -48,27 +48,12 @@ export const AboutSection: React.FC<AboutSectionProps> = ({
 
   const isMethodRoute = location.pathname === '/nuestro-metodo';
 
-  useEffect(() => {
-    if (!isMethodRoute) return;
-
-    const frame = window.requestAnimationFrame(() => {
-      document.getElementById('metodo-proceso')?.scrollIntoView({
-        behavior: 'smooth',
-        block: 'start',
-      });
-    });
-
-    return () => {
-      window.cancelAnimationFrame(frame);
-    };
-  }, [isMethodRoute]);
-
   const pageTitle = isMethodRoute
     ? 'Nuestro método'
     : 'Trayectoria y experiencia';
 
   const pageTitleHighlight = isMethodRoute
-    ? 'jurídica'
+    ? 'de trabajo'
     : 'profesional';
 
   const pageSubtitle = isMethodRoute
@@ -226,67 +211,54 @@ export const AboutSection: React.FC<AboutSectionProps> = ({
         >
           <div className="flex flex-col gap-6 border-t border-[#302D28]/20 pt-8">
 
-            <h2
-              id="authority-title"
-              className="text-[10px] font-bold uppercase tracking-widest text-[#7F203D] sm:text-xs"
-            >
-              Autoridad &amp; Respaldo
-            </h2>
-
-            <div className="relative">
-
-              <div
-                className="-mx-4 flex snap-x snap-mandatory gap-4 overflow-x-auto px-4 pb-4 sm:gap-6 md:mx-0 md:grid md:grid-cols-4 md:overflow-x-visible md:px-0 md:pb-0 md:snap-none no-scrollbar"
-                aria-label="Estadísticas de autoridad y respaldo"
+            <div className="max-w-3xl space-y-3">
+              <p className="ds-eyebrow">
+                Autoridad &amp; Respaldo
+              </p>
+              <h2
+                id="authority-title"
+                className="ds-section-title"
               >
-                {STATS.map((stat, index) => (
-                  <article
-                    key={`${stat.label}-${index}`}
-                    className="min-h-[160px] w-[78vw] shrink-0 snap-start border border-[#DDD2C5] bg-[#FFF8F2] p-6 transition-colors duration-300 hover:border-[#7F203D] sm:w-[45vw] sm:p-8 md:min-h-[180px] md:w-auto md:shrink"
-                  >
-                    <div className="flex h-full flex-col justify-between space-y-4">
+                Trayectoria y respaldo verificable
+              </h2>
+              <p className="ds-section-lead max-w-2xl">
+                Datos institucionales, cobertura territorial y habilitación profesional, presentados de forma clara para facilitar el escaneo.
+              </p>
+            </div>
 
-                      <div className="space-y-1">
+            <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 xl:grid-cols-4" aria-label="Estadísticas de autoridad y respaldo">
+              {STATS.map((stat, index) => (
+                <article
+                  key={`${stat.label}-${index}`}
+                  className="ds-stat-card"
+                >
+                  <div className="flex h-full flex-col justify-between space-y-4">
 
-                        <AnimatedCounter
-                          value={stat.value}
-                          duration={1200}
-                          className="block font-serif text-4xl font-bold text-[#7F203D] lg:text-5xl"
-                        />
+                    <div className="space-y-1">
 
-                        <span className="block text-xs font-bold uppercase tracking-wider text-[#302D28] sm:text-sm">
-                          {stat.label}
-                        </span>
+                      <AnimatedCounter
+                        value={stat.value}
+                        duration={1200}
+                        className="block font-serif text-4xl font-bold text-[#7F203D] lg:text-5xl"
+                      />
 
-                      </div>
-
-                      {stat.detail && (
-                        <p className="text-xs font-light leading-relaxed text-[#302D28] sm:text-sm">
-                          {stat.detail}
-                        </p>
-                      )}
+                      <span className="block text-xs font-bold uppercase tracking-wider text-[#7F203D] sm:text-sm">
+                        {stat.label}
+                      </span>
 
                     </div>
-                  </article>
-                ))}
-              </div>
 
-              {/* MOBILE SCROLL HINT */}
-              <div
-                className="flex items-center justify-center gap-2 pt-3 text-xs font-light text-[#302D28] md:hidden"
-                aria-hidden="true"
-              >
-                <span>
-                  Desliza para ver más estadísticas
-                </span>
+                    {stat.detail && (
+                      <p className="text-xs font-light leading-relaxed text-[#302D28] sm:text-sm">
+                        {stat.detail}
+                      </p>
+                    )}
 
-                <ArrowRight
-                  className="h-3.5 w-3.5 text-[#7F203D]"
-                  aria-hidden="true"
-                />
-              </div>
-
+                  </div>
+                </article>
+              ))}
             </div>
+
           </div>
         </section>
 
@@ -299,22 +271,26 @@ export const AboutSection: React.FC<AboutSectionProps> = ({
           aria-labelledby="method-title"
         >
           <div className="flex items-baseline justify-between border-t border-[#302D28]/20 pt-8">
-
-            <h2
-              id="method-title"
-              className="text-[10px] font-bold uppercase tracking-widest text-[#7F203D] sm:text-xs"
-            >
-              Método &amp; Proceso
-            </h2>
+            <div className="max-w-3xl space-y-3">
+              <p className="ds-eyebrow">
+                Método &amp; Proceso
+              </p>
+              <h2
+                id="method-title"
+                className="ds-section-title"
+              >
+                Cómo trabajamos cada caso
+              </h2>
+            </div>
 
           </div>
 
-          <div className="-mx-4 flex snap-x snap-mandatory gap-y-12 overflow-x-auto px-4 pb-8 sm:mx-0 sm:grid sm:grid-cols-2 sm:gap-y-16 sm:overflow-visible sm:px-0 sm:pb-0 sm:snap-none lg:grid-cols-4 lg:gap-y-0 no-scrollbar">
+          <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 sm:gap-10 lg:grid-cols-4 lg:gap-12">
 
             {METHOD_STEPS.map((item) => (
               <article
                 key={item.step}
-                className="group w-[85vw] shrink-0 snap-center sm:w-auto sm:shrink sm:snap-align-none"
+                className="group"
               >
                 <div className="relative h-full w-full border-t border-[#302D28]/20 pr-8 pt-6 sm:pt-8 lg:pr-12">
 
@@ -330,7 +306,7 @@ export const AboutSection: React.FC<AboutSectionProps> = ({
                       Etapa {item.step}
                     </span>
 
-                    <h3 className="font-serif text-xl font-bold text-[#302D28] transition-colors group-hover:text-[#7F203D] sm:text-2xl">
+                    <h3 className="ds-card-title group-hover:text-[#7F203D] sm:text-2xl">
                       {item.title}
                     </h3>
 

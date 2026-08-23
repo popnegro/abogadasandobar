@@ -13,10 +13,10 @@ export type ActiveTab =
  */
 
 export const TAB_TO_PATH: Record<ActiveTab, string> = {
-  home: '/',
+  home: '/inicio',
   servicios: '/servicios-abogacia-mendoza',
   experiencia: '/experiencia',
-  metodo: '/servicios-abogacia-mendoza#nuestro-proceso',
+  metodo: '/nuestro-metodo',
   faq: '/preguntas-frecuentes',
   contacto: '/contacto',
 };
@@ -26,6 +26,7 @@ export const PATH_TO_TAB: Record<string, ActiveTab> = {
   '/inicio': 'home',
   '/servicios-abogacia-mendoza': 'servicios',
   '/experiencia': 'experiencia',
+  '/nuestro-metodo': 'metodo',
   '/preguntas-frecuentes': 'faq',
   '/contacto': 'contacto',
 };
@@ -56,6 +57,9 @@ export interface ServiceItem {
   title: string;
   shortDesc: string;
   fullDesc: string;
+  whenNeeded: string[];
+  whatIncludes: string[];
+  provincialVsFederal: string;
   bulletPoints: string[];
   iconName: string;
   image: string;

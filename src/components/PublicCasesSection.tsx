@@ -25,18 +25,15 @@ export const PublicCasesSection: React.FC<PublicCasesSectionProps> = ({
         <div className="flex flex-col justify-between gap-6 border-b border-white/15 pb-8 md:flex-row md:items-end">
           <div className="max-w-3xl space-y-4">
 
-            <span className="block text-[10px] font-bold uppercase tracking-widest text-[#D9A9B8] sm:text-xs">
+            <span className="ds-eyebrow text-[#D9A9B8]">
               Jurisprudencia y actuación pública
             </span>
 
-            <h2
-              id="public-cases-title"
-              className="font-serif text-3xl font-bold leading-[1.15] tracking-tight text-white sm:text-4xl"
-            >
+            <h2 id="public-cases-title" className="font-serif text-3xl font-bold leading-[1.15] tracking-tight text-white sm:text-4xl lg:text-5xl">
               Casos de interés público
             </h2>
 
-            <p className="text-base font-light leading-relaxed text-white/80 sm:text-lg">
+            <p className="ds-section-lead text-white/80">
               La Dra. Sandobar ha participado en litigios de alta complejidad
               procesal y repercusión social, ejerciendo la defensa técnica y
               representación de querellas en investigaciones
@@ -66,7 +63,7 @@ export const PublicCasesSection: React.FC<PublicCasesSectionProps> = ({
           {/* ===================================================
               CASE 01
           ==================================================== */}
-          <article className="group flex flex-col justify-between border border-white/15 bg-white/5 p-8 transition-colors duration-300 hover:border-[#D9A9B8]/50 sm:p-10">
+          <article className="group ds-card-dark flex flex-col justify-between p-8 sm:p-10">
 
             <div className="space-y-6">
 
@@ -88,7 +85,7 @@ export const PublicCasesSection: React.FC<PublicCasesSectionProps> = ({
                   Mendoza, Argentina
                 </span>
 
-                <h3 className="font-serif text-xl font-bold leading-snug text-white transition-colors group-hover:text-[#D9A9B8] sm:text-2xl">
+                <h3 className="font-serif text-xl font-bold leading-snug text-white transition-colors duration-200 ease-out group-hover:text-[#D9A9B8] sm:text-2xl">
                   Caso: Liga Mendocina de Fútbol
                 </h3>
               </div>
@@ -101,8 +98,15 @@ export const PublicCasesSection: React.FC<PublicCasesSectionProps> = ({
                 para la emisión de certificados de aptitud física.
               </p>
 
+              <p className="text-sm font-light leading-relaxed text-white/75 sm:text-base">
+                El valor jurídico del caso estuvo en ordenar con rapidez la
+                prueba caligráfica, documentar el perjuicio y sostener la
+                trazabilidad del daño profesional sin exponer información
+                sensible de la clienta.
+              </p>
+
               {/* Intervention */}
-              <div className="border-l-2 border-[#D9A9B8] bg-[#7F203D]/15 p-4 text-sm font-light leading-relaxed text-white/85">
+              <div className="ds-quote border-[#D9A9B8] bg-[#7F203D]/15 text-sm font-light leading-relaxed text-white/85">
                 <span className="mb-2 block text-[10px] font-bold uppercase tracking-widest text-[#D9A9B8]">
                   Intervención
                 </span>
@@ -112,13 +116,22 @@ export const PublicCasesSection: React.FC<PublicCasesSectionProps> = ({
                 la profesional damnificada.
               </div>
 
+              <div className="border border-white/10 bg-white/5 p-4 text-sm font-light leading-relaxed text-white/75">
+                <span className="mb-2 block text-[10px] font-bold uppercase tracking-widest text-[#D9A9B8]">
+                  Lectura estratégica
+                </span>
+                La intervención muestra cómo una querella particular puede
+                ordenar la prueba desde la etapa inicial y reforzar la
+                protección del prestigio profesional de la víctima.
+              </div>
+
             </div>
           </article>
 
           {/* ===================================================
               CASE 02
           ==================================================== */}
-          <article className="group flex flex-col justify-between border border-white/15 bg-white/5 p-8 transition-colors duration-300 hover:border-[#D9A9B8]/50 sm:p-10">
+          <article className="group ds-card-dark flex flex-col justify-between p-8 sm:p-10">
 
             <div className="space-y-6">
 
@@ -140,7 +153,7 @@ export const PublicCasesSection: React.FC<PublicCasesSectionProps> = ({
                   Violencia de género
                 </span>
 
-                <h3 className="font-serif text-xl font-bold leading-snug text-white transition-colors group-hover:text-[#D9A9B8] sm:text-2xl">
+                <h3 className="font-serif text-xl font-bold leading-snug text-white transition-colors duration-200 ease-out group-hover:text-[#D9A9B8] sm:text-2xl">
                   Amenazas y medidas de protección
                 </h3>
               </div>
@@ -152,8 +165,15 @@ export const PublicCasesSection: React.FC<PublicCasesSectionProps> = ({
                 medidas de protección adecuadas a cada situación.
               </p>
 
+              <p className="text-sm font-light leading-relaxed text-white/75 sm:text-base">
+                En este tipo de asuntos, la prioridad no es solo la denuncia:
+                también lo es asegurar medidas urgentes, acompañar el riesgo
+                procesal y sostener una estrategia que proteja a la persona
+                afectada desde el primer contacto.
+              </p>
+
               {/* Intervention */}
-              <div className="border-l-2 border-[#D9A9B8] bg-[#7F203D]/15 p-4 text-sm font-light leading-relaxed text-white/85">
+              <div className="ds-quote border-[#D9A9B8] bg-[#7F203D]/15 text-sm font-light leading-relaxed text-white/85">
                 <span className="mb-2 block text-[10px] font-bold uppercase tracking-widest text-[#D9A9B8]">
                   Intervención
                 </span>
@@ -161,6 +181,15 @@ export const PublicCasesSection: React.FC<PublicCasesSectionProps> = ({
                 Evaluación inicial del riesgo, presentación de denuncias y
                 solicitud de medidas judiciales de protección conforme a las
                 circunstancias de cada caso.
+              </div>
+
+              <div className="border border-white/10 bg-white/5 p-4 text-sm font-light leading-relaxed text-white/75">
+                <span className="mb-2 block text-[10px] font-bold uppercase tracking-widest text-[#D9A9B8]">
+                  Lectura estratégica
+                </span>
+                El caso ejemplifica un abordaje sensible, rápido y con foco en
+                medidas de protección, donde la reserva y la coordinación
+                procesal resultan determinantes.
               </div>
 
             </div>

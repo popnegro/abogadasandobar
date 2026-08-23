@@ -1,1 +1,104 @@
 @import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-bg: #FFF8F2;
+    --color-surface: #FFF8F2;
+    --color-surface-soft: #FCF9F5;
+    --color-surface-dark: #181614;
+    --color-surface-ink: #302D28;
+    --color-ink: #302D28;
+    --color-ink-muted: rgba(48, 45, 40, 0.75);
+    --color-accent: #7F203D;
+    --color-accent-soft: #D9A9B8;
+    --color-border: #DDD2C5;
+    --shadow-premium: 0 12px 32px rgba(24, 22, 20, 0.08);
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background: var(--color-bg);
+    color: var(--color-ink);
+  }
+
+  ::selection {
+    background: var(--color-accent);
+    color: #FFFFFF;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+@layer components {
+  .ds-eyebrow {
+    @apply text-xs font-bold uppercase tracking-widest text-[#7F203D] sm:text-sm;
+  }
+
+  .ds-section-title {
+    @apply font-serif text-3xl font-bold leading-[1.1] tracking-tight text-[#302D28] sm:text-4xl lg:text-5xl;
+  }
+
+  .ds-section-lead {
+    @apply text-sm font-light leading-relaxed text-[#302D28]/75 sm:text-base;
+  }
+
+  .ds-btn-primary {
+    @apply inline-flex items-center justify-center gap-2 bg-[#7F203D] px-8 py-3.5 text-xs font-bold uppercase tracking-widest text-white shadow-sm transition-all duration-200 ease-out hover:bg-[#691931] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#7F203D] focus-visible:ring-offset-2 focus-visible:ring-offset-[#FFF8F2] disabled:cursor-not-allowed disabled:opacity-70;
+  }
+
+  .ds-btn-secondary {
+    @apply inline-flex items-center justify-center gap-2 border border-[#302D28]/20 bg-transparent px-8 py-3.5 text-xs font-bold uppercase tracking-widest text-[#302D28] transition-all duration-200 ease-out hover:border-[#7F203D]/50 hover:bg-[#F4EFE8] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#7F203D] focus-visible:ring-offset-2 focus-visible:ring-offset-[#FFF8F2];
+  }
+
+  .ds-btn-informative {
+    @apply inline-flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-[#7F203D] transition-colors duration-200 ease-out hover:text-[#691931] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#7F203D] focus-visible:ring-offset-2 focus-visible:ring-offset-[#FFF8F2];
+  }
+
+  .ds-card {
+    @apply border border-[#DDD2C5] bg-[#FFF8F2] transition-all duration-200 ease-out hover:border-[#7F203D] hover:shadow-md;
+  }
+
+  .ds-card-inner {
+    @apply p-6 sm:p-7;
+  }
+
+  .ds-card-dark {
+    @apply border border-white/15 bg-white/5 transition-colors duration-200 ease-out hover:border-[#D9A9B8]/50;
+  }
+
+  .ds-stat-card {
+    @apply min-h-[160px] border border-[#DDD2C5] bg-[#FCF9F5] p-6 transition-colors duration-200 ease-out hover:border-[#7F203D] sm:p-8 md:min-h-[180px];
+  }
+
+  .ds-quote {
+    @apply border-l-2 border-[#7F203D] bg-[#FFF8F2] px-5 py-4 sm:px-6;
+  }
+
+  .ds-accordion-trigger {
+    @apply flex w-full cursor-pointer items-start justify-between gap-6 px-4 py-8 text-left transition-colors duration-200 ease-out hover:bg-[#F4EFE8]/60 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#7F203D] focus-visible:ring-offset-2 md:gap-12 md:py-10;
+  }
+
+  .ds-accordion-panel {
+    @apply pb-8 pl-12 pr-6 text-base font-light leading-loose text-[#302D28]/80 sm:pl-16 sm:pr-16 sm:text-lg md:pb-10 md:pl-20 md:pr-24;
+  }
+
+  .ds-hero-kicker {
+    @apply text-xs font-bold uppercase tracking-[0.35em] text-[#D9A9B8] sm:text-sm;
+  }
+
+  .ds-card-title {
+    @apply font-serif text-xl font-bold leading-snug text-[#302D28] transition-colors duration-200 ease-out;
+  }
+}

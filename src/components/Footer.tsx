@@ -52,7 +52,7 @@ export const Footer: React.FC<FooterProps> = ({
             >
               Estudio jurídico especializado en Derecho Penal Económico,
               Litigación de Alta Complejidad y Programas de Integridad
-              Corporativa en la Provincia de Mendoza y Fueros Federales de Cuyo.
+              Corporativa en la Provincia de Mendoza y fueros federales con asiento en Mendoza.
             </p>
 
             <div className="space-y-2.5 border-t border-[#FFF8F2]/10 pt-3 text-sm text-[#DDD2C5]">
@@ -63,7 +63,7 @@ export const Footer: React.FC<FooterProps> = ({
                 />
 
                 <span className="font-semibold text-white/90">
-                  {LAWYER_INFO.collegianNumber}
+                  Matrícula profesional: {LAWYER_INFO.collegianNumber}
                 </span>
               </div>
 
@@ -74,7 +74,7 @@ export const Footer: React.FC<FooterProps> = ({
                 />
 
                 <span>
-                  Habilitación: Suprema Corte de Mendoza &amp; Fuero Federal
+                  Ejercicio profesional en Mendoza y fuero federal
                 </span>
               </div>
             </div>
@@ -103,7 +103,7 @@ export const Footer: React.FC<FooterProps> = ({
 
                 <p className="text-sm font-light leading-relaxed text-[#F4EFE8]/70">
                   Ciudad de Mendoza, Godoy Cruz, Guaymallén, Las Heras, Maipú,
-                  Luján de Cuyo, Lavalle. Polo Judicial Penal.
+                  Luján de Cuyo, Lavalle. Polo Judicial Penal de Mendoza.
                 </p>
               </div>
 
@@ -134,8 +134,7 @@ export const Footer: React.FC<FooterProps> = ({
                 </span>
 
                 <p className="text-sm font-light leading-relaxed text-[#F4EFE8]/70">
-                  Juzgados Federales 1, 2 y 3 de Mendoza, TOF y Cámara Federal
-                  de Apelaciones.
+                  Juzgados Federales de Mendoza, Tribunal Oral Federal y Cámara Federal de Apelaciones de Mendoza.
                 </p>
               </div>
 
@@ -173,14 +172,7 @@ export const Footer: React.FC<FooterProps> = ({
                   className="block text-sm font-medium text-white"
                   itemProp="streetAddress"
                 >
-                  Av. España 948, 4º Piso
-                </span>
-
-                <span className="block text-sm leading-relaxed text-white/70">
-                  <span itemProp="addressLocality">Ciudad de Mendoza</span>,{' '}
-                  <span itemProp="postalCode">M5500</span>,{' '}
-                  <span itemProp="addressRegion">Mendoza</span>,{' '}
-                  <span itemProp="addressCountry">Argentina</span>
+                  {LAWYER_INFO.address}
                 </span>
               </div>
             </div>

@@ -44,17 +44,6 @@ export const Navbar: React.FC<NavbarProps> = ({
     setMobileMenuOpen(false);
     setActiveTab(tab);
 
-    if (tab === 'metodo') {
-      window.setTimeout(() => {
-        const target = document.getElementById('services-introduction');
-        if (target) {
-          window.history.replaceState(null, '', '/servicios-abogacia-mendoza#nuestro-proceso');
-          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
-        }
-      }, 50);
-      return;
-    }
-
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
