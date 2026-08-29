@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { ArrowRight } from 'lucide-react';
 import { ActiveTab } from '../types';
-import { ASSETS, SERVICES } from '../data/lawyerData';
+import { ASSETS } from '../data/lawyerData';
 import { Breadcrumb } from './Breadcrumb';
 
 interface ServicesSectionProps { setActiveTab: (tab: ActiveTab) => void; onRequestConsultation: () => void; }
@@ -13,7 +13,7 @@ const AREAS = [
   { id: 'accidentes', number: '04', title: 'RECLAMOS INDEMNIZATORIOS', description: 'Representación ante lesiones y daños derivados de accidentes de tránsito.', pattern: 'radial-gradient(circle at 82% 72%,rgba(217,169,184,.20),transparent 28%),linear-gradient(135deg,#181614 0%,#283032 50%,#4B363D 100%)' },
 ];
 
-const SERVICE_COPY: Record<string, { area: string; title: string; description: string; bullets: string[]; icon?: string }[]> = {
+const SERVICE_COPY: Record<string, { area: string; title: string; description: string; bullets: string[] }[]> = {
   penal: [
     { area: 'penal', title: 'Defensa Penal Integral', description: 'Representación de personas imputadas en causas provinciales y federales, desde los primeros actos del proceso hasta el juicio, la etapa recursiva y la ejecución penal.', bullets: ['Causas provinciales y federales', 'Defensa durante todas las etapas del proceso', 'Juicio, recursos y ejecución penal'] },
     { area: 'penal', title: 'Querellas y Representación de Víctimas', description: 'Intervención activa para impulsar la investigación, producir prueba y proteger los derechos de las víctimas durante todas las etapas del proceso penal.', bullets: ['Impulso de la investigación', 'Producción y análisis de prueba', 'Protección de derechos de las víctimas'] },
@@ -37,16 +37,42 @@ const SERVICE_COPY: Record<string, { area: string; title: string; description: s
 
 export const ServicesSection: React.FC<ServicesSectionProps> = ({ setActiveTab, onRequestConsultation }) => {
   const focus = 'focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#7F203D] focus-visible:ring-offset-2 focus-visible:ring-offset-[#FAF6F0]';
+  const [activeArea, setActiveArea] = useState('penal');
+
+  useEffect(() => {
+    const validIds = new Set(AREAS.map((area) => area.id));
+    const getHashArea = () => window.location.hash.replace('#services-area-', '');
+    const initial = getHashArea();
+    if (validIds.has(initial)) {
+      setActiveArea(initial);
+      requestAnimationFrame(() => document.getElementById(`services-area-${initial}`)?.scrollIntoView({ block: 'start' }));
+    }
+
+    const sections = AREAS.map((area) => document.getElementById(`services-area-${area.id}`)).filter(Boolean) as HTMLElement[];
+    const observer = new IntersectionObserver((entries) => {
+      const visible = entries.filter((entry) => entry.isIntersecting).sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0];
+      if (visible) setActiveArea(visible.target.id.replace('services-area-', ''));
+    }, { rootMargin: '-18% 0px -62% 0px', threshold: [0.1, 0.35, 0.6] });
+    sections.forEach((section) => observer.observe(section));
+    return () => observer.disconnect();
+  }, []);
+
+  const handleAreaChange = (id: string) => {
+    setActiveArea(id);
+    window.history.replaceState(null, '', `#services-area-${id}`);
+    document.getElementById(`services-area-${id}`)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  };
+
   return <div id="services-section" className="w-full bg-[#FAF6F0]">
     <section id="services-hero" aria-labelledby="services-hero-title" className="relative flex min-h-[480px] w-full items-center overflow-hidden bg-[#181614] pb-16 pt-28 lg:min-h-[540px] lg:pb-20 lg:pt-32">
       <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: `url(${ASSETS.heroServices})` }} aria-hidden="true" /><div className="absolute inset-0 bg-gradient-to-br from-[#181614]/95 via-[#231F1C]/90 to-[#2A2522]/75" aria-hidden="true" />
       <div className="relative z-10 mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8"><div className="mb-8 lg:mb-10"><Breadcrumb items={[{ label: 'Servicios', active: true }]} onNavigate={setActiveTab} variant="primary" /></div><div className="max-w-4xl space-y-6"><h1 id="services-hero-title" className="font-serif text-4xl font-bold leading-[1.05] tracking-tight text-white sm:text-5xl lg:text-6xl">Servicios de Abogacía<span className="block text-[#D9A9B8]">en Mendoza</span></h1><p className="max-w-3xl text-base font-light leading-relaxed text-white/85 sm:text-lg lg:text-xl">Defensa penal, litigación compleja y asesoramiento corporativo para personas y organizaciones que necesitan una estrategia jurídica rigurosa y una intervención profesional directa.</p></div></div>
     </section>
     <section id="services-catalog" aria-labelledby="services-catalog-title" className="w-full bg-[#FAF6F0] py-16 lg:py-24"><div className="mx-auto max-w-7xl space-y-12 px-4 sm:px-6 lg:space-y-16 lg:px-8"><div className="max-w-3xl space-y-4"><p className="text-xs font-bold uppercase tracking-widest text-[#7F203D]">Áreas de práctica especializada</p><h2 id="services-catalog-title" className="font-serif text-3xl font-bold leading-[1.15] tracking-tight text-[#302D28] sm:text-4xl">Un abordaje jurídico especializado</h2><p className="text-base font-light leading-relaxed text-[#302D28]/80 sm:text-lg">Servicios orientados a la prevención, defensa y resolución de contingencias penales y corporativas.</p></div>
-      <nav aria-label="Áreas de práctica" className="sticky top-0 z-20 -mx-4 overflow-x-auto border-y border-[#DDD2C5] bg-[#FAF6F0]/95 px-4 py-3 backdrop-blur sm:mx-0 sm:px-0"><div className="flex min-w-max gap-2">{AREAS.map(area => <a key={area.id} href={`#services-area-${area.id}`} className={`border border-[#DDD2C5] px-4 py-2 text-[11px] font-bold uppercase tracking-wider text-[#7F203D] transition-colors hover:bg-[#7F203D] hover:text-white ${focus}`}>{area.number} · {area.title}</a>)}</div></nav>
+      <nav aria-label="Áreas de práctica" className="sticky top-0 z-20 -mx-4 overflow-x-auto border-y border-[#DDD2C5] bg-[#FAF6F0]/95 px-4 py-3 backdrop-blur sm:mx-0 sm:px-0"><div className="flex min-w-max gap-2">{AREAS.map(area => <button key={area.id} type="button" aria-current={activeArea === area.id ? 'true' : undefined} onClick={() => handleAreaChange(area.id)} className={`border px-4 py-2 text-[11px] font-bold uppercase tracking-wider transition-colors ${activeArea === area.id ? 'border-[#7F203D] bg-[#7F203D] text-white' : 'border-[#DDD2C5] text-[#7F203D] hover:bg-[#7F203D] hover:text-white'} ${focus}`}>{area.number} · {area.title}</button>)}</div></nav>
       <div className="space-y-10">{AREAS.map(area => <section key={area.id} id={`services-area-${area.id}`} aria-labelledby={`services-area-title-${area.id}`} className="scroll-mt-20 overflow-hidden border border-[#DDD2C5] bg-[#FFF8F2] shadow-sm">
         <div className="relative min-h-[190px] overflow-hidden" style={{ backgroundImage: `url(${ASSETS.heroServices}), ${area.pattern}` }}><div className="absolute inset-0 bg-gradient-to-r from-[#181614]/95 via-[#231F1C]/75 to-[#231F1C]/45" aria-hidden="true" /><div className="relative flex min-h-[190px] items-end p-6 sm:p-8 lg:p-10"><div className="max-w-3xl"><span className="mb-3 block font-serif text-sm font-bold tracking-[.22em] text-[#D9A9B8]">{area.number}</span><h3 id={`services-area-title-${area.id}`} className="font-serif text-2xl font-bold tracking-tight text-white sm:text-3xl lg:text-4xl">{area.title}</h3><p className="mt-3 max-w-2xl text-sm leading-relaxed text-white/75 sm:text-base">{area.description}</p></div></div></div>
-        <div className="grid grid-cols-1 divide-y divide-[#302D28]/10 sm:grid-cols-2 sm:divide-x sm:divide-y-0 lg:grid-cols-3">{SERVICE_COPY[area.id].map((service, index) => <article key={service.title} className="group flex min-h-[300px] flex-col p-6 sm:p-7 lg:p-8"><div className="mb-5 flex items-center justify-between"><span className="font-serif text-xs font-bold text-[#7F203D]/70">{String(index + 1).padStart(2, '0')}</span><span className="h-px w-10 bg-[#7F203D]/30" aria-hidden="true" /></div><h4 className="font-serif text-xl font-bold leading-snug text-[#302D28] transition-colors group-hover:text-[#7F203D]">{service.title}</h4><p className="mt-4 text-sm leading-relaxed text-[#302D28]/75">{service.description}</p><ul className="mt-5 space-y-2 border-t border-[#302D28]/10 pt-4">{service.bullets.map(point => <li key={point} className="flex items-start gap-2 text-xs leading-relaxed text-[#302D28]/70"><span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-[#7F203D]" aria-hidden="true" /><span>{point}</span></li>)}</ul><button type="button" onClick={() => { onRequestConsultation(); }} className={`mt-auto flex items-center justify-between border-t border-[#302D28]/10 pt-4 text-left text-xs font-bold uppercase tracking-wider text-[#7F203D] ${focus}`}><span>Consultar sobre este servicio</span><ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" aria-hidden="true" /></button></article>)}</div>
+        <div className="grid grid-cols-1 divide-y divide-[#302D28]/10 sm:grid-cols-2 sm:divide-x sm:divide-y-0 lg:grid-cols-3">{SERVICE_COPY[area.id].map((service, index) => <article key={service.title} className="group flex min-h-[300px] flex-col p-6 sm:p-7 lg:p-8"><div className="mb-5 flex items-center justify-between"><span className="font-serif text-xs font-bold text-[#7F203D]/70">{String(index + 1).padStart(2, '0')}</span><span className="h-px w-10 bg-[#7F203D]/30" aria-hidden="true" /></div><h4 className="font-serif text-xl font-bold leading-snug text-[#302D28] transition-colors group-hover:text-[#7F203D]">{service.title}</h4><p className="mt-4 text-sm leading-relaxed text-[#302D28]/75">{service.description}</p><ul className="mt-5 space-y-2 border-t border-[#302D28]/10 pt-4">{service.bullets.map(point => <li key={point} className="flex items-start gap-2 text-xs leading-relaxed text-[#302D28]/70"><span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-[#7F203D]" aria-hidden="true" /><span>{point}</span></li>)}</ul><button type="button" onClick={onRequestConsultation} className={`mt-auto flex items-center justify-between border-t border-[#302D28]/10 pt-4 text-left text-xs font-bold uppercase tracking-wider text-[#7F203D] ${focus}`}><span>Consultar sobre este servicio</span><ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" aria-hidden="true" /></button></article>)}</div>
       </section>)}</div>
     </div></section>
     <section id="services-final-cta" aria-labelledby="services-final-cta-title" className="w-full bg-[#302D28] py-16 text-white lg:py-24"><div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8"><div className="flex flex-col gap-8 border border-white/15 bg-white/5 p-7 sm:p-10 lg:flex-row lg:items-center lg:justify-between lg:gap-12 lg:p-12"><div className="max-w-3xl space-y-4"><p className="text-xs font-bold uppercase tracking-widest text-[#D9A9B8]">Consulta profesional</p><h2 id="services-final-cta-title" className="font-serif text-3xl font-bold leading-tight text-white sm:text-4xl">¿Necesita evaluar una situación jurídica específica?</h2><p className="max-w-2xl text-base font-light leading-relaxed text-white/75 sm:text-lg">Una primera consulta permite analizar el contexto, identificar las cuestiones relevantes y determinar los próximos pasos.</p></div><button type="button" onClick={onRequestConsultation} className="group inline-flex shrink-0 items-center justify-center gap-3 bg-[#7F203D] px-7 py-4 text-xs font-bold uppercase tracking-widest text-white transition-colors hover:bg-[#691931] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#D9A9B8] focus-visible:ring-offset-2 focus-visible:ring-offset-[#302D28] sm:px-8 sm:text-sm"><span>Solicitar consulta</span><ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" /></button></div></div></section>
