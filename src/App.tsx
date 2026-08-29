@@ -24,7 +24,8 @@ function PageShell() {
   };
 
   const handleRequestConsultation = (initialArea?: string) => {
-    setContactPracticeArea(initialArea);
+    const hashArea = location.hash.match(/^#services-area-(.+)$/)?.[1];
+    setContactPracticeArea(initialArea ?? hashArea);
     navigate(TAB_TO_PATH.contacto);
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
