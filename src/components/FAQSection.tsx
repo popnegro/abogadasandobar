@@ -15,7 +15,7 @@ export const FAQSection: React.FC<FAQSectionProps> = ({
   onOpenConsultationModal,
 }) => {
   const [openIds, setOpenIds] = useState<string[]>([
-    'faq-honorarios',
+    'faq-urgencia',
   ]);
 
   const toggleFAQ = (id: string) => {
@@ -29,8 +29,7 @@ export const FAQSection: React.FC<FAQSectionProps> = ({
   return (
     <div id="faq-section" className="w-full">
       <PageHero
-        title="Claridad, Honorarios &"
-        titleAccent="Certeza"
+        title="Claridad y certeza"
         subtitle="Respuestas directas y transparentes sobre el marco de actuación, previsión de honorarios, guardia procesal 24 horas y confidencialidad letrada."
         backgroundImage={ASSETS.heroFaq}
         breadcrumbLabel="Preguntas Frecuentes"
@@ -41,6 +40,10 @@ export const FAQSection: React.FC<FAQSectionProps> = ({
         <div className="space-y-16 lg:space-y-24">
           <section aria-label="Preguntas frecuentes" className="border-t border-[#302D28]/20">
             {FAQS.map((faq, index) => {
+              if (!['faq-urgencia', 'faq-modalidad', 'faq-jurisdiccion'].includes(faq.id)) {
+                return null;
+              }
+
               const isOpen = openIds.includes(faq.id);
 
               return (
