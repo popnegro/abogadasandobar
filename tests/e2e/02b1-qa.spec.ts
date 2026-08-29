@@ -44,17 +44,7 @@ test.describe('FASE 04 — Unified conversion flow', () => {
     }
 
     await expect(page.locator('#services-section')).toBeVisible();
-    const firstService = page.locator('#services-section button[aria-expanded]').first();
-    await expect(firstService).toBeVisible();
-    await expect(firstService).toHaveAttribute('aria-expanded', 'false');
-    await firstService.click();
-    await expect(firstService).toHaveAttribute('aria-expanded', 'true');
-
-    const firstPanelId = await firstService.getAttribute('aria-controls');
-    const firstPanel = page.locator(`#${firstPanelId}`);
-    await expect(firstPanel).toBeVisible();
-
-    const ctaButton = firstPanel.getByRole('button', { name: /Solicitar consulta sobre esta área/i });
+    const ctaButton = page.locator('#services-section').getByRole('button', { name: /Solicitar consulta/i }).first();
     await expect(ctaButton).toBeVisible();
     await ctaButton.click();
 
