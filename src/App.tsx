@@ -9,6 +9,7 @@ import { FAQSection } from './components/FAQSection';
 import { ContactSection } from './components/ContactSection';
 import { Footer } from './components/Footer';
 import { CONTACT_INFO } from './data/contactData';
+import './data/legalContentLocalization';
 
 function PageShell() {
   const location = useLocation();
