@@ -8,6 +8,7 @@ import { AboutSection } from './components/AboutSection';
 import { FAQSection } from './components/FAQSection';
 import { ContactSection } from './components/ContactSection';
 import { Footer } from './components/Footer';
+import { CONTACT_INFO } from './data/contactData';
 
 function PageShell() {
   const location = useLocation();
@@ -43,11 +44,11 @@ function PageShell() {
       <Footer setActiveTab={setActiveTab} onOpenConsultationModal={() => handleRequestConsultation()} />
 
       <a
-        href="https://wa.me/5492613464483"
+        href={CONTACT_INFO.whatsappUrl}
         target="_blank"
         rel="noopener noreferrer"
-        aria-label="Contactar por WhatsApp al +54 9 2613 46-4483"
-        title="WhatsApp +54 9 2613 46-4483"
+        aria-label={`Contactar por WhatsApp al ${CONTACT_INFO.phone}`}
+        title={`WhatsApp ${CONTACT_INFO.phone}`}
         className="fixed bottom-6 right-6 z-50 flex items-center justify-center w-14 h-14 bg-[#25D366] text-white rounded-full shadow-lg hover:bg-[#20bd5a] hover:scale-105 transition-all focus-visible:ring-2 focus-visible:ring-[#25D366] focus-visible:ring-offset-2"
       >
         <img src="/assets/icons/whatsapp.svg" alt="" className="w-8 h-8" aria-hidden="true" />
