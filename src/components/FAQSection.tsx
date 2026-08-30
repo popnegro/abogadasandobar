@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { ChevronDown, ArrowRight } from 'lucide-react';
-
 import { ActiveTab } from '../types';
 import { FAQS, ASSETS } from '../data/lawyerData';
 import { PageHero } from './PageHero';

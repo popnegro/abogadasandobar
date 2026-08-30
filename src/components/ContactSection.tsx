@@ -980,7 +980,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({
                       disabled={
                         isSubmitting
                       }
-                      className="w-full inline-flex cursor-pointer items-center justify-center gap-4 bg-[#302D28] px-8 py-3.5 text-xs font-bold uppercase tracking-widest text-white transition-all hover:bg-[#181614] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#302D28] focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-70 sm:w-auto"
+                      className="w-full inline-flex cursor-pointer items-center justify-center gap-4 bg-[#302D28] px-8 py-3.5 text-xs font-bold uppercase tracking-widest text-white transition-all hover:bg-[#181614] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#302D28] focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-70"
                     >
                       {isSubmitting ? (
                         <>
