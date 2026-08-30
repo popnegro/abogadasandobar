@@ -10,12 +10,15 @@ import { FAQSection } from './components/FAQSection';
 import { ContactSection } from './components/ContactSection';
 import { Footer } from './components/Footer';
 import { CONTACT_INFO } from './data/contactData';
+import { useRouteMetadata } from './utils/useRouteMetadata';
 import './data/legalContentLocalization';
 
 function PageShell() {
   const location = useLocation();
   const navigate = useNavigate();
   const [contactPracticeArea, setContactPracticeArea] = useState<string | undefined>(undefined);
+
+  useRouteMetadata();
 
   const activeTab: ActiveTab = PATH_TO_TAB[location.pathname] ?? 'home';
 
