@@ -16,14 +16,14 @@ const METHOD_STEPS = [
   { step: '04', title: 'Actuamos', desc: 'Ejecutamos la hoja de ruta con firmeza técnica en sede judicial o en mesas de negociación.' },
 ] as const;
 
-export const MethodSection: React.FC<MethodSectionProps> = ({ setActiveTab = () => {}, onOpenConsultationModal }) => (
+export const MethodSection: React.FC<MethodSectionProps> = ({ setActiveTab = () => { }, onOpenConsultationModal }) => (
   <div id="method-section" className="w-full bg-[#FAF6F0]">
     <section id="method-hero" aria-labelledby="method-hero-title" className="relative flex min-h-[480px] w-full items-center overflow-hidden bg-[#181614] pb-16 pt-28 lg:min-h-[540px] lg:pb-20 lg:pt-32">
       <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: `url(${ASSETS.heroMethod})` }} aria-hidden="true" />
       <div className="absolute inset-0 bg-gradient-to-br from-[#181614]/95 via-[#231F1C]/90 to-[#2A2522]/75" aria-hidden="true" />
       <div className="relative z-10 mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mb-8 lg:mb-10"><Breadcrumb items={[{ label: 'Nuestro método', active: true }]} onNavigate={setActiveTab} variant="primary" /></div>
-        <div className="max-w-4xl space-y-6"><h1 id="method-hero-title" className="font-serif text-4xl font-bold leading-[1.05] tracking-tight text-white sm:text-5xl lg:text-6xl">Nuestro método<span className="block text-[#D9A9B8]">jurídico</span></h1><p className="max-w-3xl text-base font-light leading-relaxed text-white/85 sm:text-lg lg:text-xl">Un proceso de trabajo estructurado para comprender cada situación, evaluar sus riesgos y construir una estrategia jurídica rigurosa.</p></div>
+        <div className="max-w-4xl space-y-6"><h1 id="method-hero-title" className="font-serif text-4xl font-bold leading-[1.05] tracking-tight text-white sm:text-5xl lg:text-6xl">Nuestro método<span className="text-[#D9A9B8]"> jurídico</span></h1><p className="max-w-3xl text-base font-light leading-relaxed text-white/85 sm:text-lg lg:text-xl">Un proceso de trabajo estructurado para comprender cada situación, evaluar sus riesgos y construir una estrategia jurídica rigurosa.</p></div>
       </div>
     </section>
 

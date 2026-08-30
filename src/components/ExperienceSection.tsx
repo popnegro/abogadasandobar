@@ -10,7 +10,7 @@ interface ExperienceSectionProps {
 }
 
 export const ExperienceSection: React.FC<ExperienceSectionProps> = ({
-  setActiveTab = () => {},
+  setActiveTab = () => { },
   onOpenConsultationModal,
 }) => (
   <div id="experience-section" className="w-full bg-[#FAF6F0]">
@@ -23,8 +23,8 @@ export const ExperienceSection: React.FC<ExperienceSectionProps> = ({
         </div>
         <div className="max-w-4xl space-y-6">
           <h1 id="experience-hero-title" className="font-serif text-4xl font-bold leading-[1.05] tracking-tight text-white sm:text-5xl lg:text-6xl">
-            Trayectoria y experiencia
-            <span className="block text-[#D9A9B8]">profesional</span>
+            Trayectoria
+            <span className="text-[#D9A9B8]"> profesional</span>
           </h1>
           <p className="max-w-3xl text-base font-light leading-relaxed text-white/85 sm:text-lg lg:text-xl">
             Formación penal, análisis riguroso de la prueba e intervención directa en causas provinciales y federales, tanto en defensa como en representación de víctimas.
@@ -41,7 +41,7 @@ export const ExperienceSection: React.FC<ExperienceSectionProps> = ({
           </div>
 
           <div className="space-y-8 lg:col-span-7">
-            <h2 id="experience-title" className="font-serif text-3xl font-bold leading-[1.1] tracking-tight text-[#302D28] sm:text-4xl">
+            <h2 id="experience-title" className="font-serif text-3xl font-bold leading-[1.15] tracking-tight text-[#302D28] sm:text-4xl">
               Defensa inquebrantable, rigor técnico y confidencialidad absoluta.
             </h2>
 

@@ -12,7 +12,7 @@ interface FAQSectionProps {
 
 const VISIBLE_FAQ_IDS = ['faq-urgencia', 'faq-modalidad', 'faq-jurisdiccion'] as const;
 
-export const FAQSection: React.FC<FAQSectionProps> = ({ setActiveTab = () => {}, onOpenConsultationModal }) => {
+export const FAQSection: React.FC<FAQSectionProps> = ({ setActiveTab = () => { }, onOpenConsultationModal }) => {
   const [openIds, setOpenIds] = useState<string[]>(['faq-urgencia']);
 
   const toggleFAQ = (id: string) => {
@@ -23,7 +23,7 @@ export const FAQSection: React.FC<FAQSectionProps> = ({ setActiveTab = () => {},
 
   return (
     <div id="faq-section" className="w-full">
-      <PageHero title="Claridad y certeza" subtitle="Respuestas directas y transparentes sobre el marco de actuación, previsión de honorarios, guardia procesal 24 horas y confidencialidad letrada." backgroundImage={ASSETS.heroFaq} breadcrumbLabel="Preguntas Frecuentes" setActiveTab={setActiveTab} />
+      <PageHero title="Preguntas Frecuentes" subtitle="Respuestas directas y transparentes sobre el marco de actuación, previsión de honorarios, guardia procesal 24 horas y confidencialidad letrada." backgroundImage={ASSETS.heroFaq} breadcrumbLabel="Preguntas Frecuentes" setActiveTab={setActiveTab} />
 
       <main className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-24">
         <div className="space-y-16 lg:space-y-24">

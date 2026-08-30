@@ -39,8 +39,8 @@ export const Footer: React.FC<FooterProps> = ({ onOpenConsultationModal }) => {
           </div>
 
           <div className="space-y-4 lg:col-span-3">
-            <span className="block pb-1 text-xs font-bold uppercase tracking-widest text-[#DDD2C5]">Sede &amp; Contacto</span>
-            <div className="flex items-start gap-3" itemProp="address" itemScope itemType="https://schema.org/PostalAddress"><MapPin className="mt-0.5 h-4 w-4 shrink-0 text-[#7F203D]" aria-hidden="true" /><div><span className="block text-sm font-medium text-white" itemProp="streetAddress">Peatonal Sarmiento 250, 2do piso oficina B</span><span className="block text-sm leading-relaxed text-white/70"><span itemProp="addressLocality">Mendoza</span>, <span itemProp="addressRegion">Mendoza</span>, <span itemProp="addressCountry">Argentina</span></span></div></div>
+            <span className="block pb-1 text-xs font-bold uppercase tracking-widest text-[#DDD2C5]">Oficina</span>
+            <div className="flex items-start gap-3" itemProp="address" itemScope itemType="https://schema.org/PostalAddress"><MapPin className="mt-0.5 h-4 w-4 shrink-0 text-[#7F203D]" aria-hidden="true" /><div><span className="block text-sm font-medium text-white" itemProp="streetAddress">Peatonal Sarmiento 250, 2° B</span><span className="block text-sm leading-relaxed text-white/70"><span itemProp="addressLocality">Mendoza</span>, <span itemProp="addressRegion">Mendoza</span>, <span itemProp="addressCountry">Argentina</span></span></div></div>
             <div className="flex items-center gap-3"><Phone className="h-4 w-4 shrink-0 text-[#7F203D]" aria-hidden="true" /><a href={`tel:${CONTACT_INFO.phone.replace(/\s+/g, '')}`} className={`text-sm text-[#F4EFE8]/85 transition-colors hover:text-white ${focusRing}`} itemProp="telephone">{CONTACT_INFO.phone}</a></div>
             <div className="flex items-center gap-3"><Mail className="h-4 w-4 shrink-0 text-[#7F203D]" aria-hidden="true" /><a href={`mailto:${CONTACT_INFO.email}`} className={`text-sm text-[#F4EFE8]/85 transition-colors hover:text-white ${focusRing}`} itemProp="email">{CONTACT_INFO.email}</a></div>
             <div className="flex items-center gap-3 text-sm text-[#F4EFE8]/70"><Clock className="h-4 w-4 shrink-0 text-[#7F203D]" aria-hidden="true" /><span>Lunes a Viernes: 08:30 - 19:30 hs</span></div>
@@ -48,10 +48,8 @@ export const Footer: React.FC<FooterProps> = ({ onOpenConsultationModal }) => {
           </div>
         </div>
         <div className="flex flex-col items-center justify-between gap-6 pt-10 text-xs text-[#F4EFE8]/70 md:flex-row">
-          <nav aria-label="Navegación del pie de página" className="order-2 md:order-1"><div className="flex flex-wrap items-center justify-center gap-4 text-xs font-medium sm:gap-6 md:justify-start">
-            {([['servicios', 'Servicios'], ['experiencia', 'Experiencia'], ['metodo', 'Método'], ['faq', 'Preguntas frecuentes'], ['contacto', 'Contacto']] as [ActiveTab, string][]).map(([tab, label]) => <Link key={tab} to={TAB_TO_PATH[tab]} onClick={handleInternalNavigation} className={`transition-colors hover:text-white ${focusRing}`}>{label}</Link>)}
-          </div></nav>
-          <div className="order-1 text-center text-xs md:order-2 md:text-right"><span>© {new Date().getFullYear()} Emilia Sandobar. Todos los derechos reservados.</span></div>
+          <div className="order-1 text-center text-xs md:order-2 md:text-left"><span>© {new Date().getFullYear()} Todos los derechos reservados.</span></div>
+          <div className="order-1 text-center text-xs md:order-2 md:text-right"><span><a href="https://wa.me/5492616706710" target="_blank" rel="noopener noreferrer" className={`transition-colors hover:text-white ${focusRing}`}>Powered by SmartWeb</a></span></div>
         </div>
       </div>
     </footer>
