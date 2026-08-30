@@ -36,7 +36,7 @@ export const PageHero: React.FC<PageHeroProps> = ({
   return (
     <section
       aria-labelledby="page-hero-title"
-      className="relative flex min-h-[480px] w-full items-center overflow-hidden bg-[#181614] pt-28 pb-16 sm:min-h-[500px] lg:min-h-[540px] lg:pt-32 lg:pb-20"
+      className="relative flex min-h-[480px] w-full items-center overflow-hidden bg-[#302D28] pt-28 pb-16 sm:min-h-[500px] lg:min-h-[540px] lg:pt-32 lg:pb-20"
     >
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat transition-transform duration-1000"
@@ -45,7 +45,7 @@ export const PageHero: React.FC<PageHeroProps> = ({
       />
 
       <div
-        className="absolute inset-0 bg-gradient-to-br from-[#181614]/80 via-[#231F1C]/70 to-[#2A2522]/60"
+        className="absolute inset-0 bg-gradient-to-br from-[#302D28]/80 via-[#302D28]/70 to-[#302D28]/60"
         aria-hidden="true"
       />
 

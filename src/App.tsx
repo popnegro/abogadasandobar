@@ -4,15 +4,21 @@ import { ActiveTab, PATH_TO_TAB, TAB_TO_PATH } from './types';
 import { Navbar } from './components/Navbar';
 import { HomeSection } from './components/HomeSection';
 import { ServicesSection } from './components/ServicesSection';
-import { AboutSection } from './components/AboutSection';
+import { ExperienceSection } from './components/ExperienceSection';
+import { MethodSection } from './components/MethodSection';
 import { FAQSection } from './components/FAQSection';
 import { ContactSection } from './components/ContactSection';
 import { Footer } from './components/Footer';
+import { CONTACT_INFO } from './data/contactData';
+import { useRouteMetadata } from './utils/useRouteMetadata';
+import './data/legalContentLocalization';
 
 function PageShell() {
   const location = useLocation();
   const navigate = useNavigate();
   const [contactPracticeArea, setContactPracticeArea] = useState<string | undefined>(undefined);
+
+  useRouteMetadata();
 
   const activeTab: ActiveTab = PATH_TO_TAB[location.pathname] ?? 'home';
 
@@ -21,7 +27,8 @@ function PageShell() {
   };
 
   const handleRequestConsultation = (initialArea?: string) => {
-    setContactPracticeArea(initialArea);
+    const hashArea = location.hash.match(/^#services-area-(.+)$/)?.[1];
+    setContactPracticeArea(initialArea ?? hashArea);
     navigate(TAB_TO_PATH.contacto);
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
@@ -34,7 +41,8 @@ function PageShell() {
           <Route path="/" element={<Navigate to="/inicio" replace />} />
           <Route path="/inicio" element={<HomeSection setActiveTab={setActiveTab} onRequestConsultation={() => handleRequestConsultation()} />} />
           <Route path="/servicios-abogacia-mendoza" element={<ServicesSection setActiveTab={setActiveTab} onRequestConsultation={(area) => handleRequestConsultation(area)} />} />
-          <Route path="/experiencia" element={<AboutSection setActiveTab={setActiveTab} onOpenConsultationModal={() => handleRequestConsultation()} />} />
+          <Route path="/experiencia" element={<ExperienceSection setActiveTab={setActiveTab} onOpenConsultationModal={() => handleRequestConsultation()} />} />
+          <Route path="/nuestro-metodo" element={<MethodSection setActiveTab={setActiveTab} onOpenConsultationModal={() => handleRequestConsultation()} />} />
           <Route path="/preguntas-frecuentes" element={<FAQSection setActiveTab={setActiveTab} onOpenConsultationModal={() => handleRequestConsultation()} />} />
           <Route path="/contacto" element={<ContactSection setActiveTab={setActiveTab} initialPracticeArea={contactPracticeArea} />} />
           <Route path="*" element={<Navigate to="/inicio" replace />} />
@@ -43,11 +51,11 @@ function PageShell() {
       <Footer setActiveTab={setActiveTab} onOpenConsultationModal={() => handleRequestConsultation()} />
 
       <a
-        href="https://wa.me/5492613464483"
+        href={CONTACT_INFO.whatsappUrl}
         target="_blank"
         rel="noopener noreferrer"
-        aria-label="Contactar por WhatsApp al +54 9 2613 46-4483"
-        title="WhatsApp +54 9 2613 46-4483"
+        aria-label={`Contactar por WhatsApp al ${CONTACT_INFO.phone}`}
+        title={`WhatsApp ${CONTACT_INFO.phone}`}
         className="fixed bottom-6 right-6 z-50 flex items-center justify-center w-14 h-14 bg-[#25D366] text-white rounded-full shadow-lg hover:bg-[#20bd5a] hover:scale-105 transition-all focus-visible:ring-2 focus-visible:ring-[#25D366] focus-visible:ring-offset-2"
       >
         <img src="/assets/icons/whatsapp.svg" alt="" className="w-8 h-8" aria-hidden="true" />

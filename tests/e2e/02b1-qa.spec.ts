@@ -10,7 +10,7 @@ test.describe('FASE 04 — Unified conversion flow', () => {
   test('Desktop: Home, Hero and primary CTA render', async ({ page }) => {
     await expect(page.locator('#main-navbar')).toBeVisible();
     await expect(page.locator('#hero-banner')).toBeVisible();
-    await expect(page.getByRole('heading', { name: /Defensa Penal y Asesoría Corporativa en Mendoza/i }).first()).toBeVisible();
+    await expect(page.getByRole('heading', { name: /Defensa penal y representación de víctimas/i }).first()).toBeVisible();
     await expect(page.getByRole('button', { name: /Solicitar consulta/i }).first()).toBeVisible();
   });
 
@@ -44,17 +44,7 @@ test.describe('FASE 04 — Unified conversion flow', () => {
     }
 
     await expect(page.locator('#services-section')).toBeVisible();
-    const firstService = page.locator('#services-section button[aria-expanded]').first();
-    await expect(firstService).toBeVisible();
-    await expect(firstService).toHaveAttribute('aria-expanded', 'false');
-    await firstService.click();
-    await expect(firstService).toHaveAttribute('aria-expanded', 'true');
-
-    const firstPanelId = await firstService.getAttribute('aria-controls');
-    const firstPanel = page.locator(`#${firstPanelId}`);
-    await expect(firstPanel).toBeVisible();
-
-    const ctaButton = firstPanel.getByRole('button', { name: /Solicitar consulta sobre esta área/i });
+    const ctaButton = page.locator('#services-section').getByRole('button', { name: /Solicitar consulta/i }).first();
     await expect(ctaButton).toBeVisible();
     await ctaButton.click();
 

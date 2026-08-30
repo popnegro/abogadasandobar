@@ -33,7 +33,7 @@ const EMAIL_REGEX =
   /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
 export const ContactSection: React.FC<ContactSectionProps> = ({
-  setActiveTab = () => {},
+  setActiveTab = () => { },
   initialPracticeArea,
 }) => {
   const [clientType, setClientType] =
@@ -319,7 +319,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({
     if (!result.ok) {
       setSubmitError(
         result.error ||
-          'No fue posible enviar la consulta. Inténtelo nuevamente.',
+        'No fue posible enviar la consulta. Inténtelo nuevamente.',
       );
 
       return;
@@ -333,7 +333,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({
     setSubmittedCode(
       `EXP-${Math.floor(
         100000 +
-          Math.random() * 900000,
+        Math.random() * 900000,
       )}`,
     );
   };
@@ -393,9 +393,9 @@ export const ContactSection: React.FC<ContactSectionProps> = ({
       ======================================================== */}
 
       <PageHero
-        title="Contacto y Evaluación de Caso"
+        title="Evaluación de Caso"
         subtitle="Utilice este canal para una evaluación técnica de su caso bajo estricto secreto profesional."
-        breadcrumbLabel="Contacto & Consulta"
+        breadcrumbLabel="Contacto"
         backgroundImage={ASSETS.deskDocs}
         setActiveTab={setActiveTab}
       />
@@ -489,28 +489,26 @@ export const ContactSection: React.FC<ContactSectionProps> = ({
                           type,
                         )
                       }
-                      className={`flex-1 cursor-pointer pb-4 text-center transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#7F203D] focus-visible:ring-offset-2 sm:pb-5 ${
-                        isActive
-                          ? 'border-b-2 border-[#7F203D]'
-                          : 'opacity-50 hover:opacity-80'
-                      }`}
+                      className={`flex-1 cursor-pointer pb-4 text-center transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#7F203D] focus-visible:ring-offset-2 sm:pb-5 ${isActive
+                        ? 'border-b-2 border-[#7F203D]'
+                        : 'opacity-50 hover:opacity-80'
+                        }`}
                     >
                       <span
-                        className={`block text-xs font-bold uppercase tracking-widest sm:text-sm ${
-                          isActive
-                            ? 'text-[#7F203D]'
-                            : 'text-[#302D28]'
-                        }`}
+                        className={`block text-xs font-bold uppercase tracking-widest sm:text-sm ${isActive
+                          ? 'text-[#7F203D]'
+                          : 'text-[#302D28]'
+                          }`}
                       >
                         {type ===
-                        'particular'
+                          'particular'
                           ? 'Particular'
                           : 'Empresa y Directivos'}
                       </span>
 
                       <span className="mt-1 block text-[10px] font-light text-[#302D28]/60 sm:text-xs">
                         {type ===
-                        'particular'
+                          'particular'
                           ? 'Defensa Penal & Asistencia Directa'
                           : 'Empresas, Directivos & Compliance'}
                       </span>
@@ -577,7 +575,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({
                         className={labelClasses}
                       >
                         {clientType ===
-                        'particular'
+                          'particular'
                           ? 'Nombre completo'
                           : 'Empresa / Razón Social'}
                       </label>
@@ -588,7 +586,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({
                         type="text"
                         autoComplete={
                           clientType ===
-                          'particular'
+                            'particular'
                             ? 'name'
                             : 'organization'
                         }
@@ -622,14 +620,13 @@ export const ContactSection: React.FC<ContactSectionProps> = ({
                             ? 'contact-full-name-error'
                             : undefined
                         }
-                        className={`${inputBaseClasses} ${
-                          errors.fullName
-                            ? 'border-red-500'
-                            : 'border-[#302D28]/25'
-                        }`}
+                        className={`${inputBaseClasses} ${errors.fullName
+                          ? 'border-red-500'
+                          : 'border-[#302D28]/25'
+                          }`}
                         placeholder={
                           clientType ===
-                          'particular'
+                            'particular'
                             ? 'Ej. Juan Pérez'
                             : 'Ej. Corporación ABC'
                         }
@@ -653,12 +650,11 @@ export const ContactSection: React.FC<ContactSectionProps> = ({
                     ============================================= */}
 
                     <div
-                      className={`grid grid-cols-1 gap-8 md:gap-12 ${
-                        clientType ===
+                      className={`grid grid-cols-1 gap-8 md:gap-12 ${clientType ===
                         'empresa'
-                          ? 'md:grid-cols-2'
-                          : ''
-                      }`}
+                        ? 'md:grid-cols-2'
+                        : ''
+                        }`}
                     >
                       <div className="space-y-2">
                         <label
@@ -708,11 +704,10 @@ export const ContactSection: React.FC<ContactSectionProps> = ({
                               ? 'contact-phone-error'
                               : undefined
                           }
-                          className={`${inputBaseClasses} ${
-                            errors.phone
-                              ? 'border-red-500'
-                              : 'border-[#302D28]/25'
-                          }`}
+                          className={`${inputBaseClasses} ${errors.phone
+                            ? 'border-red-500'
+                            : 'border-[#302D28]/25'
+                            }`}
                           placeholder="+54 9 261 512-3456"
                         />
 
@@ -731,72 +726,71 @@ export const ContactSection: React.FC<ContactSectionProps> = ({
 
                       {clientType ===
                         'empresa' && (
-                        <div className="space-y-2">
-                          <label
-                            htmlFor="contact-email"
-                            className={labelClasses}
-                          >
-                            Correo Electrónico Corporativo
-                          </label>
+                          <div className="space-y-2">
+                            <label
+                              htmlFor="contact-email"
+                              className={labelClasses}
+                            >
+                              Correo Electrónico Corporativo
+                            </label>
 
-                          <input
-                            id="contact-email"
-                            name="email"
-                            type="email"
-                            autoComplete="email"
-                            value={
-                              formData.email
-                            }
-                            onChange={(
-                              event,
-                            ) => {
-                              setFormData(
-                                (prev) => ({
-                                  ...prev,
-                                  email:
-                                    event.target
-                                      .value,
-                                }),
-                              );
+                            <input
+                              id="contact-email"
+                              name="email"
+                              type="email"
+                              autoComplete="email"
+                              value={
+                                formData.email
+                              }
+                              onChange={(
+                                event,
+                              ) => {
+                                setFormData(
+                                  (prev) => ({
+                                    ...prev,
+                                    email:
+                                      event.target
+                                        .value,
+                                  }),
+                                );
 
-                              clearFieldError(
-                                'email',
-                              );
-                            }}
-                            onBlur={() =>
-                              validateField(
-                                'email',
-                              )
-                            }
-                            aria-invalid={Boolean(
-                              errors.email,
-                            )}
-                            aria-describedby={
-                              errors.email
-                                ? 'contact-email-error'
-                                : undefined
-                            }
-                            className={`${inputBaseClasses} ${
-                              errors.email
+                                clearFieldError(
+                                  'email',
+                                );
+                              }}
+                              onBlur={() =>
+                                validateField(
+                                  'email',
+                                )
+                              }
+                              aria-invalid={Boolean(
+                                errors.email,
+                              )}
+                              aria-describedby={
+                                errors.email
+                                  ? 'contact-email-error'
+                                  : undefined
+                              }
+                              className={`${inputBaseClasses} ${errors.email
                                 ? 'border-red-500'
                                 : 'border-[#302D28]/25'
-                            }`}
-                            placeholder="nombre@empresa.com"
-                          />
+                                }`}
+                              placeholder="nombre@empresa.com"
+                            />
 
-                          {errors.email && (
-                            <p
-                              id="contact-email-error"
-                              className="pt-1 text-xs text-red-600"
-                              role="alert"
-                            >
-                              {
-                                errors.email
-                              }
-                            </p>
-                          )}
-                        </div>
-                      )}
+                            {errors.email && (
+                              <p
+                                id="contact-email-error"
+                                className="pt-1 text-xs text-red-600"
+                                role="alert"
+                              >
+                                {
+                                  errors.email
+                                }
+                              </p>
+                            )}
+                          </div>
+                        )}
                     </div>
 
                     {/* ============================================
@@ -849,11 +843,10 @@ export const ContactSection: React.FC<ContactSectionProps> = ({
                                     value,
                                   )
                                 }
-                                className={`cursor-pointer border px-3 py-3 text-xs font-bold uppercase tracking-wider transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#7F203D] focus-visible:ring-offset-2 ${
-                                  isActive
-                                    ? 'border-[#7F203D] bg-[#7F203D]/10 text-[#7F203D]'
-                                    : 'border-[#302D28]/20 text-[#302D28]/70 hover:border-[#7F203D]/50'
-                                }`}
+                                className={`cursor-pointer border px-3 py-3 text-xs font-bold uppercase tracking-wider transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#7F203D] focus-visible:ring-offset-2 ${isActive
+                                  ? 'border-[#7F203D] bg-[#7F203D]/10 text-[#7F203D]'
+                                  : 'border-[#302D28]/20 text-[#302D28]/70 hover:border-[#7F203D]/50'
+                                  }`}
                               >
                                 {label}
                               </button>
@@ -909,11 +902,10 @@ export const ContactSection: React.FC<ContactSectionProps> = ({
                             ? 'contact-message-error'
                             : undefined
                         }
-                        className={`${inputBaseClasses} resize-none leading-relaxed ${
-                          errors.message
-                            ? 'border-red-500'
-                            : 'border-[#302D28]/25'
-                        }`}
+                        className={`${inputBaseClasses} resize-none leading-relaxed ${errors.message
+                          ? 'border-red-500'
+                          : 'border-[#302D28]/25'
+                          }`}
                         placeholder="Describa brevemente los hechos o la situación procesal..."
                       />
 
@@ -936,33 +928,33 @@ export const ContactSection: React.FC<ContactSectionProps> = ({
 
                     {clientType ===
                       'particular' && (
-                      <div className="flex items-center gap-3.5 pt-2">
-                        <input
-                          id="urgent-checkbox"
-                          name="urgent"
-                          type="checkbox"
-                          checked={
-                            isUrgent
-                          }
-                          onChange={(event) =>
-                            setIsUrgent(
-                              event.target
-                                .checked,
-                            )
-                          }
-                          className="h-5 w-5 cursor-pointer rounded border-gray-300 text-[#7F203D] focus-visible:ring-2 focus-visible:ring-[#7F203D] focus-visible:ring-offset-2"
-                        />
+                        <div className="flex items-center gap-3.5 pt-2">
+                          <input
+                            id="urgent-checkbox"
+                            name="urgent"
+                            type="checkbox"
+                            checked={
+                              isUrgent
+                            }
+                            onChange={(event) =>
+                              setIsUrgent(
+                                event.target
+                                  .checked,
+                              )
+                            }
+                            className="h-5 w-5 cursor-pointer rounded border-gray-300 text-[#7F203D] focus-visible:ring-2 focus-visible:ring-[#7F203D] focus-visible:ring-offset-2"
+                          />
 
-                        <label
-                          htmlFor="urgent-checkbox"
-                          className="cursor-pointer select-none text-sm font-light text-[#302D28]/80"
-                        >
-                          Necesito asistencia penal urgente
-                          (citación judicial inminente o
-                          detención)
-                        </label>
-                      </div>
-                    )}
+                          <label
+                            htmlFor="urgent-checkbox"
+                            className="cursor-pointer select-none text-sm font-light text-[#302D28]/80"
+                          >
+                            Necesito asistencia penal urgente
+                            (citación judicial inminente o
+                            detención)
+                          </label>
+                        </div>
+                      )}
                   </div>
 
                   {/* ================================================
@@ -988,7 +980,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({
                       disabled={
                         isSubmitting
                       }
-                      className="inline-flex w-full cursor-pointer items-center justify-center gap-4 bg-[#302D28] px-8 py-3.5 text-xs font-bold uppercase tracking-widest text-white transition-all hover:bg-[#181614] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#302D28] focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-70 sm:w-auto"
+                      className="w-full inline-flex cursor-pointer items-center justify-center gap-4 bg-[#302D28] px-8 py-3.5 text-xs font-bold uppercase tracking-widest text-white transition-all hover:bg-[#181614] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#302D28] focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-70"
                     >
                       {isSubmitting ? (
                         <>
