@@ -72,7 +72,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenConsultationModal }) => {
 
             {/* MAPA CORREGIDO Y RESPONSIVO */}
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d534.9279330191238!2d-68.84286682563646!3d-32.89049785125825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e09006f8b7889%3A0xc443f303f20ae177!2sEdificio%20Sarmiento%20250!5e0!3m2!1ses-419!2sar!4v1788220379420!5m2!1ses-419!2sar"
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13401.204022125608!2d-68.842749!3d-32.890209!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e09ac90023991%3A0x42a4e4a060a92ef!2sAbogada%20Emilia%20Sandobar!5e0!3m2!1ses-419!2sar!4v1788299319445!5m2!1ses-419!2sar"
               className="w-full aspect-video rounded-lg shadow-sm"
               style={{ border: 0 }}
               allowFullScreen={true}
