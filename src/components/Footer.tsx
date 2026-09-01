@@ -19,8 +19,8 @@ export const Footer: React.FC<FooterProps> = ({ onOpenConsultationModal }) => {
         <div className="grid grid-cols-1 gap-10 border-b border-[#FFF8F2]/10 pb-14 md:grid-cols-2 lg:grid-cols-12 lg:gap-12">
           <div className="space-y-5 lg:col-span-4">
             <span className="block pb-1 text-xs font-bold uppercase tracking-widest text-[#DDD2C5]">Jurisdicción &amp; Cobertura</span>
-            <p className="text-sm font-light leading-relaxed text-[#F4EFE8]/75" itemProp="description">Estudio jurídico especializado en Derecho Penal Económico, Litigación de Alta Complejidad y Programas de Integridad Corporativa en la Provincia de Mendoza y Fueros Federales de Cuyo.</p>
-            <div className="space-y-2.5 border-t border-[#FFF8F2]/10 pt-3 text-sm text-[#DDD2C5]">
+            <p className="text-sm font-light leading-relaxed text-[#F4EFE8]/75" itemProp="description">Estudio jurídico especializado en Derecho Penal, Litigación de Alta Complejidad y Programas de Integridad Corporativa en la Provincia de Mendoza y Fueros Federales de Cuyo.</p>
+            <div className="space-y-2.5 text-sm text-[#DDD2C5]">
               <div className="flex items-center gap-2.5"><Scale className="h-4 w-4 shrink-0 text-[#7F203D]" aria-hidden="true" /><span className="font-semibold text-white/90">{CONTACT_INFO.matriculaProvincial}</span></div>
               <div className="flex items-start gap-2.5 text-sm text-white/70"><Shield className="mt-0.5 h-4 w-4 shrink-0 text-emerald-400/80" aria-hidden="true" /><span>{CONTACT_INFO.matriculaFederal}</span></div>
             </div>
@@ -40,12 +40,47 @@ export const Footer: React.FC<FooterProps> = ({ onOpenConsultationModal }) => {
 
           <div className="space-y-4 lg:col-span-3">
             <span className="block pb-1 text-xs font-bold uppercase tracking-widest text-[#DDD2C5]">Oficina</span>
-            <div className="flex items-start gap-3" itemProp="address" itemScope itemType="https://schema.org/PostalAddress"><MapPin className="mt-0.5 h-4 w-4 shrink-0 text-[#7F203D]" aria-hidden="true" /><div><span className="block text-sm font-medium text-white" itemProp="streetAddress">Peatonal Sarmiento 250, 2° B</span><span className="block text-sm leading-relaxed text-white/70"><span itemProp="addressLocality">Mendoza</span>, <span itemProp="addressRegion">Mendoza</span>, <span itemProp="addressCountry">Argentina</span></span></div></div>
-            <div className="flex items-center gap-3"><Phone className="h-4 w-4 shrink-0 text-[#7F203D]" aria-hidden="true" /><a href={`tel:${CONTACT_INFO.phone.replace(/\s+/g, '')}`} className={`text-sm text-[#F4EFE8]/85 transition-colors hover:text-white ${focusRing}`} itemProp="telephone">{CONTACT_INFO.phone}</a></div>
-            <div className="flex items-center gap-3"><Mail className="h-4 w-4 shrink-0 text-[#7F203D]" aria-hidden="true" /><a href={`mailto:${CONTACT_INFO.email}`} className={`text-sm text-[#F4EFE8]/85 transition-colors hover:text-white ${focusRing}`} itemProp="email">{CONTACT_INFO.email}</a></div>
-            <div className="flex items-center gap-3 text-sm text-[#F4EFE8]/70"><Clock className="h-4 w-4 shrink-0 text-[#7F203D]" aria-hidden="true" /><span>Lunes a Viernes: 08:30 - 19:30 hs</span></div>
-            <Link to={TAB_TO_PATH.contacto} onClick={handleInternalNavigation} className={`inline-flex pt-1 text-xs font-semibold uppercase tracking-wider text-[#D9A9B8] transition-colors hover:text-white ${focusRing}`}>Ver información de contacto →</Link>
+
+            <div className="flex items-start gap-3" itemProp="address" itemScope itemType="https://schema.org">
+              <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-[#7F203D]" aria-hidden="true" />
+              <div>
+                <span className="block text-sm font-medium text-white" itemProp="streetAddress">Peatonal Sarmiento 250, 2° B</span>
+                <span className="block text-sm leading-relaxed text-white/70">
+                  <span itemProp="addressLocality">Mendoza</span>, <span itemProp="addressRegion">Mendoza</span>, <span itemProp="addressCountry">Argentina</span>
+                </span>
+              </div>
+            </div>
+
+            <div className="flex items-center gap-3">
+              <Phone className="h-4 w-4 shrink-0 text-[#7F203D]" aria-hidden="true" />
+              <a href={`tel:${CONTACT_INFO.phone.replace(/\s+/g, '')}`} className={`text-sm text-[#F4EFE8]/85 transition-colors hover:text-white ${focusRing}`} itemProp="telephone">
+                {CONTACT_INFO.phone}
+              </a>
+            </div>
+
+            <div className="flex items-center gap-3">
+              <Mail className="h-4 w-4 shrink-0 text-[#7F203D]" aria-hidden="true" />
+              <a href={`mailto:${CONTACT_INFO.email}`} className={`text-sm text-[#F4EFE8]/85 transition-colors hover:text-white ${focusRing}`} itemProp="email">
+                {CONTACT_INFO.email}
+              </a>
+            </div>
+
+            <div className="flex items-center pb-3 gap-3 text-sm text-[#F4EFE8]/70">
+              <Clock className="h-4 w-4 shrink-0 text-[#7F203D]" aria-hidden="true" />
+              <span>Lunes a Viernes: 08:30 - 19:30 hs</span>
+            </div>
+
+            {/* MAPA CORREGIDO Y RESPONSIVO */}
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d534.9279330191238!2d-68.84286682563646!3d-32.89049785125825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e09006f8b7889%3A0xc443f303f20ae177!2sEdificio%20Sarmiento%20250!5e0!3m2!1ses-419!2sar!4v1788220379420!5m2!1ses-419!2sar"
+              className="w-full aspect-video rounded-lg shadow-sm"
+              style={{ border: 0 }}
+              allowFullScreen={true}
+              loading="lazy"
+              referrerPolicy="strict-origin-when-cross-origin"
+            ></iframe>
           </div>
+
         </div>
         <div className="flex flex-col items-center justify-between gap-6 pt-10 text-xs text-[#F4EFE8]/70 md:flex-row">
           <div className="order-1 text-center text-xs md:order-2 md:text-left"><span>© {new Date().getFullYear()} Todos los derechos reservados.</span></div>
