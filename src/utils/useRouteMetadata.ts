@@ -88,11 +88,14 @@ export function useRouteMetadata() {
     upsertMeta('property', 'og:url', canonicalUrl);
     upsertMeta('property', 'og:image', DEFAULT_IMAGE);
     upsertMeta('property', 'og:image:alt', 'Dra. Emilia Sandobar — Abogada en Mendoza');
+    upsertMeta('property', 'og:image:type', 'image/webp');
 
     upsertMeta('name', 'twitter:card', 'summary_large_image');
     upsertMeta('name', 'twitter:title', metadata.title);
     upsertMeta('name', 'twitter:description', metadata.description);
     upsertMeta('name', 'twitter:image', DEFAULT_IMAGE);
+    upsertMeta('name', 'twitter:image:alt', 'Dra. Emilia Sandobar — Abogada en Mendoza');
+    upsertMeta('name', 'twitter:url', canonicalUrl);
 
     upsertCanonical(canonicalUrl);
   }, [pathname]);
