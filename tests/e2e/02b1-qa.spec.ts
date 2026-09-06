@@ -1,6 +1,7 @@
 import { test, expect } from '@playwright/test';
 
 const heroImageHost = 'assets/images/hero';
+const primaryCtaName = /Guardia Legal 24 hs\.?/i;
 
 test.describe('FASE 04 — Unified conversion flow', () => {
   test.beforeEach(async ({ page }) => {
@@ -11,7 +12,7 @@ test.describe('FASE 04 — Unified conversion flow', () => {
     await expect(page.locator('#main-navbar')).toBeVisible();
     await expect(page.locator('#hero-banner')).toBeVisible();
     await expect(page.getByRole('heading', { name: /Defensa penal y representación de víctimas/i }).first()).toBeVisible();
-    await expect(page.getByRole('button', { name: /Solicitar consulta/i }).first()).toBeVisible();
+    await expect(page.getByRole('button', { name: primaryCtaName }).first()).toBeVisible();
   });
 
   test('Hero asset remains external and stable', async ({ page }) => {
@@ -20,14 +21,14 @@ test.describe('FASE 04 — Unified conversion flow', () => {
   });
 
   test('Primary CTA navigates to the unified contact flow without a consultation modal', async ({ page }) => {
-    await page.getByRole('button', { name: /Solicitar consulta/i }).first().click();
+    await page.getByRole('button', { name: primaryCtaName }).first().click();
     await expect(page.locator('#contact-section')).toBeVisible();
     await expect(page.locator('#contact-full-name')).toBeVisible();
     await expect(page.locator('#consultation-modal-overlay')).toHaveCount(0);
   });
 
   test('Contact form exposes consultation mode and validation', async ({ page }) => {
-    await page.getByRole('button', { name: /Solicitar consulta/i }).first().click();
+    await page.getByRole('button', { name: primaryCtaName }).first().click();
     await page.locator('form button[type="submit"]').click();
     await expect(page.getByText(/Por favor ingrese su nombre completo/i)).toBeVisible();
     await expect(page.getByRole('button', { name: /Videollamada/i })).toHaveAttribute('aria-pressed', 'false');
