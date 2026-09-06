@@ -25,10 +25,10 @@ const ROUTE_METADATA: Record<string, RouteMetadata> = {
     description:
       'Servicios de abogacía en Mendoza: defensa penal, litigación compleja y asesoramiento corporativo para personas y organizaciones.',
   },
-  '/experiencia': {
-    title: 'Experiencia Profesional | Dra. Emilia Sandobar',
+  '/abogada-penalista-mendoza': {
+    title: 'Abogada Penalista en Mendoza | Dra. Emilia Sandobar',
     description:
-      'Experiencia profesional de la Dra. Emilia Sandobar en abogacía, litigación penal y asesoramiento jurídico.',
+      'Experiencia profesional de la Dra. Emilia Sandobar como abogada penalista en Mendoza, con trayectoria en litigación penal y asesoramiento jurídico.',
   },
   '/nuestro-metodo': {
     title: 'Método de Trabajo | Dra. Emilia Sandobar',
