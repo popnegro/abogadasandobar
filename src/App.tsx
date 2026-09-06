@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { BrowserRouter, useLocation, useNavigate, Navigate, Routes, Route } from 'react-router-dom';
 import { ActiveTab, PATH_TO_TAB, TAB_TO_PATH } from './types';
 import { Navbar } from './components/Navbar';
@@ -11,14 +11,81 @@ import { ContactSection } from './components/ContactSection';
 import { Footer } from './components/Footer';
 import { CONTACT_INFO } from './data/contactData';
 import { useRouteMetadata } from './utils/useRouteMetadata';
+import { trackEvent } from './lib/analytics';
 import './data/legalContentLocalization';
 
 function PageShell() {
   const location = useLocation();
   const navigate = useNavigate();
   const [contactPracticeArea, setContactPracticeArea] = useState<string | undefined>(undefined);
+  const [contactFormStarted, setContactFormStarted] = useState(false);
 
   useRouteMetadata();
+
+  useEffect(() => {
+    setContactFormStarted(false);
+  }, [location.pathname]);
+
+  useEffect(() => {
+    const handleClick = (event: MouseEvent) => {
+      const target = event.target as HTMLElement | null;
+      const link = target?.closest('a');
+
+      if (!link) return;
+
+      const href = link.getAttribute('href') || '';
+      const text = link.textContent?.trim().toLowerCase() || '';
+
+      if (href.startsWith('https://wa.me/') || href.includes('whatsapp')) {
+        trackEvent('whatsapp_click', { location: location.pathname });
+        return;
+      }
+
+      if (href.startsWith('tel:')) {
+        trackEvent('phone_click', { location: location.pathname });
+        return;
+      }
+
+      if (href.startsWith('mailto:')) {
+        trackEvent('email_click', { location: location.pathname });
+        return;
+      }
+
+      if (href === TAB_TO_PATH.contacto || href.startsWith(`${TAB_TO_PATH.contacto}?`)) {
+        trackEvent('service_cta_click', {
+          location: location.pathname,
+          label: text.slice(0, 80),
+        });
+      }
+    };
+
+    const handleFocusIn = (event: FocusEvent) => {
+      if (location.pathname !== TAB_TO_PATH.contacto || contactFormStarted) return;
+
+      const target = event.target as HTMLElement | null;
+      if (!target?.closest('form')) return;
+
+      setContactFormStarted(true);
+      trackEvent('contact_form_start', { location: location.pathname });
+    };
+
+    const handleSubmit = (event: SubmitEvent) => {
+      const target = event.target as HTMLFormElement | null;
+      if (!target?.closest('#contact-form-content')) return;
+
+      trackEvent('contact_form_submit', { location: location.pathname });
+    };
+
+    document.addEventListener('click', handleClick);
+    document.addEventListener('focusin', handleFocusIn);
+    document.addEventListener('submit', handleSubmit);
+
+    return () => {
+      document.removeEventListener('click', handleClick);
+      document.removeEventListener('focusin', handleFocusIn);
+      document.removeEventListener('submit', handleSubmit);
+    };
+  }, [contactFormStarted, location.pathname]);
 
   const activeTab: ActiveTab = PATH_TO_TAB[location.pathname] ?? 'home';
 
