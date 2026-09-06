@@ -71,8 +71,8 @@ export function useRouteMetadata() {
   const { pathname } = useLocation();
 
   useEffect(() => {
-    const metadata = ROUTE_METADATA[pathname] ?? ROUTE_METADATA['/inicio'];
-    const canonicalPath = pathname === '/' ? '/inicio' : pathname;
+    const metadata = ROUTE_METADATA[pathname] ?? ROUTE_METADATA['/'];
+    const canonicalPath = pathname === '/inicio' ? '/' : pathname;
     const canonicalUrl = `${SITE_URL}${canonicalPath}`;
 
     document.title = metadata.title;
