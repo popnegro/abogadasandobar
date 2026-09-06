@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 
 const SITE_URL = 'https://www.abogadasandobar.com.ar';
-const DEFAULT_IMAGE = `${SITE_URL}/assets/images/hero/hero-office.webp`;
+const DEFAULT_IMAGE = `${SITE_URL}/assets/images/hero/hero-home.webp`;
 
 interface RouteMetadata {
   title: string;

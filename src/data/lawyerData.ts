@@ -41,7 +41,7 @@ export const ASSETS = {
   // HERO
   // ==========================================================
 
-  heroOffice: '/assets/images/hero/hero-office.webp',
+  heroOffice: '/assets/images/hero/hero-home.webp',
 
   heroServices: '/assets/images/hero/hero-services.webp',
 
