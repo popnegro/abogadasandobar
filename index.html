@@ -36,59 +36,138 @@
   <link rel="icon" type="image/svg+xml" href="/assets/brand/logo-monogram.svg" />
 
   <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@graph": [
-          {
-            "@type": "WebSite",
-            "@id": "https://www.abogadasandobar.com.ar/#website",
-            "url": "https://www.abogadasandobar.com.ar/",
-            "name": "Dra. Emilia Sandobar",
-            "inLanguage": "es-AR"
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "@id": "https://www.abogadasandobar.com.ar/#website",
+          "url": "https://www.abogadasandobar.com.ar/",
+          "name": "Dra. Emilia Sandobar",
+          "description": "Sitio web profesional de la Dra. Emilia Sandobar, abogada en Mendoza.",
+          "inLanguage": "es-AR",
+          "publisher": {
+            "@id": "https://www.abogadasandobar.com.ar/#person"
+          }
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://www.abogadasandobar.com.ar/#webpage",
+          "url": "https://www.abogadasandobar.com.ar/",
+          "name": "Dra. Emilia Sandobar | Abogada en Mendoza",
+          "description": "Dra. Emilia Sandobar, abogada en Mendoza. Asesoramiento y representación jurídica para particulares, empresas y directivos.",
+          "inLanguage": "es-AR",
+          "isPartOf": {
+            "@id": "https://www.abogadasandobar.com.ar/#website"
           },
-          {
-            "@type": "Person",
-            "@id": "https://www.abogadasandobar.com.ar/#person",
-            "name": "Emilia Sandobar",
-            "jobTitle": "Abogada",
-            "image": "https://www.abogadasandobar.com.ar/assets/images/portraits/emilia-sandobar.webp"
+          "about": {
+            "@id": "https://www.abogadasandobar.com.ar/#legal-service"
           },
-          {
-            "@type": "LegalService",
-            "@id": "https://www.abogadasandobar.com.ar/#legal-service",
-            "name": "Dra. Emilia Sandobar",
-            "url": "https://www.abogadasandobar.com.ar/",
-            "image": "https://www.abogadasandobar.com.ar/assets/images/hero/hero-office.webp",
-            "description": "Asesoramiento y representación jurídica para particulares, empresas y directivos, con atención profesional y confidencial.",
-            "areaServed": {
-              "@type": "City",
+          "breadcrumb": {
+            "@id": "https://www.abogadasandobar.com.ar/#breadcrumb"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://www.abogadasandobar.com.ar/#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Inicio",
+              "item": "https://www.abogadasandobar.com.ar/"
+            }
+          ]
+        },
+        {
+          "@type": "Person",
+          "@id": "https://www.abogadasandobar.com.ar/#person",
+          "name": "Emilia Sandobar",
+          "jobTitle": "Abogada",
+          "url": "https://www.abogadasandobar.com.ar/abogada-penalista-mendoza",
+          "image": "https://www.abogadasandobar.com.ar/assets/images/portraits/emilia-sandobar.webp",
+          "worksFor": {
+            "@id": "https://www.abogadasandobar.com.ar/#legal-service"
+          },
+          "knowsAbout": [
+            "Derecho Penal",
+            "Litigación penal",
+            "Asesoramiento corporativo",
+            "Reclamos indemnizatorios"
+          ]
+        },
+        {
+          "@type": "LegalService",
+          "@id": "https://www.abogadasandobar.com.ar/#legal-service",
+          "name": "Dra. Emilia Sandobar",
+          "url": "https://www.abogadasandobar.com.ar/",
+          "image": "https://www.abogadasandobar.com.ar/assets/images/hero/hero-office.webp",
+          "logo": "https://www.abogadasandobar.com.ar/assets/brand/logo-brandmark.svg",
+          "description": "Asesoramiento y representación jurídica para particulares, empresas y directivos, con atención profesional y confidencial.",
+          "areaServed": {
+            "@type": "City",
+            "name": "Mendoza",
+            "containedInPlace": {
+              "@type": "AdministrativeArea",
               "name": "Mendoza",
               "containedInPlace": {
                 "@type": "Country",
                 "name": "Argentina"
               }
-            },
-            "address": {
-              "@type": "PostalAddress",
-              "streetAddress": "Peatonal Sarmiento 250, 2do piso oficina B",
-              "addressLocality": "Mendoza",
-              "addressCountry": "AR"
-            },
-            "email": "info@abogadasandobar.com.ar",
-            "telephone": "+54 9 261 346-4483",
-            "provider": {
-              "@id": "https://www.abogadasandobar.com.ar/#person"
-            },
-            "serviceType": [
-              "Derecho Penal",
-              "Soluciones legales a empresas",
-              "Representación penal y seguros",
-              "Reclamos indemnizatorios"
+            }
+          },
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Peatonal Sarmiento 250, 2do piso oficina B",
+            "addressLocality": "Mendoza",
+            "addressRegion": "Mendoza",
+            "postalCode": "M5500",
+            "addressCountry": "AR"
+          },
+          "email": "info@abogadasandobar.com.ar",
+          "telephone": "+54 9 261 346-4483",
+          "priceRange": "$$",
+          "provider": {
+            "@id": "https://www.abogadasandobar.com.ar/#person"
+          },
+          "serviceType": [
+            "Derecho Penal",
+            "Litigación penal",
+            "Asesoramiento corporativo",
+            "Representación penal y seguros",
+            "Reclamos indemnizatorios"
+          ],
+          "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Servicios jurídicos",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Defensa penal y litigación"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Asesoramiento corporativo"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Reclamos indemnizatorios"
+                }
+              }
             ]
           }
-        ]
-      }
-    </script>
+        }
+      ]
+    }
+  </script>
 
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-E1VQWLYM77"></script>
