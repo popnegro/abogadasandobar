@@ -38,15 +38,15 @@ function PageShell() {
       <Navbar activeTab={activeTab} setActiveTab={setActiveTab} onRequestConsultation={() => handleRequestConsultation()} />
       <main className="flex-grow w-full">
         <Routes>
-          <Route path="/" element={<Navigate to="/inicio" replace />} />
-          <Route path="/inicio" element={<HomeSection setActiveTab={setActiveTab} onRequestConsultation={() => handleRequestConsultation()} />} />
+          <Route path="/" element={<HomeSection setActiveTab={setActiveTab} onRequestConsultation={() => handleRequestConsultation()} />} />
+          <Route path="/inicio" element={<Navigate to="/" replace />} />
           <Route path="/servicios-abogacia-mendoza" element={<ServicesSection setActiveTab={setActiveTab} onRequestConsultation={(area) => handleRequestConsultation(area)} />} />
           <Route path="/abogada-penalista-mendoza" element={<ExperienceSection setActiveTab={setActiveTab} onOpenConsultationModal={() => handleRequestConsultation()} />} />
           <Route path="/experiencia" element={<Navigate to="/abogada-penalista-mendoza" replace />} />
           <Route path="/nuestro-metodo" element={<MethodSection setActiveTab={setActiveTab} onOpenConsultationModal={() => handleRequestConsultation()} />} />
           <Route path="/preguntas-frecuentes" element={<FAQSection setActiveTab={setActiveTab} onOpenConsultationModal={() => handleRequestConsultation()} />} />
           <Route path="/contacto" element={<ContactSection setActiveTab={setActiveTab} initialPracticeArea={contactPracticeArea} />} />
-          <Route path="*" element={<Navigate to="/inicio" replace />} />
+          <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </main>
       <Footer setActiveTab={setActiveTab} onOpenConsultationModal={() => handleRequestConsultation()} />
