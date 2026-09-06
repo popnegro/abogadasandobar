@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { BrowserRouter, useLocation, useNavigate, Navigate, Routes, Route } from 'react-router-dom';
 import { ActiveTab, PATH_TO_TAB, TAB_TO_PATH } from './types';
 import { Navbar } from './components/Navbar';
@@ -11,6 +11,7 @@ import { ContactSection } from './components/ContactSection';
 import { Footer } from './components/Footer';
 import { CONTACT_INFO } from './data/contactData';
 import { useRouteMetadata } from './utils/useRouteMetadata';
+import { trackEvent } from './lib/analytics';
 import './data/legalContentLocalization';
 
 function PageShell() {
@@ -19,6 +20,46 @@ function PageShell() {
   const [contactPracticeArea, setContactPracticeArea] = useState<string | undefined>(undefined);
 
   useRouteMetadata();
+
+  useEffect(() => {
+    let contactFormStarted = false;
+
+    const handleClick = (event: MouseEvent) => {
+      const target = event.target as Element | null;
+      const link = target?.closest('a');
+      if (!link) return;
+
+      const href = link.getAttribute('href') ?? '';
+      if (href.startsWith('https://wa.me/')) trackEvent('whatsapp_click');
+      if (href.startsWith('tel:')) trackEvent('phone_click');
+      if (href.startsWith('mailto:')) trackEvent('email_click');
+    };
+
+    const handleFocusIn = (event: FocusEvent) => {
+      if (location.pathname !== TAB_TO_PATH.contacto || contactFormStarted) return;
+      const target = event.target as Element | null;
+      if (target?.matches('input, textarea, select')) {
+        contactFormStarted = true;
+        trackEvent('contact_form_start');
+      }
+    };
+
+    const handleSubmit = (event: Event) => {
+      if (location.pathname !== TAB_TO_PATH.contacto) return;
+      const form = event.target as HTMLFormElement | null;
+      if (form?.tagName === 'FORM') trackEvent('contact_form_submit');
+    };
+
+    document.addEventListener('click', handleClick);
+    document.addEventListener('focusin', handleFocusIn);
+    document.addEventListener('submit', handleSubmit);
+
+    return () => {
+      document.removeEventListener('click', handleClick);
+      document.removeEventListener('focusin', handleFocusIn);
+      document.removeEventListener('submit', handleSubmit);
+    };
+  }, [location.pathname]);
 
   const activeTab: ActiveTab = PATH_TO_TAB[location.pathname] ?? 'home';
 
