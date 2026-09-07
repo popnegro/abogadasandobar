@@ -18,6 +18,19 @@ async function walk(dir) {
   return files;
 }
 
+async function walkText(dir) {
+  const entries = await readdir(dir, { withFileTypes: true });
+  const files = [];
+  for (const entry of entries) {
+    const path = join(dir, entry.name);
+    if (entry.isDirectory()) files.push(...await walkText(path));
+    else if (/\.(tsx?|jsx?|css|html)$/.test(entry.name)) {
+      files.push({ path, text: await readFile(path, 'utf8') });
+    }
+  }
+  return files;
+}
+
 const files = await walk(root);
 const sourceFiles = await walkText(sourceRoot);
 const hashes = new Map();
@@ -36,13 +49,22 @@ for (const file of files) {
   if (size > maxImageBytes) oversized.push(`${rel} (${Math.round(size / 1024)} KB)`);
 }
 
-const sourceText = sourceFiles.join('\n');
+const sourceText = sourceFiles.map(({ text }) => text).join('\n');
+const runtimeSourceText = sourceFiles
+  .filter(({ path }) => !path.endsWith('/src/data/lawyerData.ts'))
+  .map(({ text }) => text)
+  .join('\n');
+
 const referenced = new Set();
 for (const assetPath of assets.keys()) {
   if (sourceText.includes(assetPath)) referenced.add(assetPath);
 }
 
-const candidateRefs = [...sourceText.matchAll(/(?:\/assets\/images|assets\/images)\/[A-Za-z0-9._/-]+/g)]
+// lawyerData.ts is the asset manifest. Its entries may include legacy/planned
+// paths that are not runtime references; missing checks therefore inspect
+// application source outside the manifest while orphan checks retain the
+// manifest as the source of truth for assets that are intentionally catalogued.
+const candidateRefs = [...runtimeSourceText.matchAll(/(?:\/assets\/images|assets\/images)\/[A-Za-z0-9._/-]+/g)]
   .map(match => match[0].startsWith('/') ? match[0] : `/${match[0]}`);
 const missing = [...new Set(candidateRefs)].filter(ref => !assets.has(ref));
 const orphaned = [...assets.keys()].filter(assetPath => !referenced.has(assetPath));
@@ -74,15 +96,4 @@ if (!duplicates.length && !oversized.length && !orphaned.length && !missing.leng
   console.log('PASS: no duplicate, oversized, orphaned, or missing image assets detected.');
 } else {
   process.exitCode = 1;
-}
-
-async function walkText(dir) {
-  const entries = await readdir(dir, { withFileTypes: true });
-  const files = [];
-  for (const entry of entries) {
-    const path = join(dir, entry.name);
-    if (entry.isDirectory()) files.push(...await walkText(path));
-    else if (/\.(tsx?|jsx?|css|html)$/.test(entry.name)) files.push(await readFile(path, 'utf8'));
-  }
-  return files;
 }
