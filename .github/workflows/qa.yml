@@ -33,6 +33,9 @@ jobs:
       - name: Asset audit
         run: npm run audit:assets
 
+      - name: SEO smoke audit
+        run: npm run audit:seo
+
       - name: Typecheck
         run: npm run typecheck
 
