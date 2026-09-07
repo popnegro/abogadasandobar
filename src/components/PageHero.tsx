@@ -23,7 +23,8 @@ export const PageHero: React.FC<PageHeroProps> = ({
 }) => {
   const derivedAccentMatch = titleAccent
     ? null
-    : title.match(/^(.*?)(?:\s+&\s+|\s+y\s+)([^&]+)$/i);
+    : title.match(/^(.*?)(?:\s+&\s+|\s+y\s+)([^&]+)$/i) ||
+      title.match(/^(.*)\s+([^\s]+)$/);
 
   const baseTitle = titleAccent
     ? title
@@ -36,21 +37,21 @@ export const PageHero: React.FC<PageHeroProps> = ({
   return (
     <section
       aria-labelledby="page-hero-title"
-      className="relative flex min-h-[480px] w-full items-center overflow-hidden bg-[#302D28] pt-28 pb-16 sm:min-h-[500px] lg:min-h-[540px] lg:pt-32 lg:pb-20"
+      className="relative flex min-h-[480px] w-full items-center overflow-hidden bg-[#181614] pt-28 pb-16 sm:min-h-[500px] lg:min-h-[540px] lg:pt-32 lg:pb-20"
     >
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat transition-transform duration-1000"
-        style={{ backgroundImage: `url("${backgroundImage}")` }}
+        style={{ backgroundImage: `url(\"${backgroundImage}\")` }}
         aria-hidden="true"
       />
 
       <div
-        className="absolute inset-0 bg-gradient-to-br from-[#302D28]/80 via-[#302D28]/70 to-[#302D28]/60"
+        className="absolute inset-0 bg-gradient-to-br from-[#181614]/95 via-[#231F1C]/90 to-[#2A2522]/75"
         aria-hidden="true"
       />
 
       <div className="relative z-10 mx-auto flex w-full max-w-7xl flex-col justify-center px-4 sm:px-6 lg:px-8">
-        <div className="mb-8">
+        <div className="mb-8 lg:mb-10">
           <Breadcrumb
             items={[{ label: breadcrumbLabel, active: true }]}
             onNavigate={setActiveTab}
