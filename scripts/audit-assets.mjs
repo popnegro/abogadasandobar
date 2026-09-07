@@ -28,7 +28,7 @@ for (const file of files) {
   const data = await readFile(file);
   const size = (await stat(file)).size;
   const rel = relative(process.cwd(), file).replaceAll('\\', '/');
-  const assetPath = `/${relative(root, file).replaceAll('\\', '/')}`;
+  const assetPath = `/assets/${relative(root, file).replaceAll('\\', '/')}`;
   const hash = createHash('sha256').update(data).digest('hex');
   assets.set(assetPath, rel);
   if (!hashes.has(hash)) hashes.set(hash, []);
@@ -39,8 +39,7 @@ for (const file of files) {
 const sourceText = sourceFiles.join('\n');
 const referenced = new Set();
 for (const assetPath of assets.keys()) {
-  const escaped = assetPath.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-  if (new RegExp(escaped).test(sourceText)) referenced.add(assetPath);
+  if (sourceText.includes(assetPath)) referenced.add(assetPath);
 }
 
 const candidateRefs = [...sourceText.matchAll(/(?:\/assets\/images|assets\/images)\/[A-Za-z0-9._/-]+/g)]
