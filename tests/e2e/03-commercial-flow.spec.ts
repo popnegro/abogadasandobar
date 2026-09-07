@@ -18,7 +18,8 @@ test.describe('P2.4 — Commercial conversion flow', () => {
     }
   });
 
-  test('Navbar consultation CTA reaches the contact funnel', async ({ page }) => {
+  test('Navbar consultation CTA reaches the contact funnel', async ({ page, isMobile }) => {
+    test.skip(isMobile, 'Desktop navbar CTA; mobile consultation CTA is covered separately');
     await page.goto('/', { waitUntil: 'domcontentloaded' });
     await page.locator('#cta-consultation-btn').click();
     await expect(page).toHaveURL(/\/contacto$/);
@@ -45,7 +46,7 @@ test.describe('P2.4 — Commercial conversion flow', () => {
     await expect(page.locator('#contact-success-state')).toHaveCount(0);
   });
 
-  test('Business consultation mode requires the business email', async ({ page }) => {
+  test('Business consultation mode requires the business email', async ({ page }) =>
     await page.goto('/contacto', { waitUntil: 'domcontentloaded' });
     await page.getByRole('tab', { name: /Empresa y Directivos/i }).click();
     await page.locator('form button[type="submit"]').click();
