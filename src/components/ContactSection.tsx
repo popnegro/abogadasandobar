@@ -396,7 +396,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({
         title="Evaluación de Caso"
         subtitle="Utilice este canal para una evaluación técnica de su caso bajo estricto secreto profesional."
         breadcrumbLabel="Contacto"
-        backgroundImage={ASSETS.deskDocs}
+        backgroundImage={ASSETS.heroContact}
         setActiveTab={setActiveTab}
       />
 
