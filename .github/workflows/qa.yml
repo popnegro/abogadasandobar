@@ -30,6 +30,9 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Asset audit
+        run: npm run audit:assets
+
       - name: Typecheck
         run: npm run typecheck
 
