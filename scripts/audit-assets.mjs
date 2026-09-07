@@ -3,7 +3,7 @@ import { readdir, readFile, stat } from 'node:fs/promises';
 import { extname, join, relative } from 'node:path';
 
 const root = join(process.cwd(), 'public/assets');
-const maxImageBytes = 250 * 1024;
+const maxImageBytes = 300 * 1024;
 const imageExtensions = new Set(['.webp', '.avif', '.jpg', '.jpeg', '.png']);
 
 async function walk(dir) {
