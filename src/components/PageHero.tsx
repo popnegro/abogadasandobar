@@ -39,10 +39,14 @@ export const PageHero: React.FC<PageHeroProps> = ({
       aria-labelledby="page-hero-title"
       className="relative flex min-h-[480px] w-full items-center overflow-hidden bg-[#181614] pt-28 pb-16 sm:min-h-[500px] lg:min-h-[540px] lg:pt-32 lg:pb-20"
     >
-      <div
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat transition-transform duration-1000"
-        style={{ backgroundImage: `url(\"${backgroundImage}\")` }}
+      <img
+        src={backgroundImage}
+        alt=""
         aria-hidden="true"
+        loading="eager"
+        fetchPriority="high"
+        decoding="async"
+        className="absolute inset-0 h-full w-full object-cover object-center transition-transform duration-1000"
       />
 
       <div
