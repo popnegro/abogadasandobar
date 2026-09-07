@@ -13,7 +13,7 @@ test.describe('P2.4 — Commercial conversion flow', () => {
   test('All canonical routes render without redirecting away', async ({ page }) => {
     for (const route of canonicalRoutes) {
       await page.goto(route, { waitUntil: 'domcontentloaded' });
-      await expect(page).toHaveURL(new RegExp(`${route.replace('/', '\\/')}$`));
+      await expect(page).toHaveURL(route === '/' ? /\/$/ : new RegExp(`${route}$`));
       await expect(page.locator('main').first()).toBeVisible();
     }
   });
@@ -54,14 +54,16 @@ test.describe('P2.4 — Commercial conversion flow', () => {
 
   test('Contact consultation modes are mutually selectable', async ({ page }) => {
     await page.goto('/contacto', { waitUntil: 'domcontentloaded' });
-    const phone = page.getByRole('button', { name: /Llamada telefónica|Telefónica/i }).first();
+    const modes = page.locator('button[aria-pressed]');
+    await expect(modes).toHaveCount(3);
     const video = page.getByRole('button', { name: /Videollamada/i }).first();
-    await expect(phone).toBeVisible();
+    const otherMode = modes.filter({ hasNotText: /Videollamada/i }).first();
     await expect(video).toBeVisible();
+    await expect(otherMode).toBeVisible();
     await video.click();
     await expect(video).toHaveAttribute('aria-pressed', 'true');
-    await phone.click();
-    await expect(phone).toHaveAttribute('aria-pressed', 'true');
+    await otherMode.click();
+    await expect(otherMode).toHaveAttribute('aria-pressed', 'true');
     await expect(video).toHaveAttribute('aria-pressed', 'false');
   });
 
