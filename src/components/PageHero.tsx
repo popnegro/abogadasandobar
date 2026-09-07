@@ -23,7 +23,8 @@ export const PageHero: React.FC<PageHeroProps> = ({
 }) => {
   const derivedAccentMatch = titleAccent
     ? null
-    : title.match(/^(.*?)(?:\s+&\s+|\s+y\s+|\s+)([^&]+)$/i);
+    : title.match(/^(.*?)(?:\s+&\s+|\s+y\s+)([^&]+)$/i) ||
+      title.match(/^(.*)\s+([^\s]+)$/);
 
   const baseTitle = titleAccent
     ? title
