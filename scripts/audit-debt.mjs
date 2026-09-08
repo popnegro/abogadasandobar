@@ -1,4 +1,4 @@
-import { existsSync, readdirSync, readFileSync, statSync } from 'node:fs';
+import { existsSync, readdirSync, readFileSync } from 'node:fs';
 import { join, relative } from 'node:path';
 
 const root = process.cwd();
@@ -22,7 +22,7 @@ function walk(dir) {
 walk(root);
 
 const searchable = textFiles
-  .filter((file) => !file.includes(`${join(root, 'public')}${join('', 'assets')}`))
+  .filter((file) => !file.startsWith(join(root, 'public', 'assets')))
   .map((file) => readFileSync(file, 'utf8'))
   .join('\n');
 
@@ -32,7 +32,7 @@ const deps = {
 };
 
 const unusedDependencies = Object.keys(deps).filter((name) => {
-  const escaped = name.replace(/[.*+?^${}()|[\\]\\]/g, '\\$&');
+  const escaped = name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
   const patterns = [
     new RegExp(`from\\s+[\\\"']${escaped}(?:/[^\\\"']*)?[\\\"']`),
     new RegExp(`import\\s*\\(\\s*[\\\"']${escaped}(?:/[^\\\"']*)?[\\\"']`),
@@ -55,12 +55,11 @@ for (const file of textFiles) {
 
 const legacyRootScripts = [];
 for (const entry of readdirSync(root, { withFileTypes: true })) {
-  if (!entry.isFile()) continue;
-  if (!/\.(js|mjs|cjs)$/i.test(entry.name)) continue;
-  if (entry.name === 'vite.config.js' || entry.name === 'vite.config.mjs') continue;
+  if (!entry.isFile() || !/\.(js|mjs|cjs)$/i.test(entry.name)) continue;
   const full = join(root, entry.name);
   const content = readFileSync(full, 'utf8');
-  if (!searchable.includes(content)) legacyRootScripts.push(entry.name);
+  const referencedByConfig = searchable.includes(entry.name);
+  if (!referencedByConfig && content.length > 0) legacyRootScripts.push(entry.name);
 }
 
 const sourceCandidates = [];
@@ -75,13 +74,12 @@ if (existsSync(srcDir)) {
     }
   }
   collect(srcDir);
-  const sourceText = searchable;
   for (const file of sourceFiles) {
     const rel = relative(root, file).replaceAll('\\', '/');
     const base = rel.replace(/\.(ts|tsx|js|jsx|mjs|cjs)$/i, '');
     if (base.endsWith('/main') || base.endsWith('/App')) continue;
     const name = base.split('/').pop();
-    const referenced = sourceText.includes(`./${name}`) || sourceText.includes(`/${name}`) || sourceText.includes(`'${rel}'`) || sourceText.includes(`\"${rel}\"`);
+    const referenced = searchable.includes(`./${name}`) || searchable.includes(`/${name}`) || searchable.includes(`'${rel}'`) || searchable.includes(`\"${rel}\"`);
     if (!referenced) sourceCandidates.push(rel);
   }
 }
