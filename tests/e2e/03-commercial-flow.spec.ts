@@ -1,18 +1,37 @@
 import { test, expect } from '@playwright/test';
 
-test.describe('Commercial conversion flow', () => {
-  test('Primary consultation CTA reaches contact funnel', async ({ page }) => {
+const canonicalRoutes = [
+  '/',
+  '/servicios-abogacia-mendoza',
+  '/abogada-penalista-mendoza',
+  '/nuestro-metodo',
+  '/preguntas-frecuentes',
+  '/contacto',
+] as const;
+
+test.describe('P2.4 — Commercial conversion flow', () => {
+  test('All canonical routes render without redirecting away', async ({ page }) => {
+    for (const route of canonicalRoutes) {
+      await page.goto(route, { waitUntil: 'domcontentloaded' });
+      await expect(page).toHaveURL(route === '/' ? /\/$/ : new RegExp(`${route}$`));
+      await expect(page.locator('main').first()).toBeVisible();
+    }
+  });
+
+  test('Navbar consultation CTA reaches the contact funnel', async ({ page, isMobile }) => {
+    test.skip(isMobile, 'Desktop navbar CTA; mobile consultation CTA is covered separately');
     await page.goto('/', { waitUntil: 'domcontentloaded' });
     await page.locator('#cta-consultation-btn').click();
     await expect(page).toHaveURL(/\/contacto$/);
     await expect(page.locator('#contact-section')).toBeVisible();
+    await expect(page.locator('#contact-full-name')).toBeVisible();
   });
 
-  test('Service consultation CTA carries the selected practice area', async ({ page }) => {
+  test('Services CTA carries the selected practice area into contact', async ({ page }) => {
     await page.goto('/servicios-abogacia-mendoza', { waitUntil: 'domcontentloaded' });
-    await page.getByRole('button', { name: /Defensa penal/i }).first().click();
-    await expect(page.locator('[data-testid="service-expanded-panel"]')).toBeVisible();
-    await page.getByRole('link', { name: /Solicitar consulta/i }).click();
+    const cta = page.locator('#services-section').getByRole('button', { name: /Solicitar consulta/i }).first();
+    await expect(cta).toBeVisible();
+    await cta.click();
     await expect(page).toHaveURL(/\/contacto$/);
     await expect(page.locator('#selected-practice-area')).toBeVisible();
     await expect(page.locator('input[name="practiceArea"]')).toHaveValue(/.+/);
