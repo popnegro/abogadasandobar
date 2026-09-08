@@ -30,6 +30,9 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Dependency and debt audit
+        run: npm run audit:debt
+
       - name: Asset audit
         run: npm run audit:assets
 
