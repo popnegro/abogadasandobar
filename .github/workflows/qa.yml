@@ -27,31 +27,89 @@ jobs:
           node-version: 22
           cache: npm
 
+      - name: Prepare QA evidence
+        id: prepare
+        run: mkdir -p qa-evidence
+
       - name: Install dependencies
-        run: npm ci
+        id: install
+        run: npm ci 2>&1 | tee qa-evidence/install.log
 
       - name: Dependency and debt audit
-        run: npm run audit:debt
+        id: debt
+        run: npm run audit:debt 2>&1 | tee qa-evidence/debt.log
 
       - name: Asset audit
-        run: npm run audit:assets
+        id: assets
+        run: npm run audit:assets 2>&1 | tee qa-evidence/assets.log
 
       - name: SEO smoke audit
-        run: npm run audit:seo
+        id: seo
+        run: npm run audit:seo 2>&1 | tee qa-evidence/seo.log
 
       - name: Typecheck
-        run: npm run typecheck
+        id: typecheck
+        run: npm run typecheck 2>&1 | tee qa-evidence/typecheck.log
 
       - name: Production build
-        run: npm run build
+        id: build
+        run: npm run build 2>&1 | tee qa-evidence/build.log
 
       - name: Install Playwright Chromium
-        run: npx playwright install --with-deps chromium
+        id: playwright_install
+        run: npx playwright install --with-deps chromium 2>&1 | tee qa-evidence/playwright-install.log
 
       - name: Runtime QA
-        run: npm run test:e2e
+        id: e2e
+        run: npm run test:e2e 2>&1 | tee qa-evidence/e2e.log
         env:
           BASE_URL: http://127.0.0.1:4173
+
+      - name: Generate QA evidence report
+        if: always()
+        id: report
+        shell: bash
+        run: |
+          cat > qa-evidence/qa-report.md <<EOF
+          # Automated QA Report
+
+          - Repository: popnegro/abogadasandobar
+          - Commit: $GITHUB_SHA
+          - Ref: $GITHUB_REF
+          - Overall job status: ${{ job.status }}
+          - Generated: $(date -u '+%Y-%m-%dT%H:%M:%SZ')
+
+          ## Validation matrix
+
+          | Check | Result |
+          |---|---|
+          | Install dependencies | ${{ steps.install.outcome }} |
+          | Dependency/debt audit | ${{ steps.debt.outcome }} |
+          | Asset/performance audit | ${{ steps.assets.outcome }} |
+          | SEO audit | ${{ steps.seo.outcome }} |
+          | Typecheck | ${{ steps.typecheck.outcome }} |
+          | Production build | ${{ steps.build.outcome }} |
+          | Playwright Chromium | ${{ steps.playwright_install.outcome }} |
+          | E2E/runtime QA | ${{ steps.e2e.outcome }} |
+
+          ## Evidence
+
+          Detailed command output is stored in the accompanying \`qa-evidence\` artifact. The existing Playwright report is uploaded separately.
+
+          ## Gate
+
+          A failed validation keeps this job failed. Merge remains manual; this workflow does not merge pull requests.
+          EOF
+
+          cat qa-evidence/qa-report.md >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Upload QA evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: qa-evidence
+          path: qa-evidence/
+          if-no-files-found: warn
 
       - name: Upload Playwright report
         if: always()
