@@ -36,9 +36,9 @@ const ROUTE_METADATA: Record<string, RouteMetadata> = {
       'Conozca el método de trabajo de la Dra. Emilia Sandobar para el análisis, estrategia y acompañamiento de cada situación jurídica.',
   },
   '/preguntas-frecuentes': {
-    title: 'Preguntas Frecuentes | Abogada en Mendoza',
+    title: 'Preguntas Frecuentes | Abogada Penalista en Mendoza',
     description:
-      'Preguntas frecuentes sobre consultas, servicios jurídicos y el proceso de atención de la Dra. Emilia Sandobar en Mendoza.',
+      'Respuestas sobre consultas jurídicas, modalidad de atención, urgencias y ámbito de atención de la Dra. Emilia Sandobar en Mendoza.',
   },
   '/contacto': {
     title: 'Contacto | Dra. Emilia Sandobar',
