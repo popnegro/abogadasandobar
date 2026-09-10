@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from 'react';
-import { ChevronDown, ArrowRight } from 'lucide-react';
+import React, { useEffect, useMemo, useState } from 'react';
+import { ArrowRight, Search, X } from 'lucide-react';
 import { ActiveTab } from '../types';
 import { FAQS, ASSETS } from '../data/lawyerData';
 import { PageHero } from './PageHero';
@@ -19,12 +19,23 @@ const FAQ_GROUPS = [
 
 export const FAQSection: React.FC<FAQSectionProps> = ({ setActiveTab = () => { }, onOpenConsultationModal }) => {
   const [openIds, setOpenIds] = useState<string[]>(['faq-urgencia']);
+  const [searchQuery, setSearchQuery] = useState('');
 
   const toggleFAQ = (id: string) => {
     setOpenIds((currentOpenIds) => currentOpenIds.includes(id) ? currentOpenIds.filter((item) => item !== id) : [...currentOpenIds, id]);
   };
 
-  const visibleFAQs = FAQS.filter((faq) => VISIBLE_FAQ_IDS.includes(faq.id as typeof VISIBLE_FAQ_IDS[number]));
+  const visibleFAQs = useMemo(
+    () => FAQS.filter((faq) => VISIBLE_FAQ_IDS.includes(faq.id as typeof VISIBLE_FAQ_IDS[number])),
+    [],
+  );
+
+  const filteredFAQs = useMemo(() => {
+    const normalizedQuery = searchQuery.trim().toLocaleLowerCase('es-AR');
+    if (!normalizedQuery) return visibleFAQs;
+
+    return visibleFAQs.filter((faq) => `${faq.question} ${faq.answer}`.toLocaleLowerCase('es-AR').includes(normalizedQuery));
+  }, [searchQuery, visibleFAQs]);
 
   useEffect(() => {
     const schemaId = 'faq-knowledge-base-schema';
@@ -54,6 +65,12 @@ export const FAQSection: React.FC<FAQSectionProps> = ({ setActiveTab = () => { }
     return () => document.getElementById(schemaId)?.remove();
   }, [visibleFAQs]);
 
+  useEffect(() => {
+    if (searchQuery.trim()) {
+      setOpenIds(filteredFAQs.map((faq) => faq.id));
+    }
+  }, [filteredFAQs, searchQuery]);
+
   return (
     <div id="faq-section" className="w-full">
       <PageHero title="Preguntas Frecuentes" subtitle="Respuestas directas y transparentes sobre el marco de actuación, previsión de honorarios, guardia procesal 24 horas y confidencialidad letrada." backgroundImage={ASSETS.heroFaq} breadcrumbLabel="Preguntas Frecuentes" setActiveTab={setActiveTab} />
@@ -67,22 +84,48 @@ export const FAQSection: React.FC<FAQSectionProps> = ({ setActiveTab = () => { }
               <p className="text-base font-light leading-relaxed text-[#302D28]/75 sm:text-lg">Consulte las respuestas organizadas por intención. Cada entrada presenta primero la respuesta y luego permite ampliar la información.</p>
             </div>
 
-            <nav aria-label="Temas de preguntas frecuentes" className="flex flex-wrap gap-2">
-              {FAQ_GROUPS.map((group) => {
-                const faq = visibleFAQs.find((item) => item.id === group.faqId);
-                if (!faq) return null;
-                return (
-                  <a key={group.id} href={`#faq-item-${faq.id}`} className="border border-[#302D28]/15 px-4 py-2 text-xs font-semibold uppercase tracking-wide text-[#302D28] transition-colors hover:border-[#7F203D] hover:text-[#7F203D] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#7F203D]">
-                    {group.label}
-                  </a>
-                );
-              })}
-            </nav>
+            <div className="max-w-4xl">
+              <label htmlFor="faq-search" className="sr-only">Buscar en preguntas frecuentes</label>
+              <div className="relative">
+                <Search className="pointer-events-none absolute left-5 top-1/2 h-5 w-5 -translate-y-1/2 text-[#302D28]/55" aria-hidden="true" />
+                <input
+                  id="faq-search"
+                  type="search"
+                  value={searchQuery}
+                  onChange={(event) => setSearchQuery(event.target.value)}
+                  placeholder="¿Qué necesitás saber?"
+                  autoComplete="off"
+                  className="w-full border border-[#302D28]/20 bg-white py-4 pl-14 pr-12 text-base text-[#302D28] outline-none transition-colors placeholder:text-[#302D28]/45 focus:border-[#7F203D] focus:ring-2 focus:ring-[#7F203D]/15 sm:py-5 sm:text-lg"
+                />
+                {searchQuery && (
+                  <button type="button" onClick={() => setSearchQuery('')} aria-label="Limpiar búsqueda" className="absolute right-4 top-1/2 flex h-8 w-8 -translate-y-1/2 items-center justify-center text-[#302D28]/60 transition-colors hover:text-[#7F203D] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#7F203D]">
+                    <X className="h-4 w-4" aria-hidden="true" />
+                  </button>
+                )}
+              </div>
+              <p className="mt-3 text-sm text-[#302D28]/60" aria-live="polite">
+                {searchQuery.trim() ? `${filteredFAQs.length} ${filteredFAQs.length === 1 ? 'respuesta encontrada' : 'respuestas encontradas'}` : `${visibleFAQs.length} respuestas disponibles`}
+              </p>
+            </div>
+
+            {!searchQuery.trim() && (
+              <nav aria-label="Temas de preguntas frecuentes" className="flex flex-wrap gap-2">
+                {FAQ_GROUPS.map((group) => {
+                  const faq = visibleFAQs.find((item) => item.id === group.faqId);
+                  if (!faq) return null;
+                  return (
+                    <a key={group.id} href={`#faq-item-${faq.id}`} className="border border-[#302D28]/15 px-4 py-2 text-xs font-semibold uppercase tracking-wide text-[#302D28] transition-colors hover:border-[#7F203D] hover:text-[#7F203D] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#7F203D]">
+                      {group.label}
+                    </a>
+                  );
+                })}
+              </nav>
+            )}
           </section>
 
           <section aria-labelledby="faq-list-title" className="border-t border-[#302D28]/20">
             <h2 id="faq-list-title" className="sr-only">Respuestas por tema</h2>
-            {visibleFAQs.map((faq, index) => {
+            {filteredFAQs.length > 0 ? filteredFAQs.map((faq, index) => {
               const group = FAQ_GROUPS.find((item) => item.faqId === faq.id);
               const isOpen = openIds.includes(faq.id);
               return (
@@ -95,12 +138,17 @@ export const FAQSection: React.FC<FAQSectionProps> = ({ setActiveTab = () => { }
                         <span itemProp="name" className="block font-serif text-lg font-bold leading-snug text-[#302D28] transition-colors group-hover:text-[#7F203D] sm:text-xl lg:text-2xl">{faq.question}</span>
                       </span>
                     </div>
-                    <span className={`flex shrink-0 items-center justify-center pt-1 text-[#302D28] transition-transform duration-300 ${isOpen ? 'rotate-180 text-[#7F203D]' : ''}`} aria-hidden="true"><ChevronDown className="h-5 w-5 sm:h-6 sm:w-6" /></span>
+                    <span className={`flex shrink-0 items-center justify-center pt-1 text-[#302D28] transition-transform duration-300 ${isOpen ? 'rotate-180 text-[#7F203D]' : ''}`} aria-hidden="true"><span className="text-xl leading-none">⌄</span></span>
                   </button>
                   {isOpen && <div id={`faq-answer-${faq.id}`} role="region" aria-labelledby={`faq-btn-${faq.id}`} itemProp="acceptedAnswer" itemScope itemType="https://schema.org/Answer" className="pb-8 pl-12 pr-6 text-base font-light leading-loose text-[#302D28]/80 sm:pl-16 sm:pr-16 sm:text-lg md:pb-10 md:pl-20 md:pr-24"><p itemProp="text">{faq.answer}</p></div>}
                 </article>
               );
-            })}
+            }) : (
+              <div className="border-b border-[#302D28]/20 py-12 text-center">
+                <p className="font-serif text-xl font-bold text-[#302D28]">No encontramos una respuesta para esa búsqueda.</p>
+                <p className="mt-2 text-base text-[#302D28]/65">Probá con otros términos o solicitá una consulta profesional.</p>
+              </div>
+            )}
           </section>
 
           <section aria-labelledby="faq-consultation-title" className="pt-8">
