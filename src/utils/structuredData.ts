@@ -47,6 +47,10 @@ function upsertJsonLd(id: string, data: unknown) {
   script.textContent = JSON.stringify(data);
 }
 
+function removeJsonLd(id: string) {
+  document.head.querySelector<HTMLScriptElement>(`script[data-structured-data="${id}"]`)?.remove();
+}
+
 export function updateStructuredData(page: StructuredPage) {
   const canonicalUrl = `${SITE_URL}${page.path === '/inicio' ? '/' : page.path}`;
   const breadcrumbItems = page.path === '/'
@@ -126,6 +130,8 @@ export function updateStructuredData(page: StructuredPage) {
       inLanguage: 'es-AR',
       mainEntity: { '@id': PERSON_ID },
     });
+  } else {
+    removeJsonLd('profile');
   }
 
   upsertJsonLd('breadcrumb', {
