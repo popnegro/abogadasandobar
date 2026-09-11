@@ -13,6 +13,7 @@
     "lint": "tsc --noEmit",
     "audit:assets": "node scripts/audit-assets.mjs",
     "audit:seo": "node scripts/audit-seo.mjs",
+    "audit:geo": "node scripts/audit-geo.mjs",
     "audit:debt": "node scripts/audit-debt.mjs"
   },
   "dependencies": {
