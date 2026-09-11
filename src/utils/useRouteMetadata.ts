@@ -12,39 +12,39 @@ interface RouteMetadata {
 
 const ROUTE_METADATA: Record<string, RouteMetadata> = {
   '/': {
-    title: 'Dra. Emilia Sandobar | Abogada en Mendoza',
+    title: 'Emilia Sandobar | Abogada Penalista en Mendoza',
     description:
-      'Dra. Emilia Sandobar, abogada en Mendoza. Asesoramiento y representación jurídica para particulares, empresas y directivos, con atención profesional y confidencial.',
+      'Emilia Sandobar es abogada penalista en Mendoza. Brinda asesoramiento, defensa y representación jurídica en asuntos penales y vinculados con personas y organizaciones.',
   },
   '/inicio': {
-    title: 'Dra. Emilia Sandobar | Abogada en Mendoza',
+    title: 'Emilia Sandobar | Abogada Penalista en Mendoza',
     description:
-      'Dra. Emilia Sandobar, abogada en Mendoza. Asesoramiento y representación jurídica para particulares, empresas y directivos, con atención profesional y confidencial.',
+      'Emilia Sandobar es abogada penalista en Mendoza. Brinda asesoramiento, defensa y representación jurídica en asuntos penales y vinculados con personas y organizaciones.',
   },
   '/servicios-abogacia-mendoza': {
-    title: 'Servicios de Abogacía en Mendoza | Dra. Emilia Sandobar',
+    title: 'Servicios de Abogacía en Mendoza | Emilia Sandobar',
     description:
-      'Servicios de abogacía en Mendoza: defensa penal, litigación compleja y asesoramiento corporativo para personas y organizaciones.',
+      'Servicios de abogacía en Mendoza de Emilia Sandobar: defensa penal, litigación y asesoramiento jurídico para personas, empresas y organizaciones.',
   },
   '/abogada-penalista-mendoza': {
-    title: 'Abogada Penalista en Mendoza | Dra. Emilia Sandobar',
+    title: 'Abogada Penalista en Mendoza | Emilia Sandobar',
     description:
-      'Experiencia profesional de la Dra. Emilia Sandobar como abogada penalista en Mendoza, con trayectoria en litigación penal y asesoramiento jurídico.',
+      'Emilia Sandobar es abogada penalista en Mendoza. Esta página reúne información sobre su perfil profesional y su actividad de asesoramiento y litigación penal.',
   },
   '/nuestro-metodo': {
-    title: 'Método de Trabajo | Dra. Emilia Sandobar',
+    title: 'Método de Trabajo | Emilia Sandobar, Abogada Penalista',
     description:
-      'Conozca el método de trabajo de la Dra. Emilia Sandobar para el análisis, estrategia y acompañamiento de cada situación jurídica.',
+      'Conozca el método de trabajo de Emilia Sandobar para analizar cada situación jurídica, definir una estrategia y acompañar una consulta profesional.',
   },
   '/preguntas-frecuentes': {
     title: 'Preguntas Frecuentes | Abogada Penalista en Mendoza',
     description:
-      'Respuestas sobre consultas jurídicas, modalidad de atención, urgencias y ámbito de atención de la Dra. Emilia Sandobar en Mendoza.',
+      'Preguntas frecuentes sobre la atención profesional de Emilia Sandobar, abogada penalista en Mendoza, y sobre cómo orientar una primera consulta jurídica.',
   },
   '/contacto': {
-    title: 'Contacto | Dra. Emilia Sandobar',
+    title: 'Contacto | Emilia Sandobar, Abogada Penalista en Mendoza',
     description:
-      'Contacto de la Dra. Emilia Sandobar para consultas jurídicas y asesoramiento profesional en Mendoza.',
+      'Contacto de Emilia Sandobar, abogada penalista en Mendoza, para solicitar una consulta y recibir orientación sobre una situación jurídica.',
   },
 };
 
@@ -83,19 +83,19 @@ export function useRouteMetadata() {
 
     upsertMeta('property', 'og:type', 'website');
     upsertMeta('property', 'og:locale', 'es_AR');
-    upsertMeta('property', 'og:site_name', 'Dra. Emilia Sandobar');
+    upsertMeta('property', 'og:site_name', 'Emilia Sandobar');
     upsertMeta('property', 'og:title', metadata.title);
     upsertMeta('property', 'og:description', metadata.description);
     upsertMeta('property', 'og:url', canonicalUrl);
     upsertMeta('property', 'og:image', DEFAULT_IMAGE);
-    upsertMeta('property', 'og:image:alt', 'Dra. Emilia Sandobar — Abogada en Mendoza');
+    upsertMeta('property', 'og:image:alt', 'Emilia Sandobar — Abogada Penalista en Mendoza');
     upsertMeta('property', 'og:image:type', 'image/webp');
 
     upsertMeta('name', 'twitter:card', 'summary_large_image');
     upsertMeta('name', 'twitter:title', metadata.title);
     upsertMeta('name', 'twitter:description', metadata.description);
     upsertMeta('name', 'twitter:image', DEFAULT_IMAGE);
-    upsertMeta('name', 'twitter:image:alt', 'Dra. Emilia Sandobar — Abogada en Mendoza');
+    upsertMeta('name', 'twitter:image:alt', 'Emilia Sandobar — Abogada Penalista en Mendoza');
     upsertMeta('name', 'twitter:url', canonicalUrl);
 
     upsertCanonical(canonicalUrl);
