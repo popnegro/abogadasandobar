@@ -16,7 +16,8 @@
     "audit:debt": "node scripts/audit-debt.mjs",
     "audit:production": "node scripts/audit-production.mjs",
     "audit:geo": "node scripts/audit-geo.mjs",
-    "audit:retrieval": "node scripts/audit-retrieval.mjs"
+    "audit:retrieval": "node scripts/audit-retrieval.mjs",
+    "audit:p3.8": "npm run audit:geo && npm run audit:retrieval"
   },
   "dependencies": {
     "lucide-react": "^0.546.0",
