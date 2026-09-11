@@ -18,6 +18,24 @@ const SERVICE_TYPES = [
   'Reclamos indemnizatorios',
 ];
 
+const AUTHORITY_SOURCES = [
+  {
+    '@type': 'CreativeWork',
+    name: 'Ciclo de charlas Educación Financiera y Nuevas Tecnologías — UNCUYO',
+    url: 'https://fce.uncuyo.edu.ar/se-viene-el-ciclo-de-charlas-educacion-financiera-y-nuevas-tecnologias',
+  },
+  {
+    '@type': 'NewsArticle',
+    name: 'Allanaron la Liga Mendocina de Fútbol por presunta falsificación de certificados médicos',
+    url: 'https://www.radionihuil.com.ar/allanaron-la-liga-mendocina-de-futbol-por-presunta-falsificacion-de-certificados-medicos/',
+  },
+  {
+    '@type': 'NewsArticle',
+    name: 'Hubo dos nuevos allanamientos por los certificados truchos de la Liga Mendocina de Fútbol',
+    url: 'https://www.diariouno.com.ar/ovacion/hubo-dos-nuevos-allanamientos-el-caso-los-certificados-truchos-la-liga-mendocina-futbol-n1453036',
+  },
+];
+
 function upsertJsonLd(id: string, data: unknown) {
   let script = document.head.querySelector<HTMLScriptElement>(`script[data-structured-data="${id}"]`);
   if (!script) {
@@ -50,6 +68,12 @@ export function updateStructuredData(page: StructuredPage) {
         image: `${SITE_URL}/assets/images/portraits/emilia-sandobar.webp`,
         worksFor: { '@id': SERVICE_ID },
         knowsAbout: SERVICE_TYPES,
+        alumniOf: {
+          '@type': 'CollegeOrUniversity',
+          name: 'Universidad Nacional de Cuyo',
+          url: 'https://www.uncuyo.edu.ar/',
+        },
+        subjectOf: AUTHORITY_SOURCES,
       },
       {
         '@type': 'LegalService',
