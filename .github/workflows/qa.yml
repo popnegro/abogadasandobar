@@ -47,6 +47,10 @@ jobs:
         id: seo
         run: npm run audit:seo 2>&1 | tee qa-evidence/seo.log
 
+      - name: GEO readiness audit
+        id: geo
+        run: npm run audit:geo 2>&1 | tee qa-evidence/geo.log
+
       - name: Typecheck
         id: typecheck
         run: npm run typecheck 2>&1 | tee qa-evidence/typecheck.log
@@ -87,6 +91,7 @@ jobs:
           | Dependency/debt audit | ${{ steps.debt.outcome }} |
           | Asset/performance audit | ${{ steps.assets.outcome }} |
           | SEO audit | ${{ steps.seo.outcome }} |
+          | GEO readiness audit | ${{ steps.geo.outcome }} |
           | Typecheck | ${{ steps.typecheck.outcome }} |
           | Production build | ${{ steps.build.outcome }} |
           | Playwright Chromium | ${{ steps.playwright_install.outcome }} |
