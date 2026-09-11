@@ -1,4 +1,17 @@
 {
+  "redirects": [
+    {
+      "source": "/:path*",
+      "destination": "https://abogadasandobar.com.ar/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.abogadasandobar.com.ar"
+        }
+      ],
+      "statusCode": 301
+    }
+  ],
   "rewrites": [
     {
       "source": "/((?!robots\\.txt$|sitemap\\.xml$|llms\\.txt$).*)",
