@@ -1,6 +1,6 @@
 import { readFile } from 'node:fs/promises';
 
-const SITE_URL = 'https://www.abogadasandobar.com.ar';
+const SITE_URL = 'https://abogadasandobar.com.ar';
 const requiredRoutes = [
   '/',
   '/servicios-abogacia-mendoza',
@@ -25,7 +25,7 @@ const assert = (condition, message) => {
 };
 
 assert(llms.includes('# Emilia Sandobar — Abogada Penalista en Mendoza'), 'llms.txt must define the primary entity and specialty.');
-assert(llms.includes('https://www.abogadasandobar.com.ar/'), 'llms.txt must identify the official site.');
+assert(llms.includes(`${SITE_URL}/`), 'llms.txt must identify the official site.');
 assert(llms.includes('## Páginas principales'), 'llms.txt must expose the main indexable pages.');
 for (const route of requiredRoutes) {
   assert(llms.includes(`${SITE_URL}${route}`), `llms.txt is missing ${route}.`);
