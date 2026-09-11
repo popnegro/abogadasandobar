@@ -14,6 +14,7 @@
     "audit:assets": "node scripts/audit-assets.mjs",
     "audit:seo": "node scripts/audit-seo.mjs",
     "audit:geo": "node scripts/audit-geo.mjs",
+    "audit:retrieval": "node scripts/audit-retrieval.mjs",
     "audit:debt": "node scripts/audit-debt.mjs"
   },
   "dependencies": {
@@ -26,6 +27,7 @@
   "devDependencies": {
     "@playwright/test": "^1.62.1",
     "@tailwindcss/vite": "^4.1.14",
+    "@playwright/test": "^1.62.1",
     "@types/node": "^22.14.0",
     "@vitejs/plugin-react": "^5.0.4",
     "tailwindcss": "^4.1.14",
