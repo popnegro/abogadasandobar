@@ -1,4 +1,4 @@
-const SITE_URL = 'https://www.abogadasandobar.com.ar';
+const SITE_URL = 'https://abogadasandobar.com.ar';
 
 const PERSON_ID = `${SITE_URL}/#person`;
 const SERVICE_ID = `${SITE_URL}/#legal-service`;
@@ -74,6 +74,14 @@ export function updateStructuredData(page: StructuredPage) {
           url: 'https://www.uncuyo.edu.ar/',
         },
         subjectOf: AUTHORITY_SOURCES,
+      },
+      {
+        '@type': 'ProfilePage',
+        '@id': `${SITE_URL}/abogada-penalista-mendoza#profilepage`,
+        url: `${SITE_URL}/abogada-penalista-mendoza`,
+        name: 'Abogada Penalista en Mendoza | Emilia Sandobar',
+        mainEntity: { '@id': PERSON_ID },
+        isPartOf: { '@id': WEBSITE_ID },
       },
       {
         '@type': 'LegalService',
