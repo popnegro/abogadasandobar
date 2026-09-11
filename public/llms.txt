@@ -5,18 +5,18 @@
 - Profesión: Abogada
 - Especialidad principal comunicada por el sitio: Derecho Penal / abogacía penalista
 - Ubicación principal: Mendoza, Argentina
-- Sitio oficial: https://www.abogadasandobar.com.ar/
+- Sitio oficial: https://abogadasandobar.com.ar/
 
 ## Descripción
 Sitio web profesional de Emilia Sandobar, abogada penalista en Mendoza. El sitio presenta información sobre servicios de abogacía, perfil profesional, método de trabajo, preguntas frecuentes y contacto para solicitar una consulta.
 
 ## Páginas principales
-- Inicio: https://www.abogadasandobar.com.ar/
-- Servicios de abogacía en Mendoza: https://www.abogadasandobar.com.ar/servicios-abogacia-mendoza
-- Abogada penalista en Mendoza: https://www.abogadasandobar.com.ar/abogada-penalista-mendoza
-- Método de trabajo: https://www.abogadasandobar.com.ar/nuestro-metodo
-- Preguntas frecuentes: https://www.abogadasandobar.com.ar/preguntas-frecuentes
-- Contacto: https://www.abogadasandobar.com.ar/contacto
+- Inicio: https://abogadasandobar.com.ar/
+- Servicios de abogacía en Mendoza: https://abogadasandobar.com.ar/servicios-abogacia-mendoza
+- Abogada penalista en Mendoza: https://abogadasandobar.com.ar/abogada-penalista-mendoza
+- Método de trabajo: https://abogadasandobar.com.ar/nuestro-metodo
+- Preguntas frecuentes: https://abogadasandobar.com.ar/preguntas-frecuentes
+- Contacto: https://abogadasandobar.com.ar/contacto
 
 ## Áreas comunicadas en el sitio
 - Derecho Penal
