@@ -104,7 +104,7 @@ export function updateStructuredData(page: StructuredPage) {
 
   upsertJsonLd('page', {
     '@context': 'https://schema.org',
-    '@type': page.path === '/abogada-penalista-mendoza' ? 'ProfilePage' : 'WebPage',
+    '@type': 'WebPage',
     '@id': `${canonicalUrl}#webpage`,
     url: canonicalUrl,
     name: page.title,
@@ -114,8 +114,19 @@ export function updateStructuredData(page: StructuredPage) {
     about: { '@id': PERSON_ID },
     provider: { '@id': SERVICE_ID },
     breadcrumb: { '@id': `${canonicalUrl}#breadcrumb` },
-    ...(page.path === '/abogada-penalista-mendoza' ? { mainEntity: { '@id': PERSON_ID } } : {}),
   });
+
+  if (page.path === '/abogada-penalista-mendoza') {
+    upsertJsonLd('profile', {
+      '@context': 'https://schema.org',
+      '@type': 'ProfilePage',
+      '@id': `${canonicalUrl}#profile`,
+      url: canonicalUrl,
+      name: page.title,
+      inLanguage: 'es-AR',
+      mainEntity: { '@id': PERSON_ID },
+    });
+  }
 
   upsertJsonLd('breadcrumb', {
     '@context': 'https://schema.org',
