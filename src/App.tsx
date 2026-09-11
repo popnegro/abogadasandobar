@@ -1,18 +1,23 @@
-import React, { useEffect, useState } from 'react';
+import React, { Suspense, lazy, useEffect, useState } from 'react';
 import { BrowserRouter, useLocation, useNavigate, Navigate, Routes, Route } from 'react-router-dom';
 import { ActiveTab, PATH_TO_TAB, TAB_TO_PATH } from './types';
 import { Navbar } from './components/Navbar';
 import { HomeSection } from './components/HomeSection';
-import { ServicesSection } from './components/ServicesSection';
-import { ExperienceSection } from './components/ExperienceSection';
-import { MethodSection } from './components/MethodSection';
-import { FAQSection } from './components/FAQSection';
-import { ContactSection } from './components/ContactSection';
 import { Footer } from './components/Footer';
 import { CONTACT_INFO } from './data/contactData';
 import { useRouteMetadata } from './utils/useRouteMetadata';
 import { trackEvent } from './lib/analytics';
 import './data/legalContentLocalization';
+
+const ServicesSection = lazy(() => import('./components/ServicesSection').then((module) => ({ default: module.ServicesSection })));
+const ExperienceSection = lazy(() => import('./components/ExperienceSection').then((module) => ({ default: module.ExperienceSection })));
+const MethodSection = lazy(() => import('./components/MethodSection').then((module) => ({ default: module.MethodSection })));
+const FAQSection = lazy(() => import('./components/FAQSection').then((module) => ({ default: module.FAQSection })));
+const ContactSection = lazy(() => import('./components/ContactSection').then((module) => ({ default: module.ContactSection })));
+
+function RouteLoading() {
+  return <div className="min-h-[50vh] bg-[#FFF8F2]" aria-hidden="true" />;
+}
 
 function PageShell() {
   const location = useLocation();
@@ -78,17 +83,19 @@ function PageShell() {
     <div className="min-h-screen flex flex-col bg-[#FFF8F2] text-[#302D28] font-sans selection:bg-[#7F203D] selection:text-white relative">
       <Navbar activeTab={activeTab} setActiveTab={setActiveTab} onRequestConsultation={() => handleRequestConsultation()} />
       <main className="flex-grow w-full">
-        <Routes>
-          <Route path="/" element={<HomeSection setActiveTab={setActiveTab} onRequestConsultation={() => handleRequestConsultation()} />} />
-          <Route path="/inicio" element={<Navigate to="/" replace />} />
-          <Route path="/servicios-abogacia-mendoza" element={<ServicesSection setActiveTab={setActiveTab} onRequestConsultation={(area) => handleRequestConsultation(area)} />} />
-          <Route path="/abogada-penalista-mendoza" element={<ExperienceSection setActiveTab={setActiveTab} onOpenConsultationModal={() => handleRequestConsultation()} />} />
-          <Route path="/experiencia" element={<Navigate to="/abogada-penalista-mendoza" replace />} />
-          <Route path="/nuestro-metodo" element={<MethodSection setActiveTab={setActiveTab} onOpenConsultationModal={() => handleRequestConsultation()} />} />
-          <Route path="/preguntas-frecuentes" element={<FAQSection setActiveTab={setActiveTab} onOpenConsultationModal={() => handleRequestConsultation()} />} />
-          <Route path="/contacto" element={<ContactSection setActiveTab={setActiveTab} initialPracticeArea={contactPracticeArea} />} />
-          <Route path="*" element={<Navigate to="/" replace />} />
-        </Routes>
+        <Suspense fallback={<RouteLoading />}>
+          <Routes>
+            <Route path="/" element={<HomeSection setActiveTab={setActiveTab} onRequestConsultation={() => handleRequestConsultation()} />} />
+            <Route path="/inicio" element={<Navigate to="/" replace />} />
+            <Route path="/servicios-abogacia-mendoza" element={<ServicesSection setActiveTab={setActiveTab} onRequestConsultation={(area) => handleRequestConsultation(area)} />} />
+            <Route path="/abogada-penalista-mendoza" element={<ExperienceSection setActiveTab={setActiveTab} onOpenConsultationModal={() => handleRequestConsultation()} />} />
+            <Route path="/experiencia" element={<Navigate to="/abogada-penalista-mendoza" replace />} />
+            <Route path="/nuestro-metodo" element={<MethodSection setActiveTab={setActiveTab} onOpenConsultationModal={() => handleRequestConsultation()} />} />
+            <Route path="/preguntas-frecuentes" element={<FAQSection setActiveTab={setActiveTab} onOpenConsultationModal={() => handleRequestConsultation()} />} />
+            <Route path="/contacto" element={<ContactSection setActiveTab={setActiveTab} initialPracticeArea={contactPracticeArea} />} />
+            <Route path="*" element={<Navigate to="/" replace />} />
+          </Routes>
+        </Suspense>
       </main>
       <Footer setActiveTab={setActiveTab} onOpenConsultationModal={() => handleRequestConsultation()} />
 
