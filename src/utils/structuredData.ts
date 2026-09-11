@@ -1,4 +1,4 @@
-const SITE_URL = 'https://www.abogadasandobar.com.ar';
+const SITE_URL = 'https://abogadasandobar.com.ar';
 
 const PERSON_ID = `${SITE_URL}/#person`;
 const SERVICE_ID = `${SITE_URL}/#legal-service`;
@@ -18,6 +18,24 @@ const SERVICE_TYPES = [
   'Reclamos indemnizatorios',
 ];
 
+const AUTHORITY_SOURCES = [
+  {
+    '@type': 'CreativeWork',
+    name: 'Ciclo de charlas Educación Financiera y Nuevas Tecnologías — UNCUYO',
+    url: 'https://fce.uncuyo.edu.ar/se-viene-el-ciclo-de-charlas-educacion-financiera-y-nuevas-tecnologias',
+  },
+  {
+    '@type': 'NewsArticle',
+    name: 'Allanaron la Liga Mendocina de Fútbol por presunta falsificación de certificados médicos',
+    url: 'https://www.radionihuil.com.ar/allanaron-la-liga-mendocina-de-futbol-por-presunta-falsificacion-de-certificados-medicos/',
+  },
+  {
+    '@type': 'NewsArticle',
+    name: 'Hubo dos nuevos allanamientos por los certificados truchos de la Liga Mendocina de Fútbol',
+    url: 'https://www.diariouno.com.ar/ovacion/hubo-dos-nuevos-allanamientos-el-caso-los-certificados-truchos-liga-mendocina-futbol-n1453036',
+  },
+];
+
 function upsertJsonLd(id: string, data: unknown) {
   let script = document.head.querySelector<HTMLScriptElement>(`script[data-structured-data="${id}"]`);
   if (!script) {
@@ -32,9 +50,9 @@ function upsertJsonLd(id: string, data: unknown) {
 export function updateStructuredData(page: StructuredPage) {
   const canonicalUrl = `${SITE_URL}${page.path === '/inicio' ? '/' : page.path}`;
   const breadcrumbItems = page.path === '/'
-    ? [{ '@type': 'ListItem', position: 1, name: 'Inicio', item: SITE_URL + '/' }]
+    ? [{ '@type': 'ListItem', position: 1, name: 'Inicio', item: `${SITE_URL}/` }]
     : [
-        { '@type': 'ListItem', position: 1, name: 'Inicio', item: SITE_URL + '/' },
+        { '@type': 'ListItem', position: 1, name: 'Inicio', item: `${SITE_URL}/` },
         { '@type': 'ListItem', position: 2, name: page.title.split(' | ')[0], item: canonicalUrl },
       ];
 
@@ -50,12 +68,18 @@ export function updateStructuredData(page: StructuredPage) {
         image: `${SITE_URL}/assets/images/portraits/emilia-sandobar.webp`,
         worksFor: { '@id': SERVICE_ID },
         knowsAbout: SERVICE_TYPES,
+        alumniOf: {
+          '@type': 'CollegeOrUniversity',
+          name: 'Universidad Nacional de Cuyo',
+          url: 'https://www.uncuyo.edu.ar/',
+        },
+        subjectOf: AUTHORITY_SOURCES,
       },
       {
         '@type': 'LegalService',
         '@id': SERVICE_ID,
         name: 'Dra. Emilia Sandobar',
-        url: SITE_URL + '/',
+        url: `${SITE_URL}/`,
         image: `${SITE_URL}/assets/images/hero/hero-home.webp`,
         logo: `${SITE_URL}/assets/brand/logo-brandmark.svg`,
         description: 'Asesoramiento y representación jurídica para particulares, empresas y directivos, con atención profesional y confidencial.',
@@ -80,7 +104,7 @@ export function updateStructuredData(page: StructuredPage) {
 
   upsertJsonLd('page', {
     '@context': 'https://schema.org',
-    '@type': 'WebPage',
+    '@type': page.path === '/abogada-penalista-mendoza' ? 'ProfilePage' : 'WebPage',
     '@id': `${canonicalUrl}#webpage`,
     url: canonicalUrl,
     name: page.title,
@@ -90,6 +114,7 @@ export function updateStructuredData(page: StructuredPage) {
     about: { '@id': PERSON_ID },
     provider: { '@id': SERVICE_ID },
     breadcrumb: { '@id': `${canonicalUrl}#breadcrumb` },
+    ...(page.path === '/abogada-penalista-mendoza' ? { mainEntity: { '@id': PERSON_ID } } : {}),
   });
 
   upsertJsonLd('breadcrumb', {
@@ -103,7 +128,7 @@ export function updateStructuredData(page: StructuredPage) {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
     '@id': WEBSITE_ID,
-    url: SITE_URL + '/',
+    url: `${SITE_URL}/`,
     name: 'Dra. Emilia Sandobar',
     description: 'Sitio web profesional de la Dra. Emilia Sandobar, abogada en Mendoza.',
     inLanguage: 'es-AR',
