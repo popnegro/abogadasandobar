@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
+import { updateStructuredData } from './structuredData';
 
 const SITE_URL = 'https://www.abogadasandobar.com.ar';
 const DEFAULT_IMAGE = `${SITE_URL}/assets/images/hero/hero-home.webp`;
@@ -98,5 +99,6 @@ export function useRouteMetadata() {
     upsertMeta('name', 'twitter:url', canonicalUrl);
 
     upsertCanonical(canonicalUrl);
+    updateStructuredData({ path: canonicalPath, ...metadata });
   }, [pathname]);
 }
