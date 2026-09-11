@@ -1,6 +1,6 @@
 import { readFile } from 'node:fs/promises';
 
-const SITE_URL = 'https://www.abogadasandobar.com.ar';
+const SITE_URL = 'https://abogadasandobar.com.ar';
 const routes = [
   '/',
   '/servicios-abogacia-mendoza',
