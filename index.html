@@ -46,9 +46,7 @@
           "name": "Dra. Emilia Sandobar",
           "description": "Sitio web profesional de la Dra. Emilia Sandobar, abogada penalista en Mendoza.",
           "inLanguage": "es-AR",
-          "publisher": {
-            "@id": "https://abogadasandobar.com.ar/#person"
-          }
+          "publisher": { "@id": "https://abogadasandobar.com.ar/#person" }
         },
         {
           "@type": "WebPage",
@@ -57,27 +55,14 @@
           "name": "Dra. Emilia Sandobar | Abogada Penalista en Mendoza",
           "description": "Dra. Emilia Sandobar, abogada penalista en Mendoza. Asesoramiento y representación en derecho penal para particulares, empresas y directivos.",
           "inLanguage": "es-AR",
-          "isPartOf": {
-            "@id": "https://abogadasandobar.com.ar/#website"
-          },
-          "about": {
-            "@id": "https://abogadasandobar.com.ar/#legal-service"
-          },
-          "breadcrumb": {
-            "@id": "https://abogadasandobar.com.ar/#breadcrumb"
-          }
+          "isPartOf": { "@id": "https://abogadasandobar.com.ar/#website" },
+          "about": { "@id": "https://abogadasandobar.com.ar/#legal-service" },
+          "breadcrumb": { "@id": "https://abogadasandobar.com.ar/#breadcrumb" }
         },
         {
           "@type": "BreadcrumbList",
           "@id": "https://abogadasandobar.com.ar/#breadcrumb",
-          "itemListElement": [
-            {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Inicio",
-              "item": "https://abogadasandobar.com.ar/"
-            }
-          ]
+          "itemListElement": [{ "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://abogadasandobar.com.ar/" }]
         },
         {
           "@type": "Person",
@@ -86,15 +71,8 @@
           "jobTitle": "Abogada",
           "url": "https://abogadasandobar.com.ar/abogada-penalista-mendoza",
           "image": "https://abogadasandobar.com.ar/assets/images/portraits/emilia-sandobar.webp",
-          "worksFor": {
-            "@id": "https://abogadasandobar.com.ar/#legal-service"
-          },
-          "knowsAbout": [
-            "Derecho Penal",
-            "Litigación penal",
-            "Asesoramiento corporativo",
-            "Reclamos indemnizatorios"
-          ]
+          "worksFor": { "@id": "https://abogadasandobar.com.ar/#legal-service" },
+          "knowsAbout": ["Derecho Penal", "Litigación penal", "Asesoramiento corporativo", "Reclamos indemnizatorios"]
         },
         {
           "@type": "LegalService",
@@ -104,57 +82,19 @@
           "image": "https://abogadasandobar.com.ar/assets/images/hero/hero-home.webp",
           "logo": "https://abogadasandobar.com.ar/assets/brand/logo-brandmark.svg",
           "description": "Asesoramiento y representación jurídica para particulares, empresas y directivos, con atención profesional y confidencial.",
-          "areaServed": {
-            "@type": "City",
-            "name": "Mendoza",
-            "containedInPlace": {
-              "@type": "Country",
-              "name": "Argentina"
-            }
-          },
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "Peatonal Sarmiento 250, 2do piso oficina B",
-            "addressLocality": "Mendoza",
-            "addressCountry": "AR"
-          },
+          "areaServed": { "@type": "City", "name": "Mendoza", "containedInPlace": { "@type": "Country", "name": "Argentina" } },
+          "address": { "@type": "PostalAddress", "streetAddress": "Peatonal Sarmiento 250, 2do piso oficina B", "addressLocality": "Mendoza", "addressCountry": "AR" },
           "email": "info@abogadasandobar.com.ar",
           "telephone": "+54 9 261 346-4483",
-          "provider": {
-            "@id": "https://abogadasandobar.com.ar/#person"
-          },
-          "serviceType": [
-            "Derecho Penal",
-            "Litigación penal",
-            "Asesoramiento corporativo",
-            "Representación penal y seguros",
-            "Reclamos indemnizatorios"
-          ],
+          "provider": { "@id": "https://abogadasandobar.com.ar/#person" },
+          "serviceType": ["Derecho Penal", "Litigación penal", "Asesoramiento corporativo", "Representación penal y seguros", "Reclamos indemnizatorios"],
           "hasOfferCatalog": {
             "@type": "OfferCatalog",
             "name": "Servicios jurídicos",
             "itemListElement": [
-              {
-                "@type": "Offer",
-                "itemOffered": {
-                  "@type": "Service",
-                  "name": "Defensa penal y litigación"
-                }
-              },
-              {
-                "@type": "Offer",
-                "itemOffered": {
-                  "@type": "Service",
-                  "name": "Asesoramiento corporativo"
-                }
-              },
-              {
-                "@type": "Offer",
-                "itemOffered": {
-                  "@type": "Service",
-                  "name": "Reclamos indemnizatorios"
-                }
-              }
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Defensa penal y litigación" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Asesoramiento corporativo" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Reclamos indemnizatorios" } }
             ]
           }
         }
@@ -162,14 +102,39 @@
     }
   </script>
 
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-E1VQWLYM77"></script>
+  <!-- Google tag: defer loading until the browser is idle after initial render. -->
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
+    window.gtag = function () { window.dataLayer.push(arguments); };
 
-    gtag('config', 'G-E1VQWLYM77');
+    (function () {
+      function loadGoogleTag() {
+        if (window.__googleTagLoaded) return;
+        window.__googleTagLoaded = true;
+
+        var script = document.createElement('script');
+        script.async = true;
+        script.src = 'https://www.googletagmanager.com/gtag/js?id=G-E1VQWLYM77';
+        document.head.appendChild(script);
+
+        window.gtag('js', new Date());
+        window.gtag('config', 'G-E1VQWLYM77');
+      }
+
+      function scheduleGoogleTag() {
+        if ('requestIdleCallback' in window) {
+          window.requestIdleCallback(loadGoogleTag, { timeout: 4000 });
+        } else {
+          window.setTimeout(loadGoogleTag, 2500);
+        }
+      }
+
+      if (document.readyState === 'complete') {
+        scheduleGoogleTag();
+      } else {
+        window.addEventListener('load', scheduleGoogleTag, { once: true });
+      }
+    })();
   </script>
 </head>
 
