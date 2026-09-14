@@ -80,7 +80,7 @@ export const FAQSection: React.FC<FAQSectionProps> = ({ setActiveTab = () => { }
           <section aria-labelledby="faq-knowledge-title" className="space-y-8">
             <div className="max-w-3xl space-y-4">
               <p className="text-xs font-bold uppercase tracking-widest text-[#7F203D]">Centro de respuestas</p>
-              <h1 id="faq-knowledge-title" className="font-serif text-3xl font-bold leading-tight text-[#302D28] sm:text-4xl">Información para orientar una primera consulta</h1>
+              <h2 id="faq-knowledge-title" className="font-serif text-3xl font-bold leading-tight text-[#302D28] sm:text-4xl">Información para orientar una primera consulta</h2>
               <p className="text-base font-light leading-relaxed text-[#302D28]/75 sm:text-lg">Consulte las respuestas organizadas por intención. Cada entrada presenta primero la respuesta y luego permite ampliar la información.</p>
             </div>
 
