@@ -393,7 +393,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({
       ======================================================== */}
 
       <PageHero
-        title="Evaluación de Caso"
+        title="Contacto letrado | Evaluación de Caso"
         subtitle="Utilice este canal para una evaluación técnica de su caso bajo estricto secreto profesional."
         breadcrumbLabel="Contacto"
         backgroundImage={ASSETS.heroContact}
@@ -404,12 +404,21 @@ export const ContactSection: React.FC<ContactSectionProps> = ({
           CONTACT CONTENT
       ======================================================== */}
 
-      <main className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-24">
+      <section aria-labelledby="contact-form-title" className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-24">
         <div className="mx-auto max-w-3xl">
 
           {/* ====================================================
               SUCCESS STATE
           ==================================================== */}
+
+          {!submittedCode && (
+            <h2
+              id="contact-form-title"
+              className="mb-10 font-serif text-3xl font-bold text-[#302D28] sm:mb-12 sm:text-4xl"
+            >
+              Formulario de Consulta Confidencial
+            </h2>
+          )}
 
           {submittedCode ? (
             <section
@@ -1012,7 +1021,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({
             </>
           )}
         </div>
-      </main>
+      </section>
     </div>
   );
 };
