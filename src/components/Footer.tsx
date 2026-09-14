@@ -45,6 +45,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenConsultationModal }) => {
             </div>
             <Link to={TAB_TO_PATH.experiencia} onClick={handleInternalNavigation} className={`inline-flex pt-1 text-xs font-semibold uppercase tracking-wider text-[#D9A9B8] transition-colors hover:text-white ${focusRing}`}>Conocer experiencia →</Link>
           </div>
+
           <div className="space-y-4 lg:col-span-5">
             <span className="block pb-1 text-xs font-bold uppercase tracking-widest text-[#DDD2C5]">Cobertura territorial</span>
             <div className="space-y-4 text-sm text-[#F4EFE8]/85">
@@ -55,18 +56,59 @@ export const Footer: React.FC<FooterProps> = ({ onOpenConsultationModal }) => {
             </div>
             <Link to={TAB_TO_PATH.servicios} onClick={handleInternalNavigation} className={`inline-flex pt-1 text-xs font-semibold uppercase tracking-wider text-[#D9A9B8] transition-colors hover:text-white ${focusRing}`}>Ver servicios →</Link>
           </div>
+
           <div className="space-y-4 lg:col-span-3">
             <span className="block pb-1 text-xs font-bold uppercase tracking-widest text-[#DDD2C5]">Oficina</span>
-            <div className="flex items-start gap-3" itemProp="address" itemScope itemType="https://schema.org"><MapPin className="mt-0.5 h-4 w-4 shrink-0 text-[#7F203D]" aria-hidden="true" /><div><span className="block text-sm font-medium text-white" itemProp="streetAddress">Peatonal Sarmiento 250, 2° B</span><span className="block text-sm leading-relaxed text-white/70"><span itemProp="addressLocality">Mendoza</span>, <span itemProp="addressRegion">Mendoza</span>, <span itemProp="addressCountry">Argentina</span></span></div></div>
-            <div className="flex items-center gap-3"><Phone className="h-4 w-4 shrink-0 text-[#7F203D]" aria-hidden="true" /><a href={`tel:${CONTACT_INFO.phone.replace(/\s+/g, '')}`} className={`text-sm text-[#F4EFE8]/85 transition-colors hover:text-white ${focusRing}`} itemProp="telephone">{CONTACT_INFO.phone}</a></div>
-            <div className="flex items-center gap-3"><Mail className="h-4 w-4 shrink-0 text-[#7F203D]" aria-hidden="true" /><a href={`mailto:${CONTACT_INFO.email}`} className={`text-sm text-[#F4EFE8]/85 transition-colors hover:text-white ${focusRing}`} itemProp="email">{CONTACT_INFO.email}</a></div>
-            <div className="flex items-center pb-3 gap-3 text-sm text-[#F4EFE8]/70"><Clock className="h-4 w-4 shrink-0 text-[#7F203D]" aria-hidden="true" /><span>Lunes a Viernes: 08:30 - 19:30 hs</span></div>
+
+            <div className="flex items-start gap-3" itemProp="address" itemScope itemType="https://schema.org">
+              <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-[#7F203D]" aria-hidden="true" />
+              <div>
+                <span className="block text-sm font-medium text-white" itemProp="streetAddress">Peatonal Sarmiento 250, 2° B</span>
+                <span className="block text-sm leading-relaxed text-white/70">
+                  <span itemProp="addressLocality">Mendoza</span>, <span itemProp="addressRegion">Mendoza</span>, <span itemProp="addressCountry">Argentina</span>
+                </span>
+              </div>
+            </div>
+
+            <div className="flex items-center gap-3">
+              <Phone className="h-4 w-4 shrink-0 text-[#7F203D]" aria-hidden="true" />
+              <a href={`tel:${CONTACT_INFO.phone.replace(/\s+/g, '')}`} className={`text-sm text-[#F4EFE8]/85 transition-colors hover:text-white ${focusRing}`} itemProp="telephone">
+                {CONTACT_INFO.phone}
+              </a>
+            </div>
+
+            <div className="flex items-center gap-3">
+              <Mail className="h-4 w-4 shrink-0 text-[#7F203D]" aria-hidden="true" />
+              <a href={`mailto:${CONTACT_INFO.email}`} className={`text-sm text-[#F4EFE8]/85 transition-colors hover:text-white ${focusRing}`} itemProp="email">
+                {CONTACT_INFO.email}
+              </a>
+            </div>
+
+            <div className="flex items-center pb-3 gap-3 text-sm text-[#F4EFE8]/70">
+              <Clock className="h-4 w-4 shrink-0 text-[#7F203D]" aria-hidden="true" />
+              <span>Lunes a Viernes: 08:30 - 19:30 hs</span>
+            </div>
+
             <div ref={mapContainerRef} className="w-full aspect-video rounded-lg bg-[#302D28]">
-              {mapLoaded ? <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13401.204022125608!2d-68.842749!3d-32.890209!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e09ac90023991%3A0x42a4e4a060a92ef!2sAbogada%20Emilia%20Sandobar!5e0!3m2!1ses-419!2sar!4v1788299319445!5m2!1ses-419!2sar" title="Ubicación del estudio jurídico Emilia Sandobar" className="w-full aspect-video rounded-lg shadow-sm" style={{ border: 0 }} allowFullScreen={true} loading="lazy" referrerPolicy="strict-origin-when-cross-origin" /> : null}
+              {mapLoaded ? (
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13401.204022125608!2d-68.842749!3d-32.890209!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e09ac90023991%3A0x42a4e4a060a92ef!2sAbogada%20Emilia%20Sandobar!5e0!3m2!1ses-419!2sar!4v1788299319445!5m2!1ses-419!2sar"
+                  title="Ubicación del estudio jurídico Emilia Sandobar"
+                  className="w-full aspect-video rounded-lg shadow-sm"
+                  style={{ border: 0 }}
+                  allowFullScreen={true}
+                  loading="lazy"
+                  referrerPolicy="strict-origin-when-cross-origin"
+                />
+              ) : null}
             </div>
           </div>
+
         </div>
-        <div className="flex flex-col items-center justify-between gap-6 pt-10 text-xs text-[#F4EFE8]/70 md:flex-row"><div className="order-1 text-center text-xs md:order-2 md:text-left"><span>© {new Date().getFullYear()} Todos los derechos reservados.</span></div><div className="order-1 text-center text-xs md:order-2 md:text-right"><span><a href="https://wa.me/5492616706710" target="_blank" rel="noopener noreferrer" className={`transition-colors hover:text-white ${focusRing}`}>Powered by SmartWeb</a></span></div></div>
+        <div className="flex flex-col items-center justify-between gap-6 pt-10 text-xs text-[#F4EFE8]/70 md:flex-row">
+          <div className="order-1 text-center text-xs md:order-2 md:text-left"><span>© {new Date().getFullYear()} Todos los derechos reservados.</span></div>
+          <div className="order-1 text-center text-xs md:order-2 md:text-right"><span><a href="https://wa.me/5492616706710" target="_blank" rel="noopener noreferrer" className={`transition-colors hover:text-white ${focusRing}`}>Powered by SmartWeb</a></span></div>
+        </div>
       </div>
     </footer>
   );
