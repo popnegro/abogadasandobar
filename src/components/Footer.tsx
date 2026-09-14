@@ -89,7 +89,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenConsultationModal }) => {
               <span>Lunes a Viernes: 08:30 - 19:30 hs</span>
             </div>
 
-            <div ref={mapContainerRef} className="w-full aspect-video rounded-lg bg-[#302D28]" aria-label="Mapa de ubicación del estudio jurídico Emilia Sandobar">
+            <div ref={mapContainerRef} className="w-full aspect-video rounded-lg bg-[#302D28]">
               {mapLoaded ? (
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13401.204022125608!2d-68.842749!3d-32.890209!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e09ac90023991%3A0x42a4e4a060a92ef!2sAbogada%20Emilia%20Sandobar!5e0!3m2!1ses-419!2sar!4v1788299319445!5m2!1ses-419!2sar"

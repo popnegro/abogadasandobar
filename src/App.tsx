@@ -7,7 +7,6 @@ import { Footer } from './components/Footer';
 import { CONTACT_INFO } from './data/contactData';
 import { useRouteMetadata } from './utils/useRouteMetadata';
 import { trackEvent } from './lib/analytics';
-import './data/legalContentLocalization';
 
 const ServicesSection = lazy(() => import('./components/ServicesSection').then((module) => ({ default: module.ServicesSection })));
 const ExperienceSection = lazy(() => import('./components/ExperienceSection').then((module) => ({ default: module.ExperienceSection })));
