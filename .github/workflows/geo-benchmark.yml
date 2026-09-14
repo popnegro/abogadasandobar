@@ -17,8 +17,8 @@ jobs:
 
       - name: Run GEO benchmark
         env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          GEMINI_MODEL: gemini-3.8-flash
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          OPENROUTER_MODEL: openrouter/free
         run: node scripts/geo-benchmark-v1.mjs
 
       - name: Commit benchmark results
