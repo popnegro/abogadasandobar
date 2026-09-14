@@ -45,6 +45,8 @@ export const PageHero: React.FC<PageHeroProps> = ({
         aria-hidden="true"
         loading="eager"
         fetchPriority="high"
+        width={1376}
+        height={768}
         decoding="async"
         className="absolute inset-0 h-full w-full object-cover object-center transition-transform duration-1000"
       />
