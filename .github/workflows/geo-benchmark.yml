@@ -2,6 +2,11 @@ name: GEO Benchmark
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - feat/p5-geo-openrouter-free
+    paths-ignore:
+      - 'geo-benchmark/results/**'
   schedule:
     - cron: '0 12 * * 1'
 
