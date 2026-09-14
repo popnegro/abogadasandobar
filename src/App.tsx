@@ -81,8 +81,11 @@ function PageShell() {
 
   return (
     <div className="min-h-screen flex flex-col bg-[#FFF8F2] text-[#302D28] font-sans selection:bg-[#7F203D] selection:text-white relative">
+      <a href="#main-content" className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[100] focus:bg-[#FFF8F2] focus:px-4 focus:py-3 focus:text-sm focus:font-bold focus:text-[#7F203D] focus:shadow-lg focus:outline-none focus:ring-2 focus:ring-[#7F203D]">
+        Saltar al contenido principal
+      </a>
       <Navbar activeTab={activeTab} setActiveTab={setActiveTab} onRequestConsultation={() => handleRequestConsultation()} />
-      <main className="flex-grow w-full">
+      <main id="main-content" className="flex-grow w-full" tabIndex={-1}>
         <Suspense fallback={<RouteLoading />}>
           <Routes>
             <Route path="/" element={<HomeSection setActiveTab={setActiveTab} onRequestConsultation={() => handleRequestConsultation()} />} />
