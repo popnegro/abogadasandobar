@@ -8,25 +8,30 @@ Benchmark reproducible para medir cómo una IA con búsqueda web presenta a Emil
 - `top3Rate`: frecuencia con una posición estimada dentro de las tres primeras entidades.
 - `firstPlaceRate`: frecuencia con posición estimada #1.
 - `ownSiteCitationRate`: frecuencia con la que la respuesta cita `abogadasandobar.com.ar`.
-- respuesta completa y fuentes devueltas por el grounding.
+- respuesta completa, resultados de búsqueda y fuentes seleccionadas.
 
 La `estimatedPosition` de v1 es heurística: ordena la primera aparición de Emilia frente a un conjunto fijo de competidores conocidos. No debe interpretarse como un ranking oficial de Google.
 
 ## Proveedor
 
-v1 utiliza Gemini API con `google_search` grounding. Google documenta que este mecanismo permite búsqueda web en tiempo real y devuelve metadatos de grounding y citas verificables.
+v1 separa búsqueda y generación para evitar el coste de las herramientas de búsqueda comerciales:
+
+- Búsqueda web: DuckDuckGo HTML.
+- Modelo: OpenRouter `openrouter/free`.
+
+El modelo recibe los resultados recuperados por el buscador y debe responder únicamente con ese contexto, identificando al final las fuentes utilizadas.
 
 ## Ejecución local
 
 ```bash
-export GEMINI_API_KEY='...'
+export OPENROUTER_API_KEY='...'
 npm run benchmark:geo
 ```
 
 Opcional:
 
 ```bash
-export GEMINI_MODEL='gemini-3.8-flash'
+export OPENROUTER_MODEL='openrouter/free'
 ```
 
 Los resultados quedan en `geo-benchmark/results/`.
@@ -37,7 +42,7 @@ Los resultados quedan en `geo-benchmark/results/`.
 
 El workflow requiere el secret de repositorio:
 
-`GEMINI_API_KEY`
+`OPENROUTER_API_KEY`
 
 No se debe guardar la API key en el repositorio.
 
