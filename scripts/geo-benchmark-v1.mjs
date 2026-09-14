@@ -30,40 +30,93 @@ function decodeHtml(value) {
     .replace(/&quot;/g, '"')
     .replace(/&#39;/g, "'")
     .replace(/&lt;/g, '<')
-    .replace(/&gt;/g, '>');
+    .replace(/&gt;/g, '>')
+    .replace(/&nbsp;/g, ' ');
 }
 
 function stripHtml(value) {
   return decodeHtml(value.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim());
 }
 
+function resolveDuckDuckGoUrl(value) {
+  const decoded = decodeHtml(value);
+  if (/^https?:\/\//i.test(decoded)) {
+    try {
+      const parsed = new URL(decoded);
+      const uddg = parsed.searchParams.get('uddg');
+      if (uddg) return decodeURIComponent(uddg);
+    } catch {
+      // Keep the original URL when it is not parseable as a URL.
+    }
+    return decoded;
+  }
+
+  try {
+    const parsed = new URL(decoded, 'https://html.duckduckgo.com');
+    const uddg = parsed.searchParams.get('uddg');
+    if (uddg) return decodeURIComponent(uddg);
+  } catch {
+    // Ignore malformed result links.
+  }
+  return decoded;
+}
+
+function addResult(results, href, rawTitle) {
+  const url = resolveDuckDuckGoUrl(href);
+  const title = stripHtml(rawTitle);
+  if (!title || title.length < 2 || !/^https?:\/\//i.test(url)) return;
+  if (/duckduckgo\.com/i.test(url)) return;
+  if (!results.some((result) => result.url === url)) results.push({ title, url });
+}
+
+function parseDuckDuckGoResults(html) {
+  const results = [];
+
+  // Current DDG HTML commonly renders result titles as h2 > a and may omit
+  // result__a from the anchor. Parse result blocks first so markup changes do
+  // not silently become an empty benchmark.
+  const blocks = html.match(/<div\b[^>]*class=["'][^"']*\bresult\b[^"']*["'][^>]*>[\s\S]*?(?=<div\b[^>]*class=["'][^"']*\bresult\b|<div\s+id=["']links["']|$)/gi) || [];
+  for (const block of blocks) {
+    const titleMatch = block.match(/<h2\b[^>]*>[\s\S]*?<a\b[^>]*href=["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>[\s\S]*?<\/h2>/i)
+      || block.match(/<a\b[^>]*class=["'][^"']*result__a[^"']*["'][^>]*href=["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>/i)
+      || block.match(/<a\b[^>]*href=["']([^"']+)["'][^>]*class=["'][^"']*result__a[^"']*["'][^>]*>([\s\S]*?)<\/a>/i);
+    if (titleMatch) addResult(results, titleMatch[1], titleMatch[2]);
+    if (results.length >= 8) return results;
+  }
+
+  // Fallback for the classic result__a markup.
+  const patterns = [
+    /<a\b[^>]*class=["'][^"']*result__a[^"']*["'][^>]*href=["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>/gi,
+    /<a\b[^>]*href=["']([^"']+)["'][^>]*class=["'][^"']*result__a[^"']*["'][^>]*>([\s\S]*?)<\/a>/gi,
+  ];
+  for (const pattern of patterns) {
+    let match;
+    while ((match = pattern.exec(html)) && results.length < 8) addResult(results, match[1], match[2]);
+    if (results.length >= 8) break;
+  }
+
+  return results;
+}
+
 async function searchWeb(query) {
   const response = await fetch(`https://html.duckduckgo.com/html/?q=${encodeURIComponent(query)}`, {
     headers: {
-      'User-Agent': 'Mozilla/5.0 (compatible; GEO-Benchmark/1.0; +https://abogadasandobar.com.ar)',
+      'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36',
       Accept: 'text/html,application/xhtml+xml',
+      Referer: 'https://html.duckduckgo.com/',
+      'Sec-Fetch-Dest': 'document',
+      'Sec-Fetch-Mode': 'navigate',
+      'Sec-Fetch-Site': 'same-origin',
+      'Sec-Fetch-User': '?1',
     },
   });
   if (!response.ok) throw new Error(`DuckDuckGo ${response.status}: ${await response.text()}`);
   const html = await response.text();
-  const results = [];
-  const pattern = /<a\b[^>]*class=["'][^"']*result__a[^"']*["'][^>]*href=["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>/gi;
-  let match;
-  while ((match = pattern.exec(html)) && results.length < 8) {
-    const url = decodeHtml(match[1]);
-    const title = stripHtml(match[2]);
-    if (/^https?:\/\//i.test(url)) results.push({ title, url });
+  if (/captcha|are you a human|unusual traffic|anomaly/i.test(html) && !/result__a|class=["'][^"']*\bresult\b/i.test(html)) {
+    throw new Error('DuckDuckGo returned an anti-bot page instead of search results.');
   }
-
-  if (results.length === 0) {
-    const fallback = /<a\b[^>]*href=["']([^"']+)["'][^>]*class=["'][^"']*result__a[^"']*["'][^>]*>([\s\S]*?)<\/a>/gi;
-    while ((match = fallback.exec(html)) && results.length < 8) {
-      const url = decodeHtml(match[1]);
-      const title = stripHtml(match[2]);
-      if (/^https?:\/\//i.test(url)) results.push({ title, url });
-    }
-  }
-
+  const results = parseDuckDuckGoResults(html);
+  if (results.length === 0) throw new Error('DuckDuckGo returned HTML but no parseable search results.');
   return results;
 }
 
