@@ -411,14 +411,12 @@ export const ContactSection: React.FC<ContactSectionProps> = ({
               SUCCESS STATE
           ==================================================== */}
 
-          {!submittedCode && (
-            <h2
-              id="contact-form-title"
-              className="mb-10 font-serif text-3xl font-bold text-[#302D28] sm:mb-12 sm:text-4xl"
-            >
-              Formulario de Consulta Confidencial
-            </h2>
-          )}
+          <h2
+            id="contact-form-title"
+            className={`${submittedCode ? 'sr-only' : 'mb-10 font-serif text-3xl font-bold text-[#302D28] sm:mb-12 sm:text-4xl'}`}
+          >
+            Formulario de Consulta Confidencial
+          </h2>
 
           {submittedCode ? (
             <section
