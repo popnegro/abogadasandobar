@@ -47,13 +47,23 @@ async function searchWeb(query) {
   if (!response.ok) throw new Error(`DuckDuckGo ${response.status}: ${await response.text()}`);
   const html = await response.text();
   const results = [];
-  const pattern = /<a[^>]*class="result__a"[^>]*href="([^"]+)"[^>]*>([\s\S]*?)<\/a>/g;
+  const pattern = /<a\b[^>]*class=["'][^"']*result__a[^"']*["'][^>]*href=["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>/gi;
   let match;
   while ((match = pattern.exec(html)) && results.length < 8) {
     const url = decodeHtml(match[1]);
     const title = stripHtml(match[2]);
     if (/^https?:\/\//i.test(url)) results.push({ title, url });
   }
+
+  if (results.length === 0) {
+    const fallback = /<a\b[^>]*href=["']([^"']+)["'][^>]*class=["'][^"']*result__a[^"']*["'][^>]*>([\s\S]*?)<\/a>/gi;
+    while ((match = fallback.exec(html)) && results.length < 8) {
+      const url = decodeHtml(match[1]);
+      const title = stripHtml(match[2]);
+      if (/^https?:\/\//i.test(url)) results.push({ title, url });
+    }
+  }
+
   return results;
 }
 
@@ -111,7 +121,7 @@ async function runQuery(query) {
   const data = await response.json();
   const text = data.choices?.[0]?.message?.content || '';
   const citedUrls = extractSources(text, searchResults);
-  return { text, citations: citedUrls.map((url) => ({ title: searchResults.find((item) => item.url === url)?.title || '', url })) , searchResults };
+  return { text, citations: citedUrls.map((url) => ({ title: searchResults.find((item) => item.url === url)?.title || '', url })), searchResults };
 }
 
 const startedAt = new Date();
