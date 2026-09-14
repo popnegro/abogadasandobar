@@ -1,0 +1,343 @@
+{
+  "version": "P5 GEO Benchmark v1",
+  "startedAt": "2026-09-14T23:11:10.260Z",
+  "completedAt": "2026-09-14T23:15:17.854Z",
+  "provider": "openrouter",
+  "model": "openrouter/free",
+  "searchProvider": "duckduckgo-html",
+  "totalQueries": 15,
+  "successfulQueries": 15,
+  "errors": 0,
+  "metrics": {
+    "mentionRate": 0.2,
+    "top3Rate": 0.2,
+    "firstPlaceRate": 0.2,
+    "ownSiteCitationRate": 0
+  },
+  "results": [
+    {
+      "id": "Q01",
+      "query": "abogada penalista en Mendoza",
+      "intent": "abogada penalista en Mendoza",
+      "category": "penal-general",
+      "status": "ok",
+      "searchResults": [],
+      "analysis": {
+        "mentioned": false,
+        "firstMentionIndex": -1,
+        "estimatedPosition": null,
+        "citedOwnSite": false,
+        "citedUrls": [],
+        "competitorsMentioned": []
+      },
+      "answer": "\n\nPara encontrar una abogada penalista en Mendoza, te recomiendo los siguientes pasos, que son los métodos habituales de búsqueda:\n\n1.  **Consultar el Colegio de Abogados de Mendoza:** Es la fuente más confiable. El Colegio mantiene un registro actualizado de todos los matriculados. En su sitio web suele haber un directorio o una herramienta de búsqueda donde podés filtrar por especialidad (Derecho Penal) y por provincia (Mendoza).\n    *   **Sitio web sugerido:** Buscá \"Colegio de Abogados de Mendoza\" en tu buscador preferido.\n\n2.  **Utilizar motores de búsqueda con términos específicos:** Podés probar con frases como:\n    *   \"abogada penalista Mendoza\"\n    *   \"defensora penal Mendoza\"\n    *   \"abogados especialistas en derecho penal Mendoza\"\n    *   \"bufete penal Mendoza\"\n\n3.  **Consultar plataformas de profesionales:** Sitios como LinkedIn o directorios jurídicos suelen tener perfiles detallados de los abogados, incluyendo su área de especialización y ubicación.\n\n4.  **Pedir recomendaciones:** Si conocés a alguien que haya tenido que contratar un abogado penalista en la zona, pedí una recomendación. Las recomendaciones personales suelen ser muy valiosas.\n\n**Al evaluar a una profesional, te sugiero que considerses:**\n*   Su experiencia específica en la materia penal.\n*   Su disponibilidad para atender tu caso.\n*   La claridad en la explicación de los honorarios y el procedimiento.\n\n**Es importante recordar que esta es una guía de cómo realizar la búsqueda.** Debes contactar y entrevistar a diferentes profesionales para elegir la que mejor se adapte a tu situación específica.\n\nFUENTES:\n*   Información general sobre el registro de abogados en Argentina (Colegios de Abogados).\n*   Prácticas comunes de búsqueda de profesionales legales.",
+      "citations": []
+    },
+    {
+      "id": "Q02",
+      "query": "mejor abogada penalista en Mendoza",
+      "intent": "mejor abogada penalista en Mendoza",
+      "category": "penal-general",
+      "status": "ok",
+      "searchResults": [],
+      "analysis": {
+        "mentioned": false,
+        "firstMentionIndex": -1,
+        "estimatedPosition": null,
+        "citedOwnSite": false,
+        "citedUrls": [],
+        "competitorsMentioned": []
+      },
+      "answer": "No puedo determinar quién es la mejor abogada penalista en Mendoza porque no se proporcionaron resultados, perfiles ni enlaces para comparar.\n\nSi pegás las opciones que encontraste, puedo ayudarte a contrastarlas según experiencia penal, matrícula habilitante, especialización, honorarios y disponibilidad.\n\nFUENTES:\nNo se proporcionaron URLs.\n<CPA_DONE>",
+      "citations": []
+    },
+    {
+      "id": "Q03",
+      "query": "abogada penalista Mendoza defensa",
+      "intent": "abogada penalista Mendoza defensa",
+      "category": "defensa",
+      "status": "ok",
+      "searchResults": [],
+      "analysis": {
+        "mentioned": false,
+        "firstMentionIndex": -1,
+        "estimatedPosition": null,
+        "citedOwnSite": false,
+        "citedUrls": [],
+        "competitorsMentioned": []
+      },
+      "answer": "User Safety: safe",
+      "citations": []
+    },
+    {
+      "id": "Q04",
+      "query": "abogada penalista Mendoza defensa penal",
+      "intent": "abogada penalista Mendoza defensa penal",
+      "category": "defensa",
+      "status": "ok",
+      "searchResults": [],
+      "analysis": {
+        "mentioned": false,
+        "firstMentionIndex": -1,
+        "estimatedPosition": null,
+        "citedOwnSite": false,
+        "citedUrls": [],
+        "competitorsMentioned": []
+      },
+      "answer": "No se encontraron resultados para **“abogada penalista Mendoza defensa penal”**. Para orientarte mejor, indicame si buscás defensa en **Mendoza capital o provincia**, y si necesitás **abogado privado** o **turno de oficio**.\n\nFUENTES: No se proporcionaron fuentes.",
+      "citations": []
+    },
+    {
+      "id": "Q05",
+      "query": "abogada penalista Mendoza urgencia 24 horas",
+      "intent": "abogada penalista Mendoza urgencia 24 horas",
+      "category": "urgencia",
+      "status": "ok",
+      "searchResults": [],
+      "analysis": {
+        "mentioned": false,
+        "firstMentionIndex": -1,
+        "estimatedPosition": null,
+        "citedOwnSite": false,
+        "citedUrls": [],
+        "competitorsMentioned": []
+      },
+      "answer": "Para encontrar una abogada penalista en Mendoza con urgencia 24 horas, te sugiero contactar estudios jurídicos especializados en derecho penal que ofrezcan guardias o atención continua. Algunos resultados de búsqueda suelen mostrar estudios como el Estudio Jurídico Ojeda y otros que promocionan servicio de urgencias las 24 horas en la zona mendocina.\n\nVerificá directamente:\n- Matrícula de la abogada habilitada\n- Especialidad específica en penal\n- Disponibilidad real 24hs para casos urgentes\n- Turnos de guardia o contacto directo\n\nEs recomendable confirmar por teléfono o WhatsApp la identidad de la profesional y el arancel antes de concurrir.\n\nFUENTES:\nNo se proporcionaron URLs específicas en los resultados de búsqueda incluidos en la consulta.",
+      "citations": []
+    },
+    {
+      "id": "Q06",
+      "query": "abogada penalista Mendoza detención",
+      "intent": "abogada penalista Mendoza detención",
+      "category": "urgencia",
+      "status": "ok",
+      "searchResults": [],
+      "analysis": {
+        "mentioned": false,
+        "firstMentionIndex": -1,
+        "estimatedPosition": null,
+        "citedOwnSite": false,
+        "citedUrls": [],
+        "competitorsMentioned": []
+      },
+      "answer": "No aparecieron los resultados de búsqueda en tu mensaje. Si podés pegarlos acá, te ayudo a analizarlos.\n\nMientras tanto, para buscar abogadas penalistas en Mendoza vinculadas a detenciones, te conviene consultar:\n\n- **Colegio de Abogados de Mendoza**: directorio de matriculados para verificar antecedentes.\n- **Poder Judicial de Mendoza**: sitio oficial para confirmar la matrícula y estado del profesional.\n- **Defensoría General de la Provincia de Mendoza**: si necesitás asistencia legal gratuita o referidos.\n\nRecordá que cualquier recomendación de profesional debe basarse en datos verificables (matrícula, especialidad declarada, opiniones de clientes) y no solo en valoraciones subjetivas.\n\nFUENTES:\nNo se proporcionaron resultados de búsqueda para citar URLs.",
+      "citations": []
+    },
+    {
+      "id": "Q07",
+      "query": "abogada penalista Mendoza allanamiento",
+      "intent": "abogada penalista Mendoza allanamiento",
+      "category": "urgencia",
+      "status": "ok",
+      "searchResults": [],
+      "analysis": {
+        "mentioned": false,
+        "firstMentionIndex": -1,
+        "estimatedPosition": null,
+        "citedOwnSite": false,
+        "citedUrls": [
+          {
+            "title": "",
+            "url": "https://www.abogadospenalistamendoza.com.ar/allanamientos"
+          },
+          {
+            "title": "",
+            "url": "https://www.abogadosmendoza.com.ar/allanamientos"
+          },
+          {
+            "title": "",
+            "url": "https://penalistasmendoza.com/allanamiento"
+          }
+        ],
+        "competitorsMentioned": []
+      },
+      "answer": "## Allanamientos en Mendoza: información relevante\n\nUn **allanamiento** es una diligencia judicial mediante la cual se ingresa a un domicilio, local u otro espacio cerrado para buscar evidencia, documentación o personas requeridas por la justicia. En Mendoza, como en el resto del país, los allanamientos deben cumplir con requisitos legales estrictos (orden judicial, identificación de los funcionarios, horarios reglamentarios, entre otros), y es fundamental contar con asesoramiento legal especializado para proteger los derechos del afectado.\n\n### Abogados penalistas en Mendoza especializados en allanamientos\n\nSegún los resultados de búsqueda, existen estudios jurídicos en la ciudad de Mendoza que se desempeñan en el ámbito del derecho penal y que ofrecen servicios relacionados con allanamientos:\n\n- **Abogados Penalistas Mendoza**: estudio con presencia en redes sociales y Google Maps, ubicado en **Av. San Martín 116, Ciudad de Mendoza**. Ofrecen asesoramiento en materia de allanamientos y derecho penal en general.\n\n- **AbogadosMendoza.com.ar**: plataforma que ofrece información sobre servicios legales en Mendoza, incluyendo la temática de allanamientos y defensa penal.\n\n- **PenalistasMendoza.com**: sitio web dedicado a la defensa penal en Mendoza con secciones específicas sobre allanamientos y allanamientos domiciliarios.\n\n### ¿Qué hacer ante un allanamiento?\n\nEs recomendable tener en cuenta lo siguiente:\n- Solicitar siempre la orden judicial de allanamiento.\n- Verificar la identificación de los funcionarios actuantes.\n- Solicitar un inventario de lo incautado.\n- No obstruir la labor de los funcionarios, pero hacer valer sus derechos.\n- Consultar con un abogado penalista de forma temprana para evaluar la legalidad del procedimiento.\n\nPara obtener información más detallada sobre los servicios específicos, honorarios y disponibilidad de estos estudios, se recomienda contactarlos directamente.\n\n---\n\nFUENTES:\nhttps://www.abogadospenalistamendoza.com.ar/allanamientos\nhttps://www.abogadosmendoza.com.ar/allanamientos\nhttps://penalistasmendoza.com/allanamiento",
+      "citations": [
+        {
+          "title": "",
+          "url": "https://www.abogadospenalistamendoza.com.ar/allanamientos"
+        },
+        {
+          "title": "",
+          "url": "https://www.abogadosmendoza.com.ar/allanamientos"
+        },
+        {
+          "title": "",
+          "url": "https://penalistasmendoza.com/allanamiento"
+        }
+      ]
+    },
+    {
+      "id": "Q08",
+      "query": "abogada penalista Mendoza denuncia",
+      "intent": "abogada penalista Mendoza denuncia",
+      "category": "causas",
+      "status": "ok",
+      "searchResults": [],
+      "analysis": {
+        "mentioned": false,
+        "firstMentionIndex": -1,
+        "estimatedPosition": null,
+        "citedOwnSite": false,
+        "citedUrls": [],
+        "competitorsMentioned": []
+      },
+      "answer": "No se encontró información en los resultados de búsqueda proporcionados sobre una abogada penalista de Mendoza que haya presentado una denuncia.\n\nFUENTES:",
+      "citations": []
+    },
+    {
+      "id": "Q09",
+      "query": "abogada penalista Mendoza delito económico",
+      "intent": "abogada penalista Mendoza delito económico",
+      "category": "causas",
+      "status": "ok",
+      "searchResults": [],
+      "analysis": {
+        "mentioned": false,
+        "firstMentionIndex": -1,
+        "estimatedPosition": null,
+        "citedOwnSite": false,
+        "citedUrls": [
+          {
+            "title": "",
+            "url": "http://www.cam.org.ar"
+          }
+        ],
+        "competitorsMentioned": []
+      },
+      "answer": "No se obtuvieron resultados específicos en esta búsqueda. Sin embargo, puedo orientarte sobre cómo encontrar una abogada penalista especializada en delitos económicos en Mendoza:\n\n**Cómo buscar un profesional en Mendoza:**\n\n1. **Colegio de Abogados de Mendoza (CAM):** Es el organismo profesional que regula la matrícula en la provincia. Podés contactarlos para solicitar una derivación a un abogado penalista con experiencia en delitos económicos. Su sitio web es [www.cam.org.ar](http://www.cam.org.ar).\n\n2. **Firmas especializadas en derecho penal económico:** En Mendoza existen estudios jurídicos que cuentan con equipos dedicados al derecho penal económico, que abarca delitos como lavado de activos, evasión tributaria, fraude, administración fraudulenta y delitos contra el sistema financiero.\n\n3. **Consultas previas:** Muchas abogadas penalistas ofrecen una primera consulta para evaluar el caso. Es recomendable consultar sobre su experiencia específica en delitos económicos, ya que es una rama altamente especializada del derecho penal.\n\n4. **Directorios jurídicos:** Plataformas como el directorio del Colegio de Abogados o portales jurídicos argentinos permiten filtrar profesionales por especialidad y localidad.\n\n**Sobre los delitos económicos en Argentina:**\nEl derecho penal económico en Argentina está regulado por diversas leyes (código penal, leyes de lavado de activos, código procesal penal federal y provincial, entre otras). La defensa en este ámbito requiere conocimientos tanto de derecho penal como de derecho tributario, financiero y procesal.\n\nFUENTES:\n- Colegio de Abogados de Mendoza: [www.cam.org.ar](http://www.cam.org.ar)",
+      "citations": [
+        {
+          "title": "",
+          "url": "http://www.cam.org.ar"
+        }
+      ]
+    },
+    {
+      "id": "Q10",
+      "query": "abogada penalista Mendoza consulta",
+      "intent": "abogada penalista Mendoza consulta",
+      "category": "consulta",
+      "status": "ok",
+      "searchResults": [],
+      "analysis": {
+        "mentioned": false,
+        "firstMentionIndex": -1,
+        "estimatedPosition": null,
+        "citedOwnSite": false,
+        "citedUrls": [],
+        "competitorsMentioned": []
+      },
+      "answer": "No recibí resultados de búsqueda para “abogada penalista Mendoza”, así que no puedo recomendar profesionales ni verificar datos.\n\nPodés precisar la búsqueda con la localidad —Mendoza, Godoy Cruz, Guaymallén, Las Heras, Maipú o Luján de Cuyo— y si necesitás consulta presencial u online. También podés compartirme enlaces encontrados y te ayudo a comparar perfiles.\n\nFUENTES: No se proporcionaron resultados.",
+      "citations": []
+    },
+    {
+      "id": "Q11",
+      "query": "Emilia Sandobar abogada",
+      "intent": "Emilia Sandobar abogada",
+      "category": "entity",
+      "status": "ok",
+      "searchResults": [],
+      "analysis": {
+        "mentioned": true,
+        "firstMentionIndex": 30,
+        "estimatedPosition": 1,
+        "citedOwnSite": false,
+        "citedUrls": [],
+        "competitorsMentioned": []
+      },
+      "answer": "No encontré información sobre Emilia Sandobar como abogada en los resultados de búsqueda proporcionados.\n\nFUENTES:",
+      "citations": []
+    },
+    {
+      "id": "Q12",
+      "query": "Emilia Sandobar penalista",
+      "intent": "Emilia Sandobar penalista",
+      "category": "entity",
+      "status": "ok",
+      "searchResults": [],
+      "analysis": {
+        "mentioned": true,
+        "firstMentionIndex": 121,
+        "estimatedPosition": 1,
+        "citedOwnSite": false,
+        "citedUrls": [
+          {
+            "title": "",
+            "url": "https://www.cabaabogados.org.ar/"
+          },
+          {
+            "title": "",
+            "url": "https://www.cpbabogados.org.ar/"
+          }
+        ],
+        "competitorsMentioned": []
+      },
+      "answer": "Hasta donde puedo acceder en este momento, no hay información pública disponible sobre una penalista o abogada llamada **Emilia Sandobar** en fuentes generales o directorios legales reconocidos. Si estás buscando información específica sobre una persona en el ámbito legal, te recomiendo:\n\n1. **Consultar el registro de abogados de la jurisdicción correspondiente** (por ejemplo, el Colegio de Abogados de tu provincia o ciudad en Argentina).\n2. **Revisar directorios profesionales** como [Colegio de Abogados de la Ciudad de Buenos Aires](https://www.cabaabogados.org.ar/) o [Colegio de Abogados de la Provincia de Buenos Aires](https://www.cpbabogados.org.ar/).\n3. **Verificar en redes sociales o sitios web profesionales** (LinkedIn, por ejemplo) para obtener datos de contacto o experiencia laboral.\n\nSi tienes más detalles (como ciudad, especialidad o caso específico), puedo ayudarte a orientar mejor la búsqueda. \n\nFUENTES:  \n- [Colegio de Abogados de la Ciudad de Buenos Aires](https://www.cabaabogados.org.ar/)  \n- [Colegio de Abogados de la Provincia de Buenos Aires](https://www.cpbabogados.org.ar/)",
+      "citations": [
+        {
+          "title": "",
+          "url": "https://www.cabaabogados.org.ar/"
+        },
+        {
+          "title": "",
+          "url": "https://www.cpbabogados.org.ar/"
+        }
+      ]
+    },
+    {
+      "id": "Q13",
+      "query": "quién es Emilia Sandobar",
+      "intent": "quién es Emilia Sandobar",
+      "category": "entity",
+      "status": "ok",
+      "searchResults": [],
+      "analysis": {
+        "mentioned": true,
+        "firstMentionIndex": 57,
+        "estimatedPosition": 1,
+        "citedOwnSite": false,
+        "citedUrls": [],
+        "competitorsMentioned": []
+      },
+      "answer": "\n\nNo he encontrado información sobre una persona llamada Emilia Sandobar en los resultados de búsqueda proporcionados. El nombre no coincide con figuras públicas conocidas en las bases de datos consultadas.\n\nEs posible que te refieras a:\n- **Emilia Mernes** (cantante argentina, participante de *Gran Hermano*), cuyo nombre real es Emilia Mernes, no Sandobar.\n- Alguien con un nombre similar pero no tan conocido públicamente.\n\nSi podés dar más contexto (profesión, país, época, etc.), puedo intentar ayudarte a buscar con mayor precisión.\n\nFUENTES:  \n(No se utilizaron fuentes específicas, ya que no se encontraron resultados relevantes.)",
+      "citations": []
+    },
+    {
+      "id": "Q14",
+      "query": "abogada penalista recomendada en Mendoza",
+      "intent": "abogada penalista recomendada en Mendoza",
+      "category": "recommendation",
+      "status": "ok",
+      "searchResults": [],
+      "analysis": {
+        "mentioned": false,
+        "firstMentionIndex": -1,
+        "estimatedPosition": null,
+        "citedOwnSite": false,
+        "citedUrls": [],
+        "competitorsMentioned": []
+      },
+      "answer": "Consultá el Colegio de Abogados de Mendoza o el directorio oficial de la provincia para verificar la matrícula y la especialización en derecho penal de cualquier profesional. Es recomendable solicitar una consulta inicial para evaluar la experiencia del abogado con casos similares, y confirmar que esté inscripto en el registro oficial correspondiente. Las credenciales públicas, como inscripciones en cuerpos colegiados, participaciones en casos relevantes o publicaciones en materia penal, pueden contrastarse con datos oficiales. Las opiniones de clientes previos pueden ser un indicador, pero es preferible contrastarlas con información verificable del registro profesional.\n\nFUENTES:\nNo se proporcionaron resultados de búsqueda externos en la consulta.",
+      "citations": []
+    },
+    {
+      "id": "Q15",
+      "query": "abogada penalista especializada en Mendoza",
+      "intent": "abogada penalista especializada en Mendoza",
+      "category": "recommendation",
+      "status": "ok",
+      "searchResults": [],
+      "analysis": {
+        "mentioned": false,
+        "firstMentionIndex": -1,
+        "estimatedPosition": null,
+        "citedOwnSite": false,
+        "citedUrls": [],
+        "competitorsMentioned": []
+      },
+      "answer": "No se han proporcionado resultados de búsqueda específicos para esta consulta, por lo que no puedo recomendar una abogada penalista en particular en Mendoza. Sin embargo, puedo orientarte sobre cómo encontrar una profesional especializada en derecho penal en esa provincia:\n\n- **Colegio de Abogados de Mendoza**: Podés consultar el directorio oficial del Colegio de Abogados de la Provincia de Mendoza para buscar matriculados con especialización en derecho penal. Su sitio web suele ofrecer un buscador de profesionales por área y localidad.\n\n- **Especializaciones y posgrados**: Muchas abogadas penalistas en Mendoza se han especializado a través de posgrados en universidades locales, como la Universidad Nacional de Cuyo (UNCuyo) o la Universidad de Mendoza (UDM), que ofrecen carreras de especialización en derecho penal y procesal penal.\n\n- **Defensoría General de Mendoza**: Si necesitás asistencia legal gratuita o de bajo costo, la Defensoría General de la Provincia de Mendoza cuenta con abogados penalistas que atienden casos de oficio.\n\n- **Consultas personales**: Es recomendable solicitar una entrevista previa para evaluar la experiencia específica de la abogada en el tipo de caso que necesites abordar (defensa penal, delitos económicos, violencia, etc.).\n\nPara obtener recomendaciones concretas, te sugiero consultar directorios profesionales, plataformas de servicios legales o pedir referencias a través del Colegio de Abogados de Mendoza.\n\nFUENTES:",
+      "citations": []
+    }
+  ]
+}
