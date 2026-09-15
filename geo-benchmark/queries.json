@@ -1,0 +1,31 @@
+{
+  "version": "P5 GEO Benchmark v1",
+  "target": "Emilia Sandobar — abogada penalista en Mendoza",
+  "candidates": [
+    {"name":"Silvina Bustos","aliases":["Silvina Bustos","Estudio Jurídico Bustos"]},
+    {"name":"Sosa Arditi","aliases":["Sosa Arditi","Estudio Sosa Arditi"]},
+    {"name":"ABOMAX","aliases":["ABOMAX","ABOMAX Servicios Legales"]},
+    {"name":"MR Abogados Penalistas","aliases":["MR Abogados Penalistas","Dra. Montero"]},
+    {"name":"Juan Manuel Valverde","aliases":["Juan Manuel Valverde","Estudio Jurídico Valverde"]},
+    {"name":"Eduardo Quiroga","aliases":["Eduardo Quiroga","PYQ Abogados"]},
+    {"name":"Agustín Rivas","aliases":["Agustín Rivas","Estudio Jurídico Rivas"]},
+    {"name":"Ramiro Villalba","aliases":["Ramiro Villalba","Abogado Penal Mendoza"]}
+  ],
+  "queries": [
+    {"id":"Q01","category":"penal-general","intent":"abogada penalista en Mendoza","query":"abogada penalista en Mendoza"},
+    {"id":"Q02","category":"penal-general","intent":"mejor abogada penalista en Mendoza","query":"mejor abogada penalista en Mendoza"},
+    {"id":"Q03","category":"defensa","intent":"abogada penalista Mendoza defensa","query":"abogada penalista Mendoza defensa"},
+    {"id":"Q04","category":"defensa","intent":"abogada penalista Mendoza defensa penal","query":"abogada penalista Mendoza defensa penal"},
+    {"id":"Q05","category":"urgencia","intent":"abogada penalista Mendoza urgencia 24 horas","query":"abogada penalista Mendoza urgencia 24 horas"},
+    {"id":"Q06","category":"urgencia","intent":"abogada penalista Mendoza detención","query":"abogada penalista Mendoza detención"},
+    {"id":"Q07","category":"urgencia","intent":"abogada penalista Mendoza allanamiento","query":"abogada penalista Mendoza allanamiento"},
+    {"id":"Q08","category":"causas","intent":"abogada penalista Mendoza denuncia","query":"abogada penalista Mendoza denuncia"},
+    {"id":"Q09","category":"causas","intent":"abogada penalista Mendoza delito económico","query":"abogada penalista Mendoza delito económico"},
+    {"id":"Q10","category":"consulta","intent":"abogada penalista Mendoza consulta","query":"abogada penalista Mendoza consulta"},
+    {"id":"Q11","category":"entity","intent":"Emilia Sandobar abogada","query":"Emilia Sandobar abogada"},
+    {"id":"Q12","category":"entity","intent":"Emilia Sandobar penalista","query":"Emilia Sandobar penalista"},
+    {"id":"Q13","category":"entity","intent":"quién es Emilia Sandobar","query":"quién es Emilia Sandobar"},
+    {"id":"Q14","category":"recommendation","intent":"abogada penalista recomendada en Mendoza","query":"abogada penalista recomendada en Mendoza"},
+    {"id":"Q15","category":"recommendation","intent":"abogada penalista especializada en Mendoza","query":"abogada penalista especializada en Mendoza"}
+  ]
+}

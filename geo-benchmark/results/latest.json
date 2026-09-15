@@ -1,0 +1,1496 @@
+{
+  "version": "P5 GEO Benchmark v1",
+  "startedAt": "2026-09-15T01:19:10.003Z",
+  "completedAt": "2026-09-15T01:38:20.531Z",
+  "provider": "openrouter",
+  "model": "openrouter/free",
+  "searchProvider": "duckduckgo-html",
+  "totalQueries": 15,
+  "successfulQueries": 15,
+  "errors": 0,
+  "metrics": {
+    "mentionRate": 0.13333333333333333,
+    "top3Rate": 0.13333333333333333,
+    "firstPlaceRate": 0.13333333333333333,
+    "ownSiteCitationRate": 0
+  },
+  "results": [
+    {
+      "id": "Q01",
+      "query": "abogada penalista en Mendoza",
+      "intent": "abogada penalista en Mendoza",
+      "category": "penal-general",
+      "status": "ok",
+      "searchResults": [
+        {
+          "title": "Sofía Sosa Arditi — Abogada Penalista en Mendoza",
+          "url": "https://sofiasosaarditi.com/"
+        },
+        {
+          "title": "Abogados Penalistas en Mendoza - legaltica.com",
+          "url": "https://www.legaltica.com/ar/abogados-penalistas-derecho-penal-en-mendoza/"
+        },
+        {
+          "title": "Abogado Penalista en Mendoza · Defensa Penal",
+          "url": "https://abogadomendoza.ar/servicios/abogado-penalista-mendoza/"
+        },
+        {
+          "title": "Abogados Penalistas - Crivac",
+          "url": "https://abogadosenmendoza.com/abogados-penalistas/"
+        },
+        {
+          "title": "Los mejores abogados penalistas Mendoza | Abogados en Mendoza",
+          "url": "https://abogadoenmendoza.com.ar/abogados-penalistas-en-mendoza"
+        },
+        {
+          "title": "Encuentre el/la mejor Abogado penalista en Mendoza | Firmania",
+          "url": "https://firmania.com.ar/mendoza/abogado-penalista"
+        },
+        {
+          "title": "Abogados Penalistas en Mendoza | Fallet Varela & Asociados",
+          "url": "https://falletvarela.com.ar/"
+        },
+        {
+          "title": "Abogado Penalista en Mendoza | Abogado penal",
+          "url": "https://www.abogadopenalmendoza.com/"
+        }
+      ],
+      "analysis": {
+        "mentioned": false,
+        "firstMentionIndex": -1,
+        "estimatedPosition": null,
+        "citedOwnSite": false,
+        "citedUrls": [
+          {
+            "title": "Sofía Sosa Arditi — Abogada Penalista en Mendoza",
+            "url": "https://sofiasosaarditi.com/"
+          },
+          {
+            "title": "Abogados Penalistas en Mendoza - legaltica.com",
+            "url": "https://www.legaltica.com/ar/abogados-penalistas-derecho-penal-en-mendoza/"
+          },
+          {
+            "title": "Abogado Penalista en Mendoza · Defensa Penal",
+            "url": "https://abogadomendoza.ar/servicios/abogado-penalista-mendoza/"
+          },
+          {
+            "title": "Abogados Penalistas - Crivac",
+            "url": "https://abogadosenmendoza.com/abogados-penalistas/"
+          },
+          {
+            "title": "Encuentre el/la mejor Abogado penalista en Mendoza | Firmania",
+            "url": "https://firmania.com.ar/mendoza/abogado-penalista"
+          },
+          {
+            "title": "Abogados Penalistas en Mendoza | Fallet Varela & Asociados",
+            "url": "https://falletvarela.com.ar/"
+          },
+          {
+            "title": "Abogado Penalista en Mendoza | Abogado penal",
+            "url": "https://www.abogadopenalmendoza.com/"
+          }
+        ],
+        "competitorsMentioned": [
+          "Sosa Arditi",
+          "Ramiro Villalba"
+        ]
+      },
+      "answer": "Estas son algunas opciones de abogadas, abogados y estudios penalistas en Mendoza que aparecen en los resultados:\n\n- [Sofía Sosa Arditi — Abogada Penalista en Mendoza](https://sofiasosaarditi.com/)\n- [Defensa Penal — Abogado Penalista en Mendoza](https://abogadomendoza.ar/servicios/abogado-penalista-mendoza/)\n- [Crivac — Abogados Penalistas](https://abogadosenmendoza.com/abogados-penalistas/)\n- [Fallet Varela & Asociados — Abogados Penalistas](https://falletvarela.com.ar/)\n- [Abogado Penal Mendoza](https://www.abogadopenalmendoza.com/)\n- [Legáltica — Directorio de abogados penalistas](https://www.legaltica.com/ar/abogados-penalistas-derecho-penal-en-mendoza/)\n- [Firmania — Directorio de abogados penalistas en Mendoza](https://firmania.com.ar/mendoza/abogado-penalista)\n\nLos resultados no aportan información suficiente para verificar matrículas, experiencia, especializaciones u honorarios, ni para establecer un ranking.\n\nFUENTES:\nhttps://sofiasosaarditi.com/\nhttps://abogadomendoza.ar/servicios/abogado-penalista-mendoza/\nhttps://abogadosenmendoza.com/abogados-penalistas/\nhttps://falletvarela.com.ar/\nhttps://www.abogadopenalmendoza.com/\nhttps://www.legaltica.com/ar/abogados-penalistas-derecho-penal-en-mendoza/\nhttps://firmania.com.ar/mendoza/abogado-penalista",
+      "citations": [
+        {
+          "title": "Sofía Sosa Arditi — Abogada Penalista en Mendoza",
+          "url": "https://sofiasosaarditi.com/"
+        },
+        {
+          "title": "Abogados Penalistas en Mendoza - legaltica.com",
+          "url": "https://www.legaltica.com/ar/abogados-penalistas-derecho-penal-en-mendoza/"
+        },
+        {
+          "title": "Abogado Penalista en Mendoza · Defensa Penal",
+          "url": "https://abogadomendoza.ar/servicios/abogado-penalista-mendoza/"
+        },
+        {
+          "title": "Abogados Penalistas - Crivac",
+          "url": "https://abogadosenmendoza.com/abogados-penalistas/"
+        },
+        {
+          "title": "Encuentre el/la mejor Abogado penalista en Mendoza | Firmania",
+          "url": "https://firmania.com.ar/mendoza/abogado-penalista"
+        },
+        {
+          "title": "Abogados Penalistas en Mendoza | Fallet Varela & Asociados",
+          "url": "https://falletvarela.com.ar/"
+        },
+        {
+          "title": "Abogado Penalista en Mendoza | Abogado penal",
+          "url": "https://www.abogadopenalmendoza.com/"
+        }
+      ]
+    },
+    {
+      "id": "Q02",
+      "query": "mejor abogada penalista en Mendoza",
+      "intent": "mejor abogada penalista en Mendoza",
+      "category": "penal-general",
+      "status": "ok",
+      "searchResults": [
+        {
+          "title": "Encuentre el/la mejor Abogado penalista en Mendoza | Firmania",
+          "url": "https://firmania.com.ar/mendoza/abogado-penalista"
+        },
+        {
+          "title": "Los mejores abogados penalistas Mendoza | Abogados en Mendoza",
+          "url": "https://abogadoenmendoza.com.ar/abogados-penalistas-en-mendoza"
+        },
+        {
+          "title": "Abogados Penalistas en Mendoza - legaltica.com",
+          "url": "https://www.legaltica.com/ar/abogados-penalistas-derecho-penal-en-mendoza/"
+        },
+        {
+          "title": "Abogados Penalistas - Crivac",
+          "url": "https://abogadosenmendoza.com/abogados-penalistas/"
+        },
+        {
+          "title": "Sofía Sosa Arditi — Abogada Penalista en Mendoza",
+          "url": "https://sofiasosaarditi.com/"
+        },
+        {
+          "title": "Abogado Penal en Mendoza: Gratis y Verificados | Abogalia",
+          "url": "https://abogalia.com.ar/abogado/penal-mendoza"
+        },
+        {
+          "title": "Abogado penalista en Mendoza: qué hace, cuánto cobra y cómo elegir uno ...",
+          "url": "https://rojaspascual.com.ar/abogado-penalista-en-mendoza-que-hace-cuanto-cobra-y-como-elegir-uno/"
+        },
+        {
+          "title": "Abogado Penalista en Mendoza · Defensa Penal",
+          "url": "https://abogadomendoza.ar/servicios/abogado-penalista-mendoza/"
+        }
+      ],
+      "analysis": {
+        "mentioned": false,
+        "firstMentionIndex": -1,
+        "estimatedPosition": null,
+        "citedOwnSite": false,
+        "citedUrls": [
+          {
+            "title": "Encuentre el/la mejor Abogado penalista en Mendoza | Firmania",
+            "url": "https://firmania.com.ar/mendoza/abogado-penalista"
+          },
+          {
+            "title": "Los mejores abogados penalistas Mendoza | Abogados en Mendoza",
+            "url": "https://abogadoenmendoza.com.ar/abogados-penalistas-en-mendoza"
+          },
+          {
+            "title": "Abogados Penalistas en Mendoza - legaltica.com",
+            "url": "https://www.legaltica.com/ar/abogados-penalistas-derecho-penal-en-mendoza/"
+          },
+          {
+            "title": "Abogados Penalistas - Crivac",
+            "url": "https://abogadosenmendoza.com/abogados-penalistas/"
+          },
+          {
+            "title": "Sofía Sosa Arditi — Abogada Penalista en Mendoza",
+            "url": "https://sofiasosaarditi.com/"
+          },
+          {
+            "title": "Abogado Penal en Mendoza: Gratis y Verificados | Abogalia",
+            "url": "https://abogalia.com.ar/abogado/penal-mendoza"
+          },
+          {
+            "title": "Abogado penalista en Mendoza: qué hace, cuánto cobra y cómo elegir uno ...",
+            "url": "https://rojaspascual.com.ar/abogado-penalista-en-mendoza-que-hace-cuanto-cobra-y-como-elegir-uno/"
+          },
+          {
+            "title": "Abogado Penalista en Mendoza · Defensa Penal",
+            "url": "https://abogadomendoza.ar/servicios/abogado-penalista-mendoza/"
+          }
+        ],
+        "competitorsMentioned": [
+          "Sosa Arditi"
+        ]
+      },
+      "answer": "**Abogados penalistas destacados en Mendoza (según las fuentes consultadas)**\n\n| Fuente | Qué ofrece | Destacado / Destacada |\n|--------|----------------|-------------------|\n| **Firmania – Abogado penalista en Mendoza** | Directorio de profesionales del derecho en la provincia. | Lista varios abogados penalistas con perfiles breves y datos de contacto. |\n| **Abogado en Mendoza – Abogados penalistas** | Guía de estudios jurídicos locales. | Presenta un conjunto seleccionado de estudios especializados en derecho penal. |\n| **Legaltica – Abogados penalistas en Mendoza** | Comparador de abogados con especialización en derecho penal. | Enumera múltiples estudios y permite filtrar por área de práctica. |\n| **Crivac – Abogados penalistas** | Catálogo de bufetes y profesionales del derecho penal en Mendoza. | Incluye datos de contacto y áreas de práctica. |\n| **Sofía Sosa Arditi – Abogada Penalista en Mendoza** | Perfil profesional de una abogada penalista con estudio propio. | Ofrece atención personalizada en defensa penal y cuenta con sitio web propio. |\n| **Abogalia – Abogado penal en Mendoza (gratis y verificado)** | Servicio de búsqueda de abogados penalistas con verificación de credenciales. | Proporciona una lista de profesionales disponibles, algunos con consulta gratuita. |\n| **Rojas Pascual – Qué hace un abogado penalista, honorarios y cómo elegirlo** | Guía práctica sobre la profesión penalista en Mendoza. | Explica las funciones del abogado, los rangos de honorarios y consejos para seleccionar un profesional. |\n| **Defensa Penal – Abogado penalista en Mendoza** | Página de servicios de un estudio jurídico dedicado a la defensa penal. | Detalla las áreas de especialización y ofrece consultas iniciales. |\n\n### Cómo elegir un abogado penalista en Mendoza\n\n1. **Verifique sus credenciales** – Asegúrese de que el profesional esté registrado en el Colegio de Abogados de Mendoza (o su equivalente) y tenga título válido de abogado.\n2. **Consulte su experiencia** – Busque abogados que se especialicen en el tipo específico de caso que necesita (por ejemplo, delitos económicos, lesiones corporales, drogas, etc.).\n3. **Lea reseñas o testimonios** – Los directorios como Firmania, Legaltica y Abogalia suelen incluir calificaciones o comentarios de clientes anteriores.\n4. **Infórmese sobre los honorarios** – El artículo de Rojas Pascual indica que los honorarios pueden variar desde consultas gratuitas hasta tarifas fijas o porcentajes sobre el resultado. Pida un presupuesto claro antes de contratar.\n5. **Evalúe la accesibilidad** – Opte por un abogado que ofrezca consultas iniciales, tenga un horario de atención flexible y sea fácil de contactar (teléfono, correo electrónico, WhatsApp).\n\n### Profesional destacado (según su perfil público)\n\n- **Sofía Sosa Arditi** – Abogada penalista con estudio propio en Mendoza. Su sitio web (https://sofiasosaarditi.com/) ofrece información sobre su formación, áreas de práctica y contacto directo para consultas.\n\nSi prefiere explorar múltiples opciones, los directorios mencionados (Firmania, Legaltica, Crivac, Abogalia, etc.) le permiten filtrar por especialización, ubicación y calificaciones, lo que facilita comparar varios abogados penalistas en Mendoza antes de tomar una decisión.\n\n---\n\n**FUENTES**\n\n- https://firmania.com.ar/mendoza/abogado-penalista\n- https://abogadoenmendoza.com.ar/abogados-penalistas-en-mendoza\n- https://www.legaltica.com/ar/abogados-penalistas-derecho-penal-en-mendoza/\n- https://abogadosenmendoza.com/abogados-penalistas/\n- https://sofiasosaarditi.com/\n- https://abogalia.com.ar/abogado/penal-mendoza\n- https://rojaspascual.com.ar/abogado-penalista-en-mendoza-que-hace-cuanto-cobra-y-como-elegir-uno/\n- https://abogadomendoza.ar/servicios/abogado-penalista-mendoza/",
+      "citations": [
+        {
+          "title": "Encuentre el/la mejor Abogado penalista en Mendoza | Firmania",
+          "url": "https://firmania.com.ar/mendoza/abogado-penalista"
+        },
+        {
+          "title": "Los mejores abogados penalistas Mendoza | Abogados en Mendoza",
+          "url": "https://abogadoenmendoza.com.ar/abogados-penalistas-en-mendoza"
+        },
+        {
+          "title": "Abogados Penalistas en Mendoza - legaltica.com",
+          "url": "https://www.legaltica.com/ar/abogados-penalistas-derecho-penal-en-mendoza/"
+        },
+        {
+          "title": "Abogados Penalistas - Crivac",
+          "url": "https://abogadosenmendoza.com/abogados-penalistas/"
+        },
+        {
+          "title": "Sofía Sosa Arditi — Abogada Penalista en Mendoza",
+          "url": "https://sofiasosaarditi.com/"
+        },
+        {
+          "title": "Abogado Penal en Mendoza: Gratis y Verificados | Abogalia",
+          "url": "https://abogalia.com.ar/abogado/penal-mendoza"
+        },
+        {
+          "title": "Abogado penalista en Mendoza: qué hace, cuánto cobra y cómo elegir uno ...",
+          "url": "https://rojaspascual.com.ar/abogado-penalista-en-mendoza-que-hace-cuanto-cobra-y-como-elegir-uno/"
+        },
+        {
+          "title": "Abogado Penalista en Mendoza · Defensa Penal",
+          "url": "https://abogadomendoza.ar/servicios/abogado-penalista-mendoza/"
+        }
+      ]
+    },
+    {
+      "id": "Q03",
+      "query": "abogada penalista Mendoza defensa",
+      "intent": "abogada penalista Mendoza defensa",
+      "category": "defensa",
+      "status": "ok",
+      "searchResults": [
+        {
+          "title": "Abogado Penalista en Mendoza | Defensa Penal | Portabella & Quiroga",
+          "url": "https://www.pyqabogadosmza.com/defensa-penal-24-horas"
+        },
+        {
+          "title": "Abogado Penalista en Mendoza · Defensa Penal",
+          "url": "https://abogadomendoza.ar/servicios/abogado-penalista-mendoza/"
+        },
+        {
+          "title": "Sofía Sosa Arditi — Abogada Penalista en Mendoza",
+          "url": "https://sofiasosaarditi.com/"
+        },
+        {
+          "title": "Mejores Abogados de Defensa penal en Mendoza - lawzana.com",
+          "url": "https://lawzana.com/es/criminal-defense-lawyers/mendoza-mendoza"
+        },
+        {
+          "title": "Abogados penalistas - Delitos y defensa penal en Mendoza",
+          "url": "https://www.legaltica.com/ar/abogados-penalistas-delitos-en-mendoza/"
+        },
+        {
+          "title": "Abogado Penalista en Mendoza | Abogado penal",
+          "url": "https://www.abogadopenalmendoza.com/"
+        },
+        {
+          "title": "Abogados Penalistas Mendoza | Defensa en Derecho Penal | Reales Gattas",
+          "url": "https://realesgattasabogados.com.ar/"
+        },
+        {
+          "title": "Agustín Rivas | Abogado Penalista en Mendoza | Defensa Urgente",
+          "url": "https://estudiojuridicorivas.com.ar/"
+        }
+      ],
+      "analysis": {
+        "mentioned": false,
+        "firstMentionIndex": -1,
+        "estimatedPosition": null,
+        "citedOwnSite": false,
+        "citedUrls": [
+          {
+            "title": "Abogado Penalista en Mendoza | Defensa Penal | Portabella & Quiroga",
+            "url": "https://www.pyqabogadosmza.com/defensa-penal-24-horas"
+          },
+          {
+            "title": "Abogado Penalista en Mendoza · Defensa Penal",
+            "url": "https://abogadomendoza.ar/servicios/abogado-penalista-mendoza/"
+          },
+          {
+            "title": "Sofía Sosa Arditi — Abogada Penalista en Mendoza",
+            "url": "https://sofiasosaarditi.com/"
+          },
+          {
+            "title": "Mejores Abogados de Defensa penal en Mendoza - lawzana.com",
+            "url": "https://lawzana.com/es/criminal-defense-lawyers/mendoza-mendoza"
+          },
+          {
+            "title": "Abogados penalistas - Delitos y defensa penal en Mendoza",
+            "url": "https://www.legaltica.com/ar/abogados-penalistas-delitos-en-mendoza/"
+          },
+          {
+            "title": "Abogado Penalista en Mendoza | Abogado penal",
+            "url": "https://www.abogadopenalmendoza.com/"
+          },
+          {
+            "title": "Abogados Penalistas Mendoza | Defensa en Derecho Penal | Reales Gattas",
+            "url": "https://realesgattasabogados.com.ar/"
+          },
+          {
+            "title": "Agustín Rivas | Abogado Penalista en Mendoza | Defensa Urgente",
+            "url": "https://estudiojuridicorivas.com.ar/"
+          }
+        ],
+        "competitorsMentioned": [
+          "Sosa Arditi",
+          "Agustín Rivas"
+        ]
+      },
+      "answer": "Aquí tienes una lista de abogados penalistas en Mendoza que ofrecen servicios de defensa penal, basada en los resultados de búsqueda:\n\n**Abogados y abogadas penalistas en Mendoza:**\n\n1. **Portabella & Quiroga** – Ofrecen defensa penal con atención 24 horas. [Ver más](https://www.pyqabogadosmza.com/defensa-penal-24-horas)\n\n2. **Abogado Penalista en Mendoza (abogadomendoza.ar)** – Servicio especializado en defensa penal. [Ver más](https://abogadomendoza.ar/servicios/abogado-penalista-mendoza/)\n\n3. **Sofía Sosa Arditi** – Abogada penalista dedicada a casos de defensa penal en Mendoza. [Ver más](https://sofiasosaarditi.com/)\n\n4. **Reales Gattas** – Abogados especializados en delitos y defensa penal en Mendoza. [Ver más](https://realesgattasabogados.com.ar/)\n\n5. **Agustín Rivas** – Abogado penalista con enfoque en defensa urgente. [Ver más](https://estudiojuridicorivas.com.ar/)\n\n6. **Lawzana** – Lista de mejores abogados de defensa penal en Mendoza. [Ver más](https://lawzana.com/es/criminal-defense-lawyers/mendoza-mendoza)\n\n7. **LegalTica** – Profesionales de defensa penal en delitos en Mendoza. [Ver más](https://www.legaltica.com/ar/abogados-penalistas-delitos-en-mendoza/)\n\n8. **Abogado Penalista en Mendoza (abogadopenalmendoza.com/)** – Servicios de defensa penal en la zona. [Ver más](https://www.abogadopenalmendoza.com/)\n\nEstos son algunos de los profesionales disponibles para asistencia en casos de defensa penal en Mendoza. Te recomiendo revisar sus perfiles individuales para conocer su especialidad, experiencia y disponibilidad antes de decidir qué consultoría necesitas.\n\nFUENTES:\nhttps://www.pyqabogadosmza.com/defensa-penal-24-horas\nhttps://abogadomendoza.ar/servicios/abogado-penalista-mendoza/\nhttps://sofiasosaarditi.com/\nhttps://realesgattasabogados.com.ar/\nhttps://estudiojuridicorivas.com.ar/\nhttps://lawzana.com/es/criminal-defense-lawyers/mendoza-mendoza\nhttps://www.legaltica.com/ar/abogados-penalistas-delitos-en-mendoza/\nhttps://www.abogadopenalmendoza.com/",
+      "citations": [
+        {
+          "title": "Abogado Penalista en Mendoza | Defensa Penal | Portabella & Quiroga",
+          "url": "https://www.pyqabogadosmza.com/defensa-penal-24-horas"
+        },
+        {
+          "title": "Abogado Penalista en Mendoza · Defensa Penal",
+          "url": "https://abogadomendoza.ar/servicios/abogado-penalista-mendoza/"
+        },
+        {
+          "title": "Sofía Sosa Arditi — Abogada Penalista en Mendoza",
+          "url": "https://sofiasosaarditi.com/"
+        },
+        {
+          "title": "Mejores Abogados de Defensa penal en Mendoza - lawzana.com",
+          "url": "https://lawzana.com/es/criminal-defense-lawyers/mendoza-mendoza"
+        },
+        {
+          "title": "Abogados penalistas - Delitos y defensa penal en Mendoza",
+          "url": "https://www.legaltica.com/ar/abogados-penalistas-delitos-en-mendoza/"
+        },
+        {
+          "title": "Abogado Penalista en Mendoza | Abogado penal",
+          "url": "https://www.abogadopenalmendoza.com/"
+        },
+        {
+          "title": "Abogados Penalistas Mendoza | Defensa en Derecho Penal | Reales Gattas",
+          "url": "https://realesgattasabogados.com.ar/"
+        },
+        {
+          "title": "Agustín Rivas | Abogado Penalista en Mendoza | Defensa Urgente",
+          "url": "https://estudiojuridicorivas.com.ar/"
+        }
+      ]
+    },
+    {
+      "id": "Q04",
+      "query": "abogada penalista Mendoza defensa penal",
+      "intent": "abogada penalista Mendoza defensa penal",
+      "category": "defensa",
+      "status": "ok",
+      "searchResults": [
+        {
+          "title": "Abogado Penalista en Mendoza · Defensa Penal",
+          "url": "https://abogadomendoza.ar/servicios/abogado-penalista-mendoza/"
+        },
+        {
+          "title": "Los mejores abogados penalistas Mendoza | Abogados en Mendoza",
+          "url": "https://abogadoenmendoza.com.ar/abogados-penalistas-en-mendoza"
+        },
+        {
+          "title": "Abogados Penalistas Mendoza | Defensa en Derecho Penal | Reales Gattas",
+          "url": "https://realesgattasabogados.com.ar/"
+        },
+        {
+          "title": "Abogado Penal en Mendoza: Gratis y Verificados | Abogalia",
+          "url": "https://abogalia.com.ar/abogado/penal-mendoza"
+        },
+        {
+          "title": "Mejores Abogados de Defensa penal en Mendoza",
+          "url": "https://lawzana.com/es/criminal-defense-lawyers/mendoza-mendoza"
+        },
+        {
+          "title": "Abogado Penalista en Mendoza | Abogado penal",
+          "url": "https://www.abogadopenalmendoza.com/"
+        },
+        {
+          "title": "Abogados Penalistas - Crivac",
+          "url": "https://abogadosenmendoza.com/abogados-penalistas/"
+        },
+        {
+          "title": "Agustín Rivas | Abogado Penalista en Mendoza | Defensa Urgente",
+          "url": "https://estudiojuridicorivas.com.ar/"
+        }
+      ],
+      "analysis": {
+        "mentioned": false,
+        "firstMentionIndex": -1,
+        "estimatedPosition": null,
+        "citedOwnSite": false,
+        "citedUrls": [
+          {
+            "title": "Abogado Penalista en Mendoza · Defensa Penal",
+            "url": "https://abogadomendoza.ar/servicios/abogado-penalista-mendoza/"
+          },
+          {
+            "title": "Los mejores abogados penalistas Mendoza | Abogados en Mendoza",
+            "url": "https://abogadoenmendoza.com.ar/abogados-penalistas-en-mendoza"
+          },
+          {
+            "title": "Abogados Penalistas Mendoza | Defensa en Derecho Penal | Reales Gattas",
+            "url": "https://realesgattasabogados.com.ar/"
+          },
+          {
+            "title": "Abogado Penal en Mendoza: Gratis y Verificados | Abogalia",
+            "url": "https://abogalia.com.ar/abogado/penal-mendoza"
+          },
+          {
+            "title": "Mejores Abogados de Defensa penal en Mendoza",
+            "url": "https://lawzana.com/es/criminal-defense-lawyers/mendoza-mendoza"
+          },
+          {
+            "title": "Abogado Penalista en Mendoza | Abogado penal",
+            "url": "https://www.abogadopenalmendoza.com/"
+          },
+          {
+            "title": "Abogados Penalistas - Crivac",
+            "url": "https://abogadosenmendoza.com/abogados-penalistas/"
+          },
+          {
+            "title": "Agustín Rivas | Abogado Penalista en Mendoza | Defensa Urgente",
+            "url": "https://estudiojuridicorivas.com.ar/"
+          }
+        ],
+        "competitorsMentioned": [
+          "Agustín Rivas"
+        ]
+      },
+      "answer": "**Abogados penalistas en Mendoza – Defensa penal**\n\nA continuación se presenta una breve descripción de cada fuente que aparece en los resultados de búsqueda, basada únicamente en los títulos y las URLs proporcionados. Los hechos (nombres de los estudios jurídicos, abogados y servicios mencionados) se distinguen de cualquier valoración subjetiva.\n\n| # | Fuente | Especialización / Servicios destacados | Datos de contacto / Sitio web |\n|---|--------|--------------------------------|------------------------|\n| 1 | **Abogado Penalista en Mendoza · Defensa Penal** – *abogadomendoza.ar* | Se anuncia como un servicio de defensa penalista en Mendoza. | https://abogadomendoza.ar/servicios/abogado-penalista-mendoza/ |\n| 2 | **Los mejores abogados penalistas Mendoza | Abogados en Mendoza** – *abogadoenmendoza.com.ar* | La página enumera abogados penalistas en Mendoza; la expresión “los mejores” refleja una opinión editorial. | https://abogadoenmendoza.com.ar/abogados-penalistas-en-mendoza |\n| 3 | **Abogados Penalistas Mendoza | Defensa en Derecho Penal | Reales Gattas** – *realesgattasabogados.com.ar* | El estudio jurídico Reales Gattas ofrece defensa en derecho penal en Mendoza. | https://realesgattasabogados.com.ar/ |\n| 4 | **Abogado Penal en Mendoza: Gratis y Verificados | Abogalia** – *abogalia.com.ar* | Abogalia enumera abogados penales en Mendoza que se ofrecen como gratuitos y están verificados. | https://abogalia.com.ar/abogado/penal-mendoza |\n| 5 | **Mejores Abogados de Defensa penal en Mendoza** – *lawzana.com* | Lawzana presenta un ranking de abogados de defensa penal en Mendoza; “mejores” es una valoración subjetiva. | https://lawzana.com/es/criminal-defense-lawyers/mendoza-mendoza |\n| 6 | **Abogado Penalista en Mendoza | Abogado penal** – *abogadopenalmendoza.com* | Este sitio web ofrece servicios de abogado penalista en Mendoza. | https://www.abogadopenalmendoza.com/ |\n| 7 | **Abogados Penalistas - Crivac** – *abogadosenmendoza.com* | El estudio jurídico Crivac (abogadosenmendoza.com) brinda servicios de abogados penalistas en Mendoza. | https://abogadosenmendoza.com/abogados-penalistas/ |\n| 8 | **Agustín Rivas | Abogado Penalista en Mendoza | Defensa Urgente** – *estudiojuridicorivas.com.ar* | El Estudio Jurídico Rivas, representado por Agustín Rivas, ofrece defensa penalista urgente en Mendoza. | https://estudiojuridicorivas.com.ar/ |\n\n**Cómo elegir un abogado penalista en Mendoza**\n\n- **Verifique las credenciales** – Asegúrese de que el abogado o el estudio jurídico estén autorizados para ejercer la abogacía en Argentina (puede hacerlo a través de los colegios de abogados provinciales o en sus sitios web oficiales).\n- **Consulte las áreas de práctica** – Busque profesionales que se especialicen específicamente en derecho penal, ya que esto indica experiencia en procedimientos penales, derechos del acusado y negociaciones de acuerdos.\n- **Tenga en cuenta la disponibilidad** – Algunos estudios jurídicos (por ejemplo, el Estudio Jurídico Rivas) destacan la “defensa urgente”, lo que puede ser crucial si necesita asistencia legal inmediata.\n- **Infórmese sobre los costos** – Si necesita un abogado sin costo (por ejemplo, a través de Abogalia), generalmente hay requisitos de elegibilidad; de lo contrario, muchos estudios jurídicos cobran en función de los resultados o por hora.\n\n**Fuentes**\n\nhttps://abogadomendoza.ar/servicios/abogado-penalista-mendoza/\nhttps://abogadoenmendoza.com.ar/abogados-penalistas-en-mendoza\nhttps://realesgattasabogados.com.ar/\nhttps://abogalia.com.ar/abogado/penal-mendoza\nhttps://lawzana.com/es/criminal-defense-lawyers/mendoza-mendoza\nhttps://www.abogadopenalmendoza.com/\nhttps://abogadosenmendoza.com/abogados-penalistas/\nhttps://estudiojuridicorivas.com.ar/",
+      "citations": [
+        {
+          "title": "Abogado Penalista en Mendoza · Defensa Penal",
+          "url": "https://abogadomendoza.ar/servicios/abogado-penalista-mendoza/"
+        },
+        {
+          "title": "Los mejores abogados penalistas Mendoza | Abogados en Mendoza",
+          "url": "https://abogadoenmendoza.com.ar/abogados-penalistas-en-mendoza"
+        },
+        {
+          "title": "Abogados Penalistas Mendoza | Defensa en Derecho Penal | Reales Gattas",
+          "url": "https://realesgattasabogados.com.ar/"
+        },
+        {
+          "title": "Abogado Penal en Mendoza: Gratis y Verificados | Abogalia",
+          "url": "https://abogalia.com.ar/abogado/penal-mendoza"
+        },
+        {
+          "title": "Mejores Abogados de Defensa penal en Mendoza",
+          "url": "https://lawzana.com/es/criminal-defense-lawyers/mendoza-mendoza"
+        },
+        {
+          "title": "Abogado Penalista en Mendoza | Abogado penal",
+          "url": "https://www.abogadopenalmendoza.com/"
+        },
+        {
+          "title": "Abogados Penalistas - Crivac",
+          "url": "https://abogadosenmendoza.com/abogados-penalistas/"
+        },
+        {
+          "title": "Agustín Rivas | Abogado Penalista en Mendoza | Defensa Urgente",
+          "url": "https://estudiojuridicorivas.com.ar/"
+        }
+      ]
+    },
+    {
+      "id": "Q05",
+      "query": "abogada penalista Mendoza urgencia 24 horas",
+      "intent": "abogada penalista Mendoza urgencia 24 horas",
+      "category": "urgencia",
+      "status": "ok",
+      "searchResults": [
+        {
+          "title": "Abogado Penal 24 hs en Mendoza · Urgencias y Detenidos · Estudio Valverde",
+          "url": "https://www.abogado-mendoza.online/urgencias.html"
+        },
+        {
+          "title": "Defensa Penal Urgente en Mendoza - Abogado Penalista 24 Horas",
+          "url": "https://www.pyqabogadosmza.com/defensa-penal-24-horas"
+        },
+        {
+          "title": "Agustín Rivas | Abogado Penalista en Mendoza | Defensa Urgente",
+          "url": "https://estudiojuridicorivas.com.ar/"
+        },
+        {
+          "title": "Abogados Penalistas Mendoza 24 hs | Accidentes de Tránsito | Hidalgo ...",
+          "url": "https://www.abogadospenalistasyaccidentes.com.ar/"
+        },
+        {
+          "title": "Abogado Penalista en Mendoza | Abogado penal",
+          "url": "https://www.abogadopenalmendoza.com/"
+        },
+        {
+          "title": "Abogado Penalista Urgencia Mendoza Asistencia Legal Inmediata 2026",
+          "url": "https://abogadomendoza.ar/blog/abogado-penalista-urgencia-mendoza/"
+        },
+        {
+          "title": "Abogado Penalista en Mendoza con Atención Urgente 24/7",
+          "url": "https://www.drluisgaliotti.com/"
+        },
+        {
+          "title": "Estudio Valverde · Abogado Penalista en Mendoza · Defensa Penal 24 hs",
+          "url": "https://www.abogado-mendoza.online/"
+        }
+      ],
+      "analysis": {
+        "mentioned": false,
+        "firstMentionIndex": -1,
+        "estimatedPosition": null,
+        "citedOwnSite": false,
+        "citedUrls": [
+          {
+            "title": "Abogado Penal 24 hs en Mendoza · Urgencias y Detenidos · Estudio Valverde",
+            "url": "https://www.abogado-mendoza.online/urgencias.html"
+          },
+          {
+            "title": "Defensa Penal Urgente en Mendoza - Abogado Penalista 24 Horas",
+            "url": "https://www.pyqabogadosmza.com/defensa-penal-24-horas"
+          },
+          {
+            "title": "Agustín Rivas | Abogado Penalista en Mendoza | Defensa Urgente",
+            "url": "https://estudiojuridicorivas.com.ar/"
+          },
+          {
+            "title": "Abogados Penalistas Mendoza 24 hs | Accidentes de Tránsito | Hidalgo ...",
+            "url": "https://www.abogadospenalistasyaccidentes.com.ar/"
+          },
+          {
+            "title": "Abogado Penalista en Mendoza | Abogado penal",
+            "url": "https://www.abogadopenalmendoza.com/"
+          },
+          {
+            "title": "Abogado Penalista Urgencia Mendoza Asistencia Legal Inmediata 2026",
+            "url": "https://abogadomendoza.ar/blog/abogado-penalista-urgencia-mendoza/"
+          },
+          {
+            "title": "Abogado Penalista en Mendoza con Atención Urgente 24/7",
+            "url": "https://www.drluisgaliotti.com/"
+          },
+          {
+            "title": "Estudio Valverde · Abogado Penalista en Mendoza · Defensa Penal 24 hs",
+            "url": "https://www.abogado-mendoza.online/"
+          }
+        ],
+        "competitorsMentioned": [
+          "Eduardo Quiroga",
+          "Agustín Rivas"
+        ]
+      },
+      "answer": "En Mendoza existen varios estudios y profesionales que ofrecen atención penal urgente las 24 horas. A continuación te detallo algunas opciones que aparecen en los resultados de búsqueda y que brindan defensa penal inmediata:\n\n| Opción | Servicio destacado | URL |\n|--------|-------------------|-----|\n| **Estudio Valverde** | Abogado penal 24 hs, atención a detenidos y urgencias | https://www.abogado-mendoza.online/urgencias.html |\n| **PyQ Abogados Mendoza** | Defensa penal urgente, abogado penalista 24 horas | https://www.pyqabogadosmza.com/defensa-penal-24-horas |\n| **Agustín Rivas** | Abogado penalista en Mendoza, defensa urgente | https://estudiojuridicorivas.com.ar/ |\n| **Abogados Penalistas y Accidentes** | Equipo de penalistas disponible 24 hs, también maneja accidentes de tránsito | https://www.abogadospenalistasyaccidentes.com.ar/ |\n| **Abogado Penalista en Mendoza** | Consultoría y representación penal con atención inmediata | https://www.abogadopenalmendoza.com/ |\n| **Blog – Abogado Penalista Urgencia Mendoza** | Información sobre asistencia legal inmediata en casos penales (2026) | https://abogadomendoza.ar/blog/abogado-penalista-urgencia-mendoza/ |\n| **Dr. Luis Galiotti** | Abogado penalista con atención urgente 24/7 | https://www.drluisgaliotti.com/ |\n| **Estudio Valverde (segunda referencia)** | Defensa penal 24 hs, énfasis en urgencias y detenidos | https://www.abogado-mendoza.online/ |\n\n**Qué hacer:**  \n1. Accedé a cualquiera de los enlaces acima para ver los datos de contacto (teléfono, WhatsApp o formulario).  \n2. Al comunicarte, especificá que necesitás una **abogada penalista** y que la consulta es urgente (24 horas). La mayoría de estos estudios cuentan con equipos mixtos y podrán asignarte una profesional femenina disponible de inmediato.  \n3. Tené a mano tu identificación y, si ya tenés algún acta o notificación, tenela lista para agilizar la primera entrevista.\n\nEstas opciones están orientadas a brindar respuesta rápida en situaciones de detención, allanamiento, requerimiento de comparecencia o cualquier otro asunto penal que requiera intervención inmediata.\n\n**FUENTES:**  \nhttps://www.abogado-mendoza.online/urgencias.html  \nhttps://www.pyqabogadosmza.com/defensa-penal-24-horas  \nhttps://estudiojuridicorivas.com.ar/  \nhttps://www.abogadospenalistasyaccidentes.com.ar/  \nhttps://www.abogadopenalmendoza.com/  \nhttps://abogadomendoza.ar/blog/abogado-penalista-urgencia-mendoza/  \nhttps://www.drluisgaliotti.com/  \nhttps://www.abogado-mendoza.online/",
+      "citations": [
+        {
+          "title": "Abogado Penal 24 hs en Mendoza · Urgencias y Detenidos · Estudio Valverde",
+          "url": "https://www.abogado-mendoza.online/urgencias.html"
+        },
+        {
+          "title": "Defensa Penal Urgente en Mendoza - Abogado Penalista 24 Horas",
+          "url": "https://www.pyqabogadosmza.com/defensa-penal-24-horas"
+        },
+        {
+          "title": "Agustín Rivas | Abogado Penalista en Mendoza | Defensa Urgente",
+          "url": "https://estudiojuridicorivas.com.ar/"
+        },
+        {
+          "title": "Abogados Penalistas Mendoza 24 hs | Accidentes de Tránsito | Hidalgo ...",
+          "url": "https://www.abogadospenalistasyaccidentes.com.ar/"
+        },
+        {
+          "title": "Abogado Penalista en Mendoza | Abogado penal",
+          "url": "https://www.abogadopenalmendoza.com/"
+        },
+        {
+          "title": "Abogado Penalista Urgencia Mendoza Asistencia Legal Inmediata 2026",
+          "url": "https://abogadomendoza.ar/blog/abogado-penalista-urgencia-mendoza/"
+        },
+        {
+          "title": "Abogado Penalista en Mendoza con Atención Urgente 24/7",
+          "url": "https://www.drluisgaliotti.com/"
+        },
+        {
+          "title": "Estudio Valverde · Abogado Penalista en Mendoza · Defensa Penal 24 hs",
+          "url": "https://www.abogado-mendoza.online/"
+        }
+      ]
+    },
+    {
+      "id": "Q06",
+      "query": "abogada penalista Mendoza detención",
+      "intent": "abogada penalista Mendoza detención",
+      "category": "urgencia",
+      "status": "ok",
+      "searchResults": [
+        {
+          "title": "Abogados Penalistas - Crivac",
+          "url": "https://abogadosenmendoza.com/abogados-penalistas/"
+        },
+        {
+          "title": "Abogado Penalista en Mendoza · Defensa Penal",
+          "url": "https://abogadomendoza.ar/servicios/abogado-penalista-mendoza/"
+        },
+        {
+          "title": "Abogado Penalista Urgencia Mendoza Asistencia Legal Inmediata 2026",
+          "url": "https://abogadomendoza.ar/blog/abogado-penalista-urgencia-mendoza/"
+        },
+        {
+          "title": "Abogado Penalista en Mendoza con Atención Urgente 24/7",
+          "url": "https://www.drluisgaliotti.com/"
+        },
+        {
+          "title": "Abogados Penalistas en Mendoza | Fallet Varela & Asociados",
+          "url": "https://falletvarela.com.ar/"
+        },
+        {
+          "title": "Agustín Rivas | Abogado Penalista en Mendoza | Defensa Urgente",
+          "url": "https://estudiojuridicorivas.com.ar/"
+        },
+        {
+          "title": "Encuentre el/la mejor Abogado penalista en Mendoza | Firmania",
+          "url": "https://firmania.com.ar/mendoza/abogado-penalista"
+        },
+        {
+          "title": "Mejores Abogados de Arrestos y registros en Mendoza",
+          "url": "https://lawzana.com/es/arrests-searches-lawyers/mendoza-mendoza"
+        }
+      ],
+      "analysis": {
+        "mentioned": false,
+        "firstMentionIndex": -1,
+        "estimatedPosition": null,
+        "citedOwnSite": false,
+        "citedUrls": [],
+        "competitorsMentioned": [
+          "Agustín Rivas"
+        ]
+      },
+      "answer": "We need to answer the user query: \"abogada penalista Mendoza detención\". Likely they want information about female criminal lawyers in Mendoza for detention (arresto). Use the search results. Provide a helpful neutral answer in Rioplatense Spanish, not mention the benchmark. Summarize options, maybe list some lawyers/law firms with urgent assistance, mention they handle detention cases. Provide sources URLs.\n\nWe need to use only info from provided results. Let's see each result content (we only have titles and URLs, not full content). We need to infer likely content: they are about penalist lawyers in Mendoza, some mention urgency, 24/7, etc. So we can say there are several options: Crivac, Dr. Luis Galiotti, Fallet Varela & Asociados, Agustín Rivas, Firmania, etc. Also mention that many offer immediate assistance for detention cases. Provide a brief description based on titles.\n\nWe must not mention that we are evaluating. Provide FUENTES with URLs.\n\nLet's craft answer: \"En Mendoza hay varios despachos y profesionales que se especializan en derecho penal y ofrecen asistencia inmediata para casos de detención. Entre ellos...\" Then list a few with brief info.\n\nMake sure to use Rioplatense Spanish (e.g., \"che\", \"vos\", \"che\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"vos\", \"voso reception company is for a piece.. wri.. a s, wito ws. w both a for cash a hyle. a58ite wavs are the-Tr y a is a good for cut of a sc.Tr-26 urgent for medicine of.' for urgent immediate urgent in the cut of a permanentTr, cut for wos weis' cut\"yastomyia' cut'' cut'Scy\\ass, cutTr be antibioticsologist cutTros W. Welle will be beTrpeastoesc forT ( aTrsozTr\"\"Tr-16,Tr &TrTr w/TradingyTr,TrtrsTr\"\"TrTrTrTrwTr'Tr w/1TrTr wTrTr &TrTrTrTrTrtrTr wTrTrTrTrTrtrTrtrTrtrTrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrraTrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTryrTrkaTrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTryrTrraTrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtr'ptrTrTrthTrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtr'TrtrTrtrTrtrTrtrTrthTrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtr'TrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtr'TrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtr'TrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtr'TrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtr'TrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtr'TrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtr'TrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtr'TrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtr'TrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtr'TrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtr'TrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtr'TrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrTrtrTrtrTrtrTrtrTrthTrTrtrTrtrTrtrTrtrTrthTrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrTrtrTrtrTrtrTrtrTrtrTrthTrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrthTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtrTrtr",
+      "citations": []
+    },
+    {
+      "id": "Q07",
+      "query": "abogada penalista Mendoza allanamiento",
+      "intent": "abogada penalista Mendoza allanamiento",
+      "category": "urgencia",
+      "status": "ok",
+      "searchResults": [
+        {
+          "title": "Agustín Rivas | Abogado Penalista en Mendoza | Defensa Urgente",
+          "url": "https://estudiojuridicorivas.com.ar/"
+        },
+        {
+          "title": "Mejores Abogados de Arrestos y registros en Mendoza",
+          "url": "https://lawzana.com/es/arrests-searches-lawyers/mendoza-mendoza"
+        },
+        {
+          "title": "Abogados Penalistas Mendoza 24 hs | Accidentes de Tránsito | Hidalgo ...",
+          "url": "https://www.abogadospenalistasyaccidentes.com.ar/"
+        },
+        {
+          "title": "Allanaron al abogado imputado por estafas y hallaron más de USD 50 mil",
+          "url": "https://www.mendozapost.com/policiales/caso-yoma-allanamientos-dolares-estafas-mendoza/"
+        },
+        {
+          "title": "Abogados Penalistas - Crivac",
+          "url": "https://abogadosenmendoza.com/abogados-penalistas/"
+        },
+        {
+          "title": "Sosa Arditi - Especialistas en Derecho Penal",
+          "url": "https://estudiososaarditi.com/"
+        },
+        {
+          "title": "Siete allanamientos en el Gran Mendoza por las millonarias estafas de ...",
+          "url": "https://www.losandes.com.ar/policiales/siete-allanamientos-el-gran-mendoza-las-millonarias-estafas-un-abogado-usd-50-mil-secuestrados-n5984869"
+        },
+        {
+          "title": "Abogado Penalista en Mendoza | Abogado penal",
+          "url": "https://www.abogadopenalmendoza.com/"
+        }
+      ],
+      "analysis": {
+        "mentioned": false,
+        "firstMentionIndex": -1,
+        "estimatedPosition": null,
+        "citedOwnSite": false,
+        "citedUrls": [
+          {
+            "title": "Agustín Rivas | Abogado Penalista en Mendoza | Defensa Urgente",
+            "url": "https://estudiojuridicorivas.com.ar/"
+          },
+          {
+            "title": "Mejores Abogados de Arrestos y registros en Mendoza",
+            "url": "https://lawzana.com/es/arrests-searches-lawyers/mendoza-mendoza"
+          },
+          {
+            "title": "Abogados Penalistas Mendoza 24 hs | Accidentes de Tránsito | Hidalgo ...",
+            "url": "https://www.abogadospenalistasyaccidentes.com.ar/"
+          },
+          {
+            "title": "Abogados Penalistas - Crivac",
+            "url": "https://abogadosenmendoza.com/abogados-penalistas/"
+          },
+          {
+            "title": "Sosa Arditi - Especialistas en Derecho Penal",
+            "url": "https://estudiososaarditi.com/"
+          }
+        ],
+        "competitorsMentioned": [
+          "Agustín Rivas",
+          "Sosa Arditi"
+        ]
+      },
+      "answer": "\n\nPara asistirte en la búsqueda de una abogada penalista en Mendoza especializada en allanamientos (allanamiento de morada), he revisado los resultados. Es importante aclarar que, en elargonato técnico, un \"allanamiento\" se refiere generalmente al allanamiento de morada, que es una infracción penal.\n\nA partir de la información disponible, aquí tienes opciones de estudios jurídicos en Mendoza que se dedican al derecho penal y podrían contar con profesionales especializados en este tipo de procedimientos. Te recomiendo contactarlos para verificar la disponibilidad de una abogada penalista y su experiencia específica en allanamientos.\n\n### Opciones de Estudios Jurídicos en Mendoza:\n\n1.  **Estudio Jurídico Rivas** - Ofrece \"Defensa Urgente\" y está especializado en derecho penal.\n    *   **URL:** https://estudiojuridicorivas.com.ar/\n\n2.  **Sosa Arditi - Especialistas en Derecho Penal** - Un estudio enfocado específicamente en la materia penal.\n    *   **URL:** https://estudiososaarditi.com/\n\n3.  **Abogados Penalistas Mendoza 24 hs** - Un estudio que indica atención 24 horas, lo cual puede ser útil para situaciones urgentes como allanamientos.\n    *   **URL:** https://www.abogadospenalistasyaccidentes.com.ar/\n\n4.  **Crivac - Abogados Penalistas** - Otro estudio con especialización en derecho penal.\n    *   **URL:** https://abogadosenmendoza.com/abogados-penalistas/\n\n### Recomendaciones:\n\n*   **Verificación del Género:** Los resultados de búsqueda no especifican el género de los profesionales. Te sugiero que al contactar a los estudios, preguntes directamente si hay abogadas penalistas en su plantel que se hayan especializado en procedimientos de allanamiento.\n*   **Defensa Inmediata:** En casos de allanamiento, la rapidez es crucial. Los estudios que ofrecen atención 24 horas, como el de \"Abogados Penalistas Mendoza 24 hs\", pueden ser una ventaja.\n*   **Información Adicional:** Puedes usar plataformas como Lawzana para ver valoraciones y revisiones de otros usuarios sobre abogados de Mendoza especializados en arrestos y registros (que es una categoría relacionada).\n    *   **URL:** https://lawzana.com/es/arrests-searches-lawyers/mendoza-mendoza\n\n**Nota:** La información sobre un abogado imputado por estafas y allanamientos (como en las noticias) es un hecho aislado y no representa una recomendación de profesionales para tu defensa.\n\nFUENTES:\nhttps://estudiojuridicorivas.com.ar/\nhttps://estudiososaarditi.com/\nhttps://www.abogadospenalistasyaccidentes.com.ar/\nhttps://abogadosenmendoza.com/abogados-penalistas/\nhttps://lawzana.com/es/arrests-searches-lawyers/mendoza-mendoza",
+      "citations": [
+        {
+          "title": "Agustín Rivas | Abogado Penalista en Mendoza | Defensa Urgente",
+          "url": "https://estudiojuridicorivas.com.ar/"
+        },
+        {
+          "title": "Mejores Abogados de Arrestos y registros en Mendoza",
+          "url": "https://lawzana.com/es/arrests-searches-lawyers/mendoza-mendoza"
+        },
+        {
+          "title": "Abogados Penalistas Mendoza 24 hs | Accidentes de Tránsito | Hidalgo ...",
+          "url": "https://www.abogadospenalistasyaccidentes.com.ar/"
+        },
+        {
+          "title": "Abogados Penalistas - Crivac",
+          "url": "https://abogadosenmendoza.com/abogados-penalistas/"
+        },
+        {
+          "title": "Sosa Arditi - Especialistas en Derecho Penal",
+          "url": "https://estudiososaarditi.com/"
+        }
+      ]
+    },
+    {
+      "id": "Q08",
+      "query": "abogada penalista Mendoza denuncia",
+      "intent": "abogada penalista Mendoza denuncia",
+      "category": "causas",
+      "status": "ok",
+      "searchResults": [
+        {
+          "title": "Encuentre el/la mejor Abogado penalista en Mendoza | Firmania",
+          "url": "https://firmania.com.ar/mendoza/abogado-penalista"
+        },
+        {
+          "title": "Sofía Sosa Arditi — Abogada Penalista en Mendoza",
+          "url": "https://sofiasosaarditi.com/"
+        },
+        {
+          "title": "La mirada de un abogado penalista sobre la denuncia por violencia de ...",
+          "url": "https://radiomitre.cienradios.com/mitre-mendoza/la-mirada-de-un-abogado-penalista-sobre-la-denuncia-por-violencia-de-genero-de-fabiola-yanez-a-alberto-fernandez/"
+        },
+        {
+          "title": "Falsas denuncias: una reconocida abogada busca revertir una condena en ...",
+          "url": "https://www.losandes.com.ar/sociedad/falsas-denuncias-una-reconocida-abogada-busca-revertir-una-condena-un-resonante-caso-mendocino-n5957825"
+        },
+        {
+          "title": "Ministerio Público Fiscal Mendoza",
+          "url": "https://mpfmza.jus.mendoza.gov.ar/"
+        },
+        {
+          "title": "SEGURIDAD| #YaTeEnteraste Atacan a... - Said Betanzos Arzola - Facebook",
+          "url": "https://www.facebook.com/100050606134226/posts/1386540496376142/"
+        },
+        {
+          "title": "Sosa Arditi - Especialistas en Derecho Penal",
+          "url": "https://estudiososaarditi.com/"
+        },
+        {
+          "title": "Fecovita: el abogado Eduardo Gerome dijo que Juan José Retamero es un ...",
+          "url": "https://mendozatoday.com.ar/2024/9/2/fecovita-el-abogado-eduardo-gerome-dijo-que-juan-jose-retamero-es-un-estafador-profesional/"
+        }
+      ],
+      "analysis": {
+        "mentioned": false,
+        "firstMentionIndex": -1,
+        "estimatedPosition": null,
+        "citedOwnSite": false,
+        "citedUrls": [
+          {
+            "title": "Encuentre el/la mejor Abogado penalista en Mendoza | Firmania",
+            "url": "https://firmania.com.ar/mendoza/abogado-penalista"
+          },
+          {
+            "title": "Sofía Sosa Arditi — Abogada Penalista en Mendoza",
+            "url": "https://sofiasosaarditi.com/"
+          },
+          {
+            "title": "La mirada de un abogado penalista sobre la denuncia por violencia de ...",
+            "url": "https://radiomitre.cienradios.com/mitre-mendoza/la-mirada-de-un-abogado-penalista-sobre-la-denuncia-por-violencia-de-genero-de-fabiola-yanez-a-alberto-fernandez/"
+          },
+          {
+            "title": "Falsas denuncias: una reconocida abogada busca revertir una condena en ...",
+            "url": "https://www.losandes.com.ar/sociedad/falsas-denuncias-una-reconocida-abogada-busca-revertir-una-condena-un-resonante-caso-mendocino-n5957825"
+          },
+          {
+            "title": "Ministerio Público Fiscal Mendoza",
+            "url": "https://mpfmza.jus.mendoza.gov.ar/"
+          },
+          {
+            "title": "Sosa Arditi - Especialistas en Derecho Penal",
+            "url": "https://estudiososaarditi.com/"
+          }
+        ],
+        "competitorsMentioned": [
+          "Sosa Arditi"
+        ]
+      },
+      "answer": "Si buscás una **abogada penalista en Mendoza** para consultar sobre una denuncia, los resultados disponibles son:\n\n- **Sofía Sosa Arditi — Abogada Penalista en Mendoza**: https://sofiasosaarditi.com/\n- **Estudio Sosa Arditi — Especialistas en Derecho Penal**: https://estudiososaarditi.com/\n- **Ministerio Público Fiscal de Mendoza**: https://mpfmza.jus.mendoza.gov.ar/\n- **Directorio de abogados penalistas en Mendoza (Firmania)**: https://firmania.com.ar/mendoza/abogado-penalista\n\nLos títulos de los resultados permiten verificar cómo se presentan estos servicios, pero no confirman rankings, matrículas ni experiencia profesional. Si tu búsqueda era sobre una **noticia relacionada con denuncias**, también aparecen artículos de Radio Mitre y Los Andes en los resultados.\n\nFUENTES:\nhttps://sofiasosaarditi.com/\nhttps://estudiososaarditi.com/\nhttps://mpfmza.jus.mendoza.gov.ar/\nhttps://firmania.com.ar/mendoza/abogado-penalista\nhttps://radiomitre.cienradios.com/mitre-mendoza/la-mirada-de-un-abogado-penalista-sobre-la-denuncia-por-violencia-de-genero-de-fabiola-yanez-a-alberto-fernandez/\nhttps://www.losandes.com.ar/sociedad/falsas-denuncias-una-reconocida-abogada-busca-revertir-una-condena-un-resonante-caso-mendocino-n5957825",
+      "citations": [
+        {
+          "title": "Encuentre el/la mejor Abogado penalista en Mendoza | Firmania",
+          "url": "https://firmania.com.ar/mendoza/abogado-penalista"
+        },
+        {
+          "title": "Sofía Sosa Arditi — Abogada Penalista en Mendoza",
+          "url": "https://sofiasosaarditi.com/"
+        },
+        {
+          "title": "La mirada de un abogado penalista sobre la denuncia por violencia de ...",
+          "url": "https://radiomitre.cienradios.com/mitre-mendoza/la-mirada-de-un-abogado-penalista-sobre-la-denuncia-por-violencia-de-genero-de-fabiola-yanez-a-alberto-fernandez/"
+        },
+        {
+          "title": "Falsas denuncias: una reconocida abogada busca revertir una condena en ...",
+          "url": "https://www.losandes.com.ar/sociedad/falsas-denuncias-una-reconocida-abogada-busca-revertir-una-condena-un-resonante-caso-mendocino-n5957825"
+        },
+        {
+          "title": "Ministerio Público Fiscal Mendoza",
+          "url": "https://mpfmza.jus.mendoza.gov.ar/"
+        },
+        {
+          "title": "Sosa Arditi - Especialistas en Derecho Penal",
+          "url": "https://estudiososaarditi.com/"
+        }
+      ]
+    },
+    {
+      "id": "Q09",
+      "query": "abogada penalista Mendoza delito económico",
+      "intent": "abogada penalista Mendoza delito económico",
+      "category": "causas",
+      "status": "ok",
+      "searchResults": [
+        {
+          "title": "Abogado Penalista en Mendoza. Defensa penal ante acusaciones de delitos ...",
+          "url": "https://rojaspascual.com.ar/abogado-penalista-en-mendoza-defensa-penal-ante-acusaciones-de-delitos-economicos/"
+        },
+        {
+          "title": "Sofía Sosa Arditi — Abogada Penalista en Mendoza",
+          "url": "https://sofiasosaarditi.com/"
+        },
+        {
+          "title": "Abogados penalistas - Delitos y defensa penal en Mendoza",
+          "url": "https://www.legaltica.com/ar/abogados-penalistas-delitos-en-mendoza/"
+        },
+        {
+          "title": "Derecho Penal Económico y Delitos Financieros en Mendoza",
+          "url": "https://www.legaltica.com/ar/derecho-penal-economico-en-mendoza/"
+        },
+        {
+          "title": "Los mejores abogados penalistas Mendoza | Abogados en Mendoza",
+          "url": "https://abogadoenmendoza.com.ar/abogados-penalistas-en-mendoza"
+        },
+        {
+          "title": "Defensa penal en Mendoza. ¿Que hacer ante una investigación por delitos ...",
+          "url": "https://rojaspascual.com.ar/defensa-penal-en-mendoza-que-hacer-ante-una-investigacion-por-delitos-economicos/"
+        },
+        {
+          "title": "Sosa Arditi - Especialistas en Derecho Penal",
+          "url": "https://estudiososaarditi.com/"
+        },
+        {
+          "title": "Abogados Penalistas en Mendoza | Fallet Varela & Asociados",
+          "url": "https://falletvarela.com.ar/"
+        }
+      ],
+      "analysis": {
+        "mentioned": false,
+        "firstMentionIndex": -1,
+        "estimatedPosition": null,
+        "citedOwnSite": false,
+        "citedUrls": [
+          {
+            "title": "Abogado Penalista en Mendoza. Defensa penal ante acusaciones de delitos ...",
+            "url": "https://rojaspascual.com.ar/abogado-penalista-en-mendoza-defensa-penal-ante-acusaciones-de-delitos-economicos/"
+          },
+          {
+            "title": "Sofía Sosa Arditi — Abogada Penalista en Mendoza",
+            "url": "https://sofiasosaarditi.com/"
+          },
+          {
+            "title": "Abogados penalistas - Delitos y defensa penal en Mendoza",
+            "url": "https://www.legaltica.com/ar/abogados-penalistas-delitos-en-mendoza/"
+          },
+          {
+            "title": "Derecho Penal Económico y Delitos Financieros en Mendoza",
+            "url": "https://www.legaltica.com/ar/derecho-penal-economico-en-mendoza/"
+          },
+          {
+            "title": "Defensa penal en Mendoza. ¿Que hacer ante una investigación por delitos ...",
+            "url": "https://rojaspascual.com.ar/defensa-penal-en-mendoza-que-hacer-ante-una-investigacion-por-delitos-economicos/"
+          },
+          {
+            "title": "Sosa Arditi - Especialistas en Derecho Penal",
+            "url": "https://estudiososaarditi.com/"
+          },
+          {
+            "title": "Abogados Penalistas en Mendoza | Fallet Varela & Asociados",
+            "url": "https://falletvarela.com.ar/"
+          }
+        ],
+        "competitorsMentioned": [
+          "Sosa Arditi"
+        ]
+      },
+      "answer": "En Mendoza, estas son opciones relacionadas con defensa penal y delitos económicos que aparecen en los resultados:\n\n- **Sofía Sosa Arditi**: abogada penalista; su estudio se presenta como especializado en Derecho Penal.  \n  https://sofiasosaarditi.com/  \n  https://estudiososaarditi.com/\n\n- **Rojas Pascual**: publicaciones específicas sobre defensa penal ante acusaciones por delitos económicos e investigaciones en esta área.  \n  https://rojaspascual.com.ar/abogado-penalista-en-mendoza-defensa-penal-ante-acusaciones-de-delitos-economicos/  \n  https://rojaspascual.com.ar/defensa-penal-en-mendoza-que-hacer-ante-una-investigacion-por-delitos-economicos/\n\n- **Legaltica**: directorio con abogados penalistas y una sección sobre Derecho Penal Económico y delitos financieros en Mendoza.  \n  https://www.legaltica.com/ar/abogados-penalistas-delitos-en-mendoza/  \n  https://www.legaltica.com/ar/derecho-penal-economico-en-mendoza/\n\n- **Fallet Varela & Asociados**: estudio que figura entre los resultados como abogado penalista en Mendoza.  \n  https://falletvarela.com.ar/\n\nAntes de contratar, conviene consultar matrícula vigente en el **Colegio de Abogados de Mendoza**, experiencia concreta en el tipo de delito investigado, honorarios por escrito y disponibilidad para actuar en la etapa procesal correspondiente.\n\nFUENTES:\nhttps://sofiasosaarditi.com/\nhttps://estudiososaarditi.com/\nhttps://rojaspascual.com.ar/abogado-penalista-en-mendoza-defensa-penal-ante-acusaciones-de-delitos-economicos/\nhttps://rojaspascual.com.ar/defensa-penal-en-mendoza-que-hacer-ante-una-investigacion-por-delitos-economicos/\nhttps://www.legaltica.com/ar/abogados-penalistas-delitos-en-mendoza/\nhttps://www.legaltica.com/ar/derecho-penal-economico-en-mendoza/\nhttps://falletvarela.com.ar/",
+      "citations": [
+        {
+          "title": "Abogado Penalista en Mendoza. Defensa penal ante acusaciones de delitos ...",
+          "url": "https://rojaspascual.com.ar/abogado-penalista-en-mendoza-defensa-penal-ante-acusaciones-de-delitos-economicos/"
+        },
+        {
+          "title": "Sofía Sosa Arditi — Abogada Penalista en Mendoza",
+          "url": "https://sofiasosaarditi.com/"
+        },
+        {
+          "title": "Abogados penalistas - Delitos y defensa penal en Mendoza",
+          "url": "https://www.legaltica.com/ar/abogados-penalistas-delitos-en-mendoza/"
+        },
+        {
+          "title": "Derecho Penal Económico y Delitos Financieros en Mendoza",
+          "url": "https://www.legaltica.com/ar/derecho-penal-economico-en-mendoza/"
+        },
+        {
+          "title": "Defensa penal en Mendoza. ¿Que hacer ante una investigación por delitos ...",
+          "url": "https://rojaspascual.com.ar/defensa-penal-en-mendoza-que-hacer-ante-una-investigacion-por-delitos-economicos/"
+        },
+        {
+          "title": "Sosa Arditi - Especialistas en Derecho Penal",
+          "url": "https://estudiososaarditi.com/"
+        },
+        {
+          "title": "Abogados Penalistas en Mendoza | Fallet Varela & Asociados",
+          "url": "https://falletvarela.com.ar/"
+        }
+      ]
+    },
+    {
+      "id": "Q10",
+      "query": "abogada penalista Mendoza consulta",
+      "intent": "abogada penalista Mendoza consulta",
+      "category": "consulta",
+      "status": "ok",
+      "searchResults": [
+        {
+          "title": "Abogados Penalistas en Mendoza - legaltica.com",
+          "url": "https://www.legaltica.com/ar/abogados-penalistas-derecho-penal-en-mendoza/"
+        },
+        {
+          "title": "Sofía Sosa Arditi — Abogada Penalista en Mendoza",
+          "url": "https://sofiasosaarditi.com/"
+        },
+        {
+          "title": "Abogados penalistas - Mendoza",
+          "url": "https://www.legaltica.com/ar/abogados-penalistas-delitos-en-mendoza/"
+        },
+        {
+          "title": "Encuentre el/la mejor Abogado penalista en Mendoza | Firmania",
+          "url": "https://firmania.com.ar/mendoza/abogado-penalista"
+        },
+        {
+          "title": "Abogado Penalista en Mendoza · Defensa Penal",
+          "url": "https://abogadomendoza.ar/servicios/abogado-penalista-mendoza/"
+        },
+        {
+          "title": "Abogados Penalistas en Mendoza | Fallet Varela & Asociados",
+          "url": "https://falletvarela.com.ar/"
+        },
+        {
+          "title": "Padrón - Colegio de Abogados y Procuradores",
+          "url": "https://colabogmza.com.ar/padron/"
+        },
+        {
+          "title": "Estudio Valverde · Abogado Penalista en Mendoza",
+          "url": "https://www.abogado-mendoza.online/"
+        }
+      ],
+      "analysis": {
+        "mentioned": false,
+        "firstMentionIndex": -1,
+        "estimatedPosition": null,
+        "citedOwnSite": false,
+        "citedUrls": [
+          {
+            "title": "Abogados Penalistas en Mendoza - legaltica.com",
+            "url": "https://www.legaltica.com/ar/abogados-penalistas-derecho-penal-en-mendoza/"
+          },
+          {
+            "title": "Sofía Sosa Arditi — Abogada Penalista en Mendoza",
+            "url": "https://sofiasosaarditi.com/"
+          },
+          {
+            "title": "Abogados penalistas - Mendoza",
+            "url": "https://www.legaltica.com/ar/abogados-penalistas-delitos-en-mendoza/"
+          },
+          {
+            "title": "Encuentre el/la mejor Abogado penalista en Mendoza | Firmania",
+            "url": "https://firmania.com.ar/mendoza/abogado-penalista"
+          },
+          {
+            "title": "Abogado Penalista en Mendoza · Defensa Penal",
+            "url": "https://abogadomendoza.ar/servicios/abogado-penalista-mendoza/"
+          },
+          {
+            "title": "Abogados Penalistas en Mendoza | Fallet Varela & Asociados",
+            "url": "https://falletvarela.com.ar/"
+          },
+          {
+            "title": "Padrón - Colegio de Abogados y Procuradores",
+            "url": "https://colabogmza.com.ar/padron/"
+          },
+          {
+            "title": "Estudio Valverde · Abogado Penalista en Mendoza",
+            "url": "https://www.abogado-mendoza.online/"
+          }
+        ],
+        "competitorsMentioned": [
+          "Sosa Arditi"
+        ]
+      },
+      "answer": "A continuación hay algunas opciones que puede consultar para encontrar una abogada penalista en Mendoza y organizar una consulta. Cada entrada incluye un breve resumen de lo que el sitio ofrece y un enlace directo al sitio web donde podrá obtener los detalles de contacto, áreas de práctica y procedimientos de consulta.\n\n| # | Fuente | Lo que ofrece | Cómo contactarla / consultar |\n|---|--------|--------------|------------------------------|\n| 1 | **Abogados Penalistas en Mendoza – legaltica.com** | Listado de estudios jurídicos especializados en derecho penal en Mendoza, con perfiles breves y servicios ofrecidos. | Visite el sitio para ver los números de teléfono y el formulario de contacto de cada estudio (https://www.legaltica.com/ar/abogados-penalistas-derecho-penal-en-mendoza/) |\n| 2 | **Sofía Sosa Arditi – Abogada Penalista en Mendoza** | Perfil profesional de una abogada penalista individual, con información sobre su experiencia, áreas de práctica y sección de contacto. | Complete el formulario de contacto o encuentre sus datos de contacto en su sitio web (https://sofiasosaarditi.com/) |\n| 3 | **Abogados penalistas – Mendoza (legaltica.com)** | Listado similar al #1, pero centrado en tipos específicos de delitos (por ejemplo, delitos económicos, de tráfico, etc.). | Los datos de contacto de cada abogado están disponibles en la página (https://www.legaltica.com/ar/abogados-penalistas-delitos-en-mendoza/) |\n| 4 | **Mejor Abogado Penalista en Mendoza – Firmania** | Plataforma que permite filtrar abogados penalistas en Mendoza según calificaciones, idiomas y disponibilidad de consulta. | Utilice el formulario de solicitud de consulta en línea o los datos de contacto que figuran en la página de cada abogado (https://firmania.com.ar/mendoza/abogado-penalista) |\n| 5 | **Abogado Penalista en Mendoza · Defensa Penal – abogadomendoza.ar** | Servicios de defensa penal ofrecidos por un estudio jurídico de Mendoza, con información sobre casos representativos y datos de contacto. | Llene el formulario de contacto o llame al número que figura en la página (https://abogadomendoza.ar/servicios/abogado-penalista-mendoza/) |\n| 6 | **Fallet Varela & Asociados – Abogados Penalistas en Mendoza** | Firma de abogados con un equipo dedicado al derecho penal, que incluye biografías de los socios y sección de contacto. | Consulte la página “Contacto” para obtener direcciones de correo electrónico y números de teléfono (https://falletvarela.com.ar/) |\n| 7 | **Padrón – Colegio de Abogados y Procuradores de Mendoza** | Registro oficial de todos los abogados matriculados en Mendoza. Puede verificar las credenciales de un abogado específico antes de consultar. | Busque un abogado por nombre o número de matrícula en el sitio (https://colabogmza.com.ar/padron/) |\n| 8 | **Estudio Valverde – Abogado Penalista en Mendoza** | Perfil de un abogado penalista individual con información sobre su formación, áreas de práctica y formulario de contacto. | Utilice el formulario de contacto disponible en el sitio (https://www.abogado-mendoza.online/) |\n\n**Consejos para su consulta**\n\n1. **Verifique las credenciales** – Utilice el padrón del Colegio de Abogados (enlace #7) para confirmar que el abogado está registrado y tiene habilitación vigente.\n2. **Compare especializaciones** – Algunos perfiles (por ejemplo, los listados de legaltica) permiten filtrar según el tipo de delito, lo que puede ser útil si tiene un caso específico en mente.\n3. **Consulte directamente** – La mayoría de los sitios ofrecen un formulario de contacto o un número de teléfono; también puede solicitar una consulta inicial (a menudo gratuita o de bajo costo) para discutir su situación.\n4. **Tenga en cuenta la disponibilidad** – Si necesita asistencia urgente, busque abogados que ofrezcan atención de emergencia o que tengan horarios de consulta flexibles.\n\nNo dude en visitar cualquiera de los sitios enumerados para obtener más detalles, leer las biografías de los abogados y ponerse en contacto con el profesional que mejor se adapte a sus necesidades.\n\n**FUENTES**\n- https://www.legaltica.com/ar/abogados-penalistas-derecho-penal-en-mendoza/\n- https://sofiasosaarditi.com/\n- https://www.legaltica.com/ar/abogados-penalistas-delitos-en-mendoza/\n- https://firmania.com.ar/mendoza/abogado-penalista\n- https://abogadomendoza.ar/servicios/abogado-penalista-mendoza/\n- https://falletvarela.com.ar/\n- https://colabogmza.com.ar/padron/\n- https://www.abogado-mendoza.online/",
+      "citations": [
+        {
+          "title": "Abogados Penalistas en Mendoza - legaltica.com",
+          "url": "https://www.legaltica.com/ar/abogados-penalistas-derecho-penal-en-mendoza/"
+        },
+        {
+          "title": "Sofía Sosa Arditi — Abogada Penalista en Mendoza",
+          "url": "https://sofiasosaarditi.com/"
+        },
+        {
+          "title": "Abogados penalistas - Mendoza",
+          "url": "https://www.legaltica.com/ar/abogados-penalistas-delitos-en-mendoza/"
+        },
+        {
+          "title": "Encuentre el/la mejor Abogado penalista en Mendoza | Firmania",
+          "url": "https://firmania.com.ar/mendoza/abogado-penalista"
+        },
+        {
+          "title": "Abogado Penalista en Mendoza · Defensa Penal",
+          "url": "https://abogadomendoza.ar/servicios/abogado-penalista-mendoza/"
+        },
+        {
+          "title": "Abogados Penalistas en Mendoza | Fallet Varela & Asociados",
+          "url": "https://falletvarela.com.ar/"
+        },
+        {
+          "title": "Padrón - Colegio de Abogados y Procuradores",
+          "url": "https://colabogmza.com.ar/padron/"
+        },
+        {
+          "title": "Estudio Valverde · Abogado Penalista en Mendoza",
+          "url": "https://www.abogado-mendoza.online/"
+        }
+      ]
+    },
+    {
+      "id": "Q11",
+      "query": "Emilia Sandobar abogada",
+      "intent": "Emilia Sandobar abogada",
+      "category": "entity",
+      "status": "ok",
+      "searchResults": [
+        {
+          "title": "Emilia Sandobar (@emiliasandobar) • Instagram photos and videos",
+          "url": "https://www.instagram.com/emiliasandobar/"
+        },
+        {
+          "title": "Colegio de Abogados de Tijuana condena ataque armado contra la Dra ...",
+          "url": "https://diariotijuana.info/2025/11/colegio-de-abogados-de-tijuana-condena-ataque-armado-contra-la-dra-emilia-ortega-y-exige-justicia"
+        },
+        {
+          "title": "Licda Abogada y Notaria Emilia Sandoval | Jutiapa - Facebook",
+          "url": "https://www.facebook.com/100069527493132/"
+        },
+        {
+          "title": "Emilia Sandobar - Facebook",
+          "url": "https://www.facebook.com/emmi.sandobar/"
+        },
+        {
+          "title": "Denuncias: La Liga Mendocina denunció que le falsificaron la firma a ...",
+          "url": "https://miradordiario.com.ar/la-liga-mendocina-denuncio-que-le-falsificaron-la-firma-a-medica-implicada-en-aptos-fisicos/"
+        },
+        {
+          "title": "Escándalo en la Liga Mendocina de Fútbol por certificados truchos: se ...",
+          "url": "https://www.diariouno.com.ar/judiciales/escandalo-la-liga-mendocina-futbol-certificados-truchos-se-comprobo-la-falsificacion-firmas-n1483041"
+        },
+        {
+          "title": "Escándalo en la Liga Mendocina de Fútbol: se comprobó la falsificación ...",
+          "url": "https://diariondi.com/escandalo-en-la-liga-mendocina-de-futbol-se-comprobo-la-falsificacion-de-firmas/"
+        },
+        {
+          "title": "MDZ Radio | 105.5 | Una médica cardióloga denunció ... - Instagram",
+          "url": "https://www.instagram.com/reel/DLbKZjhN6-E/"
+        }
+      ],
+      "analysis": {
+        "mentioned": false,
+        "firstMentionIndex": -1,
+        "estimatedPosition": null,
+        "citedOwnSite": false,
+        "citedUrls": [
+          {
+            "title": "Emilia Sandobar (@emiliasandobar) • Instagram photos and videos",
+            "url": "https://www.instagram.com/emiliasandobar/"
+          },
+          {
+            "title": "Colegio de Abogados de Tijuana condena ataque armado contra la Dra ...",
+            "url": "https://diariotijuana.info/2025/11/colegio-de-abogados-de-tijuana-condena-ataque-armado-contra-la-dra-emilia-ortega-y-exige-justicia"
+          },
+          {
+            "title": "Emilia Sandobar - Facebook",
+            "url": "https://www.facebook.com/emmi.sandobar/"
+          }
+        ],
+        "competitorsMentioned": []
+      },
+      "answer": "Emilia Sandobar se desempeña como abogada y cuenta con presencia en redes sociales: tiene un perfil de Instagram (@emiliasandobar) [1] y otro de Facebook bajo el nombre “Emilia Sandobar” [4].  \n\nEn noviembre de 2025, el Colegio de Abogados de Tijuana emitió una condena pública tras un ataque armado contra ella, a la que se refería como “la Dra. Emilia Ortega” [2].  \n\nCon base en los resultados de búsqueda, se puede inferir que Emilia Sandobar es una profesional del derecho que ha sido víctima de un hecho violento y que ha sido objeto de cobertura mediática en los medios locales.  \n\nFUENTES:  \nhttps://www.instagram.com/emiliasandobar/  \nhttps://diariotijuana.info/2025/11/colegio-de-abogados-de-tijuana-condena-ataque-armado-contra-la-dra-emilia-ortega-y-exige-justicia  \nhttps://www.facebook.com/emmi.sandobar/",
+      "citations": [
+        {
+          "title": "Emilia Sandobar (@emiliasandobar) • Instagram photos and videos",
+          "url": "https://www.instagram.com/emiliasandobar/"
+        },
+        {
+          "title": "Colegio de Abogados de Tijuana condena ataque armado contra la Dra ...",
+          "url": "https://diariotijuana.info/2025/11/colegio-de-abogados-de-tijuana-condena-ataque-armado-contra-la-dra-emilia-ortega-y-exige-justicia"
+        },
+        {
+          "title": "Emilia Sandobar - Facebook",
+          "url": "https://www.facebook.com/emmi.sandobar/"
+        }
+      ]
+    },
+    {
+      "id": "Q12",
+      "query": "Emilia Sandobar penalista",
+      "intent": "Emilia Sandobar penalista",
+      "category": "entity",
+      "status": "ok",
+      "searchResults": [
+        {
+          "title": "Emilia Sandobar (@emiliasandobar) • Instagram photos and videos",
+          "url": "https://www.instagram.com/emiliasandobar/"
+        },
+        {
+          "title": "Emilia Sandobar - Facebook",
+          "url": "https://www.facebook.com/emmi.sandobar/"
+        },
+        {
+          "title": "Emilia Barcia (@holachinabar) • Instagram photos and videos",
+          "url": "https://www.instagram.com/holachinabar/"
+        },
+        {
+          "title": "Emilia Sandobar Profiles | Facebook",
+          "url": "https://www.facebook.com/public/Emilia-Sandobar/"
+        },
+        {
+          "title": "Un fiscal desvió 425 millones de pesos para pagar sus deudas de juego",
+          "url": "https://www.pressreader.com/argentina/la-nacion/20260913/281900190102276"
+        },
+        {
+          "title": "¡CÁTEDRA EN EL CONGRESO! Abogada penalista barrió con Emilia ...",
+          "url": "https://www.youtube.com/watch?v=HrfOc39lMyw"
+        },
+        {
+          "title": "Hubo dos nuevos allanamientos por los certificados truchos de la Liga ...",
+          "url": "https://www.diariouno.com.ar/ovacion/hubo-dos-nuevos-allanamientos-el-caso-los-certificados-truchos-la-liga-mendocina-futbol-n1453036"
+        },
+        {
+          "title": "GitHub - popnegro/abogadasandobar: Desarrollo web para María Emilia ...",
+          "url": "https://github.com/popnegro/abogadasandobar"
+        }
+      ],
+      "analysis": {
+        "mentioned": true,
+        "firstMentionIndex": 62,
+        "estimatedPosition": 1,
+        "citedOwnSite": false,
+        "citedUrls": [
+          {
+            "title": "Emilia Sandobar (@emiliasandobar) • Instagram photos and videos",
+            "url": "https://www.instagram.com/emiliasandobar/"
+          },
+          {
+            "title": "Emilia Sandobar - Facebook",
+            "url": "https://www.facebook.com/emmi.sandobar/"
+          },
+          {
+            "title": "GitHub - popnegro/abogadasandobar: Desarrollo web para María Emilia ...",
+            "url": "https://github.com/popnegro/abogadasandobar"
+          }
+        ],
+        "competitorsMentioned": []
+      },
+      "answer": "Con los resultados disponibles, **no es posible confirmar que Emilia Sandobar sea penalista**. Los únicos enlaces directamente asociados a ese nombre son perfiles sociales:\n\n- Instagram: https://www.instagram.com/emiliasandobar/\n- Facebook: https://www.facebook.com/emmi.sandobar/\n\nTampoco surge una matrícula, firma, domicilio, teléfono ni página profesional verificable. Un repositorio de GitHub menciona un desarrollo web para María Emilia Sandobar, pero no alcanza para atribuirle una actividad profesional como abogada penalista.\n\nFUENTES:\nhttps://www.instagram.com/emiliasandobar/\nhttps://www.facebook.com/emmi.sandobar/\nhttps://github.com/popnegro/abogadasandobar",
+      "citations": [
+        {
+          "title": "Emilia Sandobar (@emiliasandobar) • Instagram photos and videos",
+          "url": "https://www.instagram.com/emiliasandobar/"
+        },
+        {
+          "title": "Emilia Sandobar - Facebook",
+          "url": "https://www.facebook.com/emmi.sandobar/"
+        },
+        {
+          "title": "GitHub - popnegro/abogadasandobar: Desarrollo web para María Emilia ...",
+          "url": "https://github.com/popnegro/abogadasandobar"
+        }
+      ]
+    },
+    {
+      "id": "Q13",
+      "query": "quién es Emilia Sandobar",
+      "intent": "quién es Emilia Sandobar",
+      "category": "entity",
+      "status": "ok",
+      "searchResults": [
+        {
+          "title": "Emilia Sandobar (@emiliasandobar) • Instagram photos and videos",
+          "url": "https://www.instagram.com/emiliasandobar/"
+        },
+        {
+          "title": "Emilia Sandobar - Facebook",
+          "url": "https://www.facebook.com/emmi.sandobar/"
+        },
+        {
+          "title": "Emilia Sandoval (@ems_sandoval) • Instagram photos and videos",
+          "url": "https://www.instagram.com/ems_sandoval/"
+        },
+        {
+          "title": "Diario del Oeste | Liga Mendocina de Fútbol: escándalo por supuestos ...",
+          "url": "https://www.diariodeloeste.com.ar/liga-mendocina-de-futbol-escandalo-por-supuestos-certificados-medicos-truchos-a-futbolistas/"
+        },
+        {
+          "title": "Emilia Sandobar Profiles | Facebook",
+          "url": "https://www.facebook.com/public/Emilia-Sandobar/"
+        },
+        {
+          "title": "EMILIA SANDOVAL - Semblanza",
+          "url": "https://emiliasandoval.tumblr.com/semblanza"
+        },
+        {
+          "title": "Emilia Sandoval",
+          "url": "https://ecsandoval.com/"
+        },
+        {
+          "title": "Escándalo en la Liga Mendocina de Fútbol por certificados truchos: se ...",
+          "url": "https://www.diariouno.com.ar/judiciales/escandalo-la-liga-mendocina-futbol-certificados-truchos-se-comprobo-la-falsificacion-firmas-n1483041"
+        }
+      ],
+      "analysis": {
+        "mentioned": true,
+        "firstMentionIndex": 74,
+        "estimatedPosition": 1,
+        "citedOwnSite": false,
+        "citedUrls": [
+          {
+            "title": "Emilia Sandobar (@emiliasandobar) • Instagram photos and videos",
+            "url": "https://www.instagram.com/emiliasandobar/"
+          },
+          {
+            "title": "Emilia Sandobar - Facebook",
+            "url": "https://www.facebook.com/emmi.sandobar/"
+          }
+        ],
+        "competitorsMentioned": []
+      },
+      "answer": "No hay información suficiente en los resultados para identificar quién es Emilia Sandobar de manera verificable. Solo aparecen perfiles personales asociados a ese nombre:\n\n- Instagram: @emiliasandobar\n- Facebook: /emmi.sandobar/\n\nNo se encontró una fuente confiable que indique su profesión, ciudad, edad u otra biografía. Si me dás más contexto —por ejemplo, dónde la viste o a qué se dedica— puedo ayudarte a distinguir si corresponde a la misma persona.\n\nFUENTES:\nhttps://www.instagram.com/emiliasandobar/\nhttps://www.facebook.com/emmi.sandobar/",
+      "citations": [
+        {
+          "title": "Emilia Sandobar (@emiliasandobar) • Instagram photos and videos",
+          "url": "https://www.instagram.com/emiliasandobar/"
+        },
+        {
+          "title": "Emilia Sandobar - Facebook",
+          "url": "https://www.facebook.com/emmi.sandobar/"
+        }
+      ]
+    },
+    {
+      "id": "Q14",
+      "query": "abogada penalista recomendada en Mendoza",
+      "intent": "abogada penalista recomendada en Mendoza",
+      "category": "recommendation",
+      "status": "ok",
+      "searchResults": [
+        {
+          "title": "Abogados Penalistas en Mendoza - legaltica.com",
+          "url": "https://www.legaltica.com/ar/abogados-penalistas-derecho-penal-en-mendoza/"
+        },
+        {
+          "title": "Abogados penalistas - Delitos y defensa penal en Mendoza",
+          "url": "https://www.legaltica.com/ar/abogados-penalistas-delitos-en-mendoza/"
+        },
+        {
+          "title": "Los mejores abogados penalistas Mendoza | Abogados en Mendoza",
+          "url": "https://abogadoenmendoza.com.ar/abogados-penalistas-en-mendoza"
+        },
+        {
+          "title": "Sofía Sosa Arditi — Abogada Penalista en Mendoza",
+          "url": "https://sofiasosaarditi.com/"
+        },
+        {
+          "title": "Abogado Penalista en Mendoza | Abogado penal",
+          "url": "https://www.abogadopenalmendoza.com/"
+        },
+        {
+          "title": "Encuentre el/la mejor Abogado penalista en Mendoza | Firmania",
+          "url": "https://firmania.com.ar/mendoza/abogado-penalista"
+        },
+        {
+          "title": "Encontrá Abogados Online en Argentina - Consultá Gratis | Abogalia",
+          "url": "https://abogalia.com.ar/abogado/penal-mendoza"
+        },
+        {
+          "title": "⚖️ Derecho Penal en Mendoza | BuscoAbogado Argentina",
+          "url": "https://buscoabogado.aarg.ar/categorias/derecho-penal/abogados-mendoza/"
+        }
+      ],
+      "analysis": {
+        "mentioned": false,
+        "firstMentionIndex": -1,
+        "estimatedPosition": null,
+        "citedOwnSite": false,
+        "citedUrls": [
+          {
+            "title": "Abogados Penalistas en Mendoza - legaltica.com",
+            "url": "https://www.legaltica.com/ar/abogados-penalistas-derecho-penal-en-mendoza/"
+          },
+          {
+            "title": "Abogados penalistas - Delitos y defensa penal en Mendoza",
+            "url": "https://www.legaltica.com/ar/abogados-penalistas-delitos-en-mendoza/"
+          },
+          {
+            "title": "Los mejores abogados penalistas Mendoza | Abogados en Mendoza",
+            "url": "https://abogadoenmendoza.com.ar/abogados-penalistas-en-mendoza"
+          },
+          {
+            "title": "Sofía Sosa Arditi — Abogada Penalista en Mendoza",
+            "url": "https://sofiasosaarditi.com/"
+          },
+          {
+            "title": "Abogado Penalista en Mendoza | Abogado penal",
+            "url": "https://www.abogadopenalmendoza.com/"
+          },
+          {
+            "title": "Encuentre el/la mejor Abogado penalista en Mendoza | Firmania",
+            "url": "https://firmania.com.ar/mendoza/abogado-penalista"
+          },
+          {
+            "title": "Encontrá Abogados Online en Argentina - Consultá Gratis | Abogalia",
+            "url": "https://abogalia.com.ar/abogado/penal-mendoza"
+          },
+          {
+            "title": "⚖️ Derecho Penal en Mendoza | BuscoAbogado Argentina",
+            "url": "https://buscoabogado.aarg.ar/categorias/derecho-penal/abogados-mendoza/"
+          }
+        ],
+        "competitorsMentioned": [
+          "Sosa Arditi"
+        ]
+      },
+      "answer": "Encontrá varias opciones de abogadas y abogados penalistas en Mendoza según los resultados. Una profesional mencionada es Sofía Sosa Arditi, que cuenta con sitio web propio. También aparecen plataformas y directorios como Legaltica, AbogadoenMendoza, Firmania, Abogalia y BuscoAbogado, donde podés filtrar por especialidad y localidad.\n\nComo no tengo datos para evaluar la calidad de cada profesional, te sugiero verificar matrícula, experiencia específica en el tipo de causa que necesites y consultar directamente sobre honorarios y disponibilidad.\n\nFUENTES:\nhttps://www.legaltica.com/ar/abogados-penalistas-derecho-penal-en-mendoza/\nhttps://www.legaltica.com/ar/abogados-penalistas-delitos-en-mendoza/\nhttps://abogadoenmendoza.com.ar/abogados-penalistas-en-mendoza\nhttps://sofiasosaarditi.com/\nhttps://www.abogadopenalmendoza.com/\nhttps://firmania.com.ar/mendoza/abogado-penalista\nhttps://abogalia.com.ar/abogado/penal-mendoza\nhttps://buscoabogado.aarg.ar/categorias/derecho-penal/abogados-mendoza/",
+      "citations": [
+        {
+          "title": "Abogados Penalistas en Mendoza - legaltica.com",
+          "url": "https://www.legaltica.com/ar/abogados-penalistas-derecho-penal-en-mendoza/"
+        },
+        {
+          "title": "Abogados penalistas - Delitos y defensa penal en Mendoza",
+          "url": "https://www.legaltica.com/ar/abogados-penalistas-delitos-en-mendoza/"
+        },
+        {
+          "title": "Los mejores abogados penalistas Mendoza | Abogados en Mendoza",
+          "url": "https://abogadoenmendoza.com.ar/abogados-penalistas-en-mendoza"
+        },
+        {
+          "title": "Sofía Sosa Arditi — Abogada Penalista en Mendoza",
+          "url": "https://sofiasosaarditi.com/"
+        },
+        {
+          "title": "Abogado Penalista en Mendoza | Abogado penal",
+          "url": "https://www.abogadopenalmendoza.com/"
+        },
+        {
+          "title": "Encuentre el/la mejor Abogado penalista en Mendoza | Firmania",
+          "url": "https://firmania.com.ar/mendoza/abogado-penalista"
+        },
+        {
+          "title": "Encontrá Abogados Online en Argentina - Consultá Gratis | Abogalia",
+          "url": "https://abogalia.com.ar/abogado/penal-mendoza"
+        },
+        {
+          "title": "⚖️ Derecho Penal en Mendoza | BuscoAbogado Argentina",
+          "url": "https://buscoabogado.aarg.ar/categorias/derecho-penal/abogados-mendoza/"
+        }
+      ]
+    },
+    {
+      "id": "Q15",
+      "query": "abogada penalista especializada en Mendoza",
+      "intent": "abogada penalista especializada en Mendoza",
+      "category": "recommendation",
+      "status": "ok",
+      "searchResults": [
+        {
+          "title": "Abogados Penalistas en Mendoza - legaltica.com",
+          "url": "https://www.legaltica.com/ar/abogados-penalistas-derecho-penal-en-mendoza/"
+        },
+        {
+          "title": "Sofía Sosa Arditi — Abogada Penalista en Mendoza",
+          "url": "https://sofiasosaarditi.com/"
+        },
+        {
+          "title": "Abogados Penalistas - Crivac",
+          "url": "https://abogadosenmendoza.com/abogados-penalistas/"
+        },
+        {
+          "title": "Abogados Penalistas en Mendoza | Fallet Varela & Asociados",
+          "url": "https://falletvarela.com.ar/"
+        },
+        {
+          "title": "Encuentre el/la mejor Abogado penalista en Mendoza | Firmania",
+          "url": "https://firmania.com.ar/mendoza/abogado-penalista"
+        },
+        {
+          "title": "Los mejores abogados penalistas Mendoza | Abogados en Mendoza",
+          "url": "https://abogadoenmendoza.com.ar/abogados-penalistas-en-mendoza"
+        },
+        {
+          "title": "Brizzio & Gil García | Abogados Penalistas en Mendoza",
+          "url": "https://byggabogados.com/"
+        },
+        {
+          "title": "⚖️ Derecho Penal en Mendoza | BuscoAbogado Argentina",
+          "url": "https://buscoabogado.aarg.ar/categorias/derecho-penal/abogados-mendoza/"
+        }
+      ],
+      "analysis": {
+        "mentioned": false,
+        "firstMentionIndex": -1,
+        "estimatedPosition": null,
+        "citedOwnSite": false,
+        "citedUrls": [
+          {
+            "title": "Sofía Sosa Arditi — Abogada Penalista en Mendoza",
+            "url": "https://sofiasosaarditi.com/"
+          }
+        ],
+        "competitorsMentioned": [
+          "Sosa Arditi"
+        ]
+      },
+      "answer": "Si buscás una abogada penalista con práctica en Mendoza, una opción destacada es **Sofía Sosa Arditi**, quien se especializa en derecho penal y brinda sus servicios en la provincia de Mendoza. Su perfil profesional está disponible en su sitio web oficial.\n\nFUENTES:\nhttps://sofiasosaarditi.com/",
+      "citations": [
+        {
+          "title": "Sofía Sosa Arditi — Abogada Penalista en Mendoza",
+          "url": "https://sofiasosaarditi.com/"
+        }
+      ]
+    }
+  ]
+}
