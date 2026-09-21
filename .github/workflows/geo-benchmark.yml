@@ -1,0 +1,54 @@
+name: GEO Benchmark
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - feat/p5-geo-openrouter-free
+      - fix/p5-1-1-benchmark-reliability
+    paths-ignore:
+      - 'geo-benchmark/results/**'
+  schedule:
+    - cron: '0 12 * * 1'
+
+permissions:
+  contents: write
+
+jobs:
+  benchmark:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Run GEO benchmark with reliability retries
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          OPENROUTER_MODEL: openrouter/free
+        run: |
+          set -e
+          for attempt in 1 2 3; do
+            echo "GEO benchmark attempt ${attempt}/3"
+            node scripts/geo-benchmark-v1.mjs
+            successful=$(node -e "const fs=require('fs'); const d=JSON.parse(fs.readFileSync('geo-benchmark/results/latest.json','utf8')); process.stdout.write(String(d.successfulQueries));")
+            total=$(node -e "const fs=require('fs'); const d=JSON.parse(fs.readFileSync('geo-benchmark/results/latest.json','utf8')); process.stdout.write(String(d.totalQueries));")
+            echo "Successful queries: ${successful}/${total}"
+            if [ "${successful}" = "${total}" ]; then
+              echo "Benchmark valid: all queries succeeded."
+              exit 0
+            fi
+            if [ "${attempt}" -lt 3 ]; then
+              echo "Incomplete benchmark; retrying after a short delay."
+              sleep 10
+            fi
+          done
+          echo "Benchmark failed reliability gate after 3 attempts: not all queries succeeded."
+          exit 1
+
+      - name: Commit benchmark results
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add geo-benchmark/results
+          git diff --cached --quiet || git commit -m 'chore: update GEO benchmark results'
+          git push

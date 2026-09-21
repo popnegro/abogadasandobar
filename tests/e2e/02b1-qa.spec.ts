@@ -16,8 +16,11 @@ test.describe('FASE 04 — Unified conversion flow', () => {
   });
 
   test('Hero asset remains external and stable', async ({ page }) => {
-    const backgroundImage = await page.locator('#hero-banner > div').first().evaluate((element) => getComputedStyle(element).backgroundImage);
-    expect(backgroundImage).toContain(heroImageHost);
+    const heroImage = page.locator('#hero-banner img').first();
+    await expect(heroImage).toBeVisible();
+    await expect(heroImage).toHaveAttribute('src', new RegExp(heroImageHost));
+    await expect(heroImage).toHaveAttribute('width', '1376');
+    await expect(heroImage).toHaveAttribute('height', '768');
   });
 
   test('Primary CTA navigates to the unified contact flow without a consultation modal', async ({ page }) => {

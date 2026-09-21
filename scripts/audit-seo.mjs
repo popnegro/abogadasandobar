@@ -1,6 +1,6 @@
 import { readFile } from 'node:fs/promises';
 
-const SITE_URL = 'https://www.abogadasandobar.com.ar';
+const SITE_URL = 'https://abogadasandobar.com.ar';
 const requiredRoutes = [
   '/',
   '/servicios-abogacia-mendoza',
@@ -13,6 +13,8 @@ const requiredRoutes = [
 const indexHtml = await readFile('index.html', 'utf8');
 const robotsTxt = await readFile('robots.txt', 'utf8');
 const sitemapXml = await readFile('sitemap.xml', 'utf8');
+const publicRobotsTxt = await readFile('public/robots.txt', 'utf8');
+const publicSitemapXml = await readFile('public/sitemap.xml', 'utf8');
 const routeMetadata = await readFile('src/utils/useRouteMetadata.ts', 'utf8');
 
 const failures = [];
@@ -32,14 +34,24 @@ for (const type of ['WebSite', 'WebPage', 'BreadcrumbList', 'Person', 'LegalServ
   assert(indexHtml.includes(`"@type": "${type}"`), `index.html JSON-LD must contain ${type}.`);
 }
 
-assert(robotsTxt.includes('User-agent: *'), 'robots.txt must define a global user-agent rule.');
-assert(robotsTxt.includes(`Sitemap: ${SITE_URL}/sitemap.xml`), 'robots.txt must reference the canonical sitemap URL.');
+for (const [label, robots] of [['root', robotsTxt], ['public', publicRobotsTxt]]) {
+  assert(robots.includes('User-agent: *'), `${label} robots.txt must define a global user-agent rule.`);
+  assert(robots.includes(`Sitemap: ${SITE_URL}/sitemap.xml`), `${label} robots.txt must reference the canonical sitemap URL.`);
+}
 
-const sitemapUrls = [...sitemapXml.matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => match[1]);
-assert(sitemapXml.includes('<urlset'), 'sitemap.xml must contain a urlset.');
-assert(sitemapUrls.length === requiredRoutes.length, `sitemap.xml must contain exactly ${requiredRoutes.length} URLs; found ${sitemapUrls.length}.`);
+for (const [label, sitemap] of [['root', sitemapXml], ['public', publicSitemapXml]]) {
+  const sitemapUrls = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => match[1]);
+  assert(sitemap.includes('<urlset'), `${label} sitemap.xml must contain a urlset.`);
+  assert(sitemapUrls.length === requiredRoutes.length, `${label} sitemap.xml must contain exactly ${requiredRoutes.length} URLs; found ${sitemapUrls.length}.`);
+  for (const route of requiredRoutes) {
+    assert(sitemapUrls.includes(`${SITE_URL}${route}`), `${label} sitemap.xml is missing ${route}.`);
+  }
+  const duplicateSitemapUrls = sitemapUrls.filter((url, index) => sitemapUrls.indexOf(url) !== index);
+  assert(duplicateSitemapUrls.length === 0, `${label} sitemap.xml must not contain duplicate URLs.`);
+  assert(sitemapUrls.every((url) => url.startsWith(SITE_URL)), `${label} sitemap.xml must contain only canonical site URLs.`);
+}
+
 for (const route of requiredRoutes) {
-  assert(sitemapUrls.includes(`${SITE_URL}${route}`), `sitemap.xml is missing ${route}.`);
   assert(routeMetadata.includes(`'${route}':`), `route metadata is missing ${route}.`);
 }
 
@@ -53,10 +65,6 @@ for (const route of requiredRoutes) {
   }
 }
 assert(new Set(metadataRoutes).size === metadataRoutes.length, 'route metadata must not contain duplicate route keys.');
-
-const duplicateSitemapUrls = sitemapUrls.filter((url, index) => sitemapUrls.indexOf(url) !== index);
-assert(duplicateSitemapUrls.length === 0, 'sitemap.xml must not contain duplicate URLs.');
-assert(sitemapUrls.every((url) => url.startsWith(SITE_URL)), 'sitemap.xml must contain only canonical site URLs.');
 
 console.log(`SEO smoke: ${requiredRoutes.length} canonical routes checked.`);
 

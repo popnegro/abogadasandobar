@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Shield, Phone, Mail, MapPin, Scale, Clock } from 'lucide-react';
 import { ActiveTab, TAB_TO_PATH } from '../types';
@@ -12,6 +12,25 @@ interface FooterProps {
 export const Footer: React.FC<FooterProps> = ({ onOpenConsultationModal }) => {
   const focusRing = 'focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#7F203D] focus-visible:ring-offset-2 focus-visible:ring-offset-[#1C1A18]';
   const handleInternalNavigation = () => window.scrollTo({ top: 0, behavior: 'smooth' });
+  const mapContainerRef = useRef<HTMLDivElement>(null);
+  const [mapLoaded, setMapLoaded] = useState(false);
+
+  useEffect(() => {
+    const element = mapContainerRef.current;
+    if (!element || mapLoaded) return;
+
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (!entry.isIntersecting) return;
+        setMapLoaded(true);
+        observer.disconnect();
+      },
+      { rootMargin: '600px 0px' },
+    );
+
+    observer.observe(element);
+    return () => observer.disconnect();
+  }, [mapLoaded]);
 
   return (
     <footer id="main-footer" className="relative z-20 border-t border-[#302D28]/30 bg-[#1C1A18] text-[#FFF8F2]" itemScope itemType="https://schema.org/LegalService">
@@ -70,15 +89,19 @@ export const Footer: React.FC<FooterProps> = ({ onOpenConsultationModal }) => {
               <span>Lunes a Viernes: 08:30 - 19:30 hs</span>
             </div>
 
-            {/* MAPA CORREGIDO Y RESPONSIVO */}
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13401.204022125608!2d-68.842749!3d-32.890209!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e09ac90023991%3A0x42a4e4a060a92ef!2sAbogada%20Emilia%20Sandobar!5e0!3m2!1ses-419!2sar!4v1788299319445!5m2!1ses-419!2sar"
-              className="w-full aspect-video rounded-lg shadow-sm"
-              style={{ border: 0 }}
-              allowFullScreen={true}
-              loading="lazy"
-              referrerPolicy="strict-origin-when-cross-origin"
-            ></iframe>
+            <div ref={mapContainerRef} className="w-full aspect-video rounded-lg bg-[#302D28]">
+              {mapLoaded ? (
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13401.204022125608!2d-68.842749!3d-32.890209!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e09ac90023991%3A0x42a4e4a060a92ef!2sAbogada%20Emilia%20Sandobar!5e0!3m2!1ses-419!2sar!4v1788299319445!5m2!1ses-419!2sar"
+                  title="Ubicación del estudio jurídico Emilia Sandobar"
+                  className="w-full aspect-video rounded-lg shadow-sm"
+                  style={{ border: 0 }}
+                  allowFullScreen={true}
+                  loading="lazy"
+                  referrerPolicy="strict-origin-when-cross-origin"
+                />
+              ) : null}
+            </div>
           </div>
 
         </div>

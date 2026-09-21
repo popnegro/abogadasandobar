@@ -1,0 +1,1687 @@
+{
+  "version": "P5 GEO Benchmark v1",
+  "startedAt": "2026-09-21T17:17:37.210Z",
+  "completedAt": "2026-09-21T17:21:21.892Z",
+  "provider": "openrouter",
+  "model": "openrouter/free",
+  "searchProvider": "duckduckgo-html",
+  "totalQueries": 15,
+  "successfulQueries": 15,
+  "errors": 0,
+  "metrics": {
+    "mentionRate": 0.2,
+    "top3Rate": 0.2,
+    "firstPlaceRate": 0.2,
+    "ownSiteCitationRate": 0
+  },
+  "results": [
+    {
+      "id": "Q01",
+      "query": "abogada penalista en Mendoza",
+      "intent": "abogada penalista en Mendoza",
+      "category": "penal-general",
+      "status": "ok",
+      "searchResults": [
+        {
+          "title": "Sofía Sosa Arditi — Abogada Penalista en Mendoza",
+          "url": "https://sofiasosaarditi.com/"
+        },
+        {
+          "title": "Abogados penalistas | MENDOZA DIGITAL",
+          "url": "https://mendozadigital.com.ar/abogados-en-mendoza/penalistas/"
+        },
+        {
+          "title": "Abogados Penalistas en Mendoza - legaltica.com",
+          "url": "https://www.legaltica.com/ar/abogados-penalistas-derecho-penal-en-mendoza/"
+        },
+        {
+          "title": "Los mejores abogados penalistas Mendoza | Abogados en Mendoza",
+          "url": "https://abogadoenmendoza.com.ar/abogados-penalistas-en-mendoza"
+        },
+        {
+          "title": "Abogado Penalista en Mendoza | Abogado penal",
+          "url": "https://www.abogadopenalmendoza.com/"
+        },
+        {
+          "title": "Abogados Penalistas en Mendoza | Fallet Varela & Asociados",
+          "url": "https://falletvarela.com.ar/"
+        },
+        {
+          "title": "Abogado Penalista en Mendoza · Defensa Penal",
+          "url": "https://abogadomendoza.ar/servicios/abogado-penalista-mendoza/"
+        },
+        {
+          "title": "⚖️ Derecho Penal en Mendoza | BuscoAbogado Argentina",
+          "url": "https://buscoabogado.aarg.ar/categorias/derecho-penal/abogados-mendoza/"
+        }
+      ],
+      "analysis": {
+        "mentioned": false,
+        "firstMentionIndex": -1,
+        "estimatedPosition": null,
+        "citedOwnSite": false,
+        "citedUrls": [
+          {
+            "title": "Sofía Sosa Arditi — Abogada Penalista en Mendoza",
+            "url": "https://sofiasosaarditi.com/"
+          },
+          {
+            "title": "Abogados penalistas | MENDOZA DIGITAL",
+            "url": "https://mendozadigital.com.ar/abogados-en-mendoza/penalistas/"
+          },
+          {
+            "title": "Abogados Penalistas en Mendoza - legaltica.com",
+            "url": "https://www.legaltica.com/ar/abogados-penalistas-derecho-penal-en-mendoza/"
+          },
+          {
+            "title": "Los mejores abogados penalistas Mendoza | Abogados en Mendoza",
+            "url": "https://abogadoenmendoza.com.ar/abogados-penalistas-en-mendoza"
+          },
+          {
+            "title": "Abogado Penalista en Mendoza | Abogado penal",
+            "url": "https://www.abogadopenalmendoza.com/"
+          },
+          {
+            "title": "Abogados Penalistas en Mendoza | Fallet Varela & Asociados",
+            "url": "https://falletvarela.com.ar/"
+          },
+          {
+            "title": "Abogado Penalista en Mendoza · Defensa Penal",
+            "url": "https://abogadomendoza.ar/servicios/abogado-penalista-mendoza/"
+          },
+          {
+            "title": "⚖️ Derecho Penal en Mendoza | BuscoAbogado Argentina",
+            "url": "https://buscoabogado.aarg.ar/categorias/derecho-penal/abogados-mendoza/"
+          }
+        ],
+        "competitorsMentioned": [
+          "Sosa Arditi"
+        ]
+      },
+      "answer": "En Mendoza podés encontrar varias abogadas especializadas en derecho penal. Un ejemplo concreto es **Sofía Sosa Arditi**, quien se presenta como abogada penalista y tiene su propio sitio web donde detalla su trayectoria y los servicios que brinda (defensa en causas penales, asesoría jurídica, etc.).  \n\nAdemás, existen varios directorios y sitios web que agrupan a profesionales del derecho penal en la provincia y que pueden ayudarte a localizar otras penalistas mujeres según tu necesidad específica:\n\n- **MENDOZA DIGITAL** – listado de abogados penalistas en Mendoza.  \n- **legaltica.com** – sección de abogados penalistas y derecho penal en Mendoza.  \n- **abogadoenmendoza.com.ar** – página dedicada a los mejores abogados penalistas de la zona.  \n- **abogadopenalmendoza.com** – sitio de un abogado penalista que también ofrece información de contacto de colegas.  \n- **Fallet Varela & Asociados** – estudio que incluye penalistas entre sus profesionales.  \n- **abogadomendoza.ar** – sección de servicios de abogado penalista en Mendoza.  \n- **BuscoAbogado Argentina** – categoría de derecho penal con filtros por ubicación (Mendoza).  \n\nEstos recursos permiten comparar perfiles, especialidades y formas de contacto para elegir la abogada penalista que mejor se ajuste a tu caso.\n\n**FUENTES:**  \nhttps://sofiasosaarditi.com/  \nhttps://mendozadigital.com.ar/abogados-en-mendoza/penalistas/  \nhttps://www.legaltica.com/ar/abogados-penalistas-derecho-penal-en-mendoza/  \nhttps://abogadoenmendoza.com.ar/abogados-penalistas-en-mendoza  \nhttps://www.abogadopenalmendoza.com/  \nhttps://falletvarela.com.ar/  \nhttps://abogadomendoza.ar/servicios/abogado-penalista-mendoza/  \nhttps://buscoabogado.aarg.ar/categorias/derecho-penal/abogados-mendoza/",
+      "citations": [
+        {
+          "title": "Sofía Sosa Arditi — Abogada Penalista en Mendoza",
+          "url": "https://sofiasosaarditi.com/"
+        },
+        {
+          "title": "Abogados penalistas | MENDOZA DIGITAL",
+          "url": "https://mendozadigital.com.ar/abogados-en-mendoza/penalistas/"
+        },
+        {
+          "title": "Abogados Penalistas en Mendoza - legaltica.com",
+          "url": "https://www.legaltica.com/ar/abogados-penalistas-derecho-penal-en-mendoza/"
+        },
+        {
+          "title": "Los mejores abogados penalistas Mendoza | Abogados en Mendoza",
+          "url": "https://abogadoenmendoza.com.ar/abogados-penalistas-en-mendoza"
+        },
+        {
+          "title": "Abogado Penalista en Mendoza | Abogado penal",
+          "url": "https://www.abogadopenalmendoza.com/"
+        },
+        {
+          "title": "Abogados Penalistas en Mendoza | Fallet Varela & Asociados",
+          "url": "https://falletvarela.com.ar/"
+        },
+        {
+          "title": "Abogado Penalista en Mendoza · Defensa Penal",
+          "url": "https://abogadomendoza.ar/servicios/abogado-penalista-mendoza/"
+        },
+        {
+          "title": "⚖️ Derecho Penal en Mendoza | BuscoAbogado Argentina",
+          "url": "https://buscoabogado.aarg.ar/categorias/derecho-penal/abogados-mendoza/"
+        }
+      ]
+    },
+    {
+      "id": "Q02",
+      "query": "mejor abogada penalista en Mendoza",
+      "intent": "mejor abogada penalista en Mendoza",
+      "category": "penal-general",
+      "status": "ok",
+      "searchResults": [
+        {
+          "title": "Los mejores abogados penalistas Mendoza | Abogados en Mendoza",
+          "url": "https://abogadoenmendoza.com.ar/abogados-penalistas-en-mendoza"
+        },
+        {
+          "title": "Abogados penalistas en Mendoza - MENDOZA DIGITAL",
+          "url": "https://mendozadigital.com.ar/abogados-en-mendoza/penalistas/"
+        },
+        {
+          "title": "Sofía Sosa Arditi — Abogada Penalista en Mendoza",
+          "url": "https://sofiasosaarditi.com/"
+        },
+        {
+          "title": "Abogados Penalistas en Mendoza - legaltica.com",
+          "url": "https://www.legaltica.com/ar/abogados-penalistas-derecho-penal-en-mendoza/"
+        },
+        {
+          "title": "Abogados Penalistas - Crivac",
+          "url": "https://abogadosenmendoza.com/abogados-penalistas/"
+        },
+        {
+          "title": "Brizzio & Gil García | Abogados Penalistas en Mendoza",
+          "url": "https://byggabogados.com/"
+        },
+        {
+          "title": "⚖️ Derecho Penal en Mendoza | BuscoAbogado Argentina",
+          "url": "https://buscoabogado.aarg.ar/categorias/derecho-penal/abogados-mendoza/"
+        },
+        {
+          "title": "Los 10 mejores Abogados y Bufetes de Abogados en Mendoza, Argentina (2026)",
+          "url": "https://lawzana.com/es/lawyers/mendoza-mendoza"
+        }
+      ],
+      "analysis": {
+        "mentioned": false,
+        "firstMentionIndex": -1,
+        "estimatedPosition": null,
+        "citedOwnSite": false,
+        "citedUrls": [
+          {
+            "title": "Los mejores abogados penalistas Mendoza | Abogados en Mendoza",
+            "url": "https://abogadoenmendoza.com.ar/abogados-penalistas-en-mendoza"
+          },
+          {
+            "title": "Abogados penalistas en Mendoza - MENDOZA DIGITAL",
+            "url": "https://mendozadigital.com.ar/abogados-en-mendoza/penalistas/"
+          },
+          {
+            "title": "Sofía Sosa Arditi — Abogada Penalista en Mendoza",
+            "url": "https://sofiasosaarditi.com/"
+          },
+          {
+            "title": "Abogados Penalistas en Mendoza - legaltica.com",
+            "url": "https://www.legaltica.com/ar/abogados-penalistas-derecho-penal-en-mendoza/"
+          },
+          {
+            "title": "Abogados Penalistas - Crivac",
+            "url": "https://abogadosenmendoza.com/abogados-penalistas/"
+          },
+          {
+            "title": "Brizzio & Gil García | Abogados Penalistas en Mendoza",
+            "url": "https://byggabogados.com/"
+          },
+          {
+            "title": "⚖️ Derecho Penal en Mendoza | BuscoAbogado Argentina",
+            "url": "https://buscoabogado.aarg.ar/categorias/derecho-penal/abogados-mendoza/"
+          },
+          {
+            "title": "Los 10 mejores Abogados y Bufetes de Abogados en Mendoza, Argentina (2026)",
+            "url": "https://lawzana.com/es/lawyers/mendoza-mendoza"
+          }
+        ],
+        "competitorsMentioned": [
+          "Sosa Arditi"
+        ]
+      },
+      "answer": "No puede identificarse objetivamente a “la mejor” abogada penalista en Mendoza con estos resultados: no incluyen experiencia, matrícula, casos, resultados ni comparaciones verificables.\n\nLa opción que aparece expresamente como **abogada penalista en Mendoza** es **Sofía Sosa Arditi**:\n\n- [Sofía Sosa Arditi — Abogada Penalista en Mendoza](https://sofiasosaarditi.com/)\n\nLos demás resultados son directorios o bufetes:\n\n- [Abogados penalistas en Mendoza — AbogadoEnMendoza](https://abogadoenmendoza.com.ar/abogados-penalistas-en-mendoza)\n- [Abogados penalistas en Mendoza — Mendoza Digital](https://mendozadigital.com.ar/abogados-en-mendoza/penalistas/)\n- [Abogados penalistas en Mendoza — Legaltica](https://www.legaltica.com/ar/abogados-penalistas-derecho-penal-en-mendoza/)\n- [Abogados penalistas en Mendoza — Crivac](https://abogadosenmendoza.com/abogados-penalistas/)\n- [Brizzio & Gil García — Abogados Penalistas en Mendoza](https://byggabogados.com/)\n- [Derecho Penal en Mendoza — BuscoAbogado](https://buscoabogado.aarg.ar/categorias/derecho-penal/abogados-mendoza/)\n- [Abogados y bufetes en Mendoza — Lawzana](https://lawzana.com/es/lawyers/mendoza-mendoza)\n\nFUENTES:  \nhttps://sofiasosaarditi.com/  \nhttps://abogadoenmendoza.com.ar/abogados-penalistas-en-mendoza  \nhttps://mendozadigital.com.ar/abogados-en-mendoza/penalistas/  \nhttps://www.legaltica.com/ar/abogados-penalistas-derecho-penal-en-mendoza/  \nhttps://abogadosenmendoza.com/abogados-penalistas/  \nhttps://byggabogados.com/  \nhttps://buscoabogado.aarg.ar/categorias/derecho-penal/abogados-mendoza/  \nhttps://lawzana.com/es/lawyers/mendoza-mendoza",
+      "citations": [
+        {
+          "title": "Los mejores abogados penalistas Mendoza | Abogados en Mendoza",
+          "url": "https://abogadoenmendoza.com.ar/abogados-penalistas-en-mendoza"
+        },
+        {
+          "title": "Abogados penalistas en Mendoza - MENDOZA DIGITAL",
+          "url": "https://mendozadigital.com.ar/abogados-en-mendoza/penalistas/"
+        },
+        {
+          "title": "Sofía Sosa Arditi — Abogada Penalista en Mendoza",
+          "url": "https://sofiasosaarditi.com/"
+        },
+        {
+          "title": "Abogados Penalistas en Mendoza - legaltica.com",
+          "url": "https://www.legaltica.com/ar/abogados-penalistas-derecho-penal-en-mendoza/"
+        },
+        {
+          "title": "Abogados Penalistas - Crivac",
+          "url": "https://abogadosenmendoza.com/abogados-penalistas/"
+        },
+        {
+          "title": "Brizzio & Gil García | Abogados Penalistas en Mendoza",
+          "url": "https://byggabogados.com/"
+        },
+        {
+          "title": "⚖️ Derecho Penal en Mendoza | BuscoAbogado Argentina",
+          "url": "https://buscoabogado.aarg.ar/categorias/derecho-penal/abogados-mendoza/"
+        },
+        {
+          "title": "Los 10 mejores Abogados y Bufetes de Abogados en Mendoza, Argentina (2026)",
+          "url": "https://lawzana.com/es/lawyers/mendoza-mendoza"
+        }
+      ]
+    },
+    {
+      "id": "Q03",
+      "query": "abogada penalista Mendoza defensa",
+      "intent": "abogada penalista Mendoza defensa",
+      "category": "defensa",
+      "status": "ok",
+      "searchResults": [
+        {
+          "title": "Abogados penalistas | MENDOZA DIGITAL",
+          "url": "https://mendozadigital.com.ar/abogados-en-mendoza/penalistas/"
+        },
+        {
+          "title": "Sofía Sosa Arditi — Abogada Penalista en Mendoza",
+          "url": "https://sofiasosaarditi.com/"
+        },
+        {
+          "title": "Abogado Penalista en Mendoza · Defensa Penal",
+          "url": "https://abogadomendoza.ar/servicios/abogado-penalista-mendoza/"
+        },
+        {
+          "title": "Abogados Penalistas Mendoza | Defensa en Derecho Penal | Reales Gattas",
+          "url": "https://realesgattasabogados.com.ar/"
+        },
+        {
+          "title": "Abogado Penalista en Mendoza | Defensa Penal | Portabella & Quiroga",
+          "url": "https://www.pyqabogadosmza.com/defensa-penal-24-horas"
+        },
+        {
+          "title": "Mejores Abogados de Defensa penal en Mendoza - lawzana.com",
+          "url": "https://lawzana.com/es/criminal-defense-lawyers/mendoza-mendoza"
+        },
+        {
+          "title": "Abogados penalistas - Delitos y defensa penal en Mendoza",
+          "url": "https://www.legaltica.com/ar/abogados-penalistas-delitos-en-mendoza/"
+        },
+        {
+          "title": "Abogado Penalista en Mendoza | Abogado penal",
+          "url": "https://www.abogadopenalmendoza.com/"
+        }
+      ],
+      "analysis": {
+        "mentioned": false,
+        "firstMentionIndex": -1,
+        "estimatedPosition": null,
+        "citedOwnSite": false,
+        "citedUrls": [
+          {
+            "title": "Abogados penalistas | MENDOZA DIGITAL",
+            "url": "https://mendozadigital.com.ar/abogados-en-mendoza/penalistas/"
+          },
+          {
+            "title": "Sofía Sosa Arditi — Abogada Penalista en Mendoza",
+            "url": "https://sofiasosaarditi.com/"
+          },
+          {
+            "title": "Abogado Penalista en Mendoza · Defensa Penal",
+            "url": "https://abogadomendoza.ar/servicios/abogado-penalista-mendoza/"
+          },
+          {
+            "title": "Abogados Penalistas Mendoza | Defensa en Derecho Penal | Reales Gattas",
+            "url": "https://realesgattasabogados.com.ar/"
+          },
+          {
+            "title": "Abogado Penalista en Mendoza | Defensa Penal | Portabella & Quiroga",
+            "url": "https://www.pyqabogadosmza.com/defensa-penal-24-horas"
+          },
+          {
+            "title": "Mejores Abogados de Defensa penal en Mendoza - lawzana.com",
+            "url": "https://lawzana.com/es/criminal-defense-lawyers/mendoza-mendoza"
+          },
+          {
+            "title": "Abogados penalistas - Delitos y defensa penal en Mendoza",
+            "url": "https://www.legaltica.com/ar/abogados-penalistas-delitos-en-mendoza/"
+          },
+          {
+            "title": "Abogado Penalista en Mendoza | Abogado penal",
+            "url": "https://www.abogadopenalmendoza.com/"
+          }
+        ],
+        "competitorsMentioned": [
+          "Sosa Arditi"
+        ]
+      },
+      "answer": "# Abogada penalista en Mendoza para defensa\n\nSi necesitás encontrar una abogada penalista en Mendoza para defensa en casos penales, hay varias opciones profesionales y estudios que ofrecen este servicio. Acá te dejo información sobre algunas de ellas:\n\n## Estudios y abogados destacados\n\n**Sofía Sosa Arditi** - Abogada penalista en Mendoza con su propio estudio. Su sitio web indica que se especializa en defensa penal.\n\n**Portabella & Quiroga** - Ofrecen defensa penal las 24 horas, según su sitio web.\n\n**Reales Gattas** - Estudio de abogados que incluye defensa en Derecho Penal entre sus especialidades.\n\n**Abogado Penalista Mendoza** - Sitio web dedicado específicamente a la defensa penal en la ciudad.\n\n## Directorios y listados\n\n**Lawzana** - Plataforma que lista los mejores abogados de defensa penal en Mendoza, con posibilidad de comparar especialistas.\n\n**Mendoza Digital** - Directorio de abogados penalistas en la provincia.\n\n**Legaltica** - Listado de abogados penalistas que trabajan defensa en delitos en Mendoza.\n\n## Recomendaciones\n\n- Verificá la especialización específica en defensa penal\n- Consultá la experiencia en el tipo de caso que necesitás\n- Preguntá por disponibilidad y cobertura 24 horas si es necesario\n- Compará honorarios y formas de pago\n\nFUENTES:\nhttps://sofiasosaarditi.com/\nhttps://www.pyqabogadosmza.com/defensa-penal-24-horas\nhttps://realesgattasabogados.com.ar/\nhttps://abogadomendoza.ar/servicios/abogado-penalista-mendoza/\nhttps://lawzana.com/es/criminal-defense-lawyers/mendoza-mendoza\nhttps://mendozadigital.com.ar/abogados-en-mendoza/penalistas/\nhttps://www.legaltica.com/ar/abogados-penalistas-delitos-en-mendoza/\nhttps://www.abogadopenalmendoza.com/",
+      "citations": [
+        {
+          "title": "Abogados penalistas | MENDOZA DIGITAL",
+          "url": "https://mendozadigital.com.ar/abogados-en-mendoza/penalistas/"
+        },
+        {
+          "title": "Sofía Sosa Arditi — Abogada Penalista en Mendoza",
+          "url": "https://sofiasosaarditi.com/"
+        },
+        {
+          "title": "Abogado Penalista en Mendoza · Defensa Penal",
+          "url": "https://abogadomendoza.ar/servicios/abogado-penalista-mendoza/"
+        },
+        {
+          "title": "Abogados Penalistas Mendoza | Defensa en Derecho Penal | Reales Gattas",
+          "url": "https://realesgattasabogados.com.ar/"
+        },
+        {
+          "title": "Abogado Penalista en Mendoza | Defensa Penal | Portabella & Quiroga",
+          "url": "https://www.pyqabogadosmza.com/defensa-penal-24-horas"
+        },
+        {
+          "title": "Mejores Abogados de Defensa penal en Mendoza - lawzana.com",
+          "url": "https://lawzana.com/es/criminal-defense-lawyers/mendoza-mendoza"
+        },
+        {
+          "title": "Abogados penalistas - Delitos y defensa penal en Mendoza",
+          "url": "https://www.legaltica.com/ar/abogados-penalistas-delitos-en-mendoza/"
+        },
+        {
+          "title": "Abogado Penalista en Mendoza | Abogado penal",
+          "url": "https://www.abogadopenalmendoza.com/"
+        }
+      ]
+    },
+    {
+      "id": "Q04",
+      "query": "abogada penalista Mendoza defensa penal",
+      "intent": "abogada penalista Mendoza defensa penal",
+      "category": "defensa",
+      "status": "ok",
+      "searchResults": [
+        {
+          "title": "Abogados penalistas | MENDOZA DIGITAL",
+          "url": "https://mendozadigital.com.ar/abogados-en-mendoza/penalistas/"
+        },
+        {
+          "title": "Abogado Penalista en Mendoza · Defensa Penal",
+          "url": "https://abogadomendoza.ar/servicios/abogado-penalista-mendoza/"
+        },
+        {
+          "title": "Los mejores abogados penalistas Mendoza | Abogados en Mendoza",
+          "url": "https://abogadoenmendoza.com.ar/abogados-penalistas-en-mendoza"
+        },
+        {
+          "title": "Abogados Penalistas (Derecho Penal) en Mendoza",
+          "url": "https://www.legaltica.com/ar/abogados-penalistas-derecho-penal-en-mendoza/"
+        },
+        {
+          "title": "Abogado Penalista en Mendoza | Abogado penal",
+          "url": "https://www.abogadopenalmendoza.com/"
+        },
+        {
+          "title": "Mejores Abogados de Defensa penal en Mendoza",
+          "url": "https://lawzana.com/es/criminal-defense-lawyers/mendoza-mendoza"
+        },
+        {
+          "title": "Abogados Penalistas Mendoza | Defensa en Derecho Penal | Reales Gattas",
+          "url": "https://realesgattasabogados.com.ar/"
+        },
+        {
+          "title": "Abogado Penalista Urgencia Mendoza Asistencia Legal Inmediata 2026",
+          "url": "https://abogadomendoza.ar/blog/abogado-penalista-urgencia-mendoza/"
+        }
+      ],
+      "analysis": {
+        "mentioned": false,
+        "firstMentionIndex": -1,
+        "estimatedPosition": null,
+        "citedOwnSite": false,
+        "citedUrls": [
+          {
+            "title": "Abogados penalistas | MENDOZA DIGITAL",
+            "url": "https://mendozadigital.com.ar/abogados-en-mendoza/penalistas/"
+          },
+          {
+            "title": "Abogado Penalista en Mendoza · Defensa Penal",
+            "url": "https://abogadomendoza.ar/servicios/abogado-penalista-mendoza/"
+          },
+          {
+            "title": "Los mejores abogados penalistas Mendoza | Abogados en Mendoza",
+            "url": "https://abogadoenmendoza.com.ar/abogados-penalistas-en-mendoza"
+          },
+          {
+            "title": "Abogados Penalistas (Derecho Penal) en Mendoza",
+            "url": "https://www.legaltica.com/ar/abogados-penalistas-derecho-penal-en-mendoza/"
+          },
+          {
+            "title": "Abogado Penalista en Mendoza | Abogado penal",
+            "url": "https://www.abogadopenalmendoza.com/"
+          },
+          {
+            "title": "Mejores Abogados de Defensa penal en Mendoza",
+            "url": "https://lawzana.com/es/criminal-defense-lawyers/mendoza-mendoza"
+          },
+          {
+            "title": "Abogados Penalistas Mendoza | Defensa en Derecho Penal | Reales Gattas",
+            "url": "https://realesgattasabogados.com.ar/"
+          },
+          {
+            "title": "Abogado Penalista Urgencia Mendoza Asistencia Legal Inmediata 2026",
+            "url": "https://abogadomendoza.ar/blog/abogado-penalista-urgencia-mendoza/"
+          }
+        ],
+        "competitorsMentioned": []
+      },
+      "answer": "# Abogadas Penalistas y Defensa Penal en Mendoza\n\nSegún los resultados de búsqueda, existen varias opciones de abogados especializados en derecho penal y defensa penal en Mendoza. Aquí te presento las principales opciones disponibles:\n\n## Abogados Penalistas en Mendoza\n\n1. **Mendozadigital** - Tienen una sección específica para abogados penalistas con servicios de defensa penal. Puedes visitar su página para más información sobre sus servicios y contacto.\n\n2. **Abogado Penalista en Mendoza** - Un perfil profesional dedicado exclusivamente a la defensa penal en la ciudad de Mendoza.\n\n3. **Los mejores abogados penalistas Mendoza** - Una lista compilada de especialistas en derecho penal de la región.\n\n4. **Abogados Penalistas (Derecho Penal) en Mendoza** - Otra fuente con múltiples profesionales especializados en defensa penal.\n\n5. **Reales Gattas** - Un despacho especializado en defensa penal con experiencia en casos criminales.\n\n6. **Abogado Penalista Urgencia Mendoza** - Ofrecen asistencia legal inmediata para situaciones penales urgentes.\n\n## Información Adicional\n\nEstos profesionales se especializan en:\n- Defensa penal\n- Derecho penal\n- Asesoría en procesos judiciales criminales\n- Representación legal en casos de acusaciones penales\n\nPuedes consultar directamente sus páginas web para obtener información detallada sobre sus servicios, especialidades y contactos para programar una consulta.\n\nFUENTES:\nhttps://mendozadigital.com.ar/abogados-en-mendoza/penalistas/\nhttps://abogadomendoza.ar/servicios/abogado-penalista-mendoza/\nhttps://abogadoenmendoza.com.ar/abogados-penalistas-en-mendoza\nhttps://www.legaltica.com/ar/abogados-penalistas-derecho-penal-en-mendoza/\nhttps://www.abogadopenalmendoza.com/\nhttps://lawzana.com/es/criminal-defense-lawyers/mendoza-mendoza\nhttps://realesgattasabogados.com.ar/\nhttps://abogadomendoza.ar/blog/abogado-penalista-urgencia-mendoza/",
+      "citations": [
+        {
+          "title": "Abogados penalistas | MENDOZA DIGITAL",
+          "url": "https://mendozadigital.com.ar/abogados-en-mendoza/penalistas/"
+        },
+        {
+          "title": "Abogado Penalista en Mendoza · Defensa Penal",
+          "url": "https://abogadomendoza.ar/servicios/abogado-penalista-mendoza/"
+        },
+        {
+          "title": "Los mejores abogados penalistas Mendoza | Abogados en Mendoza",
+          "url": "https://abogadoenmendoza.com.ar/abogados-penalistas-en-mendoza"
+        },
+        {
+          "title": "Abogados Penalistas (Derecho Penal) en Mendoza",
+          "url": "https://www.legaltica.com/ar/abogados-penalistas-derecho-penal-en-mendoza/"
+        },
+        {
+          "title": "Abogado Penalista en Mendoza | Abogado penal",
+          "url": "https://www.abogadopenalmendoza.com/"
+        },
+        {
+          "title": "Mejores Abogados de Defensa penal en Mendoza",
+          "url": "https://lawzana.com/es/criminal-defense-lawyers/mendoza-mendoza"
+        },
+        {
+          "title": "Abogados Penalistas Mendoza | Defensa en Derecho Penal | Reales Gattas",
+          "url": "https://realesgattasabogados.com.ar/"
+        },
+        {
+          "title": "Abogado Penalista Urgencia Mendoza Asistencia Legal Inmediata 2026",
+          "url": "https://abogadomendoza.ar/blog/abogado-penalista-urgencia-mendoza/"
+        }
+      ]
+    },
+    {
+      "id": "Q05",
+      "query": "abogada penalista Mendoza urgencia 24 horas",
+      "intent": "abogada penalista Mendoza urgencia 24 horas",
+      "category": "urgencia",
+      "status": "ok",
+      "searchResults": [
+        {
+          "title": "Abogado Penal 24 hs en Mendoza · Urgencias y Detenidos · Estudio Valverde",
+          "url": "https://www.abogado-mendoza.online/urgencias.html"
+        },
+        {
+          "title": "Abogado Penalista Urgencia Mendoza Asistencia Legal Inmediata 2026",
+          "url": "https://abogadomendoza.ar/blog/abogado-penalista-urgencia-mendoza/"
+        },
+        {
+          "title": "Defensa Penal Urgente en Mendoza - Abogado Penalista 24 Horas",
+          "url": "https://www.pyqabogadosmza.com/defensa-penal-24-horas"
+        },
+        {
+          "title": "Agustín Rivas | Abogado Penalista en Mendoza | Defensa Urgente",
+          "url": "https://estudiojuridicorivas.com.ar/"
+        },
+        {
+          "title": "Abogados Penalistas Mendoza 24 hs | Accidentes de Tránsito | Hidalgo ...",
+          "url": "https://www.abogadospenalistasyaccidentes.com.ar/"
+        },
+        {
+          "title": "Abogado Penalista en Mendoza | Chapuy & Asociados",
+          "url": "https://estudiojuridicochapuy.com.ar/"
+        },
+        {
+          "title": "Abogado Penalista en Mendoza | Abogado penal",
+          "url": "https://www.abogadopenalmendoza.com/"
+        },
+        {
+          "title": "Abogados Penal | Estudio Jurídico",
+          "url": "https://abogadospenal.ar/"
+        }
+      ],
+      "analysis": {
+        "mentioned": false,
+        "firstMentionIndex": -1,
+        "estimatedPosition": null,
+        "citedOwnSite": false,
+        "citedUrls": [
+          {
+            "title": "Abogado Penal 24 hs en Mendoza · Urgencias y Detenidos · Estudio Valverde",
+            "url": "https://www.abogado-mendoza.online/urgencias.html"
+          },
+          {
+            "title": "Abogado Penalista Urgencia Mendoza Asistencia Legal Inmediata 2026",
+            "url": "https://abogadomendoza.ar/blog/abogado-penalista-urgencia-mendoza/"
+          },
+          {
+            "title": "Defensa Penal Urgente en Mendoza - Abogado Penalista 24 Horas",
+            "url": "https://www.pyqabogadosmza.com/defensa-penal-24-horas"
+          },
+          {
+            "title": "Agustín Rivas | Abogado Penalista en Mendoza | Defensa Urgente",
+            "url": "https://estudiojuridicorivas.com.ar/"
+          },
+          {
+            "title": "Abogados Penalistas Mendoza 24 hs | Accidentes de Tránsito | Hidalgo ...",
+            "url": "https://www.abogadospenalistasyaccidentes.com.ar/"
+          },
+          {
+            "title": "Abogado Penalista en Mendoza | Chapuy & Asociados",
+            "url": "https://estudiojuridicochapuy.com.ar/"
+          },
+          {
+            "title": "Abogado Penalista en Mendoza | Abogado penal",
+            "url": "https://www.abogadopenalmendoza.com/"
+          },
+          {
+            "title": "Abogados Penal | Estudio Jurídico",
+            "url": "https://abogadospenal.ar/"
+          }
+        ],
+        "competitorsMentioned": [
+          "Eduardo Quiroga",
+          "Agustín Rivas",
+          "Ramiro Villalba"
+        ]
+      },
+      "answer": "Encontrá varios estudios jurídicos en Mendoza que ofrecen servicios de abogacía penalista con atención de urgencia y disponibilidad 24 horas. A continuación, un resumen de las opciones identificadas:\n\n**Estudios con servicio de urgencia 24 horas en Mendoza:**\n\n- **Estudio Valverde** - Se especializa en abogado penal 24 hs, con enfoque en urgencias y casos de detenidos.\n- **PyQ Abogados Mza** - Ofrece defensa penal urgente en Mendoza con atención de abogado penalista 24 horas.\n- **Estudio Jurídico Rivas (Agustín Rivas)** - Abogado penalista en Mendoza con defensa urgente.\n- **Hidalgo** - Abogados penalistas Mendoza 24 hs, con atención también en accidentes de tránsito.\n- **Chapuy & Asociados** - Abogado penalista en Mendoza.\n- **Abogado Penal Mendoza** - Servicio de abogado penalista en la provincia.\n- **Abogados Penal (estudiojuridicochapuy.com.ar / abogadospenal.ar)** - Estudio jurídico penal.\n\n**Consideraciones importantes:**\n\n- Los resultados no permiten confirmar que los profesionales sean mujeres (abogadas). Te recomiendo contactar directamente a los estudios para consultar por la disponibilidad de una abogada penalista.\n- La atención de urgencia 24 horas suele estar orientada a casos de detenidos, situaciones procesales urgentes y asistencia legal inmediata. Es conveniente verificar el alcance exacto del servicio y los costos antes de contratar.\n- Para una búsqueda más precisa, podés filtrar por área específica (defensa penal, delitos económicos, familia, etc.) según tu necesidad concreta.\n\nFUENTES:\nhttps://www.abogado-mendoza.online/urgencias.html\nhttps://abogadomendoza.ar/blog/abogado-penalista-urgencia-mendoza/\nhttps://www.pyqabogadosmza.com/defensa-penal-24-horas\nhttps://estudiojuridicorivas.com.ar/\nhttps://www.abogadospenalistasyaccidentes.com.ar/\nhttps://estudiojuridicochapuy.com.ar/\nhttps://www.abogadopenalmendoza.com/\nhttps://abogadospenal.ar/",
+      "citations": [
+        {
+          "title": "Abogado Penal 24 hs en Mendoza · Urgencias y Detenidos · Estudio Valverde",
+          "url": "https://www.abogado-mendoza.online/urgencias.html"
+        },
+        {
+          "title": "Abogado Penalista Urgencia Mendoza Asistencia Legal Inmediata 2026",
+          "url": "https://abogadomendoza.ar/blog/abogado-penalista-urgencia-mendoza/"
+        },
+        {
+          "title": "Defensa Penal Urgente en Mendoza - Abogado Penalista 24 Horas",
+          "url": "https://www.pyqabogadosmza.com/defensa-penal-24-horas"
+        },
+        {
+          "title": "Agustín Rivas | Abogado Penalista en Mendoza | Defensa Urgente",
+          "url": "https://estudiojuridicorivas.com.ar/"
+        },
+        {
+          "title": "Abogados Penalistas Mendoza 24 hs | Accidentes de Tránsito | Hidalgo ...",
+          "url": "https://www.abogadospenalistasyaccidentes.com.ar/"
+        },
+        {
+          "title": "Abogado Penalista en Mendoza | Chapuy & Asociados",
+          "url": "https://estudiojuridicochapuy.com.ar/"
+        },
+        {
+          "title": "Abogado Penalista en Mendoza | Abogado penal",
+          "url": "https://www.abogadopenalmendoza.com/"
+        },
+        {
+          "title": "Abogados Penal | Estudio Jurídico",
+          "url": "https://abogadospenal.ar/"
+        }
+      ]
+    },
+    {
+      "id": "Q06",
+      "query": "abogada penalista Mendoza detención",
+      "intent": "abogada penalista Mendoza detención",
+      "category": "urgencia",
+      "status": "ok",
+      "searchResults": [
+        {
+          "title": "Abogado Penalista Urgencia Mendoza Asistencia Legal Inmediata 2026",
+          "url": "https://abogadomendoza.ar/blog/abogado-penalista-urgencia-mendoza/"
+        },
+        {
+          "title": "Abogado Penal 24 hs en Mendoza · Urgencias y Detenidos · Estudio Valverde",
+          "url": "https://www.abogado-mendoza.online/urgencias.html"
+        },
+        {
+          "title": "Abogado Penalista en Mendoza · Defensa Penal",
+          "url": "https://abogadomendoza.ar/servicios/abogado-penalista-mendoza/"
+        },
+        {
+          "title": "Mejores Abogados de Arrestos y registros en Mendoza",
+          "url": "https://lawzana.com/es/arrests-searches-lawyers/mendoza-mendoza"
+        },
+        {
+          "title": "Abogados Penalistas - Crivac",
+          "url": "https://abogadosenmendoza.com/abogados-penalistas/"
+        },
+        {
+          "title": "Agustín Rivas | Abogado Penalista en Mendoza | Defensa Urgente",
+          "url": "https://estudiojuridicorivas.com.ar/"
+        },
+        {
+          "title": "Abogado Penalista en Mendoza | Defensa Penal | Portabella & Quiroga",
+          "url": "https://www.pyqabogadosmza.com/defensa-penal-24-horas"
+        },
+        {
+          "title": "Sofía Sosa Arditi — Abogada Penalista en Mendoza",
+          "url": "https://sofiasosaarditi.com/"
+        }
+      ],
+      "analysis": {
+        "mentioned": false,
+        "firstMentionIndex": -1,
+        "estimatedPosition": null,
+        "citedOwnSite": false,
+        "citedUrls": [
+          {
+            "title": "Abogado Penalista Urgencia Mendoza Asistencia Legal Inmediata 2026",
+            "url": "https://abogadomendoza.ar/blog/abogado-penalista-urgencia-mendoza/"
+          },
+          {
+            "title": "Abogado Penal 24 hs en Mendoza · Urgencias y Detenidos · Estudio Valverde",
+            "url": "https://www.abogado-mendoza.online/urgencias.html"
+          },
+          {
+            "title": "Abogado Penalista en Mendoza · Defensa Penal",
+            "url": "https://abogadomendoza.ar/servicios/abogado-penalista-mendoza/"
+          },
+          {
+            "title": "Mejores Abogados de Arrestos y registros en Mendoza",
+            "url": "https://lawzana.com/es/arrests-searches-lawyers/mendoza-mendoza"
+          },
+          {
+            "title": "Abogados Penalistas - Crivac",
+            "url": "https://abogadosenmendoza.com/abogados-penalistas/"
+          },
+          {
+            "title": "Agustín Rivas | Abogado Penalista en Mendoza | Defensa Urgente",
+            "url": "https://estudiojuridicorivas.com.ar/"
+          },
+          {
+            "title": "Abogado Penalista en Mendoza | Defensa Penal | Portabella & Quiroga",
+            "url": "https://www.pyqabogadosmza.com/defensa-penal-24-horas"
+          },
+          {
+            "title": "Sofía Sosa Arditi — Abogada Penalista en Mendoza",
+            "url": "https://sofiasosaarditi.com/"
+          }
+        ],
+        "competitorsMentioned": [
+          "Agustín Rivas",
+          "Sosa Arditi"
+        ]
+      },
+      "answer": "Si estás buscando una abogada penalista en Mendoza que pueda ayudarte en caso de una detención, hay varias opciones disponibles. A continuación, te detallo algunas alternativas verificables según los resultados de búsqueda:\n\n1. **Abogado Penalista Urgencia Mendoza**  \n   Ofrecen asistencia legal inmediata para casos urgentes, incluyendo detenciones.  \n   Sitio web: [abogadomendoza.ar](https://abogadomendoza.ar/blog/abogado-penalista-urgencia-mendoza/)\n\n2. **Estudio Valverde – Abogado Penal 24 hs en Mendoza**  \n   Especializados en urgencias y defensa para personas detenidas.  \n   Sitio web: [abogado-mendoza.online](https://www.abogado-mendoza.online/urgencias.html)\n\n3. **Defensa Penal – Abogado Penalista en Mendoza**  \n   Servicio dedicado a la defensa penal con atención personalizada.  \n   Sitio web: [abogadomendoza.ar](https://abogadomendoza.ar/servicios/abogado-penalista-mendoza/)\n\n4. **Mejores Abogados de Arrestos y registros en Mendoza**  \n   Listado de profesionales especializados en casos de detención y allanamientos.  \n   Sitio web: [lawzana.com](https://lawzana.com/es/arrests-searches-lawyers/mendoza-mendoza)\n\n5. **Crivac – Abogados Penalistas**  \n   Equipo de abogados penalistas con experiencia en defensa penal.  \n   Sitio web: [abogadosenmendoza.com](https://abogadosenmendoza.com/abogados-penalistas/)\n\n6. **Agustín Rivas – Abogado Penalista en Mendoza**  \n   Ofrece defensa urgente en casos penales.  \n   Sitio web: [estudiojuridicorivas.com.ar](https://estudiojuridicorivas.com.ar/)\n\n7. **Portabella & Quiroga – Abogado Penalista en Mendoza**  \n   Defensa penal disponible las 24 horas.  \n   Sitio web: [pyqabogadosmza.com](https://www.pyqabogadosmza.com/defensa-penal-24-horas)\n\n8. **Sofía Sosa Arditi – Abogada Penalista en Mendoza**  \n   Profesional especializada en derecho penal.  \n   Sitio web: [sofiasosaarditi.com](https://sofiasosaarditi.com/)\n\nEs importante contactar a un abogado lo antes posible si alguien ha sido detenido, ya que puede intervenir para garantizar los derechos de la persona detenida y coordinar la defensa legal.\n\nFUENTES:  \nhttps://abogadomendoza.ar/blog/abogado-penalista-urgencia-mendoza/  \nhttps://www.abogado-mendoza.online/urgencias.html  \nhttps://abogadomendoza.ar/servicios/abogado-penalista-mendoza/  \nhttps://lawzana.com/es/arrests-searches-lawyers/mendoza-mendoza  \nhttps://abogadosenmendoza.com/abogados-penalistas/  \nhttps://estudiojuridicorivas.com.ar/  \nhttps://www.pyqabogadosmza.com/defensa-penal-24-horas  \nhttps://sofiasosaarditi.com/",
+      "citations": [
+        {
+          "title": "Abogado Penalista Urgencia Mendoza Asistencia Legal Inmediata 2026",
+          "url": "https://abogadomendoza.ar/blog/abogado-penalista-urgencia-mendoza/"
+        },
+        {
+          "title": "Abogado Penal 24 hs en Mendoza · Urgencias y Detenidos · Estudio Valverde",
+          "url": "https://www.abogado-mendoza.online/urgencias.html"
+        },
+        {
+          "title": "Abogado Penalista en Mendoza · Defensa Penal",
+          "url": "https://abogadomendoza.ar/servicios/abogado-penalista-mendoza/"
+        },
+        {
+          "title": "Mejores Abogados de Arrestos y registros en Mendoza",
+          "url": "https://lawzana.com/es/arrests-searches-lawyers/mendoza-mendoza"
+        },
+        {
+          "title": "Abogados Penalistas - Crivac",
+          "url": "https://abogadosenmendoza.com/abogados-penalistas/"
+        },
+        {
+          "title": "Agustín Rivas | Abogado Penalista en Mendoza | Defensa Urgente",
+          "url": "https://estudiojuridicorivas.com.ar/"
+        },
+        {
+          "title": "Abogado Penalista en Mendoza | Defensa Penal | Portabella & Quiroga",
+          "url": "https://www.pyqabogadosmza.com/defensa-penal-24-horas"
+        },
+        {
+          "title": "Sofía Sosa Arditi — Abogada Penalista en Mendoza",
+          "url": "https://sofiasosaarditi.com/"
+        }
+      ]
+    },
+    {
+      "id": "Q07",
+      "query": "abogada penalista Mendoza allanamiento",
+      "intent": "abogada penalista Mendoza allanamiento",
+      "category": "urgencia",
+      "status": "ok",
+      "searchResults": [
+        {
+          "title": "Agustín Rivas | Abogado Penalista en Mendoza | Defensa Urgente",
+          "url": "https://estudiojuridicorivas.com.ar/"
+        },
+        {
+          "title": "Abogados Penalistas - Crivac",
+          "url": "https://abogadosenmendoza.com/abogados-penalistas/"
+        },
+        {
+          "title": "Abogado Penalista en Mendoza | Defensa Penal | Portabella & Quiroga",
+          "url": "https://www.pyqabogadosmza.com/defensa-penal-24-horas"
+        },
+        {
+          "title": "Abogados Penalistas Mendoza 24 hs | Accidentes de Tránsito | Hidalgo ...",
+          "url": "https://www.abogadospenalistasyaccidentes.com.ar/"
+        },
+        {
+          "title": "Allanaron al abogado imputado por estafas y hallaron más de USD 50 mil",
+          "url": "https://www.mendozapost.com/policiales/caso-yoma-allanamientos-dolares-estafas-mendoza/"
+        },
+        {
+          "title": "Abogados penalistas | MENDOZA DIGITAL",
+          "url": "https://mendozadigital.com.ar/abogados-en-mendoza/penalistas/"
+        },
+        {
+          "title": "⚖️ Derecho Penal en Mendoza | BuscoAbogado Argentina",
+          "url": "https://buscoabogado.aarg.ar/categorias/derecho-penal/abogados-mendoza/"
+        },
+        {
+          "title": "Abogados Penalistas en Mendoza - legaltica.com",
+          "url": "https://www.legaltica.com/ar/abogados-penalistas-derecho-penal-en-mendoza/"
+        }
+      ],
+      "analysis": {
+        "mentioned": false,
+        "firstMentionIndex": -1,
+        "estimatedPosition": null,
+        "citedOwnSite": false,
+        "citedUrls": [
+          {
+            "title": "Agustín Rivas | Abogado Penalista en Mendoza | Defensa Urgente",
+            "url": "https://estudiojuridicorivas.com.ar/"
+          },
+          {
+            "title": "Abogados Penalistas - Crivac",
+            "url": "https://abogadosenmendoza.com/abogados-penalistas/"
+          },
+          {
+            "title": "Abogado Penalista en Mendoza | Defensa Penal | Portabella & Quiroga",
+            "url": "https://www.pyqabogadosmza.com/defensa-penal-24-horas"
+          },
+          {
+            "title": "Abogados Penalistas Mendoza 24 hs | Accidentes de Tránsito | Hidalgo ...",
+            "url": "https://www.abogadospenalistasyaccidentes.com.ar/"
+          },
+          {
+            "title": "⚖️ Derecho Penal en Mendoza | BuscoAbogado Argentina",
+            "url": "https://buscoabogado.aarg.ar/categorias/derecho-penal/abogados-mendoza/"
+          },
+          {
+            "title": "Abogados Penalistas en Mendoza - legaltica.com",
+            "url": "https://www.legaltica.com/ar/abogados-penalistas-derecho-penal-en-mendoza/"
+          }
+        ],
+        "competitorsMentioned": [
+          "Agustín Rivas"
+        ]
+      },
+      "answer": "Si buscás asistencia por un **allanamiento en Mendoza**, los resultados más directamente relacionados son:\n\n- **Agustín Rivas**: indica “defensa urgente”. https://estudiojuridicorivas.com.ar/\n- **Portabella & Quiroga**: ofrece “defensa penal 24 horas”. https://www.pyqabogadosmza.com/defensa-penal-24-horas\n- **Hidalgo…**: se presenta como estudio de penalistas con atención **24 hs**. https://www.abogadospenalistasyaccidentes.com.ar/\n- **Crivac**: listado de abogados penalistas. https://abogadosenmendoza.com/abogados-penalistas/\n\nTambién podés comparar profesionales en estos directorios:\n\n- BuscoAbogado: https://buscoabogado.aarg.ar/categorias/derecho-penal/abogados-mendoza/\n- Legaltica: https://www.legaltica.com/ar/abogados-penalistas-derecho-penal-en-mendoza/\n\nLos datos anteriores surgen únicamente de los títulos de los resultados. No incluyen información verificable sobre matrícula, experiencia específica en allanamientos, honorarios ni opiniones, por lo que conviene confirmarlo directamente antes de contratar.\n\nFUENTES:\nhttps://estudiojuridicorivas.com.ar/\nhttps://www.pyqabogadosmza.com/defensa-penal-24-horas\nhttps://www.abogadospenalistasyaccidentes.com.ar/\nhttps://abogadosenmendoza.com/abogados-penalistas/\nhttps://buscoabogado.aarg.ar/categorias/derecho-penal/abogados-mendoza/\nhttps://www.legaltica.com/ar/abogados-penalistas-derecho-penal-en-mendoza/",
+      "citations": [
+        {
+          "title": "Agustín Rivas | Abogado Penalista en Mendoza | Defensa Urgente",
+          "url": "https://estudiojuridicorivas.com.ar/"
+        },
+        {
+          "title": "Abogados Penalistas - Crivac",
+          "url": "https://abogadosenmendoza.com/abogados-penalistas/"
+        },
+        {
+          "title": "Abogado Penalista en Mendoza | Defensa Penal | Portabella & Quiroga",
+          "url": "https://www.pyqabogadosmza.com/defensa-penal-24-horas"
+        },
+        {
+          "title": "Abogados Penalistas Mendoza 24 hs | Accidentes de Tránsito | Hidalgo ...",
+          "url": "https://www.abogadospenalistasyaccidentes.com.ar/"
+        },
+        {
+          "title": "⚖️ Derecho Penal en Mendoza | BuscoAbogado Argentina",
+          "url": "https://buscoabogado.aarg.ar/categorias/derecho-penal/abogados-mendoza/"
+        },
+        {
+          "title": "Abogados Penalistas en Mendoza - legaltica.com",
+          "url": "https://www.legaltica.com/ar/abogados-penalistas-derecho-penal-en-mendoza/"
+        }
+      ]
+    },
+    {
+      "id": "Q08",
+      "query": "abogada penalista Mendoza denuncia",
+      "intent": "abogada penalista Mendoza denuncia",
+      "category": "causas",
+      "status": "ok",
+      "searchResults": [
+        {
+          "title": "Sofía Sosa Arditi — Abogada Penalista en Mendoza",
+          "url": "https://sofiasosaarditi.com/"
+        },
+        {
+          "title": "La mirada de un abogado penalista sobre la denuncia por violencia de ...",
+          "url": "https://radiomitre.cienradios.com/mitre-mendoza/la-mirada-de-un-abogado-penalista-sobre-la-denuncia-por-violencia-de-genero-de-fabiola-yanez-a-alberto-fernandez/"
+        },
+        {
+          "title": "Sosa Arditi - Especialistas en Derecho Penal",
+          "url": "https://estudiososaarditi.com/"
+        },
+        {
+          "title": "Ministerio Público Fiscal Mendoza",
+          "url": "https://mpfmza.jus.mendoza.gov.ar/"
+        },
+        {
+          "title": "Falsas denuncias: una reconocida abogada busca revertir una condena en ...",
+          "url": "https://www.losandes.com.ar/sociedad/falsas-denuncias-una-reconocida-abogada-busca-revertir-una-condena-un-resonante-caso-mendocino-n5957825"
+        },
+        {
+          "title": "SEGURIDAD| #YaTeEnteraste Atacan a... - Said Betanzos Arzola - Facebook",
+          "url": "https://www.facebook.com/100050606134226/posts/1386540496376142/"
+        },
+        {
+          "title": "Mendoza - Vista denuncias @MPF MDZ",
+          "url": "https://denuncias.mpfmza.gob.ar/"
+        },
+        {
+          "title": "Consulta de Expedientes - Ministerio Público Fiscal Mendoza",
+          "url": "https://mpfmza.jus.mendoza.gov.ar/consulta-de-expedientes/"
+        }
+      ],
+      "analysis": {
+        "mentioned": false,
+        "firstMentionIndex": -1,
+        "estimatedPosition": null,
+        "citedOwnSite": false,
+        "citedUrls": [
+          {
+            "title": "Sofía Sosa Arditi — Abogada Penalista en Mendoza",
+            "url": "https://sofiasosaarditi.com/"
+          },
+          {
+            "title": "La mirada de un abogado penalista sobre la denuncia por violencia de ...",
+            "url": "https://radiomitre.cienradios.com/mitre-mendoza/la-mirada-de-un-abogado-penalista-sobre-la-denuncia-por-violencia-de-genero-de-fabiola-yanez-a-alberto-fernandez/"
+          },
+          {
+            "title": "Sosa Arditi - Especialistas en Derecho Penal",
+            "url": "https://estudiososaarditi.com/"
+          },
+          {
+            "title": "Ministerio Público Fiscal Mendoza",
+            "url": "https://mpfmza.jus.mendoza.gov.ar/"
+          },
+          {
+            "title": "Falsas denuncias: una reconocida abogada busca revertir una condena en ...",
+            "url": "https://www.losandes.com.ar/sociedad/falsas-denuncias-una-reconocida-abogada-busca-revertir-una-condena-un-resonante-caso-mendocino-n5957825"
+          },
+          {
+            "title": "Mendoza - Vista denuncias @MPF MDZ",
+            "url": "https://denuncias.mpfmza.gob.ar/"
+          },
+          {
+            "title": "Consulta de Expedientes - Ministerio Público Fiscal Mendoza",
+            "url": "https://mpfmza.jus.mendoza.gov.ar/consulta-de-expedientes/"
+          }
+        ],
+        "competitorsMentioned": [
+          "Sosa Arditi"
+        ]
+      },
+      "answer": "En Mendoza tenés varias opciones si buscás una abogada penalista o necesitás hacer una denuncia:\n\n**Abogadas penalistas con presencia online:**\n- **Sofía Sosa Arditi** – Tiene sitio propio (sofiasosaarditi.com) y también forma parte de **Estudio Sosa Arditi** (estudiososaarditi.com), especialistas en derecho penal.\n- En la nota de Radio Mitre se menciona la mirada de un abogado penalista mendocino sobre una denuncia por violencia de género de alto perfil (radiomitre.cienradios.com).\n\n**Canales oficiales para denunciar / consultar expedientes:**\n- **Ministerio Público Fiscal de Mendoza** – Portal principal: mpfmza.jus.mendoza.gov.ar\n- **Vista Denuncias @MPF MDZ** – Para iniciar o seguir denuncias online: denuncias.mpfmza.gob.ar\n- **Consulta de expedientes** – Si ya tenés número de causa: mpfmza.jus.mendoza.gov.ar/consulta-de-expedientes/\n\n**Dato de contexto:** Los Andes publicó un artículo sobre un caso resonante de falsas denuncias en el que una abogada reconocida busca revertir una condena (losandes.com.ar).\n\nSi estás evaluando a qué profesional recurrir, te conviene entrar a los sitios de Sosa Arditi para ver su trayectoria, áreas de práctica y forma de contacto. Para presentar la denuncia directamente, los portales del MPF son la vía oficial.\n\nFUENTES:\nhttps://sofiasosaarditi.com/\nhttps://estudiososaarditi.com/\nhttps://radiomitre.cienradios.com/mitre-mendoza/la-mirada-de-un-abogado-penalista-sobre-la-denuncia-por-violencia-de-genero-de-fabiola-yanez-a-alberto-fernandez/\nhttps://mpfmza.jus.mendoza.gov.ar/\nhttps://denuncias.mpfmza.gob.ar/\nhttps://mpfmza.jus.mendoza.gov.ar/consulta-de-expedientes/\nhttps://www.losandes.com.ar/sociedad/falsas-denuncias-una-reconocida-abogada-busca-revertir-una-condena-un-resonante-caso-mendocino-n5957825",
+      "citations": [
+        {
+          "title": "Sofía Sosa Arditi — Abogada Penalista en Mendoza",
+          "url": "https://sofiasosaarditi.com/"
+        },
+        {
+          "title": "La mirada de un abogado penalista sobre la denuncia por violencia de ...",
+          "url": "https://radiomitre.cienradios.com/mitre-mendoza/la-mirada-de-un-abogado-penalista-sobre-la-denuncia-por-violencia-de-genero-de-fabiola-yanez-a-alberto-fernandez/"
+        },
+        {
+          "title": "Sosa Arditi - Especialistas en Derecho Penal",
+          "url": "https://estudiososaarditi.com/"
+        },
+        {
+          "title": "Ministerio Público Fiscal Mendoza",
+          "url": "https://mpfmza.jus.mendoza.gov.ar/"
+        },
+        {
+          "title": "Falsas denuncias: una reconocida abogada busca revertir una condena en ...",
+          "url": "https://www.losandes.com.ar/sociedad/falsas-denuncias-una-reconocida-abogada-busca-revertir-una-condena-un-resonante-caso-mendocino-n5957825"
+        },
+        {
+          "title": "Mendoza - Vista denuncias @MPF MDZ",
+          "url": "https://denuncias.mpfmza.gob.ar/"
+        },
+        {
+          "title": "Consulta de Expedientes - Ministerio Público Fiscal Mendoza",
+          "url": "https://mpfmza.jus.mendoza.gov.ar/consulta-de-expedientes/"
+        }
+      ]
+    },
+    {
+      "id": "Q09",
+      "query": "abogada penalista Mendoza delito económico",
+      "intent": "abogada penalista Mendoza delito económico",
+      "category": "causas",
+      "status": "ok",
+      "searchResults": [
+        {
+          "title": "Sofía Sosa Arditi — Abogada Penalista en Mendoza",
+          "url": "https://sofiasosaarditi.com/"
+        },
+        {
+          "title": "Abogado Penalista en Mendoza. Defensa penal ante acusaciones de delitos ...",
+          "url": "https://rojaspascual.com.ar/abogado-penalista-en-mendoza-defensa-penal-ante-acusaciones-de-delitos-economicos/"
+        },
+        {
+          "title": "Derecho Penal Económico y Delitos Financieros en Mendoza",
+          "url": "https://www.legaltica.com/ar/derecho-penal-economico-en-mendoza/"
+        },
+        {
+          "title": "Los mejores abogados penalistas Mendoza | Abogados en Mendoza",
+          "url": "https://abogadoenmendoza.com.ar/abogados-penalistas-en-mendoza"
+        },
+        {
+          "title": "Abogados en Mendoza | Abogados en Mendoza",
+          "url": "https://abogadoenmendoza.com.ar/"
+        },
+        {
+          "title": "Defensa penal en Mendoza. ¿Que hacer ante una investigación por delitos ...",
+          "url": "https://rojaspascual.com.ar/defensa-penal-en-mendoza-que-hacer-ante-una-investigacion-por-delitos-economicos/"
+        },
+        {
+          "title": "Abogados penalistas - Delitos y defensa penal en Mendoza",
+          "url": "https://www.legaltica.com/ar/abogados-penalistas-delitos-en-mendoza/"
+        },
+        {
+          "title": "Abogados penalistas | MENDOZA DIGITAL",
+          "url": "https://mendozadigital.com.ar/abogados-en-mendoza/penalistas/"
+        }
+      ],
+      "analysis": {
+        "mentioned": false,
+        "firstMentionIndex": -1,
+        "estimatedPosition": null,
+        "citedOwnSite": false,
+        "citedUrls": [
+          {
+            "title": "Sofía Sosa Arditi — Abogada Penalista en Mendoza",
+            "url": "https://sofiasosaarditi.com/"
+          },
+          {
+            "title": "Abogado Penalista en Mendoza. Defensa penal ante acusaciones de delitos ...",
+            "url": "https://rojaspascual.com.ar/abogado-penalista-en-mendoza-defensa-penal-ante-acusaciones-de-delitos-economicos/"
+          },
+          {
+            "title": "Derecho Penal Económico y Delitos Financieros en Mendoza",
+            "url": "https://www.legaltica.com/ar/derecho-penal-economico-en-mendoza/"
+          },
+          {
+            "title": "Los mejores abogados penalistas Mendoza | Abogados en Mendoza",
+            "url": "https://abogadoenmendoza.com.ar/abogados-penalistas-en-mendoza"
+          },
+          {
+            "title": "Abogados en Mendoza | Abogados en Mendoza",
+            "url": "https://abogadoenmendoza.com.ar/"
+          },
+          {
+            "title": "Defensa penal en Mendoza. ¿Que hacer ante una investigación por delitos ...",
+            "url": "https://rojaspascual.com.ar/defensa-penal-en-mendoza-que-hacer-ante-una-investigacion-por-delitos-economicos/"
+          },
+          {
+            "title": "Abogados penalistas - Delitos y defensa penal en Mendoza",
+            "url": "https://www.legaltica.com/ar/abogados-penalistas-delitos-en-mendoza/"
+          },
+          {
+            "title": "Abogados penalistas | MENDOZA DIGITAL",
+            "url": "https://mendozadigital.com.ar/abogados-en-mendoza/penalistas/"
+          }
+        ],
+        "competitorsMentioned": [
+          "Sosa Arditi"
+        ]
+      },
+      "answer": "\n\nPara encontrar una abogada penalista en Mendoza especializada en delitos económicos, te sugiero revisar los siguientes resultados, que incluyen profesionales y bufetes con esa especialización:\n\n- **Sofía Sosa Arditi**: Abogada penalista en Mendoza. Su sitio web detalla su práctica en área penal, lo que la convierte en una opción a considerar. Es recomendable contactarla para consultas específicas sobre delitos económicos.  \n  URL: https://sofiasosaarditi.com/\n\n- **Rojas Pascual**: Bufete que brinda defensa penal en Mendoza, con énfasis en acusaciones por delitos económicos. Ofrece información sobre procedimientos y recomendaciones para investigaciones en esta materia.  \n  URL: https://rojaspascual.com.ar/abogado-penalista-en-mendoza-defensa-penal-ante-acusaciones-de-delitos-economicos/  \n  URL: https://rojaspascual.com.ar/defensa-penal-en-mendoza-que-hacer-ante-una-investigacion-por-delitos-economicos/\n\n- **Legaltica**: Plataforma que analiza el derecho penal económico en Mendoza y lista abogados penalistas especializados en delitos y defensa penal.  \n  URL: https://www.legaltica.com/ar/derecho-penal-economico-en-mendoza/  \n  URL: https://www.legaltica.com/ar/abogados-penalistas-delitos-en-mendoza/\n\n- **Directorios de abogados en Mendoza**: Sitios como \"Abogados en Mendoza\" recopilan profesionales penalistas, lo que puede ayudarte a comparar opciones.  \n  URL: https://abogadoenmendoza.com.ar/abogados-penalistas-en-mendoza  \n  URL: https://mendozadigital.com.ar/abogados-en-mendoza/penalistas/\n\n**Recomendación**: Antes de contratar, verifica las credenciales, experiencia en delitos económicos y opiniones de clientes. Los bufetes suelen ofrecer consultas iniciales gratuitas para evaluar tu caso.\n\nFUENTES:  \nhttps://sofiasosaarditi.com/  \nhttps://rojaspascual.com.ar/abogado-penalista-en-mendoza-defensa-penal-ante-acusaciones-de-delitos-economicos/  \nhttps://rojaspascual.com.ar/defensa-penal-en-mendoza-que-hacer-ante-una-investigacion-por-delitos-economicos/  \nhttps://www.legaltica.com/ar/derecho-penal-economico-en-mendoza/  \nhttps://www.legaltica.com/ar/abogados-penalistas-delitos-en-mendoza/  \nhttps://abogadoenmendoza.com.ar/abogados-penalistas-en-mendoza  \nhttps://mendozadigital.com.ar/abogados-en-mendoza/penalistas/",
+      "citations": [
+        {
+          "title": "Sofía Sosa Arditi — Abogada Penalista en Mendoza",
+          "url": "https://sofiasosaarditi.com/"
+        },
+        {
+          "title": "Abogado Penalista en Mendoza. Defensa penal ante acusaciones de delitos ...",
+          "url": "https://rojaspascual.com.ar/abogado-penalista-en-mendoza-defensa-penal-ante-acusaciones-de-delitos-economicos/"
+        },
+        {
+          "title": "Derecho Penal Económico y Delitos Financieros en Mendoza",
+          "url": "https://www.legaltica.com/ar/derecho-penal-economico-en-mendoza/"
+        },
+        {
+          "title": "Los mejores abogados penalistas Mendoza | Abogados en Mendoza",
+          "url": "https://abogadoenmendoza.com.ar/abogados-penalistas-en-mendoza"
+        },
+        {
+          "title": "Abogados en Mendoza | Abogados en Mendoza",
+          "url": "https://abogadoenmendoza.com.ar/"
+        },
+        {
+          "title": "Defensa penal en Mendoza. ¿Que hacer ante una investigación por delitos ...",
+          "url": "https://rojaspascual.com.ar/defensa-penal-en-mendoza-que-hacer-ante-una-investigacion-por-delitos-economicos/"
+        },
+        {
+          "title": "Abogados penalistas - Delitos y defensa penal en Mendoza",
+          "url": "https://www.legaltica.com/ar/abogados-penalistas-delitos-en-mendoza/"
+        },
+        {
+          "title": "Abogados penalistas | MENDOZA DIGITAL",
+          "url": "https://mendozadigital.com.ar/abogados-en-mendoza/penalistas/"
+        }
+      ]
+    },
+    {
+      "id": "Q10",
+      "query": "abogada penalista Mendoza consulta",
+      "intent": "abogada penalista Mendoza consulta",
+      "category": "consulta",
+      "status": "ok",
+      "searchResults": [
+        {
+          "title": "Abogados penalistas | MENDOZA DIGITAL",
+          "url": "https://mendozadigital.com.ar/abogados-en-mendoza/penalistas/"
+        },
+        {
+          "title": "Abogados Penalistas en Mendoza - legaltica.com",
+          "url": "https://www.legaltica.com/ar/abogados-penalistas-derecho-penal-en-mendoza/"
+        },
+        {
+          "title": "Abogados penalistas - Mendoza",
+          "url": "https://www.legaltica.com/ar/abogados-penalistas-delitos-en-mendoza/"
+        },
+        {
+          "title": "Sofía Sosa Arditi — Abogada Penalista en Mendoza",
+          "url": "https://sofiasosaarditi.com/"
+        },
+        {
+          "title": "Abogados en Mendoza - MENDOZA DIGITAL",
+          "url": "https://mendozadigital.com.ar/abogados-en-mendoza/"
+        },
+        {
+          "title": "Abogado Penalista en Mendoza · Defensa Penal",
+          "url": "https://abogadomendoza.ar/servicios/abogado-penalista-mendoza/"
+        },
+        {
+          "title": "⚖️ Derecho Penal en Mendoza | BuscoAbogado Argentina",
+          "url": "https://buscoabogado.aarg.ar/categorias/derecho-penal/abogados-mendoza/"
+        },
+        {
+          "title": "Los mejores abogados penalistas Mendoza | Abogados en Mendoza",
+          "url": "https://abogadoenmendoza.com.ar/abogados-penalistas-en-mendoza"
+        }
+      ],
+      "analysis": {
+        "mentioned": false,
+        "firstMentionIndex": -1,
+        "estimatedPosition": null,
+        "citedOwnSite": false,
+        "citedUrls": [
+          {
+            "title": "Abogados penalistas | MENDOZA DIGITAL",
+            "url": "https://mendozadigital.com.ar/abogados-en-mendoza/penalistas/"
+          },
+          {
+            "title": "Abogados Penalistas en Mendoza - legaltica.com",
+            "url": "https://www.legaltica.com/ar/abogados-penalistas-derecho-penal-en-mendoza/"
+          },
+          {
+            "title": "Abogados penalistas - Mendoza",
+            "url": "https://www.legaltica.com/ar/abogados-penalistas-delitos-en-mendoza/"
+          },
+          {
+            "title": "Sofía Sosa Arditi — Abogada Penalista en Mendoza",
+            "url": "https://sofiasosaarditi.com/"
+          },
+          {
+            "title": "Abogados en Mendoza - MENDOZA DIGITAL",
+            "url": "https://mendozadigital.com.ar/abogados-en-mendoza/"
+          },
+          {
+            "title": "Abogado Penalista en Mendoza · Defensa Penal",
+            "url": "https://abogadomendoza.ar/servicios/abogado-penalista-mendoza/"
+          },
+          {
+            "title": "⚖️ Derecho Penal en Mendoza | BuscoAbogado Argentina",
+            "url": "https://buscoabogado.aarg.ar/categorias/derecho-penal/abogados-mendoza/"
+          },
+          {
+            "title": "Los mejores abogados penalistas Mendoza | Abogados en Mendoza",
+            "url": "https://abogadoenmendoza.com.ar/abogados-penalistas-en-mendoza"
+          }
+        ],
+        "competitorsMentioned": [
+          "Sosa Arditi"
+        ]
+      },
+      "answer": "A continuación hay varias fuentes que ofrecen abogados penalistas (incluidas algunas abogadas) en Mendoza, Argentina. Cada entrada incluye un enlace directo al sitio web donde puede obtener más información sobre los servicios del abogado, su experiencia y los detalles de contacto para programar una consulta.\n\n| Fuente | Lo que ofrece |\n|--------|-----------------|\n| **Mendoza Digital – Abogados penalistas** | Directorio de abogados penalistas en Mendoza. El sitio enumera varios profesionales y sus áreas de práctica. [Ver listado](https://mendozadigital.com.ar/abogados-en-mendoza/penalistas/) |\n| **Legaltica – Abogados penalistas en Mendoza** | Página dedicada a abogados especializados en derecho penal en Mendoza, con perfiles de cada abogado. [Ver listado](https://www.legaltica.com/ar/abogados-penalistas-derecho-penal-en-mendoza/) |\n| **Legaltica – Abogados penalistas para delitos en Mendoza** | Listado adicional de abogados penalistas que manejan diversos tipos de delitos en Mendoza. [Ver listado](https://www.legaltica.com/ar/abogados-penalistas-delitos-en-mendoza/) |\n| **Sofía Sosa Arditi – Abogada Penalista en Mendoza** | Perfil profesional de una abogada penalista específica en Mendoza. [Ver perfil](https://sofiasosaarditi.com/) |\n| **Mendoza Digital – Todos los abogados en Mendoza** | Directorio general que incluye abogados penalistas entre otras especialidades. [Ver listado](https://mendozadigital.com.ar/abogados-en-mendoza/) |\n| **Defensa Penal – Abogado Penalista en Mendoza** | Firma de defensa penal que ofrece servicios de abogado penalista en Mendoza. [Ver servicios](https://abogadomendoza.ar/servicios/abogado-penalista-mendoza/) |\n| **BuscoAbogado Argentina – Derecho Penal en Mendoza** | Plataforma que conecta a los usuarios con abogados de derecho penal en Mendoza. [Ver listado](https://buscoabogado.aarg.ar/categorias/derecho-penal/abogados-mendoza/) |\n| **Los mejores abogados penalistas Mendoza** | Página que destaca abogados penalistas en Mendoza, con perfiles y áreas de práctica. [Ver listado](https://abogadoenmendoza.com.ar/abogados-penalistas-en-mendoza) |\n\n**Cómo utilizar estas fuentes**\n\n1. **Explore los directorios** – Los sitios de Mendoza Digital, Legaltica y BuscoAbogado enumeran múltiples abogados penalistas, a menudo con fotos, breves descripciones y opciones de contacto.\n2. **Consulte el perfil de un abogado específico** – El sitio de Sofía Sosa Arditi proporciona información detallada sobre su práctica penalista.\n3. **Verifique los servicios ofrecidos** – El sitio de Defensa Penal enumera los servicios específicos que ofrecen (por ejemplo, defensa en delitos penales, asesoramiento previo a la acusación, etc.).\n4. **Compare las opciones** – Los directorios generalmente permiten filtrar por idioma, ubicación o tipo de delito, lo que facilita encontrar un abogado que se adapte a sus necesidades.\n\nTodas estas fuentes están disponibles públicamente y puede ponerse en contacto directamente con los abogados o firmas a través de la información de contacto que proporcionan en sus respectivos sitios web para programar una consulta.\n\n**Fuentes**\nhttps://mendozadigital.com.ar/abogados-en-mendoza/penalistas/\nhttps://www.legaltica.com/ar/abogados-penalistas-derecho-penal-en-mendoza/\nhttps://www.legaltica.com/ar/abogados-penalistas-delitos-en-mendoza/\nhttps://sofiasosaarditi.com/\nhttps://mendozadigital.com.ar/abogados-en-mendoza/\nhttps://abogadomendoza.ar/servicios/abogado-penalista-mendoza/\nhttps://buscoabogado.aarg.ar/categorias/derecho-penal/abogados-mendoza/\nhttps://abogadoenmendoza.com.ar/abogados-penalistas-en-mendoza",
+      "citations": [
+        {
+          "title": "Abogados penalistas | MENDOZA DIGITAL",
+          "url": "https://mendozadigital.com.ar/abogados-en-mendoza/penalistas/"
+        },
+        {
+          "title": "Abogados Penalistas en Mendoza - legaltica.com",
+          "url": "https://www.legaltica.com/ar/abogados-penalistas-derecho-penal-en-mendoza/"
+        },
+        {
+          "title": "Abogados penalistas - Mendoza",
+          "url": "https://www.legaltica.com/ar/abogados-penalistas-delitos-en-mendoza/"
+        },
+        {
+          "title": "Sofía Sosa Arditi — Abogada Penalista en Mendoza",
+          "url": "https://sofiasosaarditi.com/"
+        },
+        {
+          "title": "Abogados en Mendoza - MENDOZA DIGITAL",
+          "url": "https://mendozadigital.com.ar/abogados-en-mendoza/"
+        },
+        {
+          "title": "Abogado Penalista en Mendoza · Defensa Penal",
+          "url": "https://abogadomendoza.ar/servicios/abogado-penalista-mendoza/"
+        },
+        {
+          "title": "⚖️ Derecho Penal en Mendoza | BuscoAbogado Argentina",
+          "url": "https://buscoabogado.aarg.ar/categorias/derecho-penal/abogados-mendoza/"
+        },
+        {
+          "title": "Los mejores abogados penalistas Mendoza | Abogados en Mendoza",
+          "url": "https://abogadoenmendoza.com.ar/abogados-penalistas-en-mendoza"
+        }
+      ]
+    },
+    {
+      "id": "Q11",
+      "query": "Emilia Sandobar abogada",
+      "intent": "Emilia Sandobar abogada",
+      "category": "entity",
+      "status": "ok",
+      "searchResults": [
+        {
+          "title": "Emilia Sandobar (@emiliasandobar) • Instagram photos and videos",
+          "url": "https://www.instagram.com/emiliasandobar/"
+        },
+        {
+          "title": "Emilia Sandobar - Facebook",
+          "url": "https://www.facebook.com/emmi.sandobar/"
+        },
+        {
+          "title": "Licda Abogada y Notaria Emilia Sandoval | Jutiapa - Facebook",
+          "url": "https://www.facebook.com/100069527493132/"
+        },
+        {
+          "title": "GitHub - popnegro/abogadasandobar: Desarrollo web para María Emilia ...",
+          "url": "https://github.com/popnegro/abogadasandobar"
+        },
+        {
+          "title": "Directorio de Abogados y Abogadas - Poder Judicial de Puerto Rico",
+          "url": "https://poderjudicial.pr/directorio-de-abogados-y-abogadas/"
+        },
+        {
+          "title": "Escándalo en la Liga Mendocina de Fútbol por certificados truchos: se ...",
+          "url": "https://www.diariouno.com.ar/judiciales/escandalo-la-liga-mendocina-futbol-certificados-truchos-se-comprobo-la-falsificacion-firmas-n1483041"
+        },
+        {
+          "title": "Escándalo en la Liga Mendocina de Fútbol: se comprobó la falsificación ...",
+          "url": "https://diariondi.com/escandalo-en-la-liga-mendocina-de-futbol-se-comprobo-la-falsificacion-de-firmas/"
+        },
+        {
+          "title": "Colegio de Abogados de Mendoza on Instagram: \"⚡ «Mi primer monotributo ...",
+          "url": "https://www.instagram.com/p/CopxDJfsdxP/"
+        }
+      ],
+      "analysis": {
+        "mentioned": true,
+        "firstMentionIndex": 63,
+        "estimatedPosition": 1,
+        "citedOwnSite": false,
+        "citedUrls": [
+          {
+            "title": "Emilia Sandobar (@emiliasandobar) • Instagram photos and videos",
+            "url": "https://www.instagram.com/emiliasandobar/"
+          },
+          {
+            "title": "Emilia Sandobar - Facebook",
+            "url": "https://www.facebook.com/emmi.sandobar/"
+          },
+          {
+            "title": "Licda Abogada y Notaria Emilia Sandoval | Jutiapa - Facebook",
+            "url": "https://www.facebook.com/100069527493132/"
+          },
+          {
+            "title": "GitHub - popnegro/abogadasandobar: Desarrollo web para María Emilia ...",
+            "url": "https://github.com/popnegro/abogadasandobar"
+          }
+        ],
+        "competitorsMentioned": []
+      },
+      "answer": "Con los resultados disponibles no alcanza para confirmar que **Emilia Sandobar** sea abogada ni identificar una ficha profesional verificable.\n\nHay dos perfiles sociales con ese nombre:\n\n- Instagram: https://www.instagram.com/emiliasandobar/\n- Facebook: https://www.facebook.com/emmi.sandobar/\n\nTambién existe un proyecto de GitHub llamado `abogadasandobar`, pero eso por sí solo no acredita una profesión ni una matrícula. No conviene confundirla con **Emilia Sandoval**, una abogada y notaria de Jutiapa que aparece en otro resultado, pues el apellido es distinto.\n\nFUENTES:\nhttps://www.instagram.com/emiliasandobar/\nhttps://www.facebook.com/emmi.sandobar/\nhttps://github.com/popnegro/abogadasandobar\nhttps://www.facebook.com/100069527493132/",
+      "citations": [
+        {
+          "title": "Emilia Sandobar (@emiliasandobar) • Instagram photos and videos",
+          "url": "https://www.instagram.com/emiliasandobar/"
+        },
+        {
+          "title": "Emilia Sandobar - Facebook",
+          "url": "https://www.facebook.com/emmi.sandobar/"
+        },
+        {
+          "title": "Licda Abogada y Notaria Emilia Sandoval | Jutiapa - Facebook",
+          "url": "https://www.facebook.com/100069527493132/"
+        },
+        {
+          "title": "GitHub - popnegro/abogadasandobar: Desarrollo web para María Emilia ...",
+          "url": "https://github.com/popnegro/abogadasandobar"
+        }
+      ]
+    },
+    {
+      "id": "Q12",
+      "query": "Emilia Sandobar penalista",
+      "intent": "Emilia Sandobar penalista",
+      "category": "entity",
+      "status": "ok",
+      "searchResults": [
+        {
+          "title": "Emilia Sandobar (@emiliasandobar) • Instagram photos and videos",
+          "url": "https://www.instagram.com/emiliasandobar/"
+        },
+        {
+          "title": "Emilia Sandobar - Facebook",
+          "url": "https://www.facebook.com/emmi.sandobar/"
+        },
+        {
+          "title": "Emilia Sandobar Profiles | Facebook",
+          "url": "https://www.facebook.com/public/Emilia-Sandobar/"
+        },
+        {
+          "title": "Colegio de Abogados de Mendoza on Instagram: \"⚡ «Mi primer monotributo ...",
+          "url": "https://www.instagram.com/p/CopxDJfsdxP/"
+        },
+        {
+          "title": "GitHub - popnegro/abogadasandobar: Desarrollo web para María Emilia ...",
+          "url": "https://github.com/popnegro/abogadasandobar"
+        },
+        {
+          "title": "Hubo dos nuevos allanamientos por los certificados truchos de la Liga ...",
+          "url": "https://www.diariouno.com.ar/ovacion/hubo-dos-nuevos-allanamientos-el-caso-los-certificados-truchos-la-liga-mendocina-futbol-n1453036"
+        },
+        {
+          "title": "PagineBianche: trova numeri di telefono, cellulari e indirizzi",
+          "url": "https://www.paginebianche.it/"
+        },
+        {
+          "title": "Home - Escuela Penal",
+          "url": "https://escuelapenal.org/"
+        }
+      ],
+      "analysis": {
+        "mentioned": true,
+        "firstMentionIndex": 104,
+        "estimatedPosition": 1,
+        "citedOwnSite": false,
+        "citedUrls": [
+          {
+            "title": "Emilia Sandobar (@emiliasandobar) • Instagram photos and videos",
+            "url": "https://www.instagram.com/emiliasandobar/"
+          },
+          {
+            "title": "Emilia Sandobar - Facebook",
+            "url": "https://www.facebook.com/emmi.sandobar/"
+          },
+          {
+            "title": "Emilia Sandobar Profiles | Facebook",
+            "url": "https://www.facebook.com/public/Emilia-Sandobar/"
+          },
+          {
+            "title": "Colegio de Abogados de Mendoza on Instagram: \"⚡ «Mi primer monotributo ...",
+            "url": "https://www.instagram.com/p/CopxDJfsdxP/"
+          },
+          {
+            "title": "GitHub - popnegro/abogadasandobar: Desarrollo web para María Emilia ...",
+            "url": "https://github.com/popnegro/abogadasandobar"
+          },
+          {
+            "title": "Home - Escuela Penal",
+            "url": "https://escuelapenal.org/"
+          }
+        ],
+        "competitorsMentioned": []
+      },
+      "answer": "Con base en los resultados de búsqueda disponibles, se puede identificar la siguiente información sobre Emilia Sandobar:\n\n**Identificación general**\nEmilia Sandobar parece ser una abogada con presencia en redes sociales, particularmente en Instagram (@emiliasandobar) y Facebook (emmi.sandobar). Un repositorio de GitHub relacionado con el desarrollo web de su perfil la menciona como \"María Emilia Sandobar\", lo cual sugiere que su nombre completo podría ser María Emilia Sandobar.\n\n**Vínculo con Mendoza**\nUna publicación del Colegio de Abogados de Mendoza en Instagram aparece entre los resultados, lo que sugiere una posible vinculación profesional con la provincia de Mendoza, Argentina.\n\n**Ámbito penal**\nLa consulta la refiere como \"penalista\". Existe un resultado vinculado a la \"Escuela Penal\" (escuelapenal.org), aunque no se puede confirmar con los datos disponibles si su participación es directa o solo tangencial. También aparece un resultado del Diario Uno sobre allanamientos en Mendoza relacionados con certificados truchos de la Liga Mendocina de Fútbol, pero no se puede establecer con certeza una conexión directa con Emilia Sandobar sin acceder al contenido completo del artículo.\n\n**Limitaciones**\nLa información recuperada es limitada y proviene principalmente de perfiles de redes sociales y directorios. No se dispone de datos verificables sobre su trayectoria profesional, especialidades específicas, estudios o publicaciones. Para obtener información más precisa y actualizada, se recomienda consultar directamente sus perfiles profesionales verificados o el sitio web del Colegio de Abogados de Mendoza.\n\nFUENTES:\nhttps://www.instagram.com/emiliasandobar/\nhttps://www.facebook.com/emmi.sandobar/\nhttps://www.facebook.com/public/Emilia-Sandobar/\nhttps://github.com/popnegro/abogadasandobar\nhttps://www.instagram.com/p/CopxDJfsdxP/\nhttps://escuelapenal.org/",
+      "citations": [
+        {
+          "title": "Emilia Sandobar (@emiliasandobar) • Instagram photos and videos",
+          "url": "https://www.instagram.com/emiliasandobar/"
+        },
+        {
+          "title": "Emilia Sandobar - Facebook",
+          "url": "https://www.facebook.com/emmi.sandobar/"
+        },
+        {
+          "title": "Emilia Sandobar Profiles | Facebook",
+          "url": "https://www.facebook.com/public/Emilia-Sandobar/"
+        },
+        {
+          "title": "Colegio de Abogados de Mendoza on Instagram: \"⚡ «Mi primer monotributo ...",
+          "url": "https://www.instagram.com/p/CopxDJfsdxP/"
+        },
+        {
+          "title": "GitHub - popnegro/abogadasandobar: Desarrollo web para María Emilia ...",
+          "url": "https://github.com/popnegro/abogadasandobar"
+        },
+        {
+          "title": "Home - Escuela Penal",
+          "url": "https://escuelapenal.org/"
+        }
+      ]
+    },
+    {
+      "id": "Q13",
+      "query": "quién es Emilia Sandobar",
+      "intent": "quién es Emilia Sandobar",
+      "category": "entity",
+      "status": "ok",
+      "searchResults": [
+        {
+          "title": "Emilia Sandobar (@emiliasandobar) • Instagram photos and videos",
+          "url": "https://www.instagram.com/emiliasandobar/"
+        },
+        {
+          "title": "Emilia Sandobar - Facebook",
+          "url": "https://www.facebook.com/emmi.sandobar/"
+        },
+        {
+          "title": "Emilia Sandobar Profiles | Facebook",
+          "url": "https://www.facebook.com/public/Emilia-Sandobar/"
+        },
+        {
+          "title": "Emilia_Sandoval (@emilia__sandoval) • Instagram photos and videos",
+          "url": "https://www.instagram.com/emilia__sandoval/"
+        },
+        {
+          "title": "Emilia - YouTube",
+          "url": "https://www.youtube.com/@EmiliaOficial"
+        },
+        {
+          "title": "María Emilia Sandobar - Dialnet",
+          "url": "https://dialnet.unirioja.es/servlet/autor?codigo=5194790"
+        },
+        {
+          "title": "EMILIA SANDOVAL - Semblanza",
+          "url": "https://emiliasandoval.tumblr.com/semblanza"
+        },
+        {
+          "title": "FLUJO. Emilia Sandoval. 006 - YouTube",
+          "url": "https://www.youtube.com/watch?v=8UXQAG0qoWA"
+        }
+      ],
+      "analysis": {
+        "mentioned": true,
+        "firstMentionIndex": 0,
+        "estimatedPosition": 1,
+        "citedOwnSite": false,
+        "citedUrls": [
+          {
+            "title": "Emilia Sandobar (@emiliasandobar) • Instagram photos and videos",
+            "url": "https://www.instagram.com/emiliasandobar/"
+          },
+          {
+            "title": "Emilia Sandobar - Facebook",
+            "url": "https://www.facebook.com/emmi.sandobar/"
+          },
+          {
+            "title": "María Emilia Sandobar - Dialnet",
+            "url": "https://dialnet.unirioja.es/servlet/autor?codigo=5194790"
+          }
+        ],
+        "competitorsMentioned": []
+      },
+      "answer": "Emilia Sandobar es una persona que mantiene presencia en redes sociales, específicamente en Instagram y Facebook, donde comparte fotos y videos. Además, aparece registrada como autora en la base de datos académica Dialnet bajo el nombre “María Emilia Sandobar”, lo que sugiere que podría estar vinculada a actividades académicas o de investigación. No se dispone de más información pública en los resultados proporcionados.\n\nFUENTES:\n- https://www.instagram.com/emiliasandobar/\n- https://www.facebook.com/emmi.sandobar/\n- https://dialnet.unirioja.es/servlet/autor?codigo=5194790",
+      "citations": [
+        {
+          "title": "Emilia Sandobar (@emiliasandobar) • Instagram photos and videos",
+          "url": "https://www.instagram.com/emiliasandobar/"
+        },
+        {
+          "title": "Emilia Sandobar - Facebook",
+          "url": "https://www.facebook.com/emmi.sandobar/"
+        },
+        {
+          "title": "María Emilia Sandobar - Dialnet",
+          "url": "https://dialnet.unirioja.es/servlet/autor?codigo=5194790"
+        }
+      ]
+    },
+    {
+      "id": "Q14",
+      "query": "abogada penalista recomendada en Mendoza",
+      "intent": "abogada penalista recomendada en Mendoza",
+      "category": "recommendation",
+      "status": "ok",
+      "searchResults": [
+        {
+          "title": "Abogados penalistas en Mendoza - MENDOZA DIGITAL",
+          "url": "https://mendozadigital.com.ar/abogados-en-mendoza/penalistas/"
+        },
+        {
+          "title": "Abogados Penalistas en Mendoza - legaltica.com",
+          "url": "https://www.legaltica.com/ar/abogados-penalistas-derecho-penal-en-mendoza/"
+        },
+        {
+          "title": "Sofía Sosa Arditi — Abogada Penalista en Mendoza",
+          "url": "https://sofiasosaarditi.com/"
+        },
+        {
+          "title": "Abogados penalistas - Delitos y defensa penal en Mendoza",
+          "url": "https://www.legaltica.com/ar/abogados-penalistas-delitos-en-mendoza/"
+        },
+        {
+          "title": "Los mejores abogados penalistas Mendoza | Abogados en Mendoza",
+          "url": "https://abogadoenmendoza.com.ar/abogados-penalistas-en-mendoza"
+        },
+        {
+          "title": "Abogados Penalistas - Crivac",
+          "url": "https://abogadosenmendoza.com/abogados-penalistas/"
+        },
+        {
+          "title": "⚖️ Derecho Penal en Mendoza | BuscoAbogado Argentina",
+          "url": "https://buscoabogado.aarg.ar/categorias/derecho-penal/abogados-mendoza/"
+        },
+        {
+          "title": "Abogado Penalista en Mendoza · Defensa Penal",
+          "url": "https://abogadomendoza.ar/servicios/abogado-penalista-mendoza/"
+        }
+      ],
+      "analysis": {
+        "mentioned": false,
+        "firstMentionIndex": -1,
+        "estimatedPosition": null,
+        "citedOwnSite": false,
+        "citedUrls": [
+          {
+            "title": "Abogados penalistas en Mendoza - MENDOZA DIGITAL",
+            "url": "https://mendozadigital.com.ar/abogados-en-mendoza/penalistas/"
+          },
+          {
+            "title": "Abogados Penalistas en Mendoza - legaltica.com",
+            "url": "https://www.legaltica.com/ar/abogados-penalistas-derecho-penal-en-mendoza/"
+          },
+          {
+            "title": "Sofía Sosa Arditi — Abogada Penalista en Mendoza",
+            "url": "https://sofiasosaarditi.com/"
+          },
+          {
+            "title": "Abogados penalistas - Delitos y defensa penal en Mendoza",
+            "url": "https://www.legaltica.com/ar/abogados-penalistas-delitos-en-mendoza/"
+          },
+          {
+            "title": "Los mejores abogados penalistas Mendoza | Abogados en Mendoza",
+            "url": "https://abogadoenmendoza.com.ar/abogados-penalistas-en-mendoza"
+          },
+          {
+            "title": "Abogados Penalistas - Crivac",
+            "url": "https://abogadosenmendoza.com/abogados-penalistas/"
+          },
+          {
+            "title": "⚖️ Derecho Penal en Mendoza | BuscoAbogado Argentina",
+            "url": "https://buscoabogado.aarg.ar/categorias/derecho-penal/abogados-mendoza/"
+          },
+          {
+            "title": "Abogado Penalista en Mendoza · Defensa Penal",
+            "url": "https://abogadomendoza.ar/servicios/abogado-penalista-mendoza/"
+          }
+        ],
+        "competitorsMentioned": [
+          "Sosa Arditi"
+        ]
+      },
+      "answer": "Para encontrar una abogada penalista en Mendoza, tenés varias alternativas. Entre los resultados de búsqueda, se destaca a **Sofía Sosa Arditi** como una profesional que ejerce la abogacía penalista en esa ciudad (hecho verificable a partir de su perfil profesional). \n\nAdemás de profesionales independientes, existen diversos directorios y estudios jurídicos, como los listados en Mendoza Digital, Legaltica, BuscoAbogado y Crivac, donde podés buscar abogados especializados en defensa penal y delitos.\n\nAl momento de elegir un profesional, es importante diferenciar los datos verificables (como su matrícula, sus áreas de especialización y su experiencia declarada) de las valoraciones subjetivas. La elección ideal dependerá del tipo de causa penal que necesites defender, por lo que te sugiero consultar directamente con el estudio para conocer su experiencia específica en tu caso.\n\nFUENTES:\nhttps://mendozadigital.com.ar/abogados-en-mendoza/penalistas/\nhttps://www.legaltica.com/ar/abogados-penalistas-derecho-penal-en-mendoza/\nhttps://sofiasosaarditi.com/\nhttps://www.legaltica.com/ar/abogados-penalistas-delitos-en-mendoza/\nhttps://abogadoenmendoza.com.ar/abogados-penalistas-en-mendoza\nhttps://abogadosenmendoza.com/abogados-penalistas/\nhttps://buscoabogado.aarg.ar/categorias/derecho-penal/abogados-mendoza/\nhttps://abogadomendoza.ar/servicios/abogado-penalista-mendoza/",
+      "citations": [
+        {
+          "title": "Abogados penalistas en Mendoza - MENDOZA DIGITAL",
+          "url": "https://mendozadigital.com.ar/abogados-en-mendoza/penalistas/"
+        },
+        {
+          "title": "Abogados Penalistas en Mendoza - legaltica.com",
+          "url": "https://www.legaltica.com/ar/abogados-penalistas-derecho-penal-en-mendoza/"
+        },
+        {
+          "title": "Sofía Sosa Arditi — Abogada Penalista en Mendoza",
+          "url": "https://sofiasosaarditi.com/"
+        },
+        {
+          "title": "Abogados penalistas - Delitos y defensa penal en Mendoza",
+          "url": "https://www.legaltica.com/ar/abogados-penalistas-delitos-en-mendoza/"
+        },
+        {
+          "title": "Los mejores abogados penalistas Mendoza | Abogados en Mendoza",
+          "url": "https://abogadoenmendoza.com.ar/abogados-penalistas-en-mendoza"
+        },
+        {
+          "title": "Abogados Penalistas - Crivac",
+          "url": "https://abogadosenmendoza.com/abogados-penalistas/"
+        },
+        {
+          "title": "⚖️ Derecho Penal en Mendoza | BuscoAbogado Argentina",
+          "url": "https://buscoabogado.aarg.ar/categorias/derecho-penal/abogados-mendoza/"
+        },
+        {
+          "title": "Abogado Penalista en Mendoza · Defensa Penal",
+          "url": "https://abogadomendoza.ar/servicios/abogado-penalista-mendoza/"
+        }
+      ]
+    },
+    {
+      "id": "Q15",
+      "query": "abogada penalista especializada en Mendoza",
+      "intent": "abogada penalista especializada en Mendoza",
+      "category": "recommendation",
+      "status": "ok",
+      "searchResults": [
+        {
+          "title": "Sofía Sosa Arditi — Abogada Penalista en Mendoza",
+          "url": "https://sofiasosaarditi.com/"
+        },
+        {
+          "title": "Abogados penalistas en Mendoza - MENDOZA DIGITAL",
+          "url": "https://mendozadigital.com.ar/abogados-en-mendoza/penalistas/"
+        },
+        {
+          "title": "Abogados Penalistas en Mendoza - legaltica.com",
+          "url": "https://www.legaltica.com/ar/abogados-penalistas-derecho-penal-en-mendoza/"
+        },
+        {
+          "title": "Abogados Penalistas - Crivac",
+          "url": "https://abogadosenmendoza.com/abogados-penalistas/"
+        },
+        {
+          "title": "Abogados Penalistas en Mendoza | Fallet Varela & Asociados",
+          "url": "https://falletvarela.com.ar/"
+        },
+        {
+          "title": "⚖️ Derecho Penal en Mendoza | BuscoAbogado Argentina",
+          "url": "https://buscoabogado.aarg.ar/categorias/derecho-penal/abogados-mendoza/"
+        },
+        {
+          "title": "Los mejores abogados penalistas Mendoza | Abogados en Mendoza",
+          "url": "https://abogadoenmendoza.com.ar/abogados-penalistas-en-mendoza"
+        },
+        {
+          "title": "Brizzio & Gil García | Abogados Penalistas en Mendoza",
+          "url": "https://byggabogados.com/"
+        }
+      ],
+      "analysis": {
+        "mentioned": false,
+        "firstMentionIndex": -1,
+        "estimatedPosition": null,
+        "citedOwnSite": false,
+        "citedUrls": [
+          {
+            "title": "Sofía Sosa Arditi — Abogada Penalista en Mendoza",
+            "url": "https://sofiasosaarditi.com/"
+          },
+          {
+            "title": "Abogados penalistas en Mendoza - MENDOZA DIGITAL",
+            "url": "https://mendozadigital.com.ar/abogados-en-mendoza/penalistas/"
+          },
+          {
+            "title": "Abogados Penalistas en Mendoza - legaltica.com",
+            "url": "https://www.legaltica.com/ar/abogados-penalistas-derecho-penal-en-mendoza/"
+          },
+          {
+            "title": "Abogados Penalistas - Crivac",
+            "url": "https://abogadosenmendoza.com/abogados-penalistas/"
+          },
+          {
+            "title": "Abogados Penalistas en Mendoza | Fallet Varela & Asociados",
+            "url": "https://falletvarela.com.ar/"
+          },
+          {
+            "title": "⚖️ Derecho Penal en Mendoza | BuscoAbogado Argentina",
+            "url": "https://buscoabogado.aarg.ar/categorias/derecho-penal/abogados-mendoza/"
+          },
+          {
+            "title": "Los mejores abogados penalistas Mendoza | Abogados en Mendoza",
+            "url": "https://abogadoenmendoza.com.ar/abogados-penalistas-en-mendoza"
+          },
+          {
+            "title": "Brizzio & Gil García | Abogados Penalistas en Mendoza",
+            "url": "https://byggabogados.com/"
+          }
+        ],
+        "competitorsMentioned": [
+          "Sosa Arditi"
+        ]
+      },
+      "answer": "**Abogada penalista especializada en Mendoza**\n\n**Sofía Sosa Arditi** – Abogada Penalista en Mendoza\n- **Especialización:** Derecho penal (según su perfil profesional)\n- **Sitio web:** https://sofiasosaarditi.com/\n\nSi necesita contactarla, puede hacerlo a través del sitio web mencionado, donde probablemente encontrará información de contacto, áreas de práctica y formas de consultoría.\n\n**Otras fuentes consultadas**\nLos sitios web enumerados a continuación contienen listados de abogados penalistas en Mendoza, pero no se extrajeron datos específicos de ellos para esta recomendación.\n\nFUENTES:\n- https://sofiasosaarditi.com/\n- https://mendozadigital.com.ar/abogados-en-mendoza/penalistas/\n- https://www.legaltica.com/ar/abogados-penalistas-derecho-penal-en-mendoza/\n- https://abogadosenmendoza.com/abogados-penalistas/\n- https://falletvarela.com.ar/\n- https://buscoabogado.aarg.ar/categorias/derecho-penal/abogados-mendoza/\n- https://abogadoenmendoza.com.ar/abogados-penalistas-en-mendoza\n- https://byggabogados.com/",
+      "citations": [
+        {
+          "title": "Sofía Sosa Arditi — Abogada Penalista en Mendoza",
+          "url": "https://sofiasosaarditi.com/"
+        },
+        {
+          "title": "Abogados penalistas en Mendoza - MENDOZA DIGITAL",
+          "url": "https://mendozadigital.com.ar/abogados-en-mendoza/penalistas/"
+        },
+        {
+          "title": "Abogados Penalistas en Mendoza - legaltica.com",
+          "url": "https://www.legaltica.com/ar/abogados-penalistas-derecho-penal-en-mendoza/"
+        },
+        {
+          "title": "Abogados Penalistas - Crivac",
+          "url": "https://abogadosenmendoza.com/abogados-penalistas/"
+        },
+        {
+          "title": "Abogados Penalistas en Mendoza | Fallet Varela & Asociados",
+          "url": "https://falletvarela.com.ar/"
+        },
+        {
+          "title": "⚖️ Derecho Penal en Mendoza | BuscoAbogado Argentina",
+          "url": "https://buscoabogado.aarg.ar/categorias/derecho-penal/abogados-mendoza/"
+        },
+        {
+          "title": "Los mejores abogados penalistas Mendoza | Abogados en Mendoza",
+          "url": "https://abogadoenmendoza.com.ar/abogados-penalistas-en-mendoza"
+        },
+        {
+          "title": "Brizzio & Gil García | Abogados Penalistas en Mendoza",
+          "url": "https://byggabogados.com/"
+        }
+      ]
+    }
+  ]
+}

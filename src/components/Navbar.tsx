@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { Menu, Shield, X } from 'lucide-react';
 
 import { ActiveTab, TAB_TO_PATH } from '../types';
-import { ASSETS } from '../data/lawyerData';
+import { ASSETS } from '../data/assets';
 
 interface NavbarProps {
   activeTab: ActiveTab;
@@ -62,22 +62,24 @@ export const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab, onReque
               const isActive = activeTab === item.id;
               const textColor = headerIsLight ? isActive ? 'text-[#7F203D]' : 'text-[#302D28]/70 hover:text-[#7F203D]' : isActive ? 'text-white' : 'text-white/70 hover:text-white';
               const indicatorColor = headerIsLight ? 'bg-[#7F203D]' : 'bg-white';
-              return <button key={item.id} id={`nav-link-${item.id}`} type="button" onClick={() => handleNavClick(item.id)} aria-current={isActive ? 'page' : undefined} className={['relative cursor-pointer pb-1 text-sm tracking-wide transition-colors duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#7F203D] focus-visible:ring-offset-2', headerIsLight ? 'focus-visible:ring-offset-[#FFF8F2]' : 'focus-visible:ring-offset-[#181614]', textColor, isActive ? 'font-semibold' : 'font-medium'].join(' ')}>
-                {item.label}{isActive && <span className={['absolute -bottom-1 left-0 right-0 h-0.5', indicatorColor].join(' ')} aria-hidden="true" />}
-              </button>;
+              return (
+                <Link key={item.id} id={`nav-link-${item.id}`} to={TAB_TO_PATH[item.id]} onClick={() => handleNavClick(item.id)} aria-current={isActive ? 'page' : undefined} className={['relative pb-1 text-sm tracking-wide transition-colors duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#7F203D] focus-visible:ring-offset-2', headerIsLight ? 'focus-visible:ring-offset-[#FFF8F2]' : 'focus-visible:ring-offset-[#181614]', textColor, isActive ? 'font-semibold' : 'font-medium'].join(' ')}>
+                  {item.label}{isActive && <span className={['absolute -bottom-1 left-0 right-0 h-0.5', indicatorColor].join(' ')} aria-hidden="true" />}
+                </Link>
+              );
             })}
           </nav>
 
           <div className="hidden items-center md:flex"><button id="cta-consultation-btn" type="button" onClick={handleConsultationClick} className={['flex cursor-pointer items-center gap-2 px-5 py-2.5 text-xs font-bold uppercase tracking-widest transition-all duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#7F203D] focus-visible:ring-offset-2', headerIsLight ? 'bg-[#7F203D] text-white shadow-sm hover:bg-[#691931] focus-visible:ring-offset-[#FFF8F2]' : 'bg-white text-[#302D28] hover:bg-[#F4EFE8] focus-visible:ring-offset-[#181614]'].join(' ')}><span>Solicitar consulta</span></button></div>
 
-          <div className="flex items-center lg:hidden"><button id="mobile-menu-toggle" type="button" onClick={() => setMobileMenuOpen((prev) => !prev)} aria-expanded={mobileMenuOpen} aria-controls="mobile-nav-drawer" aria-label={mobileMenuOpen ? 'Cerrar menú de navegación' : 'Abrir menú de navegación'} className={['cursor-pointer p-2 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-[#7F203D] focus-visible:ring-offset-2', headerIsLight ? 'text-[#302D28] hover:bg-[#F4EFE8] focus-visible:ring-offset-[#FFF8F2]' : 'text-white hover:bg-white/10 focus-visible:ring-offset-[#181614]'].join(' ')}>{mobileMenuOpen ? <X className="h-6 w-6" aria-hidden="true" /> : <Menu className="h-6 w-6" aria-hidden="true" />}</button></div>
+          <div className="flex items-center lg:hidden"><button id="mobile-menu-toggle" type="button" onClick={() => setMobileMenuOpen((prev) => !prev)} aria-expanded={mobileMenuOpen} aria-controls="mobile-nav-drawer" aria-label={mobileMenuOpen ? 'Cerrar menú de navegación' : 'Abrir menú de navegación'} className={['flex h-11 w-11 cursor-pointer items-center justify-center p-2 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-[#7F203D] focus-visible:ring-offset-2', headerIsLight ? 'text-[#302D28] hover:bg-[#F4EFE8] focus-visible:ring-offset-[#FFF8F2]' : 'text-white hover:bg-white/10 focus-visible:ring-offset-[#181614]'].join(' ')}>{mobileMenuOpen ? <X className="h-6 w-6" aria-hidden="true" /> : <Menu className="h-6 w-6" aria-hidden="true" />}</button></div>
         </div>
 
         {mobileMenuOpen && <div id="mobile-nav-drawer" className="absolute inset-x-0 top-full border-b border-[#DDD2C5] bg-[#FFF8F2] px-4 pb-6 pt-4 shadow-xl lg:hidden">
           <nav aria-label="Navegación móvil" className="flex flex-col space-y-1">
             {navItems.map((item) => {
               const isActive = activeTab === item.id;
-              return <button key={item.id} id={`mobile-nav-link-${item.id}`} type="button" onClick={() => handleNavClick(item.id)} aria-current={isActive ? 'page' : undefined} className={['w-full cursor-pointer px-4 py-3.5 text-left text-sm tracking-wide transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-[#7F203D] focus-visible:ring-offset-2 focus-visible:ring-offset-[#FFF8F2]', isActive ? 'bg-[#7F203D]/5 font-bold text-[#7F203D]' : 'font-medium text-[#302D28] hover:bg-[#F4EFE8]'].join(' ')}>{item.label}</button>;
+              return <Link key={item.id} id={`mobile-nav-link-${item.id}`} to={TAB_TO_PATH[item.id]} onClick={() => handleNavClick(item.id)} aria-current={isActive ? 'page' : undefined} className={['block w-full px-4 py-3.5 text-left text-sm tracking-wide transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-[#7F203D] focus-visible:ring-offset-2 focus-visible:ring-offset-[#FFF8F2]', isActive ? 'bg-[#7F203D]/5 font-bold text-[#7F203D]' : 'font-medium text-[#302D28] hover:bg-[#F4EFE8]'].join(' ')}>{item.label}</Link>;
             })}
           </nav>
           <div className="mt-4 border-t border-[#DDD2C5]/60 pt-4"><button id="mobile-cta-consult-btn" type="button" onClick={handleConsultationClick} className="flex w-full cursor-pointer items-center justify-center gap-2 bg-[#7F203D] px-8 py-3.5 text-xs font-bold uppercase tracking-widest text-white shadow-sm transition-colors hover:bg-[#691931] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#7F203D] focus-visible:ring-offset-2 focus-visible:ring-offset-[#FFF8F2]"><Shield className="h-4 w-4" aria-hidden="true" /><span>Solicitar consulta</span></button></div>

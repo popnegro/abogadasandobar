@@ -48,8 +48,8 @@ export const FAQSection: React.FC<FAQSectionProps> = ({ setActiveTab = () => { }
     schema.textContent = JSON.stringify({
       '@context': 'https://schema.org',
       '@type': 'FAQPage',
-      '@id': 'https://www.abogadasandobar.com.ar/preguntas-frecuentes#faqpage',
-      url: 'https://www.abogadasandobar.com.ar/preguntas-frecuentes',
+      '@id': 'https://abogadasandobar.com.ar/preguntas-frecuentes#faqpage',
+      url: 'https://abogadasandobar.com.ar/preguntas-frecuentes',
       inLanguage: 'es-AR',
       mainEntity: visibleFAQs.map((faq) => ({
         '@type': 'Question',
@@ -80,7 +80,7 @@ export const FAQSection: React.FC<FAQSectionProps> = ({ setActiveTab = () => { }
           <section aria-labelledby="faq-knowledge-title" className="space-y-8">
             <div className="max-w-3xl space-y-4">
               <p className="text-xs font-bold uppercase tracking-widest text-[#7F203D]">Centro de respuestas</p>
-              <h1 id="faq-knowledge-title" className="font-serif text-3xl font-bold leading-tight text-[#302D28] sm:text-4xl">Información para orientar una primera consulta</h1>
+              <h2 id="faq-knowledge-title" className="font-serif text-3xl font-bold leading-tight text-[#302D28] sm:text-4xl">Información para orientar una primera consulta</h2>
               <p className="text-base font-light leading-relaxed text-[#302D28]/75 sm:text-lg">Consulte las respuestas organizadas por intención. Cada entrada presenta primero la respuesta y luego permite ampliar la información.</p>
             </div>
 
@@ -98,7 +98,7 @@ export const FAQSection: React.FC<FAQSectionProps> = ({ setActiveTab = () => { }
                   className="w-full border border-[#302D28]/20 bg-white py-4 pl-14 pr-12 text-base text-[#302D28] outline-none transition-colors placeholder:text-[#302D28]/45 focus:border-[#7F203D] focus:ring-2 focus:ring-[#7F203D]/15 sm:py-5 sm:text-lg"
                 />
                 {searchQuery && (
-                  <button type="button" onClick={() => setSearchQuery('')} aria-label="Limpiar búsqueda" className="absolute right-4 top-1/2 flex h-8 w-8 -translate-y-1/2 items-center justify-center text-[#302D28]/60 transition-colors hover:text-[#7F203D] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#7F203D]">
+                  <button type="button" onClick={() => setSearchQuery('')} aria-label="Limpiar búsqueda" className="absolute right-4 top-1/2 flex h-8 w-8 items-center justify-center text-[#302D28]/60 transition-colors hover:text-[#7F203D] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#7F203D]">
                     <X className="h-4 w-4" aria-hidden="true" />
                   </button>
                 )}
@@ -154,7 +154,7 @@ export const FAQSection: React.FC<FAQSectionProps> = ({ setActiveTab = () => { }
           <section aria-labelledby="faq-consultation-title" className="pt-8">
             <div className="flex flex-col gap-8 border border-white/15 bg-[#302D28] p-7 text-white shadow-sm sm:p-10 lg:flex-row lg:items-center lg:justify-between lg:gap-12 lg:p-12">
               <div className="max-w-3xl space-y-4"><p className="text-xs font-bold uppercase tracking-widest text-[#D9A9B8]">Consulta profesional</p><h2 id="faq-consultation-title" className="font-serif text-3xl font-bold leading-tight text-white sm:text-4xl">¿Tiene una consulta procesal específica?</h2><p className="max-w-2xl text-base font-light leading-relaxed text-white/75 sm:text-lg">Cada procedimiento tiene singularidades únicas. Exponga su caso con absoluta reserva.</p></div>
-              <button id="faq-open-consultation" type="button" onClick={onOpenConsultationModal} className="group inline-flex w-full shrink-0 items-center justify-center gap-3 bg-[#7F203D] px-7 py-4 text-xs font-bold uppercase tracking-widest text-white transition-colors hover:bg-[#691931] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#D9A9B8] focus-visible:ring-offset-2 focus-visible:ring-offset-[#302D28] sm:w-auto sm:px-8 sm:text-sm"><span>Solicitar consulta</span><ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" aria-hidden="true" /></button>
+              <button id="faq-open-consultation" type="button" onClick={onOpenConsultationModal} className="group inline-flex w-full shrink-0 items-center justify-center gap-3 bg-[#7F203D] px-7 py-4 text-xs font-bold uppercase tracking-widest text-white transition-colors hover:bg-[#691931] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#D9A9B8] focus-visible:ring-offset-2 focus-visible:ring-offset-[#302D28] sm:w-auto sm:px-8 sm:text-sm"><span>Solicitar consulta</span><ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" /></button>
             </div>
           </section>
         </div>
