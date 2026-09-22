@@ -2,4 +2,3 @@ User-agent: *
 Allow: /
 
 Sitemap: https://abogadasandobar.com.ar/sitemap.xml
-Agentmap: https://abogadasandobar.com.ar/.well-known/ai-catalog.json
