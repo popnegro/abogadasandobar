@@ -12,6 +12,8 @@ export interface StructuredPage {
 
 const SERVICE_TYPES = [
   'Derecho Penal',
+  'Abogada penalista',
+  'Urgencias penales 24 hs',
   'Litigación penal',
   'Asesoramiento corporativo',
   'Representación penal y seguros',
@@ -63,7 +65,7 @@ export function updateStructuredData(page: StructuredPage) {
         '@type': 'Person',
         '@id': PERSON_ID,
         name: 'Emilia Sandobar',
-        jobTitle: 'Abogada',
+        jobTitle: 'Abogada Penalista',
         url: `${SITE_URL}/abogada-penalista-mendoza`,
         image: `${SITE_URL}/assets/images/portraits/emilia-sandobar.webp`,
         worksFor: { '@id': SERVICE_ID },
@@ -79,7 +81,7 @@ export function updateStructuredData(page: StructuredPage) {
         '@type': 'ProfilePage',
         '@id': `${SITE_URL}/abogada-penalista-mendoza#profilepage`,
         url: `${SITE_URL}/abogada-penalista-mendoza`,
-        name: 'Abogada Penalista en Mendoza | Emilia Sandobar',
+        name: 'Abogada Penalista en Mendoza | Especializada en Derecho Penal | Emilia Sandobar',
         mainEntity: { '@id': PERSON_ID },
         isPartOf: { '@id': WEBSITE_ID },
       },
@@ -90,7 +92,7 @@ export function updateStructuredData(page: StructuredPage) {
         url: SITE_URL + '/',
         image: `${SITE_URL}/assets/images/hero/hero-home.webp`,
         logo: `${SITE_URL}/assets/brand/logo-brandmark.svg`,
-        description: 'Asesoramiento y representación jurídica para particulares, empresas y directivos, con atención profesional y confidencial.',
+        description: 'Abogada penalista en Mendoza especializada en derecho penal. Defensa penal, representación de víctimas y guardia legal 24 hs para particulares, empresas y directivos.',
         areaServed: {
           '@type': 'City',
           name: 'Mendoza',
@@ -137,7 +139,7 @@ export function updateStructuredData(page: StructuredPage) {
     '@id': WEBSITE_ID,
     url: SITE_URL + '/',
     name: 'Dra. Emilia Sandobar',
-    description: 'Sitio web profesional de la Dra. Emilia Sandobar, abogada en Mendoza.',
+    description: 'Sitio web profesional de la Dra. Emilia Sandobar, abogada penalista en Mendoza especializada en derecho penal.',
     inLanguage: 'es-AR',
     publisher: { '@id': PERSON_ID },
   });
