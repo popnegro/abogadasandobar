@@ -12,39 +12,39 @@ interface RouteMetadata {
 
 const ROUTE_METADATA: Record<string, RouteMetadata> = {
   '/': {
-    title: 'Emilia Sandobar | Abogada Penalista en Mendoza',
+    title: 'Abogada Penalista en Mendoza | Defensa Penal 24 hs | Emilia Sandobar',
     description:
-      'Emilia Sandobar es abogada penalista en Mendoza. Brinda asesoramiento, defensa y representación jurídica en asuntos penales y vinculados con personas y organizaciones.',
+      'Abogada penalista en Mendoza especializada en derecho penal. Defensa penal, representación de víctimas y guardia legal 24 hs. Consulta profesional y confidencial.',
   },
   '/inicio': {
-    title: 'Emilia Sandobar | Abogada Penalista en Mendoza',
+    title: 'Abogada Penalista en Mendoza | Defensa Penal 24 hs | Emilia Sandobar',
     description:
-      'Emilia Sandobar es abogada penalista en Mendoza. Brinda asesoramiento, defensa y representación jurídica en asuntos penales y vinculados con personas y organizaciones.',
+      'Abogada penalista en Mendoza especializada en derecho penal. Defensa penal, representación de víctimas y guardia legal 24 hs. Consulta profesional y confidencial.',
   },
   '/servicios-abogacia-mendoza': {
-    title: 'Servicios de Abogacía en Mendoza | Emilia Sandobar',
+    title: 'Servicios de Abogacía en Mendoza | Defensa Penal y Urgencias 24 hs',
     description:
-      'Servicios de abogacía en Mendoza de Emilia Sandobar: defensa penal, litigación y asesoramiento jurídico para personas, empresas y organizaciones.',
+      'Abogada penal en Mendoza: defensa penal integral, urgencias 24 hs, litigación compleja y asesoramiento corporativo. Servicios especializados en derecho penal.',
   },
   '/abogada-penalista-mendoza': {
-    title: 'Abogada Penalista en Mendoza | Emilia Sandobar',
+    title: 'Abogada Penalista en Mendoza | Especializada en Derecho Penal | Emilia Sandobar',
     description:
-      'Emilia Sandobar es abogada penalista en Mendoza. Esta página reúne información sobre su perfil profesional y su actividad de asesoramiento y litigación penal.',
+      'Emilia Sandobar, abogada penalista en Mendoza especializada en derecho penal. Trayectoria, litigio provincial y federal, y atención profesional con guardia 24 hs.',
   },
   '/nuestro-metodo': {
-    title: 'Método de Trabajo | Emilia Sandobar, Abogada Penalista',
+    title: 'Método de Trabajo | Abogada Penalista en Mendoza | Emilia Sandobar',
     description:
-      'Conozca el método de trabajo de Emilia Sandobar para analizar cada situación jurídica, definir una estrategia y acompañar una consulta profesional.',
+      'Método de trabajo de la abogada penalista Emilia Sandobar: análisis, estrategia y acompañamiento profesional en causas penales en Mendoza.',
   },
   '/preguntas-frecuentes': {
-    title: 'Preguntas Frecuentes | Abogada Penalista en Mendoza',
+    title: 'Preguntas Frecuentes | Abogada Penalista 24 hs en Mendoza',
     description:
-      'Preguntas frecuentes sobre la atención profesional de Emilia Sandobar, abogada penalista en Mendoza, y sobre cómo orientar una primera consulta jurídica.',
+      'FAQ de la abogada penalista en Mendoza: cómo contactar guardia 24 hs, qué hacer si me detienen, diferencia entre abogada penal y penalista, y más.',
   },
   '/contacto': {
-    title: 'Contacto | Emilia Sandobar, Abogada Penalista en Mendoza',
+    title: 'Contacto | Abogada Penalista en Mendoza | Guardia Legal 24 hs',
     description:
-      'Contacto de Emilia Sandobar, abogada penalista en Mendoza, para solicitar una consulta y recibir orientación sobre una situación jurídica.',
+      'Contacte a Emilia Sandobar, abogada penalista en Mendoza. Consulta profesional y guardia legal 24 hs para urgencias penales.',
   },
 };
 
