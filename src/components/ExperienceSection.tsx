@@ -27,7 +27,7 @@ export const ExperienceSection: React.FC<ExperienceSectionProps> = ({
             <span className="text-[#D9A9B8]"> en Mendoza</span>
           </h1>
           <p className="max-w-3xl text-base font-light leading-relaxed text-white/85 sm:text-lg lg:text-xl">
-            Emilia Sandobar ejerce como abogada penalista en Mendoza, con intervención en causas provinciales y federales, defensa técnica y representación de víctimas.
+            Emilia Sandobar es abogada penalista en Mendoza especializada en derecho penal. Interviene como abogada penal en causas provinciales y federales, con defensa técnica, representación de víctimas y guardia legal 24 hs para urgencias.
           </p>
         </div>
       </div>
@@ -46,7 +46,7 @@ export const ExperienceSection: React.FC<ExperienceSectionProps> = ({
             </h2>
 
             <p className="max-w-prose text-lg font-light leading-relaxed text-[#302D28]/80 sm:text-xl lg:max-w-none">
-              Emilia Sandobar: Abogada egresada de la Facultad de Derecho de la Universidad Nacional de Cuyo, con práctica profesional y formación de posgrado en Derecho Penal. Interviene ante la justicia provincial y federal, ejerciendo tanto la defensa técnica como la representación de querellantes particulares.
+              Emilia Sandobar es abogada penalista en Mendoza, egresada de la Facultad de Derecho de la Universidad Nacional de Cuyo, con práctica profesional y formación de posgrado en Derecho Penal. Como abogada penal especializada, interviene ante la justicia provincial y federal, ejerciendo tanto la defensa técnica como la representación de querellantes particulares, con disponibilidad de abogada penalista 24 hs para situaciones urgentes.
             </p>
 
             <p className="max-w-prose text-base font-light leading-relaxed text-[#302D28]/80 sm:text-lg lg:max-w-none">
