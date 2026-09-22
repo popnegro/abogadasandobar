@@ -205,28 +205,27 @@ function buildJsonLd(path, metadata) {
 
 function buildSeoStaticMain(metadata) {
   const h1 = escapeHtml(metadata.h1 || metadata.title.split(' | ')[0]);
-  const h2 = metadata.h2
-    ? `<h2 style="font-size:1.35rem;font-weight:700;line-height:1.2;margin:0 0 1rem;color:#d9a9b8">${escapeHtml(metadata.h2)}</h2>`
-    : '';
+  const h2 = metadata.h2 ? `<h2>${escapeHtml(metadata.h2)}</h2>` : '';
   const intro = escapeHtml(metadata.intro || metadata.description);
 
-  // Inline styles ensure first paint matches the dark hero before CSS/JS load.
+  // Keep in DOM for crawlers; clip out of viewport so UX never sees a pre-hydrate flash.
+  // Visible H1 after hydrate comes from React with the same wording.
   const mainStyle =
-    'box-sizing:border-box;min-height:100vh;margin:0;padding:6rem 1.25rem 2rem;' +
-    'background:#181614;color:#fff8f2;font-family:Georgia, Times New Roman, serif';
+    'position:absolute;width:1px;height:1px;padding:0;margin:-1px;' +
+    'overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0';
 
   return (
     `<main id="seo-static-content" data-seo-static="true" style="${mainStyle}">` +
-    `<h1 style="font-size:1.75rem;font-weight:700;line-height:1.15;margin:0 0 0.75rem">${h1}</h1>` +
+    `<h1>${h1}</h1>` +
     h2 +
-    `<p style="max-width:40rem;font-size:1rem;line-height:1.55;font-weight:300;opacity:0.9;margin:0">${intro}</p>` +
-    `<nav aria-label="Secciones principales" style="margin-top:2rem;font-size:0.875rem">` +
-    `<ul style="list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:0.75rem 1.25rem">` +
-    `<li><a href="${SITE_URL}/" style="color:#d9a9b8">Inicio</a></li>` +
-    `<li><a href="${SITE_URL}/abogada-penalista-mendoza" style="color:#d9a9b8">Abogada penalista en Mendoza</a></li>` +
-    `<li><a href="${SITE_URL}/servicios-abogacia-mendoza" style="color:#d9a9b8">Servicios de abogacía</a></li>` +
-    `<li><a href="${SITE_URL}/preguntas-frecuentes" style="color:#d9a9b8">Preguntas frecuentes</a></li>` +
-    `<li><a href="${SITE_URL}/contacto" style="color:#d9a9b8">Contacto y guardia 24 hs</a></li>` +
+    `<p>${intro}</p>` +
+    `<nav aria-label="Secciones principales">` +
+    `<ul>` +
+    `<li><a href="${SITE_URL}/">Inicio</a></li>` +
+    `<li><a href="${SITE_URL}/abogada-penalista-mendoza">Abogada penalista en Mendoza</a></li>` +
+    `<li><a href="${SITE_URL}/servicios-abogacia-mendoza">Servicios de abogacía</a></li>` +
+    `<li><a href="${SITE_URL}/preguntas-frecuentes">Preguntas frecuentes</a></li>` +
+    `<li><a href="${SITE_URL}/contacto">Contacto y guardia 24 hs</a></li>` +
     `</ul>` +
     `</nav>` +
     `</main>`
