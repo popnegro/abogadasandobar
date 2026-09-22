@@ -1,1 +1,64 @@
 @import "tailwindcss";
+
+/*
+ * Static SEO shell injected into #root by generate-route-html.mjs.
+ * Visible briefly (or to non-JS clients) before React replaces #root.
+ * Styled like the dark hero so the load does not flash plain black text on cream.
+ */
+#seo-static-content {
+  box-sizing: border-box;
+  min-height: 100vh;
+  margin: 0;
+  padding: 6rem 1.25rem 2rem;
+  background: #181614;
+  color: #fff8f2;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+#seo-static-content h1 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 1.15;
+  margin: 0 0 0.75rem;
+}
+
+#seo-static-content h2 {
+  font-size: 1.35rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 0 0 1rem;
+  color: #d9a9b8;
+}
+
+#seo-static-content p {
+  max-width: 40rem;
+  font-size: 1rem;
+  line-height: 1.55;
+  font-weight: 300;
+  opacity: 0.9;
+  margin: 0;
+}
+
+#seo-static-content nav {
+  margin-top: 2rem;
+  font-size: 0.875rem;
+}
+
+#seo-static-content nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1.25rem;
+}
+
+#seo-static-content a {
+  color: #d9a9b8;
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
+#seo-static-content a:hover {
+  color: #fff8f2;
+}
