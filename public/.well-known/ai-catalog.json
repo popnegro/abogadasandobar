@@ -1,20 +1,20 @@
 {
   "specVersion": "1.0",
   "host": {
-    "identifier": "abogadasandobar.com.ar",
     "displayName": "Dra. Emilia Sandobar — Abogada Penalista en Mendoza",
-    "description": "Sitio oficial de la Dra. Emilia Sandobar, abogada penalista en Mendoza, Argentina. Defensa penal, urgencias 24 hs y asesoramiento jurídico.",
-    "documentationUrl": "https://abogadasandobar.com.ar/llms.txt"
+    "identifier": "abogadasandobar.com.ar",
+    "documentationUrl": "https://abogadasandobar.com.ar/llms.txt",
+    "logoUrl": "https://abogadasandobar.com.ar/assets/brand/logo-brandmark.svg"
   },
   "entries": [
     {
-      "identifier": "urn:air:abogadasandobar.com.ar:site:official",
-      "displayName": "Emilia Sandobar — Sitio oficial",
-      "type": "text/html",
-      "url": "https://abogadasandobar.com.ar/",
-      "description": "Sitio web profesional de la Dra. Emilia Sandobar, abogada penalista en Mendoza. Defensa penal, representación de víctimas, guardia legal 24 hs y consulta profesional.",
-      "tags": ["abogada-penalista", "mendoza", "derecho-penal", "argentina", "legal"],
-      "capabilities": ["LegalServiceInfo", "Contact", "ServicePages"],
+      "identifier": "urn:air:abogadasandobar.com.ar:skill:legal-service",
+      "displayName": "Emilia Sandobar — Abogada Penalista en Mendoza",
+      "type": "text/markdown; profile=\"urn:air:agent-skills\"",
+      "url": "https://abogadasandobar.com.ar/skills/emilia-sandobar.md",
+      "description": "Skill de descubrimiento: abogada penalista en Mendoza, defensa penal, guardia legal 24 hs y consulta profesional confidencial.",
+      "tags": ["abogada-penalista", "mendoza", "derecho-penal", "argentina", "legal", "urgencias"],
+      "capabilities": ["LegalServiceInfo", "Contact", "UrgenciasPenales24hs"],
       "representativeQueries": [
         "abogada penalista en Mendoza",
         "abogada penalista 24 hs Mendoza",
@@ -25,37 +25,14 @@
     {
       "identifier": "urn:air:abogadasandobar.com.ar:doc:llms",
       "displayName": "llms.txt — Resumen para agentes de IA",
-      "type": "text/plain",
+      "type": "text/markdown; profile=\"urn:air:agent-skills\"",
       "url": "https://abogadasandobar.com.ar/llms.txt",
-      "description": "Resumen en texto plano del perfil profesional, especialidad, localidad y páginas principales del sitio, orientado a agentes y sistemas de recuperación.",
-      "tags": ["llms.txt", "documentation", "ai-discovery"],
+      "description": "Resumen en markdown del perfil profesional, especialidad, localidad y páginas principales del sitio.",
+      "tags": ["llms.txt", "documentation", "ai-discovery", "mendoza"],
+      "capabilities": ["SiteSummary"],
       "representativeQueries": [
         "quién es Emilia Sandobar abogada",
         "resumen del estudio jurídico Sandobar en Mendoza"
-      ]
-    },
-    {
-      "identifier": "urn:air:abogadasandobar.com.ar:page:penalista",
-      "displayName": "Perfil — Abogada Penalista en Mendoza",
-      "type": "text/html",
-      "url": "https://abogadasandobar.com.ar/abogada-penalista-mendoza",
-      "description": "Perfil profesional de Emilia Sandobar como abogada penalista en Mendoza especializada en derecho penal.",
-      "tags": ["perfil", "abogada-penalista", "mendoza"],
-      "representativeQueries": [
-        "Emilia Sandobar abogada penalista",
-        "perfil abogada penalista Mendoza"
-      ]
-    },
-    {
-      "identifier": "urn:air:abogadasandobar.com.ar:page:contacto",
-      "displayName": "Contacto y consulta profesional",
-      "type": "text/html",
-      "url": "https://abogadasandobar.com.ar/contacto",
-      "description": "Página de contacto para solicitar consulta profesional y guardia legal 24 hs.",
-      "tags": ["contacto", "consulta", "urgencias"],
-      "representativeQueries": [
-        "contacto abogada penalista Mendoza",
-        "solicitar consulta abogada penal 24 hs"
       ]
     }
   ]
