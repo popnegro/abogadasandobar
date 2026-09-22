@@ -7,7 +7,9 @@ const PERSON_ID = `${SITE_URL}/#person`;
 const SERVICE_ID = `${SITE_URL}/#legal-service`;
 const WEBSITE_ID = `${SITE_URL}/#website`;
 
-/** Must stay aligned with src/utils/useRouteMetadata.ts (SEO on-page). */
+/** Must stay aligned with src/utils/useRouteMetadata.ts (SEO on-page).
+ *  h1/intro must match visible hero copy so crawlers and UI stay consistent.
+ */
 const ROUTES = {
   '/': {
     title: 'Abogada Penalista en Mendoza | Defensa Penal 24 hs | Emilia Sandobar',
@@ -15,6 +17,10 @@ const ROUTES = {
       'Abogada penalista en Mendoza especializada en derecho penal. Defensa penal, representación de víctimas y guardia legal 24 hs. Consulta confidencial.',
     image: `${SITE_URL}/assets/images/hero/hero-home.webp`,
     imageAlt: 'Dra. Emilia Sandobar — Abogada Penalista en Mendoza',
+    h1: 'Abogada Emilia Sandobar',
+    h2: 'Defensa penal y representación de víctimas en Mendoza',
+    intro:
+      'Emilia Sandobar es abogada penalista en Mendoza especializada en derecho penal. Ofrece defensa penal, representación de víctimas y atención 24 hs para urgencias, con estrategia jurídica rigurosa e intervención profesional directa.',
   },
   '/inicio': {
     title: 'Abogada Penalista en Mendoza | Defensa Penal 24 hs | Emilia Sandobar',
@@ -22,6 +28,10 @@ const ROUTES = {
       'Abogada penalista en Mendoza especializada en derecho penal. Defensa penal, representación de víctimas y guardia legal 24 hs. Consulta confidencial.',
     image: `${SITE_URL}/assets/images/hero/hero-home.webp`,
     imageAlt: 'Dra. Emilia Sandobar — Abogada Penalista en Mendoza',
+    h1: 'Abogada Emilia Sandobar',
+    h2: 'Defensa penal y representación de víctimas en Mendoza',
+    intro:
+      'Emilia Sandobar es abogada penalista en Mendoza especializada en derecho penal. Ofrece defensa penal, representación de víctimas y atención 24 hs para urgencias, con estrategia jurídica rigurosa e intervención profesional directa.',
   },
   '/servicios-abogacia-mendoza': {
     title: 'Servicios de Abogacía en Mendoza | Defensa Penal y Urgencias 24 hs',
@@ -29,6 +39,9 @@ const ROUTES = {
       'Abogada penal en Mendoza: defensa penal, urgencias 24 hs, litigación compleja y asesoramiento corporativo especializado.',
     image: `${SITE_URL}/assets/images/hero/hero-services.webp`,
     imageAlt: 'Servicios de abogacía penal en Mendoza — Emilia Sandobar',
+    h1: 'Servicios de Abogacía en Mendoza',
+    intro:
+      'Defensa penal, litigación compleja y asesoramiento corporativo para personas y organizaciones que necesitan una estrategia jurídica rigurosa y una intervención profesional directa. Urgencias penales 24 hs en Mendoza.',
   },
   '/abogada-penalista-mendoza': {
     title: 'Abogada Penalista en Mendoza | Especializada en Derecho Penal | Emilia Sandobar',
@@ -36,6 +49,9 @@ const ROUTES = {
       'Emilia Sandobar, abogada penalista en Mendoza especializada en derecho penal. Litigio provincial y federal, con guardia legal 24 hs.',
     image: `${SITE_URL}/assets/images/hero/hero-about.webp`,
     imageAlt: 'Perfil de Emilia Sandobar, abogada penalista en Mendoza',
+    h1: 'Abogada Penalista en Mendoza',
+    intro:
+      'Emilia Sandobar es abogada penalista en Mendoza especializada en derecho penal. Interviene como abogada penal en causas provinciales y federales, con defensa técnica, representación de víctimas y guardia legal 24 hs para urgencias.',
   },
   '/nuestro-metodo': {
     title: 'Método de Trabajo | Abogada Penalista en Mendoza | Emilia Sandobar',
@@ -43,6 +59,9 @@ const ROUTES = {
       'Método de trabajo de la abogada penalista Emilia Sandobar: análisis, estrategia y acompañamiento en causas penales en Mendoza.',
     image: `${SITE_URL}/assets/images/hero/hero-method.webp`,
     imageAlt: 'Método de trabajo — abogada penalista Emilia Sandobar',
+    h1: 'Nuestro método jurídico',
+    intro:
+      'Un proceso de trabajo estructurado para comprender cada situación, evaluar sus riesgos y construir una estrategia jurídica rigurosa en causas penales en Mendoza.',
   },
   '/preguntas-frecuentes': {
     title: 'Preguntas Frecuentes | Abogada Penalista 24 hs en Mendoza',
@@ -50,6 +69,9 @@ const ROUTES = {
       'FAQ abogada penalista en Mendoza: contactar guardia 24 hs, qué hacer si me detienen, y diferencia entre abogada penal y penalista.',
     image: `${SITE_URL}/assets/images/hero/hero-faq.webp`,
     imageAlt: 'Preguntas frecuentes — abogada penalista en Mendoza',
+    h1: 'Preguntas frecuentes',
+    intro:
+      'Respuestas sobre abogada penalista 24 hs en Mendoza, cómo contactar la guardia legal, qué hacer ante una detención y la diferencia entre abogada penal y abogada penalista.',
   },
   '/contacto': {
     title: 'Contacto | Abogada Penalista en Mendoza | Guardia Legal 24 hs',
@@ -57,6 +79,9 @@ const ROUTES = {
       'Contacte a Emilia Sandobar, abogada penalista en Mendoza. Consulta profesional y guardia legal 24 hs para urgencias penales.',
     image: `${SITE_URL}/assets/images/hero/hero-contact.webp`,
     imageAlt: 'Contacto y guardia legal 24 hs — Emilia Sandobar',
+    h1: 'Contacto',
+    intro:
+      'Contacto de Emilia Sandobar, abogada penalista en Mendoza. Solicite una consulta profesional o asistencia de guardia legal 24 hs para urgencias penales.',
   },
 };
 
@@ -178,6 +203,35 @@ function buildJsonLd(path, metadata) {
   };
 }
 
+function buildSeoStaticMain(metadata) {
+  const h1 = escapeHtml(metadata.h1 || metadata.title.split(' | ')[0]);
+  const h2 = metadata.h2 ? `<h2>${escapeHtml(metadata.h2)}</h2>` : '';
+  const intro = escapeHtml(metadata.intro || metadata.description);
+
+  // Keep in DOM for crawlers; clip out of viewport so UX never sees a pre-hydrate flash.
+  // Visible H1 after hydrate comes from React with the same wording.
+  const mainStyle =
+    'position:absolute;width:1px;height:1px;padding:0;margin:-1px;' +
+    'overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0';
+
+  return (
+    `<main id="seo-static-content" data-seo-static="true" style="${mainStyle}">` +
+    `<h1>${h1}</h1>` +
+    h2 +
+    `<p>${intro}</p>` +
+    `<nav aria-label="Secciones principales">` +
+    `<ul>` +
+    `<li><a href="${SITE_URL}/">Inicio</a></li>` +
+    `<li><a href="${SITE_URL}/abogada-penalista-mendoza">Abogada penalista en Mendoza</a></li>` +
+    `<li><a href="${SITE_URL}/servicios-abogacia-mendoza">Servicios de abogacía</a></li>` +
+    `<li><a href="${SITE_URL}/preguntas-frecuentes">Preguntas frecuentes</a></li>` +
+    `<li><a href="${SITE_URL}/contacto">Contacto y guardia 24 hs</a></li>` +
+    `</ul>` +
+    `</nav>` +
+    `</main>`
+  );
+}
+
 const source = await readFile('dist/index.html', 'utf8');
 const jsonLdPattern = /<script type="application\/ld\+json">[\s\S]*?<\/script>/;
 
@@ -225,6 +279,16 @@ for (const [path, metadata] of Object.entries(ROUTES)) {
     html = html.replace(
       /<meta name="twitter:image:alt" content="[^"]*"\s*\/>/,
       `<meta name="twitter:image:alt" content="${escapeHtml(imageAlt)}" />`,
+    );
+  }
+
+  const seoMain = buildSeoStaticMain(metadata);
+  if (html.includes('<div id="root"></div>')) {
+    html = html.replace('<div id="root"></div>', `<div id="root">${seoMain}</div>`);
+  } else if (/<div id="root">/.test(html)) {
+    html = html.replace(
+      /<div id="root">[\s\S]*?<\/div>(\s*<script type="module")/,
+      `<div id="root">${seoMain}</div>$1`,
     );
   }
 
