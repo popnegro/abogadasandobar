@@ -1,7 +1,7 @@
 {
   "rewrites": [
     {
-      "source": "/((?!robots\\.txt$|sitemap\\.xml$|llms\\.txt$|ai-catalog\\.json$|\\.well-known/).*)",
+      "source": "/((?!robots\\.txt$|sitemap\\.xml$|llms\\.txt$|ai-catalog\\.json$|\\.well-known/|skills/).*)",
       "destination": "/index.html"
     }
   ],
@@ -44,7 +44,7 @@
       "headers": [
         {
           "key": "Content-Type",
-          "value": "application/json; charset=utf-8"
+          "value": "application/ai-catalog+json; charset=utf-8"
         },
         {
           "key": "Access-Control-Allow-Origin",
@@ -61,8 +61,21 @@
       "headers": [
         {
           "key": "Content-Type",
-          "value": "application/json; charset=utf-8"
+          "value": "application/ai-catalog+json; charset=utf-8"
         },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
+        }
+      ]
+    },
+    {
+      "source": "/skills/(.*)",
+      "headers": [
         {
           "key": "Access-Control-Allow-Origin",
           "value": "*"
