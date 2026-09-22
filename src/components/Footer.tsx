@@ -37,7 +37,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenConsultationModal }) => {
       <div className="mx-auto max-w-7xl px-4 pt-16 pb-12 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 gap-10 border-b border-[#FFF8F2]/10 pb-14 md:grid-cols-2 lg:grid-cols-12 lg:gap-12">
           <div className="space-y-5 lg:col-span-4">
-            <span className="block pb-1 text-xs font-bold uppercase tracking-widest text-[#DDD2C5]">Jurisdicción &amp; Cobertura</span>
+            <span className="block pb-1 text-xs font-bold uppercase tracking-widest text-[#DDD2C5]">Jurisdicción & Cobertura</span>
             <p className="text-sm font-light leading-relaxed text-[#F4EFE8]/75" itemProp="description">Estudio jurídico especializado en Derecho Penal, Litigación de Alta Complejidad y Programas de Integridad Corporativa en la Provincia de Mendoza y Fueros Federales de Cuyo.</p>
             <div className="space-y-2.5 text-sm text-[#DDD2C5]">
               <div className="flex items-center gap-2.5"><Scale className="h-4 w-4 shrink-0 text-[#7F203D]" aria-hidden="true" /><span className="font-semibold text-white/90">{CONTACT_INFO.matriculaProvincial}</span></div>
@@ -50,7 +50,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenConsultationModal }) => {
             <span className="block pb-1 text-xs font-bold uppercase tracking-widest text-[#DDD2C5]">Cobertura territorial</span>
             <div className="space-y-4 text-sm text-[#F4EFE8]/85">
               <div className="space-y-1"><span className="block text-xs font-bold uppercase tracking-wider text-[#DDD2C5]">1ª Circunscripción (Gran Mendoza)</span><p className="text-sm font-light leading-relaxed text-[#F4EFE8]/70">Ciudad de Mendoza, Godoy Cruz, Guaymallén, Las Heras, Maipú, Luján de Cuyo, Lavalle. Polo Judicial Penal.</p></div>
-              <div className="space-y-1"><span className="block text-xs font-bold uppercase tracking-wider text-[#DDD2C5]">2ª &amp; 3ª Circunscripción</span><p className="text-sm font-light leading-relaxed text-[#F4EFE8]/70">San Rafael, Gral. Alvear, Malargüe, San Martín, Rivadavia, Junín, Santa Rosa y La Paz.</p></div>
+              <div className="space-y-1"><span className="block text-xs font-bold uppercase tracking-wider text-[#DDD2C5]">2ª & 3ª Circunscripción</span><p className="text-sm font-light leading-relaxed text-[#F4EFE8]/70">San Rafael, Gral. Alvear, Malargüe, San Martín, Rivadavia, Junín, Santa Rosa y La Paz.</p></div>
               <div className="space-y-1"><span className="block text-xs font-bold uppercase tracking-wider text-[#DDD2C5]">4ª Circunscripción (Valle de Uco)</span><p className="text-sm font-light leading-relaxed text-[#F4EFE8]/70">Tunuyán, Tupungato, San Carlos.</p></div>
               <div className="space-y-1"><span className="block text-xs font-bold uppercase tracking-wider text-[#DDD2C5]">Fuero Penal Federal</span><p className="text-sm font-light leading-relaxed text-[#F4EFE8]/70">Juzgados Federales 1, 2 y 3 de Mendoza, TOF y Cámara Federal de Apelaciones.</p></div>
             </div>
@@ -84,9 +84,12 @@ export const Footer: React.FC<FooterProps> = ({ onOpenConsultationModal }) => {
               </a>
             </div>
 
-            <div className="flex items-center pb-3 gap-3 text-sm text-[#F4EFE8]/70">
-              <Clock className="h-4 w-4 shrink-0 text-[#7F203D]" aria-hidden="true" />
-              <span>Lunes a Viernes: 08:30 - 19:30 hs</span>
+            <div className="flex items-start gap-3 pb-3 text-sm text-[#F4EFE8]/70">
+              <Clock className="mt-0.5 h-4 w-4 shrink-0 text-[#7F203D]" aria-hidden="true" />
+              <div>
+                <span className="block">Lunes a Viernes: 08:30 - 19:30 hs</span>
+                <span className="mt-0.5 block font-medium text-[#D9A9B8]">Guardia Penal 24 hs</span>
+              </div>
             </div>
 
             <div ref={mapContainerRef} className="w-full aspect-video rounded-lg bg-[#302D28]">
