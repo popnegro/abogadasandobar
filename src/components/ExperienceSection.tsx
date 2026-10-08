@@ -56,7 +56,7 @@ export const ExperienceSection: React.FC<ExperienceSectionProps> = ({
             <div className="border-t border-[#302D28]/15 pt-8 space-y-4">
               <h3 className="font-serif text-2xl font-bold text-[#302D28] sm:text-3xl">Formación y práctica profesional</h3>
               <p className="text-base font-light leading-relaxed text-[#302D28]/80 sm:text-lg">
-                Participación en jornadas e integrante en proyectos de investigación dentro de la Facultad de Derecho de la UNCuyo.
+                Docente adscripta en las Cátedras de Derecho Procesal Penal e integrante en proyectos de investigación en la Facultad de Derecho de la Universidad Nacional de Cuyo.
               </p>
               <p className="text-base font-light leading-relaxed text-[#302D28]/80 sm:text-lg">
                 Análisis normativo y elaboración de proyectos vinculados con justicia, seguridad y políticas públicas como asesora de la Honorable Cámara de Senadores de la provincia de Mendoza.
